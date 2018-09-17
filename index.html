@@ -16,7 +16,7 @@
 
     if (localStorage.ngFont) addFont(); else {
         var request = new XMLHttpRequest;
-        request.open("GET", "/assets/font.css", !0);
+        request.open("GET", "./assets/font.css", !0);
         request.onload = function () {
             200 <= request.status && 400 > request.status && (localStorage.ngFont = request.responseText, addFont())
         };
