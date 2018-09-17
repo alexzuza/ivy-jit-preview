@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ivy preview</title>
+    <link rel="stylesheet" data-name="vs/editor/editor.main"
+          href="/monaco-editor-core/vs/editor/editor.main.css">
+    <script>function addFont() {
+        var a = document.createElement("style");
+        a.rel = "stylesheet";
+        document.head.appendChild(a);
+        a.textContent = localStorage.ngFont
+    }
+
+    if (localStorage.ngFont) addFont(); else {
+        var request = new XMLHttpRequest;
+        request.open("GET", "/assets/font.css", !0);
+        request.onload = function () {
+            200 <= request.status && 400 > request.status && (localStorage.ngFont = request.responseText, addFont())
+        };
+        request.send()
+    }</script>
+<link href="main.css" rel="stylesheet"></head>
+<body class="material">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+    <symbol id="icon-folder" viewBox="0 0 32 32">
+        <path d="M27.5,5.5H18.2L16.1,9.7H4.4V26.5H29.6V5.5Zm0,4.2H19.3l1.1-2.1h7.1Z" style="fill:#c09553"></path>
+    </symbol>
+    <symbol id="icon-opened-folder" viewBox="0 0 32 32">
+        <path d="M27.4,5.5H18.2L16.1,9.7H4.3V26.5H29.5V5.5Zm0,18.7H6.6V11.8H27.4Zm0-14.5H19.2l1-2.1h7.1V9.7Z"
+              style="fill:#dcb67a"></path>
+        <polygon points="25.7 13.7 0.5 13.7 4.3 26.5 29.5 26.5 25.7 13.7" style="fill:#dcb67a"></polygon>
+    </symbol>
+    <symbol id="icon-add-folder" viewBox="0 0 125 90">
+        <title>Add folder</title>
+        <path d="M0,15 110,15 110,90 0,90z"></path>
+        <path d="M0,15 15,0 50,0 65,15z"></path>
+    </symbol>
+    <symbol id="icon-add-file" viewBox="0 0 53 63">
+        <polygon points="3,3 30,3 50,20 50,60 3,60 3,3" fill-opacity="0" stroke-width="6"></polygon>
+    </symbol>
+    <symbol id="icon-" viewBox="0 0 53 63">
+        <polygon points="3,3 30,3 50,20 50,60 3,60 3,3" fill="#948e8e" stroke-width="6"></polygon>
+    </symbol>
+    <symbol id="icon-html" viewBox="0 0 24 24">
+        <path fill="#ea5a35"
+              d="M 21 2 L 3 2 L 5 20 L 12 22 L 19 20 Z M 16.824219 8.082031 L 9.167969 8.082031 L 9.351563 10.261719 L 16.640625 10.261719 L 16.09375 16.699219 L 12 18.003906 L 11.960938 17.988281 L 7.914063 16.699219 L 7.691406 14.074219 L 9.675781 14.074219 L 9.761719 15.09375 L 12.023438 15.59375 L 14.242188 15.09375 L 14.480469 12.339844 L 7.542969 12.339844 L 7.007813 6 L 17.003906 6 Z"></path>
+    </symbol>
+    <symbol id="icon-css" viewBox="0 0 24 24">
+        <path fill="#32abe6"
+              d="M 3 2 L 5 20 L 11.992188 22 L 19 20 L 21 2 Z M 16.726563 10.347656 L 16.34375 16.589844 L 12.027344 18 L 7.710938 16.589844 L 7.546875 13.605469 L 9.734375 13.605469 L 9.789063 14.960938 L 12.027344 15.722656 L 14.269531 14.960938 L 14.433594 12.519531 L 9.625 12.519531 L 9.515625 10.347656 L 14.539063 10.347656 L 14.703125 8.175781 L 7.164063 8.175781 L 7 6.007813 L 17 6.007813 Z"></path>
+    </symbol>
+    <symbol id="icon-pencil" viewBox="0 0 100 100">
+        <line x1="0" y1="100" x2="62" y2="30" stroke-width="24"></line>
+        <circle cx="78" cy="12" r="12"></circle>
+    </symbol>
+
+    <symbol id="icon-delete" viewBox="0 0 50 55">
+        <title>Delete</title>
+        <path d="M0,3 10,3 15,0 35,0 40,3 50,3 50,10 0,10z"></path>
+        <path d="M3,19 47,19 42,55 8,55z"></path>
+    </symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 50 50">
+        <path d="M13,10 30,25 13,40z" fill="#fff"></path>
+    </symbol>
+    <symbol id="icon-arrow-down" viewBox="0 0 50 50">
+        <path d="M13,10 30,25 13,40z" fill="#fff" transform="rotate(48,21,29)"></path>
+    </symbol>
+
+    <symbol id="icon-layout-2" viewBox="0 -1 16 16">
+        <path d="M1 1v12h14V1H1zm1 3h4.999v8H2V4zm12 8H8.999V4H14v8z"></path>
+    </symbol>
+    <symbol id="icon-layout-1" viewBox="0 -1 16 16">
+        <path d="M1 1v12h14V1H1zm1 3h12v8H2V4z"></path>
+    </symbol>
+    <symbol id="icon-tile" viewBox="0 0 100 100">
+        <rect x="10" y="10" width="20" height="20"></rect>
+        <rect x="40" y="10" width="20" height="20"></rect>
+        <rect x="70" y="10" width="20" height="20"></rect>
+        <rect x="10" y="40" width="20" height="20"></rect>
+        <rect x="40" y="40" width="20" height="20"></rect>
+        <rect x="70" y="40" width="20" height="20"></rect>
+        <rect x="10" y="70" width="20" height="20"></rect>
+        <rect x="40" y="70" width="20" height="20"></rect>
+        <rect x="70" y="70" width="20" height="20"></rect>
+    </symbol>
+</svg>
+<header class="top">
+    <h1 class="logo">
+        <svg width="26" height="26" viewBox="0 0 256 270" xmlns="http://www.w3.org/2000/svg"
+             preserveAspectRatio="xMinYMin meet">
+            <path d="M127.606.341L.849 44.95 20.88 211.022l106.86 58.732 107.412-59.528L255.175 44.16 127.606.341z"
+                  fill="#fff"></path>
+            <path d="M242.532 53.758L127.31 14.466v241.256l96.561-53.441 18.66-148.523z" fill="#A6120D"></path>
+            <path d="M15.073 54.466l17.165 148.525 95.07 52.731V14.462L15.074 54.465z" fill="#DD1B16"></path>
+            <path d="M159.027 142.898L127.31 157.73H93.881l-15.714 39.305-29.228.54L127.31 23.227l31.717 119.672zm-3.066-7.467l-28.44-56.303-23.329 55.334h23.117l28.652.97z"
+                  fill="#F2F2F2"></path>
+            <path d="M127.309 23.226l.21 55.902 26.47 55.377h-26.62l-.06 23.189 36.81.035 17.204 39.852 27.967.518-81.981-174.873z"
+                  fill="#fff"></path>
+        </svg>
+        Ivy <span>preview</span>
+    </h1>
+    <div class="top-actions">
+        <div class="info">
+            <div class="d-flex align-center justify-center">
+                <span id="info"></span>
+                <div id="range-value"></div>
+            </div>
+            <div class="range-container">
+                <input type="range" id="range" min="0" step="1" value="0"/>
+            </div>
+        </div>
+        <div>
+            <button class="btn" id="btn-start">Start</button>
+            <button class="btn --disabled" id="btn-prev">Prev</button>
+            <button class="btn --disabled" id="btn-pause">Pause</button>
+            <button class="btn --disabled" id="btn-next">Next</button>
+        </div>
+    </div>
+</header>
+<section class="page">
+    <div class="page-loader">
+        <div>Loading...</div>
+    </div>
+    <div class="ts-code" js-box>
+        <div class="box-header">
+            <ul class="box-menu">
+                <li class="menu-item--active">
+                    Angular code
+                </li>
+            </ul>
+        </div>
+        <div id="ts-code" class="flex-1"></div>
+    </div>
+    <div class="box-resizer"></div>
+    <div class="html-code" js-box>
+        <div class="box-header">
+            <ul class="box-menu">
+                <li class="menu-item--active">
+                    Change detection diagram
+                </li>
+            </ul>
+        </div>
+        <div class="box-content">
+
+            <div class="scheme">
+                <div class="cd-triggers">
+                    <div class="cd-triggers__chain">
+                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2549"
+                           target="_blank" title="Go to definition" class="step" data-step="markDirty">
+                            markDirty
+                        </a>
+                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2363"
+                           target="_blank" title="Go to definition" class="step" data-step="markViewDirty">
+                            markViewDirty
+                        </a>
+                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2387"
+                           target="_blank" title="Go to definition" class="step" data-step="scheduleTick">
+                            scheduleTick
+                        </a>
+                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2417"
+                           target="_blank" title="Go to definition" class="step" data-step="tickRootContext">
+                            tickRootContext
+                        </a>
+                    </div>
+                    <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2453"
+                       target="_blank" title="Go to definition" class="cd-triggers__manual step">
+                        detectChanges
+                    </a>
+                </div>
+                <div class="process">
+                    <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L667"
+                       target="_blank" title="Go to definition" data-step="renderComponentOrTemplate"
+                       class="step step_render_component_or_template">
+                        renderComponentOrTemplate
+                    </a>
+                    <div class="group align-start">
+                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L370"
+                           target="_blank" title="Go to definition" class="step step__execute-init-and-content-hooks"
+                           data-step="executeInitAndContentHooks">
+                            executeInitAndContentHooks
+                        </a>
+                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L336"
+                           target="_blank" title="Go to definition" class="step" data-step="setHostBindings(0, 0)">
+                            setHostBindings
+                        </a>
+                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2161"
+                           target="_blank" title="Go to definition" class="step step__component-refresh"
+                           data-step="componentRefresh">
+                            componentRefresh
+                        </a>
+                    </div>
+                    <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2504"
+                       target="_blank" title="Go to definition" class="step step__detect-changes"
+                       data-step="detectChangesInternal">
+                        detectChangesInternal
+                    </a>
+
+                    <div class="d-flex align-start">
+                        <div class="group group__detect-changes">
+                            <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2521"
+                               target="_blank" title="Go to definition" class="step step__create_view_query"
+                               data-step="createViewQuery">
+                                <i></i>
+                                createViewQuery
+                            </a>
+                            <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2513"
+                               target="_blank" title="Go to definition" class="step step__template"
+                               data-step="template(rFlags, context)">
+                                templateFn(rf, context)
+                            </a>
+                            <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L314"
+                               target="_blank" title="Go to definition" class="step step__refresh_descendant_views"
+                               data-step="refreshDescendantViews">
+                                refreshDescendantViews
+                            </a>
+                            <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2528"
+                               target="_blank" title="Go to definition" class="step step__update_view_query"
+                               data-step="updateViewQuery">
+                                updateViewQuery
+                            </a>
+                        </div>
+                        <div class="refresh-view-implementation">
+                            <div class="dynamic">
+                                <a href="https://github.com/angular/angular/blob/88ab1d0e553238f45e16fabd208134f836564a63/packages/core/src/render3/instructions.ts#L487"
+                                   target="_blank" title="Go to definition" class="step step__render-embedded-template"
+                                   data-step="renderEmbeddedTemplate">
+                                    renderEmbeddedTemplate
+                                </a>
+                            </div>
+                            <div class="group__refresh-view">
+                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/hooks.ts#L99"
+                                   target="_blank" title="Go to definition" class="step step__execute-init-hooks"
+                                   data-step="executeInitHooks">
+                                    executeInitHooks
+                                </a>
+                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2023"
+                                   target="_blank" title="Go to definition" class="step step__refresh-embedded-views"
+                                   data-step="refreshDynamicEmbeddedViews">
+                                    refreshDynamicEmbeddedViews
+                                </a>
+                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L350"
+                                   target="_blank" title="Go to definition" class="step step__refresh-content-queries"
+                                   data-step="refreshContentQueries">
+                                    refreshContentQueries
+                                </a>
+                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L327"
+                                   target="_blank" title="Go to definition" class="step"
+                                   data-step="executeContentHooks">
+                                    executeContentHooks
+                                </a>
+                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L330"
+                                   target="_blank" title="Go to definition" class="step" data-step="setHostBindings">
+                                    setHostBindings
+                                </a>
+                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L362"
+                                   target="_blank" title="Go to definition" class="step step__refresh-child-components"
+                                   data-step="refreshChildComponents">
+                                    refreshChildComponents
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-resizer"></div>
+    <div js-box>
+        <div js-v-box class="preview">
+            <div class="box-header">
+                <ul id="info-menu" class="box-menu">
+                    <li class="menu-item--active" data-target=".tree-view">
+                        Tree of views
+                    </li>
+                    <li data-target=".ng-defs">
+                        ngDefs
+                    </li>
+                </ul>
+            </div>
+            <div class="box-content">
+                <div class="tree-view"></div>
+                <div class="ng-defs" style="display: none">
+                    <ul class="ng-defs-menu"></ul>
+                    <div class="ng-def-code"></div>
+                </div>
+            </div>
+        </div>
+        <div class="box-v-resizer"></div>
+        <div js-v-box>
+            <div class="box-header">
+                <ul class="box-menu">
+                    <li class="menu-item--active">
+                        Preview
+                    </li>
+                </ul>
+            </div>
+            <div class="box-content app">
+                <my-app></my-app>
+            </div>
+        </div>
+
+    </div>
+</section>
+<script>
+    var paths = {
+        'vs': '/monaco-editor-core/vs',
+        'vs/language/html':  document.location.origin
+    };
+
+    var require = {
+        paths: paths
+    };
+</script>
+<script src="/monaco-editor-core/vs/loader.js"></script>
+<script src="/monaco-editor-core/vs/editor/editor.main.nls.js"></script>
+<script src="/monaco-editor-core/vs/editor/editor.main.js"></script>
+<script type="text/javascript" src="main.js"></script><script type="text/javascript" src="ngEntry.js"></script></body>
+</html>

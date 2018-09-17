@@ -1,0 +1,3492 @@
+:root {
+  --header-bg: #2c3b44;
+  --file-color: rgba(255,255,255,.7);
+  --sidebar-bg: #34444e;
+  --code-bg: #1d2129; }
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: var(--code-bg); }
+
+h1,
+h2,
+h3 {
+  margin: 0; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+img {
+  display: inline-block;
+  vertical-align: middle; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit; }
+
+::-webkit-scrollbar {
+  width: 14px; }
+
+::-webkit-scrollbar-track {
+  background: 0 0; }
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(120, 120, 120, 0.4); }
+
+.d-flex {
+  display: flex; }
+
+.flex-column {
+  flex-direction: column; }
+
+.justify-between {
+  justify-content: space-between; }
+
+.justify-center {
+  justify-content: center; }
+
+.align-center {
+  align-items: center; }
+
+.flex-1 {
+  flex: 1; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 34px;
+  color: #fff; }
+  .logo svg {
+    margin-right: 3px; }
+  .logo span {
+    margin-left: 1px;
+    font-size: 10px;
+    line-height: 0;
+    position: relative;
+    top: 6px; }
+
+.sidebar-title {
+  padding: 10px 25px;
+  font-size: 14px;
+  color: #fff; }
+
+.box-header {
+  flex-shrink: 0;
+  line-height: 32px;
+  background: var(--header-bg);
+  padding: 0 15px;
+  color: #fff;
+  font-size: 13px;
+  font-family: Arial;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3); }
+
+.box-menu {
+  display: flex; }
+  .box-menu li {
+    padding: 0 10px;
+    cursor: pointer;
+    border-top: 2px solid transparent; }
+    .box-menu li:hover {
+      background: rgba(0, 0, 0, 0.1); }
+  .box-menu .menu-item--active {
+    cursor: default;
+    background: var(--code-bg);
+    border-color: var(--header-bg);
+    white-space: nowrap; }
+    .box-menu .menu-item--active:hover {
+      background: var(--code-bg); }
+
+.box-resizer {
+  width: 14px;
+  cursor: col-resize;
+  z-index: 2;
+  background: #313f46;
+  flex-shrink: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  border-right: 1px solid rgba(0, 0, 0, 0.34); }
+
+.box-v-resizer {
+  height: 14px;
+  cursor: row-resize;
+  z-index: 2;
+  background: #313f46;
+  flex-shrink: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid rgba(0, 0, 0, 0.34);
+  margin-bottom: 2px; }
+
+[js-box],
+[js-v-box] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 1; }
+
+[js-v-box] {
+  height: 50%; }
+
+.ts-code {
+  position: relative; }
+
+#ts-code {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.box-content {
+  flex: 1;
+  padding: 10px;
+  overflow: auto; }
+
+.preview .box-content {
+  color: #333;
+  padding: 0; }
+
+.tree-view {
+  padding: 10px; }
+
+.btn-start {
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+  background: #4CAF50;
+  color: #fff;
+  font-size: 14px; }
+
+.myContentClass {
+  background: black; }
+
+.myGlyphMarginClass {
+  background: #dc9f49; }
+
+.template-area {
+  background: black; }
+
+.ng-defs {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: #fff; }
+
+.ng-def-code {
+  flex: 1;
+  overflow: auto; }
+
+.ng-defs-menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  background: #536669;
+  line-height: 30px;
+  font-family: Arial;
+  font-size: 13px; }
+
+.ng-def {
+  padding: 0 10px;
+  cursor: pointer; }
+  .ng-def--active {
+    background: var(--code-bg);
+    cursor: default; }
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 34px;
+  padding: 0 25px;
+  background: var(--header-bg);
+  border-bottom: 2px solid; }
+
+.page {
+  min-width: 980px;
+  display: flex;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; }
+
+.page-loader {
+  content: '';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  z-index: 10;
+  opacity: 1;
+  transition: opacity .3s;
+  color: #fff; }
+
+.solution-sidebar {
+  background: var(--sidebar-bg);
+  width: 15%; }
+
+.top-actions {
+  display: flex;
+  align-items: center; }
+
+.preview .box-content {
+  display: flex;
+  flex-direction: column; }
+
+.app {
+  background: #e8e8e8; }
+
+.monaco-editor .decorationsOverviewRuler,
+.dragging .monaco-scrollable-element .scrollbar,
+.dragging .decorationsOverviewRuler,
+.monaco-aria-container {
+  display: none; }
+
+.monaco-editor .rename-box {
+  top: 0; }
+
+.atom .monaco-editor,
+.atom .monaco-editor-background,
+.atom .monaco-editor .inputarea.ime-input,
+.atom .monaco-editor .margin,
+.atom .input-container {
+  background: #282c34; }
+
+.atom .monaco-editor .line-numbers {
+  color: #636d83; }
+
+.atom .monaco-editor .current-line ~ .line-numbers {
+  color: #9aa8c7; }
+
+.atom .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(78, 86, 102, 0.5); }
+
+.atom .mtk1,
+.atom .mtk10,
+.atom .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #abb2bf; }
+
+.atom .TypeReference.FirstBinaryOperator,
+.atom .GreaterThanToken.TypeReference {
+  color: #abb2bf !important; }
+
+.atom .Identifier.Decorator,
+.atom .AtToken.Decorator {
+  color: #61afef !important; }
+
+.atom .DebuggerKeyword,
+.atom .FirstLiteralToken,
+.atom .NullKeyword,
+.atom .UndefinedKeyword,
+.atom .FalseKeyword,
+.atom .TrueKeyword {
+  color: #d19a66 !important; }
+
+.atom .Identifier.Method {
+  color: #61afef; }
+
+.atom .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.atom .MethodSignature,
+.atom .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.atom .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.atom .Identifier.TypeReference.MethodDeclaration.Parameter,
+.atom .TypeReference.Constructor,
+.atom .ModuleDeclaration.Identifier,
+.atom .InterfaceDeclaration,
+.atom .ClassKeyword + .mtk1 + .Identifier,
+.atom .HeritageClause,
+.atom .SuperKeyword,
+.atom .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.atom .Identifier.NewExpression {
+  color: #e5c07b !important; }
+
+.atom .mtk4:not(.styled-warning) {
+  color: #d19a66 !important; }
+
+.atom .Identifier.FunctionDeclaration {
+  color: #61afef !important; }
+
+.atom .TypeReference.Parameter,
+.atom .TypeReference,
+.atom .StringKeyword.Parameter {
+  color: #56b6c2 !important; }
+
+.atom .ThisKeyword {
+  color: #e06c75; }
+
+.atom .mtk5,
+.atom .StringLiteral,
+.atom .mtk1.StringLiteral:not(.styled-warning),
+.atom .mtk1.FirstTemplateToken:not(.styled-warning),
+.atom .RegularExpressionLiteral,
+.atom .FirstTemplateToken,
+.atom .TemplateExpression:not(.Identifier) {
+  color: #98c379; }
+
+.atom .mtk8 {
+  color: #e06c75; }
+
+.atom .ModuleKeyword,
+.atom .ClassKeyword,
+.atom .NumberKeyword,
+.atom .BooleanKeyword,
+.atom .AnyKeyword,
+.atom .ConstKeyword,
+.atom .LetKeyword,
+.atom .VarKeyword,
+.atom .ConstructorKeyword,
+.atom .AnyKeyword,
+.atom .FunctionKeyword,
+.atom .StringKeyword,
+.atom .VoidKeyword,
+.atom .InterfaceKeyword,
+.atom .EqualsGreaterThanToken.ArrowFunction,
+.atom .JSDocParameterTag,
+.atom .GetKeyword,
+.atom .SetKeyword {
+  color: #c678dd !important; }
+
+.atom .ConsoleKeyword {
+  color: #e5c07b !important; }
+
+.atom .mtk7 {
+  color: #5c6370; }
+
+.atom .ImportKeyword,
+.atom .ExportKeyword,
+.atom .FirstFutureReservedWord,
+.atom .ExtendsKeyword,
+.atom .FromKeyword,
+.atom .DeleteKeyword,
+.atom .AsKeyword,
+.atom .AwaitKeyword,
+.atom .CatchKeyword,
+.atom .DefaultKeyword,
+.atom .ElseKeyword,
+.atom .IfKeyword,
+.atom .ReturnKeyword,
+.atom .TryKeyword,
+.atom .StaticKeyword,
+.atom .PrivateKeyword,
+.atom .PublicKeyword,
+.atom .ProtectedKeyword,
+.atom .ReadonlyKeyword,
+.atom .ContinueKeyword,
+.atom .DeclareKeyword,
+.atom .NewKeyword,
+.atom .LastToken.ForOfStatement,
+.atom .ForKeyword,
+.atom .SwitchKeyword,
+.atom .CaseKeyword,
+.atom .BreakStatement,
+.atom .MinusToken,
+.atom .MinusMinusToken,
+.atom .PlusToken,
+.atom .PlusPlusToken,
+.atom .MinusMinusToken,
+.atom .FirstCompoundAssignment,
+.atom .MinusEqualsToken,
+.atom .AmpersandAmpersandToken,
+.atom .BarBarToken,
+.atom .FirstAssignment,
+.atom .EqualsEqualsToken,
+.atom .EqualsEqualsEqualsToken,
+.atom .ExclamationEqualsEqualsToken,
+.atom .FirstBinaryOperator,
+.atom .GreaterThanToken,
+.atom .GreaterThanEqualsToken,
+.atom .SlashToken,
+.atom .LessThanEqualsToken,
+.atom .AsteriskToken,
+.atom .QuestionToken,
+.atom .TypeOfKeyword {
+  color: #c678dd !important; }
+
+.atom .AtToken,
+.atom .FirstPunctuation,
+.atom .CloseBraceToken,
+.atom .CommaToken,
+.atom .OpenParenToken,
+.atom .CloseParenToken,
+.atom .ColonToken,
+.atom .OpenBracketToken,
+.atom .CloseBracketToken,
+.atom .SemicolonToken,
+.atom .DotToken {
+  color: #abb2bf; }
+
+.atom .Identifier.Parameter {
+  color: #abb2bf; }
+
+.atom .CallExpression {
+  color: #61afef; }
+
+.dark .monaco-editor,
+.dark .monaco-editor-background,
+.dark .monaco-editor .inputarea.ime-input,
+.dark .monaco-editor .margin,
+.dark .input-container {
+  background: #1e1e1e; }
+
+.dark .monaco-editor .line-numbers {
+  color: #5a5a5a; }
+
+.dark .monaco-editor .current-line ~ .line-numbers {
+  color: #8a8888; }
+
+.dark .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(121, 121, 121, 0.4); }
+
+.dark .mtk1,
+.dark .mtk10,
+.dark .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #9cdcfe; }
+
+.dark .TypeReference.FirstBinaryOperator,
+.dark .GreaterThanToken.TypeReference {
+  color: #9cdcfe !important; }
+
+.dark .Identifier.Decorator,
+.dark .AtToken.Decorator {
+  color: #dcdcaa !important; }
+
+.dark .DebuggerKeyword,
+.dark .FirstLiteralToken,
+.dark .NullKeyword,
+.dark .UndefinedKeyword,
+.dark .FalseKeyword,
+.dark .TrueKeyword {
+  color: #b5cea8 !important; }
+
+.dark .Identifier.Method {
+  color: #dcdcaa; }
+
+.dark .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.dark .MethodSignature,
+.dark .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.dark .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.dark .Identifier.TypeReference.MethodDeclaration.Parameter,
+.dark .TypeReference.Constructor,
+.dark .ModuleDeclaration.Identifier,
+.dark .InterfaceDeclaration,
+.dark .ClassKeyword + .mtk1 + .Identifier,
+.dark .HeritageClause,
+.dark .SuperKeyword,
+.dark .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.dark .Identifier.NewExpression {
+  color: #4ec9b0 !important; }
+
+.dark .mtk4:not(.styled-warning) {
+  color: #9cdcfe !important; }
+
+.dark .Identifier.FunctionDeclaration {
+  color: #dcdcaa !important; }
+
+.dark .TypeReference.Parameter,
+.dark .TypeReference,
+.dark .StringKeyword.Parameter {
+  color: #4ec9b0 !important; }
+
+.dark .ThisKeyword {
+  color: #569cd6; }
+
+.dark .mtk5,
+.dark .StringLiteral,
+.dark .mtk1.StringLiteral:not(.styled-warning),
+.dark .mtk1.FirstTemplateToken:not(.styled-warning),
+.dark .RegularExpressionLiteral,
+.dark .FirstTemplateToken,
+.dark .TemplateExpression:not(.Identifier) {
+  color: #ce9178; }
+
+.dark .mtk8 {
+  color: #569cd6; }
+
+.dark .ModuleKeyword,
+.dark .ClassKeyword,
+.dark .NumberKeyword,
+.dark .BooleanKeyword,
+.dark .AnyKeyword,
+.dark .ConstKeyword,
+.dark .LetKeyword,
+.dark .VarKeyword,
+.dark .ConstructorKeyword,
+.dark .AnyKeyword,
+.dark .FunctionKeyword,
+.dark .StringKeyword,
+.dark .VoidKeyword,
+.dark .InterfaceKeyword,
+.dark .EqualsGreaterThanToken.ArrowFunction,
+.dark .JSDocParameterTag,
+.dark .GetKeyword,
+.dark .SetKeyword {
+  color: #569cd6 !important; }
+
+.dark .ConsoleKeyword {
+  color: #4ec9b0 !important; }
+
+.dark .mtk7 {
+  color: #608b4e; }
+
+.dark .ImportKeyword,
+.dark .ExportKeyword,
+.dark .FirstFutureReservedWord,
+.dark .ExtendsKeyword,
+.dark .FromKeyword,
+.dark .DeleteKeyword,
+.dark .AsKeyword,
+.dark .AwaitKeyword,
+.dark .CatchKeyword,
+.dark .DefaultKeyword,
+.dark .ElseKeyword,
+.dark .IfKeyword,
+.dark .ReturnKeyword,
+.dark .TryKeyword,
+.dark .StaticKeyword,
+.dark .PrivateKeyword,
+.dark .PublicKeyword,
+.dark .ProtectedKeyword,
+.dark .ReadonlyKeyword,
+.dark .ContinueKeyword,
+.dark .DeclareKeyword,
+.dark .NewKeyword,
+.dark .LastToken.ForOfStatement,
+.dark .ForKeyword,
+.dark .SwitchKeyword,
+.dark .CaseKeyword,
+.dark .BreakStatement,
+.dark .MinusToken,
+.dark .MinusMinusToken,
+.dark .PlusToken,
+.dark .PlusPlusToken,
+.dark .MinusMinusToken,
+.dark .FirstCompoundAssignment,
+.dark .MinusEqualsToken,
+.dark .AmpersandAmpersandToken,
+.dark .BarBarToken,
+.dark .FirstAssignment,
+.dark .EqualsEqualsToken,
+.dark .EqualsEqualsEqualsToken,
+.dark .ExclamationEqualsEqualsToken,
+.dark .FirstBinaryOperator,
+.dark .GreaterThanToken,
+.dark .GreaterThanEqualsToken,
+.dark .SlashToken,
+.dark .LessThanEqualsToken,
+.dark .AsteriskToken,
+.dark .QuestionToken,
+.dark .TypeOfKeyword {
+  color: #c586c0 !important; }
+
+.dark .AtToken,
+.dark .FirstPunctuation,
+.dark .CloseBraceToken,
+.dark .CommaToken,
+.dark .OpenParenToken,
+.dark .CloseParenToken,
+.dark .ColonToken,
+.dark .OpenBracketToken,
+.dark .CloseBracketToken,
+.dark .SemicolonToken,
+.dark .DotToken {
+  color: #dcdcaa; }
+
+.dark .Identifier.Parameter {
+  color: #9cdcfe; }
+
+.dark .CallExpression {
+  color: #dcdcaa; }
+
+.dracula .monaco-editor,
+.dracula .monaco-editor-background,
+.dracula .monaco-editor .inputarea.ime-input,
+.dracula .monaco-editor .margin,
+.dracula .input-container {
+  background: #282a36; }
+
+.dracula .monaco-editor .line-numbers {
+  color: #6272a4; }
+
+.dracula .monaco-editor .current-line ~ .line-numbers {
+  color: #8ba0e0; }
+
+.dracula .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(121, 121, 121, 0.4); }
+
+.dracula .mtk1,
+.dracula .mtk10,
+.dracula .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #f8f8f2; }
+
+.dracula .TypeReference.FirstBinaryOperator,
+.dracula .GreaterThanToken.TypeReference {
+  color: #f8f8f2 !important; }
+
+.dracula .Identifier.Decorator,
+.dracula .AtToken.Decorator {
+  color: #50fa7b !important; }
+
+.dracula .DebuggerKeyword,
+.dracula .FirstLiteralToken,
+.dracula .NullKeyword,
+.dracula .UndefinedKeyword,
+.dracula .FalseKeyword,
+.dracula .TrueKeyword {
+  color: #bd93f9 !important; }
+
+.dracula .Identifier.Method {
+  color: #50fa7b; }
+
+.dracula .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.dracula .MethodSignature,
+.dracula .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.dracula .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.dracula .Identifier.TypeReference.MethodDeclaration.Parameter,
+.dracula .TypeReference.Constructor,
+.dracula .ModuleDeclaration.Identifier,
+.dracula .InterfaceDeclaration,
+.dracula .ClassKeyword + .mtk1 + .Identifier,
+.dracula .HeritageClause,
+.dracula .SuperKeyword,
+.dracula .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.dracula .Identifier.NewExpression {
+  color: #8be9fd !important; }
+
+.dracula .mtk4:not(.styled-warning) {
+  color: #50fa7b !important; }
+
+.dracula .Identifier.FunctionDeclaration {
+  color: #50fa7b !important; }
+
+.dracula .TypeReference.Parameter,
+.dracula .TypeReference,
+.dracula .StringKeyword.Parameter {
+  color: #8be9fd !important; }
+
+.dracula .ThisKeyword {
+  color: #bd93f9; }
+
+.dracula .mtk5,
+.dracula .StringLiteral,
+.dracula .mtk1.StringLiteral:not(.styled-warning),
+.dracula .mtk1.FirstTemplateToken:not(.styled-warning),
+.dracula .RegularExpressionLiteral,
+.dracula .FirstTemplateToken,
+.dracula .TemplateExpression:not(.Identifier) {
+  color: #f1fa8c; }
+
+.dracula .mtk8 {
+  color: #ff79c6; }
+
+.dracula .ModuleKeyword,
+.dracula .ClassKeyword,
+.dracula .NumberKeyword,
+.dracula .BooleanKeyword,
+.dracula .AnyKeyword,
+.dracula .ConstKeyword,
+.dracula .LetKeyword,
+.dracula .VarKeyword,
+.dracula .ConstructorKeyword,
+.dracula .AnyKeyword,
+.dracula .FunctionKeyword,
+.dracula .StringKeyword,
+.dracula .VoidKeyword,
+.dracula .InterfaceKeyword,
+.dracula .EqualsGreaterThanToken.ArrowFunction,
+.dracula .JSDocParameterTag,
+.dracula .GetKeyword,
+.dracula .SetKeyword {
+  color: #ff79c6 !important; }
+
+.dracula .ConsoleKeyword {
+  color: #8be9fd !important; }
+
+.dracula .mtk7 {
+  color: #6272a4; }
+
+.dracula .ImportKeyword,
+.dracula .ExportKeyword,
+.dracula .FirstFutureReservedWord,
+.dracula .ExtendsKeyword,
+.dracula .FromKeyword,
+.dracula .DeleteKeyword,
+.dracula .AsKeyword,
+.dracula .AwaitKeyword,
+.dracula .CatchKeyword,
+.dracula .DefaultKeyword,
+.dracula .ElseKeyword,
+.dracula .IfKeyword,
+.dracula .ReturnKeyword,
+.dracula .TryKeyword,
+.dracula .StaticKeyword,
+.dracula .PrivateKeyword,
+.dracula .PublicKeyword,
+.dracula .ProtectedKeyword,
+.dracula .ReadonlyKeyword,
+.dracula .ContinueKeyword,
+.dracula .DeclareKeyword,
+.dracula .NewKeyword,
+.dracula .LastToken.ForOfStatement,
+.dracula .ForKeyword,
+.dracula .SwitchKeyword,
+.dracula .CaseKeyword,
+.dracula .BreakStatement,
+.dracula .MinusToken,
+.dracula .MinusMinusToken,
+.dracula .PlusToken,
+.dracula .PlusPlusToken,
+.dracula .MinusMinusToken,
+.dracula .FirstCompoundAssignment,
+.dracula .MinusEqualsToken,
+.dracula .AmpersandAmpersandToken,
+.dracula .BarBarToken,
+.dracula .FirstAssignment,
+.dracula .EqualsEqualsToken,
+.dracula .EqualsEqualsEqualsToken,
+.dracula .ExclamationEqualsEqualsToken,
+.dracula .FirstBinaryOperator,
+.dracula .GreaterThanToken,
+.dracula .GreaterThanEqualsToken,
+.dracula .SlashToken,
+.dracula .LessThanEqualsToken,
+.dracula .AsteriskToken,
+.dracula .QuestionToken,
+.dracula .TypeOfKeyword {
+  color: #ff79c6 !important; }
+
+.dracula .AtToken,
+.dracula .FirstPunctuation,
+.dracula .CloseBraceToken,
+.dracula .CommaToken,
+.dracula .OpenParenToken,
+.dracula .CloseParenToken,
+.dracula .ColonToken,
+.dracula .OpenBracketToken,
+.dracula .CloseBracketToken,
+.dracula .SemicolonToken,
+.dracula .DotToken {
+  color: #f8f8f2; }
+
+.dracula .Identifier.Parameter {
+  color: #ffb86c; }
+
+.dracula .CallExpression {
+  color: #50fa7b; }
+
+.light .monaco-editor,
+.light .monaco-editor-background,
+.light .monaco-editor .inputarea.ime-input,
+.light .monaco-editor .margin,
+.light .input-container {
+  background: #fff; }
+
+.light .monaco-editor .line-numbers {
+  color: #2b91af; }
+
+.light .monaco-editor .current-line ~ .line-numbers {
+  color: #2b91af; }
+
+.light .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(100, 100, 100, 0.4); }
+
+.light .mtk1,
+.light .mtk10,
+.light .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #001080; }
+
+.light .TypeReference.FirstBinaryOperator,
+.light .GreaterThanToken.TypeReference {
+  color: #001080 !important; }
+
+.light .Identifier.Decorator,
+.light .AtToken.Decorator {
+  color: #795e26 !important; }
+
+.light .DebuggerKeyword,
+.light .FirstLiteralToken,
+.light .NullKeyword,
+.light .UndefinedKeyword,
+.light .FalseKeyword,
+.light .TrueKeyword {
+  color: #09885a !important; }
+
+.light .Identifier.Method {
+  color: #795e26; }
+
+.light .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.light .MethodSignature,
+.light .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.light .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.light .Identifier.TypeReference.MethodDeclaration.Parameter,
+.light .TypeReference.Constructor,
+.light .ModuleDeclaration.Identifier,
+.light .InterfaceDeclaration,
+.light .ClassKeyword + .mtk1 + .Identifier,
+.light .HeritageClause,
+.light .SuperKeyword,
+.light .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.light .Identifier.NewExpression {
+  color: #267f99 !important; }
+
+.light .mtk4:not(.styled-warning) {
+  color: #ff0000 !important; }
+
+.light .Identifier.FunctionDeclaration {
+  color: #795e26 !important; }
+
+.light .TypeReference.Parameter,
+.light .TypeReference,
+.light .StringKeyword.Parameter {
+  color: #267f99 !important; }
+
+.light .ThisKeyword {
+  color: #0000ff; }
+
+.light .mtk5,
+.light .StringLiteral,
+.light .mtk1.StringLiteral:not(.styled-warning),
+.light .mtk1.FirstTemplateToken:not(.styled-warning),
+.light .RegularExpressionLiteral,
+.light .FirstTemplateToken,
+.light .TemplateExpression:not(.Identifier) {
+  color: #a31515; }
+
+.light .mtk8 {
+  color: #800000; }
+
+.light .ModuleKeyword,
+.light .ClassKeyword,
+.light .NumberKeyword,
+.light .BooleanKeyword,
+.light .AnyKeyword,
+.light .ConstKeyword,
+.light .LetKeyword,
+.light .VarKeyword,
+.light .ConstructorKeyword,
+.light .AnyKeyword,
+.light .FunctionKeyword,
+.light .StringKeyword,
+.light .VoidKeyword,
+.light .InterfaceKeyword,
+.light .EqualsGreaterThanToken.ArrowFunction,
+.light .JSDocParameterTag,
+.light .GetKeyword,
+.light .SetKeyword {
+  color: #0000ff !important; }
+
+.light .ConsoleKeyword {
+  color: #267f99 !important; }
+
+.light .mtk7 {
+  color: #008000; }
+
+.light .ImportKeyword,
+.light .ExportKeyword,
+.light .FirstFutureReservedWord,
+.light .ExtendsKeyword,
+.light .FromKeyword,
+.light .DeleteKeyword,
+.light .AsKeyword,
+.light .AwaitKeyword,
+.light .CatchKeyword,
+.light .DefaultKeyword,
+.light .ElseKeyword,
+.light .IfKeyword,
+.light .ReturnKeyword,
+.light .TryKeyword,
+.light .StaticKeyword,
+.light .PrivateKeyword,
+.light .PublicKeyword,
+.light .ProtectedKeyword,
+.light .ReadonlyKeyword,
+.light .ContinueKeyword,
+.light .DeclareKeyword,
+.light .NewKeyword,
+.light .LastToken.ForOfStatement,
+.light .ForKeyword,
+.light .SwitchKeyword,
+.light .CaseKeyword,
+.light .BreakStatement,
+.light .MinusToken,
+.light .MinusMinusToken,
+.light .PlusToken,
+.light .PlusPlusToken,
+.light .MinusMinusToken,
+.light .FirstCompoundAssignment,
+.light .MinusEqualsToken,
+.light .AmpersandAmpersandToken,
+.light .BarBarToken,
+.light .FirstAssignment,
+.light .EqualsEqualsToken,
+.light .EqualsEqualsEqualsToken,
+.light .ExclamationEqualsEqualsToken,
+.light .FirstBinaryOperator,
+.light .GreaterThanToken,
+.light .GreaterThanEqualsToken,
+.light .SlashToken,
+.light .LessThanEqualsToken,
+.light .AsteriskToken,
+.light .QuestionToken,
+.light .TypeOfKeyword {
+  color: #af00db !important; }
+
+.light .AtToken,
+.light .FirstPunctuation,
+.light .CloseBraceToken,
+.light .CommaToken,
+.light .OpenParenToken,
+.light .CloseParenToken,
+.light .ColonToken,
+.light .OpenBracketToken,
+.light .CloseBracketToken,
+.light .SemicolonToken,
+.light .DotToken {
+  color: #001080; }
+
+.light .Identifier.Parameter {
+  color: #001080; }
+
+.light .CallExpression {
+  color: #795e26; }
+
+.material .monaco-editor,
+.material .monaco-editor-background,
+.material .monaco-editor .inputarea.ime-input,
+.material .monaco-editor .margin,
+.material .input-container {
+  background: #1a2327; }
+
+.material .monaco-editor .line-numbers {
+  color: #3e5d5d; }
+
+.material .monaco-editor .current-line ~ .line-numbers {
+  color: #7fa7b9; }
+
+.material .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(0, 0, 0, 0.31); }
+
+.material .mtk1,
+.material .mtk10,
+.material .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #eeffff; }
+
+.material .TypeReference.FirstBinaryOperator,
+.material .GreaterThanToken.TypeReference {
+  color: #eeffff !important; }
+
+.material .Identifier.Decorator,
+.material .AtToken.Decorator {
+  color: #82aaff !important; }
+
+.material .DebuggerKeyword,
+.material .FirstLiteralToken,
+.material .NullKeyword,
+.material .UndefinedKeyword,
+.material .FalseKeyword,
+.material .TrueKeyword {
+  color: #f78c6c !important; }
+
+.material .Identifier.Method {
+  color: #ffcb6b; }
+
+.material .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.material .MethodSignature,
+.material .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.material .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.material .Identifier.TypeReference.MethodDeclaration.Parameter,
+.material .TypeReference.Constructor,
+.material .ModuleDeclaration.Identifier,
+.material .InterfaceDeclaration,
+.material .ClassKeyword + .mtk1 + .Identifier,
+.material .HeritageClause,
+.material .SuperKeyword,
+.material .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.material .Identifier.NewExpression {
+  color: #ffcb6b !important; }
+
+.material .mtk4:not(.styled-warning) {
+  color: #ffcb6b !important; }
+
+.material .Identifier.FunctionDeclaration {
+  color: #82aaff !important; }
+
+.material .TypeReference.Parameter,
+.material .TypeReference,
+.material .StringKeyword.Parameter {
+  color: #c792ea !important; }
+
+.material .ThisKeyword {
+  color: #ff5370; }
+
+.material .mtk5,
+.material .StringLiteral,
+.material .mtk1.StringLiteral:not(.styled-warning),
+.material .mtk1.FirstTemplateToken:not(.styled-warning),
+.material .RegularExpressionLiteral,
+.material .FirstTemplateToken,
+.material .TemplateExpression:not(.Identifier) {
+  color: #c3e88d; }
+
+.material .mtk8 {
+  color: #f07178; }
+
+.material .ModuleKeyword,
+.material .ClassKeyword,
+.material .NumberKeyword,
+.material .BooleanKeyword,
+.material .AnyKeyword,
+.material .ConstKeyword,
+.material .LetKeyword,
+.material .VarKeyword,
+.material .ConstructorKeyword,
+.material .AnyKeyword,
+.material .FunctionKeyword,
+.material .StringKeyword,
+.material .VoidKeyword,
+.material .InterfaceKeyword,
+.material .EqualsGreaterThanToken.ArrowFunction,
+.material .JSDocParameterTag,
+.material .GetKeyword,
+.material .SetKeyword {
+  color: #c792ea !important; }
+
+.material .ConsoleKeyword {
+  color: #ffcb6b !important; }
+
+.material .mtk7 {
+  color: #546e7a; }
+
+.material .ImportKeyword,
+.material .ExportKeyword,
+.material .FirstFutureReservedWord,
+.material .ExtendsKeyword,
+.material .FromKeyword,
+.material .DeleteKeyword,
+.material .AsKeyword,
+.material .AwaitKeyword,
+.material .CatchKeyword,
+.material .DefaultKeyword,
+.material .ElseKeyword,
+.material .IfKeyword,
+.material .ReturnKeyword,
+.material .TryKeyword,
+.material .StaticKeyword,
+.material .PrivateKeyword,
+.material .PublicKeyword,
+.material .ProtectedKeyword,
+.material .ReadonlyKeyword,
+.material .ContinueKeyword,
+.material .DeclareKeyword,
+.material .NewKeyword,
+.material .LastToken.ForOfStatement,
+.material .ForKeyword,
+.material .SwitchKeyword,
+.material .CaseKeyword,
+.material .BreakStatement,
+.material .MinusToken,
+.material .MinusMinusToken,
+.material .PlusToken,
+.material .PlusPlusToken,
+.material .MinusMinusToken,
+.material .FirstCompoundAssignment,
+.material .MinusEqualsToken,
+.material .AmpersandAmpersandToken,
+.material .BarBarToken,
+.material .FirstAssignment,
+.material .EqualsEqualsToken,
+.material .EqualsEqualsEqualsToken,
+.material .ExclamationEqualsEqualsToken,
+.material .FirstBinaryOperator,
+.material .GreaterThanToken,
+.material .GreaterThanEqualsToken,
+.material .SlashToken,
+.material .LessThanEqualsToken,
+.material .AsteriskToken,
+.material .QuestionToken,
+.material .TypeOfKeyword {
+  color: #89ddff !important; }
+
+.material .AtToken,
+.material .FirstPunctuation,
+.material .CloseBraceToken,
+.material .CommaToken,
+.material .OpenParenToken,
+.material .CloseParenToken,
+.material .ColonToken,
+.material .OpenBracketToken,
+.material .CloseBracketToken,
+.material .SemicolonToken,
+.material .DotToken {
+  color: #eeffff; }
+
+.material .Identifier.Parameter {
+  color: #f78c6c; }
+
+.material .CallExpression {
+  color: #82aaff; }
+
+.monokai .monaco-editor,
+.monokai .monaco-editor-background,
+.monokai .monaco-editor .inputarea.ime-input,
+.monokai .monaco-editor .margin,
+.monokai .input-container {
+  background: #272822; }
+
+.monokai .monaco-editor .line-numbers {
+  color: #90908a; }
+
+.monokai .monaco-editor .current-line ~ .line-numbers {
+  color: #c2c2bf; }
+
+.monokai .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(121, 121, 121, 0.4); }
+
+.monokai .mtk1,
+.monokai .mtk10,
+.monokai .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #f8f8f2; }
+
+.monokai .TypeReference.FirstBinaryOperator,
+.monokai .GreaterThanToken.TypeReference {
+  color: #f8f8f2 !important; }
+
+.monokai .Identifier.Decorator,
+.monokai .AtToken.Decorator {
+  color: #a6e22e !important; }
+
+.monokai .DebuggerKeyword,
+.monokai .FirstLiteralToken,
+.monokai .NullKeyword,
+.monokai .UndefinedKeyword,
+.monokai .FalseKeyword,
+.monokai .TrueKeyword {
+  color: #ae81ff !important; }
+
+.monokai .Identifier.Method {
+  color: #a6e22e; }
+
+.monokai .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.monokai .MethodSignature,
+.monokai .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.monokai .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.monokai .Identifier.TypeReference.MethodDeclaration.Parameter,
+.monokai .TypeReference.Constructor,
+.monokai .ModuleDeclaration.Identifier,
+.monokai .InterfaceDeclaration,
+.monokai .ClassKeyword + .mtk1 + .Identifier,
+.monokai .HeritageClause,
+.monokai .SuperKeyword,
+.monokai .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.monokai .Identifier.NewExpression {
+  color: #a6e22e !important; }
+
+.monokai .mtk4:not(.styled-warning) {
+  color: #a6e22e !important; }
+
+.monokai .Identifier.FunctionDeclaration {
+  color: #a6e22e !important; }
+
+.monokai .TypeReference.Parameter,
+.monokai .TypeReference,
+.monokai .StringKeyword.Parameter {
+  color: #66d9ef !important; }
+
+.monokai .ThisKeyword {
+  color: #fd971f; }
+
+.monokai .mtk5,
+.monokai .StringLiteral,
+.monokai .mtk1.StringLiteral:not(.styled-warning),
+.monokai .mtk1.FirstTemplateToken:not(.styled-warning),
+.monokai .RegularExpressionLiteral,
+.monokai .FirstTemplateToken,
+.monokai .TemplateExpression:not(.Identifier) {
+  color: #e6db74; }
+
+.monokai .mtk8 {
+  color: #F92672; }
+
+.monokai .ModuleKeyword,
+.monokai .ClassKeyword,
+.monokai .NumberKeyword,
+.monokai .BooleanKeyword,
+.monokai .AnyKeyword,
+.monokai .ConstKeyword,
+.monokai .LetKeyword,
+.monokai .VarKeyword,
+.monokai .ConstructorKeyword,
+.monokai .AnyKeyword,
+.monokai .FunctionKeyword,
+.monokai .StringKeyword,
+.monokai .VoidKeyword,
+.monokai .InterfaceKeyword,
+.monokai .EqualsGreaterThanToken.ArrowFunction,
+.monokai .JSDocParameterTag,
+.monokai .GetKeyword,
+.monokai .SetKeyword {
+  color: #66d9ef !important; }
+
+.monokai .ConsoleKeyword {
+  color: #66d9ef !important; }
+
+.monokai .mtk7 {
+  color: #75715E; }
+
+.monokai .ImportKeyword,
+.monokai .ExportKeyword,
+.monokai .FirstFutureReservedWord,
+.monokai .ExtendsKeyword,
+.monokai .FromKeyword,
+.monokai .DeleteKeyword,
+.monokai .AsKeyword,
+.monokai .AwaitKeyword,
+.monokai .CatchKeyword,
+.monokai .DefaultKeyword,
+.monokai .ElseKeyword,
+.monokai .IfKeyword,
+.monokai .ReturnKeyword,
+.monokai .TryKeyword,
+.monokai .StaticKeyword,
+.monokai .PrivateKeyword,
+.monokai .PublicKeyword,
+.monokai .ProtectedKeyword,
+.monokai .ReadonlyKeyword,
+.monokai .ContinueKeyword,
+.monokai .DeclareKeyword,
+.monokai .NewKeyword,
+.monokai .LastToken.ForOfStatement,
+.monokai .ForKeyword,
+.monokai .SwitchKeyword,
+.monokai .CaseKeyword,
+.monokai .BreakStatement,
+.monokai .MinusToken,
+.monokai .MinusMinusToken,
+.monokai .PlusToken,
+.monokai .PlusPlusToken,
+.monokai .MinusMinusToken,
+.monokai .FirstCompoundAssignment,
+.monokai .MinusEqualsToken,
+.monokai .AmpersandAmpersandToken,
+.monokai .BarBarToken,
+.monokai .FirstAssignment,
+.monokai .EqualsEqualsToken,
+.monokai .EqualsEqualsEqualsToken,
+.monokai .ExclamationEqualsEqualsToken,
+.monokai .FirstBinaryOperator,
+.monokai .GreaterThanToken,
+.monokai .GreaterThanEqualsToken,
+.monokai .SlashToken,
+.monokai .LessThanEqualsToken,
+.monokai .AsteriskToken,
+.monokai .QuestionToken,
+.monokai .TypeOfKeyword {
+  color: #F92672 !important; }
+
+.monokai .AtToken,
+.monokai .FirstPunctuation,
+.monokai .CloseBraceToken,
+.monokai .CommaToken,
+.monokai .OpenParenToken,
+.monokai .CloseParenToken,
+.monokai .ColonToken,
+.monokai .OpenBracketToken,
+.monokai .CloseBracketToken,
+.monokai .SemicolonToken,
+.monokai .DotToken {
+  color: #f8f8f2; }
+
+.monokai .Identifier.Parameter {
+  color: #fd971f; }
+
+.monokai .CallExpression {
+  color: #a6e22e; }
+
+.monokaiPro .monaco-editor,
+.monokaiPro .monaco-editor-background,
+.monokaiPro .monaco-editor .inputarea.ime-input,
+.monokaiPro .monaco-editor .margin,
+.monokaiPro .input-container {
+  background: #2c2525; }
+
+.monokaiPro .monaco-editor .line-numbers {
+  color: #5b5353; }
+
+.monokaiPro .monaco-editor .current-line ~ .line-numbers {
+  color: #c3b7b8; }
+
+.monokaiPro .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(255, 241, 243, 0.07); }
+
+.monokaiPro .mtk1,
+.monokaiPro .mtk10,
+.monokaiPro .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #fff1f3; }
+
+.monokaiPro .TypeReference.FirstBinaryOperator,
+.monokaiPro .GreaterThanToken.TypeReference {
+  color: #fff1f3 !important; }
+
+.monokaiPro .Identifier.Decorator,
+.monokaiPro .AtToken.Decorator {
+  color: #adda78 !important; }
+
+.monokaiPro .DebuggerKeyword,
+.monokaiPro .FirstLiteralToken,
+.monokaiPro .NullKeyword,
+.monokaiPro .UndefinedKeyword,
+.monokaiPro .FalseKeyword,
+.monokaiPro .TrueKeyword {
+  color: #a8a9eb !important; }
+
+.monokaiPro .Identifier.Method {
+  color: #adda78; }
+
+.monokaiPro .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.monokaiPro .MethodSignature,
+.monokaiPro .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.monokaiPro .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.monokaiPro .Identifier.TypeReference.MethodDeclaration.Parameter,
+.monokaiPro .TypeReference.Constructor,
+.monokaiPro .ModuleDeclaration.Identifier,
+.monokaiPro .InterfaceDeclaration,
+.monokaiPro .ClassKeyword + .mtk1 + .Identifier,
+.monokaiPro .HeritageClause,
+.monokaiPro .SuperKeyword,
+.monokaiPro .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.monokaiPro .Identifier.NewExpression {
+  color: #adda78 !important; }
+
+.monokaiPro .mtk4:not(.styled-warning) {
+  color: #85dacc !important; }
+
+.monokaiPro .Identifier.FunctionDeclaration {
+  color: #adda78 !important; }
+
+.monokaiPro .TypeReference.Parameter,
+.monokaiPro .TypeReference,
+.monokaiPro .StringKeyword.Parameter {
+  color: #85dacc !important; }
+
+.monokaiPro .ThisKeyword {
+  color: #c3b7b8; }
+
+.monokaiPro .mtk5,
+.monokaiPro .StringLiteral,
+.monokaiPro .mtk1.StringLiteral:not(.styled-warning),
+.monokaiPro .mtk1.FirstTemplateToken:not(.styled-warning),
+.monokaiPro .RegularExpressionLiteral,
+.monokaiPro .FirstTemplateToken,
+.monokaiPro .TemplateExpression:not(.Identifier) {
+  color: #f9cc6c; }
+
+.monokaiPro .mtk8 {
+  color: #fd6883; }
+
+.monokaiPro .ModuleKeyword,
+.monokaiPro .ClassKeyword,
+.monokaiPro .NumberKeyword,
+.monokaiPro .BooleanKeyword,
+.monokaiPro .AnyKeyword,
+.monokaiPro .ConstKeyword,
+.monokaiPro .LetKeyword,
+.monokaiPro .VarKeyword,
+.monokaiPro .ConstructorKeyword,
+.monokaiPro .AnyKeyword,
+.monokaiPro .FunctionKeyword,
+.monokaiPro .StringKeyword,
+.monokaiPro .VoidKeyword,
+.monokaiPro .InterfaceKeyword,
+.monokaiPro .EqualsGreaterThanToken.ArrowFunction,
+.monokaiPro .JSDocParameterTag,
+.monokaiPro .GetKeyword,
+.monokaiPro .SetKeyword {
+  color: #85dacc !important; }
+
+.monokaiPro .ConsoleKeyword {
+  color: #85dacc !important; }
+
+.monokaiPro .mtk7 {
+  color: #72696a; }
+
+.monokaiPro .ImportKeyword,
+.monokaiPro .ExportKeyword,
+.monokaiPro .FirstFutureReservedWord,
+.monokaiPro .ExtendsKeyword,
+.monokaiPro .FromKeyword,
+.monokaiPro .DeleteKeyword,
+.monokaiPro .AsKeyword,
+.monokaiPro .AwaitKeyword,
+.monokaiPro .CatchKeyword,
+.monokaiPro .DefaultKeyword,
+.monokaiPro .ElseKeyword,
+.monokaiPro .IfKeyword,
+.monokaiPro .ReturnKeyword,
+.monokaiPro .TryKeyword,
+.monokaiPro .StaticKeyword,
+.monokaiPro .PrivateKeyword,
+.monokaiPro .PublicKeyword,
+.monokaiPro .ProtectedKeyword,
+.monokaiPro .ReadonlyKeyword,
+.monokaiPro .ContinueKeyword,
+.monokaiPro .DeclareKeyword,
+.monokaiPro .NewKeyword,
+.monokaiPro .LastToken.ForOfStatement,
+.monokaiPro .ForKeyword,
+.monokaiPro .SwitchKeyword,
+.monokaiPro .CaseKeyword,
+.monokaiPro .BreakStatement,
+.monokaiPro .MinusToken,
+.monokaiPro .MinusMinusToken,
+.monokaiPro .PlusToken,
+.monokaiPro .PlusPlusToken,
+.monokaiPro .MinusMinusToken,
+.monokaiPro .FirstCompoundAssignment,
+.monokaiPro .MinusEqualsToken,
+.monokaiPro .AmpersandAmpersandToken,
+.monokaiPro .BarBarToken,
+.monokaiPro .FirstAssignment,
+.monokaiPro .EqualsEqualsToken,
+.monokaiPro .EqualsEqualsEqualsToken,
+.monokaiPro .ExclamationEqualsEqualsToken,
+.monokaiPro .FirstBinaryOperator,
+.monokaiPro .GreaterThanToken,
+.monokaiPro .GreaterThanEqualsToken,
+.monokaiPro .SlashToken,
+.monokaiPro .LessThanEqualsToken,
+.monokaiPro .AsteriskToken,
+.monokaiPro .QuestionToken,
+.monokaiPro .TypeOfKeyword {
+  color: #fd6883 !important; }
+
+.monokaiPro .AtToken,
+.monokaiPro .FirstPunctuation,
+.monokaiPro .CloseBraceToken,
+.monokaiPro .CommaToken,
+.monokaiPro .OpenParenToken,
+.monokaiPro .CloseParenToken,
+.monokaiPro .ColonToken,
+.monokaiPro .OpenBracketToken,
+.monokaiPro .CloseBracketToken,
+.monokaiPro .SemicolonToken,
+.monokaiPro .DotToken {
+  color: #fff1f3; }
+
+.monokaiPro .Identifier.Parameter {
+  color: #f38d70; }
+
+.monokaiPro .CallExpression {
+  color: #adda78; }
+
+.nord .monaco-editor,
+.nord .monaco-editor-background,
+.nord .monaco-editor .inputarea.ime-input,
+.nord .monaco-editor .margin,
+.nord .input-container {
+  background: #2e3440; }
+
+.nord .monaco-editor .line-numbers {
+  color: rgba(216, 222, 233, 0.4); }
+
+.nord .monaco-editor .current-line ~ .line-numbers {
+  color: rgba(216, 222, 233, 0.9); }
+
+.nord .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(67, 76, 94, 0.6); }
+
+.nord .mtk1,
+.nord .mtk10,
+.nord .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #d8dee9; }
+
+.nord .TypeReference.FirstBinaryOperator,
+.nord .GreaterThanToken.TypeReference {
+  color: #d8dee9 !important; }
+
+.nord .Identifier.Decorator,
+.nord .AtToken.Decorator {
+  color: #d08770 !important; }
+
+.nord .DebuggerKeyword,
+.nord .FirstLiteralToken,
+.nord .NullKeyword,
+.nord .UndefinedKeyword,
+.nord .FalseKeyword,
+.nord .TrueKeyword {
+  color: #b48ead !important; }
+
+.nord .Identifier.Method {
+  color: #88c0d0; }
+
+.nord .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.nord .MethodSignature,
+.nord .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.nord .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.nord .Identifier.TypeReference.MethodDeclaration.Parameter,
+.nord .TypeReference.Constructor,
+.nord .ModuleDeclaration.Identifier,
+.nord .InterfaceDeclaration,
+.nord .ClassKeyword + .mtk1 + .Identifier,
+.nord .HeritageClause,
+.nord .SuperKeyword,
+.nord .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.nord .Identifier.NewExpression {
+  color: #8fbcbb !important; }
+
+.nord .mtk4:not(.styled-warning) {
+  color: #8fbcbb !important; }
+
+.nord .Identifier.FunctionDeclaration {
+  color: #88c0d0 !important; }
+
+.nord .TypeReference.Parameter,
+.nord .TypeReference,
+.nord .StringKeyword.Parameter {
+  color: #8fbcbb !important; }
+
+.nord .ThisKeyword {
+  color: #81a1c1; }
+
+.nord .mtk5,
+.nord .StringLiteral,
+.nord .mtk1.StringLiteral:not(.styled-warning),
+.nord .mtk1.FirstTemplateToken:not(.styled-warning),
+.nord .RegularExpressionLiteral,
+.nord .FirstTemplateToken,
+.nord .TemplateExpression:not(.Identifier) {
+  color: #a3be8c; }
+
+.nord .mtk8 {
+  color: #81a1c1; }
+
+.nord .ModuleKeyword,
+.nord .ClassKeyword,
+.nord .NumberKeyword,
+.nord .BooleanKeyword,
+.nord .AnyKeyword,
+.nord .ConstKeyword,
+.nord .LetKeyword,
+.nord .VarKeyword,
+.nord .ConstructorKeyword,
+.nord .AnyKeyword,
+.nord .FunctionKeyword,
+.nord .StringKeyword,
+.nord .VoidKeyword,
+.nord .InterfaceKeyword,
+.nord .EqualsGreaterThanToken.ArrowFunction,
+.nord .JSDocParameterTag,
+.nord .GetKeyword,
+.nord .SetKeyword {
+  color: #81a1c1 !important; }
+
+.nord .ConsoleKeyword {
+  color: #8fbcbb !important; }
+
+.nord .mtk7 {
+  color: #67728a; }
+
+.nord .ImportKeyword,
+.nord .ExportKeyword,
+.nord .FirstFutureReservedWord,
+.nord .ExtendsKeyword,
+.nord .FromKeyword,
+.nord .DeleteKeyword,
+.nord .AsKeyword,
+.nord .AwaitKeyword,
+.nord .CatchKeyword,
+.nord .DefaultKeyword,
+.nord .ElseKeyword,
+.nord .IfKeyword,
+.nord .ReturnKeyword,
+.nord .TryKeyword,
+.nord .StaticKeyword,
+.nord .PrivateKeyword,
+.nord .PublicKeyword,
+.nord .ProtectedKeyword,
+.nord .ReadonlyKeyword,
+.nord .ContinueKeyword,
+.nord .DeclareKeyword,
+.nord .NewKeyword,
+.nord .LastToken.ForOfStatement,
+.nord .ForKeyword,
+.nord .SwitchKeyword,
+.nord .CaseKeyword,
+.nord .BreakStatement,
+.nord .MinusToken,
+.nord .MinusMinusToken,
+.nord .PlusToken,
+.nord .PlusPlusToken,
+.nord .MinusMinusToken,
+.nord .FirstCompoundAssignment,
+.nord .MinusEqualsToken,
+.nord .AmpersandAmpersandToken,
+.nord .BarBarToken,
+.nord .FirstAssignment,
+.nord .EqualsEqualsToken,
+.nord .EqualsEqualsEqualsToken,
+.nord .ExclamationEqualsEqualsToken,
+.nord .FirstBinaryOperator,
+.nord .GreaterThanToken,
+.nord .GreaterThanEqualsToken,
+.nord .SlashToken,
+.nord .LessThanEqualsToken,
+.nord .AsteriskToken,
+.nord .QuestionToken,
+.nord .TypeOfKeyword {
+  color: #81a1c1 !important; }
+
+.nord .AtToken,
+.nord .FirstPunctuation,
+.nord .CloseBraceToken,
+.nord .CommaToken,
+.nord .OpenParenToken,
+.nord .CloseParenToken,
+.nord .ColonToken,
+.nord .OpenBracketToken,
+.nord .CloseBracketToken,
+.nord .SemicolonToken,
+.nord .DotToken {
+  color: #d8dee9; }
+
+.nord .Identifier.Parameter {
+  color: #d8dee9; }
+
+.nord .CallExpression {
+  color: #88c0d0; }
+
+.northemDark .monaco-editor,
+.northemDark .monaco-editor-background,
+.northemDark .monaco-editor .inputarea.ime-input,
+.northemDark .monaco-editor .margin,
+.northemDark .input-container {
+  background: #1a1a1a; }
+
+.northemDark .monaco-editor .line-numbers {
+  color: #5a5a5a; }
+
+.northemDark .monaco-editor .current-line ~ .line-numbers {
+  color: #ababab; }
+
+.northemDark .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(121, 121, 121, 0.4); }
+
+.northemDark .mtk1,
+.northemDark .mtk10,
+.northemDark .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #cbc9c9; }
+
+.northemDark .TypeReference.FirstBinaryOperator,
+.northemDark .GreaterThanToken.TypeReference {
+  color: #cbc9c9 !important; }
+
+.northemDark .Identifier.Decorator,
+.northemDark .AtToken.Decorator {
+  color: #85c1d3 !important; }
+
+.northemDark .DebuggerKeyword,
+.northemDark .FirstLiteralToken,
+.northemDark .NullKeyword,
+.northemDark .UndefinedKeyword,
+.northemDark .FalseKeyword,
+.northemDark .TrueKeyword {
+  color: #c2a1ca !important; }
+
+.northemDark .Identifier.Method {
+  color: #85c1d3; }
+
+.northemDark .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.northemDark .MethodSignature,
+.northemDark .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.northemDark .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.northemDark .Identifier.TypeReference.MethodDeclaration.Parameter,
+.northemDark .TypeReference.Constructor,
+.northemDark .ModuleDeclaration.Identifier,
+.northemDark .InterfaceDeclaration,
+.northemDark .ClassKeyword + .mtk1 + .Identifier,
+.northemDark .HeritageClause,
+.northemDark .SuperKeyword,
+.northemDark .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.northemDark .Identifier.NewExpression {
+  color: #8fcec8 !important; }
+
+.northemDark .mtk4:not(.styled-warning) {
+  color: #8fcec8 !important; }
+
+.northemDark .Identifier.FunctionDeclaration {
+  color: #85c1d3 !important; }
+
+.northemDark .TypeReference.Parameter,
+.northemDark .TypeReference,
+.northemDark .StringKeyword.Parameter {
+  color: #8fcec8 !important; }
+
+.northemDark .ThisKeyword {
+  color: #87b2ce; }
+
+.northemDark .mtk5,
+.northemDark .StringLiteral,
+.northemDark .mtk1.StringLiteral:not(.styled-warning),
+.northemDark .mtk1.FirstTemplateToken:not(.styled-warning),
+.northemDark .RegularExpressionLiteral,
+.northemDark .FirstTemplateToken,
+.northemDark .TemplateExpression:not(.Identifier) {
+  color: #c9cc78; }
+
+.northemDark .mtk8 {
+  color: #87b2ce; }
+
+.northemDark .ModuleKeyword,
+.northemDark .ClassKeyword,
+.northemDark .NumberKeyword,
+.northemDark .BooleanKeyword,
+.northemDark .AnyKeyword,
+.northemDark .ConstKeyword,
+.northemDark .LetKeyword,
+.northemDark .VarKeyword,
+.northemDark .ConstructorKeyword,
+.northemDark .AnyKeyword,
+.northemDark .FunctionKeyword,
+.northemDark .StringKeyword,
+.northemDark .VoidKeyword,
+.northemDark .InterfaceKeyword,
+.northemDark .EqualsGreaterThanToken.ArrowFunction,
+.northemDark .JSDocParameterTag,
+.northemDark .GetKeyword,
+.northemDark .SetKeyword {
+  color: #5b81af !important; }
+
+.northemDark .ConsoleKeyword {
+  color: #8fcec8 !important; }
+
+.northemDark .mtk7 {
+  color: #65656f; }
+
+.northemDark .ImportKeyword,
+.northemDark .ExportKeyword,
+.northemDark .FirstFutureReservedWord,
+.northemDark .ExtendsKeyword,
+.northemDark .FromKeyword,
+.northemDark .DeleteKeyword,
+.northemDark .AsKeyword,
+.northemDark .AwaitKeyword,
+.northemDark .CatchKeyword,
+.northemDark .DefaultKeyword,
+.northemDark .ElseKeyword,
+.northemDark .IfKeyword,
+.northemDark .ReturnKeyword,
+.northemDark .TryKeyword,
+.northemDark .StaticKeyword,
+.northemDark .PrivateKeyword,
+.northemDark .PublicKeyword,
+.northemDark .ProtectedKeyword,
+.northemDark .ReadonlyKeyword,
+.northemDark .ContinueKeyword,
+.northemDark .DeclareKeyword,
+.northemDark .NewKeyword,
+.northemDark .LastToken.ForOfStatement,
+.northemDark .ForKeyword,
+.northemDark .SwitchKeyword,
+.northemDark .CaseKeyword,
+.northemDark .BreakStatement,
+.northemDark .MinusToken,
+.northemDark .MinusMinusToken,
+.northemDark .PlusToken,
+.northemDark .PlusPlusToken,
+.northemDark .MinusMinusToken,
+.northemDark .FirstCompoundAssignment,
+.northemDark .MinusEqualsToken,
+.northemDark .AmpersandAmpersandToken,
+.northemDark .BarBarToken,
+.northemDark .FirstAssignment,
+.northemDark .EqualsEqualsToken,
+.northemDark .EqualsEqualsEqualsToken,
+.northemDark .ExclamationEqualsEqualsToken,
+.northemDark .FirstBinaryOperator,
+.northemDark .GreaterThanToken,
+.northemDark .GreaterThanEqualsToken,
+.northemDark .SlashToken,
+.northemDark .LessThanEqualsToken,
+.northemDark .AsteriskToken,
+.northemDark .QuestionToken,
+.northemDark .TypeOfKeyword {
+  color: #87b2ce !important; }
+
+.northemDark .AtToken,
+.northemDark .FirstPunctuation,
+.northemDark .CloseBraceToken,
+.northemDark .CommaToken,
+.northemDark .OpenParenToken,
+.northemDark .CloseParenToken,
+.northemDark .ColonToken,
+.northemDark .OpenBracketToken,
+.northemDark .CloseBracketToken,
+.northemDark .SemicolonToken,
+.northemDark .DotToken {
+  color: #cbc9c9; }
+
+.northemDark .Identifier.Parameter {
+  color: #cbc9c9; }
+
+.northemDark .CallExpression {
+  color: #85c1d3; }
+
+.night-owl .monaco-editor,
+.night-owl .monaco-editor-background,
+.night-owl .monaco-editor .inputarea.ime-input,
+.night-owl .monaco-editor .margin,
+.night-owl .input-container {
+  background: #011627; }
+
+.night-owl .monaco-editor .line-numbers {
+  color: #4b6479; }
+
+.night-owl .monaco-editor .current-line ~ .line-numbers {
+  color: #c5e4fd; }
+
+.night-owl .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(8, 77, 129, 0.4); }
+
+.night-owl .mtk1,
+.night-owl .mtk10,
+.night-owl .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #d6deeb; }
+
+.night-owl .TypeReference.FirstBinaryOperator,
+.night-owl .GreaterThanToken.TypeReference {
+  color: #d6deeb !important; }
+
+.night-owl .Identifier.Decorator,
+.night-owl .AtToken.Decorator {
+  color: #82aaff !important; }
+
+.night-owl .DebuggerKeyword,
+.night-owl .FirstLiteralToken,
+.night-owl .NullKeyword,
+.night-owl .UndefinedKeyword,
+.night-owl .FalseKeyword,
+.night-owl .TrueKeyword {
+  color: #ff5874 !important; }
+
+.night-owl .Identifier.Method {
+  color: #82aaff; }
+
+.night-owl .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.night-owl .MethodSignature,
+.night-owl .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.night-owl .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.night-owl .Identifier.TypeReference.MethodDeclaration.Parameter,
+.night-owl .TypeReference.Constructor,
+.night-owl .ModuleDeclaration.Identifier,
+.night-owl .InterfaceDeclaration,
+.night-owl .ClassKeyword + .mtk1 + .Identifier,
+.night-owl .HeritageClause,
+.night-owl .SuperKeyword,
+.night-owl .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.night-owl .Identifier.NewExpression {
+  color: #addb67 !important; }
+
+.night-owl .mtk4:not(.styled-warning) {
+  color: #addb67 !important; }
+
+.night-owl .Identifier.FunctionDeclaration {
+  color: #82aaff !important; }
+
+.night-owl .TypeReference.Parameter,
+.night-owl .TypeReference,
+.night-owl .StringKeyword.Parameter {
+  color: #addb67 !important; }
+
+.night-owl .ThisKeyword {
+  color: #7fdbca; }
+
+.night-owl .mtk5,
+.night-owl .StringLiteral,
+.night-owl .mtk1.StringLiteral:not(.styled-warning),
+.night-owl .mtk1.FirstTemplateToken:not(.styled-warning),
+.night-owl .RegularExpressionLiteral,
+.night-owl .FirstTemplateToken,
+.night-owl .TemplateExpression:not(.Identifier) {
+  color: #ecc48d; }
+
+.night-owl .mtk8 {
+  color: #7fdbca; }
+
+.night-owl .ModuleKeyword,
+.night-owl .ClassKeyword,
+.night-owl .NumberKeyword,
+.night-owl .BooleanKeyword,
+.night-owl .AnyKeyword,
+.night-owl .ConstKeyword,
+.night-owl .LetKeyword,
+.night-owl .VarKeyword,
+.night-owl .ConstructorKeyword,
+.night-owl .AnyKeyword,
+.night-owl .FunctionKeyword,
+.night-owl .StringKeyword,
+.night-owl .VoidKeyword,
+.night-owl .InterfaceKeyword,
+.night-owl .EqualsGreaterThanToken.ArrowFunction,
+.night-owl .JSDocParameterTag,
+.night-owl .GetKeyword,
+.night-owl .SetKeyword {
+  color: #c792ea !important; }
+
+.night-owl .ConsoleKeyword {
+  color: #addb67 !important; }
+
+.night-owl .mtk7 {
+  color: #637777; }
+
+.night-owl .ImportKeyword,
+.night-owl .ExportKeyword,
+.night-owl .FirstFutureReservedWord,
+.night-owl .ExtendsKeyword,
+.night-owl .FromKeyword,
+.night-owl .DeleteKeyword,
+.night-owl .AsKeyword,
+.night-owl .AwaitKeyword,
+.night-owl .CatchKeyword,
+.night-owl .DefaultKeyword,
+.night-owl .ElseKeyword,
+.night-owl .IfKeyword,
+.night-owl .ReturnKeyword,
+.night-owl .TryKeyword,
+.night-owl .StaticKeyword,
+.night-owl .PrivateKeyword,
+.night-owl .PublicKeyword,
+.night-owl .ProtectedKeyword,
+.night-owl .ReadonlyKeyword,
+.night-owl .ContinueKeyword,
+.night-owl .DeclareKeyword,
+.night-owl .NewKeyword,
+.night-owl .LastToken.ForOfStatement,
+.night-owl .ForKeyword,
+.night-owl .SwitchKeyword,
+.night-owl .CaseKeyword,
+.night-owl .BreakStatement,
+.night-owl .MinusToken,
+.night-owl .MinusMinusToken,
+.night-owl .PlusToken,
+.night-owl .PlusPlusToken,
+.night-owl .MinusMinusToken,
+.night-owl .FirstCompoundAssignment,
+.night-owl .MinusEqualsToken,
+.night-owl .AmpersandAmpersandToken,
+.night-owl .BarBarToken,
+.night-owl .FirstAssignment,
+.night-owl .EqualsEqualsToken,
+.night-owl .EqualsEqualsEqualsToken,
+.night-owl .ExclamationEqualsEqualsToken,
+.night-owl .FirstBinaryOperator,
+.night-owl .GreaterThanToken,
+.night-owl .GreaterThanEqualsToken,
+.night-owl .SlashToken,
+.night-owl .LessThanEqualsToken,
+.night-owl .AsteriskToken,
+.night-owl .QuestionToken,
+.night-owl .TypeOfKeyword {
+  color: #c792ea !important; }
+
+.night-owl .AtToken,
+.night-owl .FirstPunctuation,
+.night-owl .CloseBraceToken,
+.night-owl .CommaToken,
+.night-owl .OpenParenToken,
+.night-owl .CloseParenToken,
+.night-owl .ColonToken,
+.night-owl .OpenBracketToken,
+.night-owl .CloseBracketToken,
+.night-owl .SemicolonToken,
+.night-owl .DotToken {
+  color: #d6deeb; }
+
+.night-owl .Identifier.Parameter {
+  color: #d6deeb; }
+
+.night-owl .CallExpression {
+  color: #82aaff; }
+
+.oceanicNext .monaco-editor,
+.oceanicNext .monaco-editor-background,
+.oceanicNext .monaco-editor .inputarea.ime-input,
+.oceanicNext .monaco-editor .margin,
+.oceanicNext .input-container {
+  background: #1b2b34; }
+
+.oceanicNext .monaco-editor .line-numbers {
+  color: #5a5a5a; }
+
+.oceanicNext .monaco-editor .current-line ~ .line-numbers {
+  color: #929191; }
+
+.oceanicNext .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(121, 121, 121, 0.4); }
+
+.oceanicNext .mtk1,
+.oceanicNext .mtk10,
+.oceanicNext .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #cdd3de; }
+
+.oceanicNext .TypeReference.FirstBinaryOperator,
+.oceanicNext .GreaterThanToken.TypeReference {
+  color: #cdd3de !important; }
+
+.oceanicNext .Identifier.Decorator,
+.oceanicNext .AtToken.Decorator {
+  color: #6699cc !important; }
+
+.oceanicNext .DebuggerKeyword,
+.oceanicNext .FirstLiteralToken,
+.oceanicNext .NullKeyword,
+.oceanicNext .UndefinedKeyword,
+.oceanicNext .FalseKeyword,
+.oceanicNext .TrueKeyword {
+  color: #f99157 !important; }
+
+.oceanicNext .Identifier.Method {
+  color: #6699cc; }
+
+.oceanicNext .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.oceanicNext .MethodSignature,
+.oceanicNext .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.oceanicNext .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.oceanicNext .Identifier.TypeReference.MethodDeclaration.Parameter,
+.oceanicNext .TypeReference.Constructor,
+.oceanicNext .ModuleDeclaration.Identifier,
+.oceanicNext .InterfaceDeclaration,
+.oceanicNext .ClassKeyword + .mtk1 + .Identifier,
+.oceanicNext .HeritageClause,
+.oceanicNext .SuperKeyword,
+.oceanicNext .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.oceanicNext .Identifier.NewExpression {
+  color: #fac863 !important; }
+
+.oceanicNext .mtk4:not(.styled-warning) {
+  color: #bb80b3 !important; }
+
+.oceanicNext .Identifier.FunctionDeclaration {
+  color: #6699cc !important; }
+
+.oceanicNext .TypeReference.Parameter,
+.oceanicNext .TypeReference,
+.oceanicNext .StringKeyword.Parameter {
+  color: #fac863 !important; }
+
+.oceanicNext .ThisKeyword {
+  color: #ec5f67; }
+
+.oceanicNext .mtk5,
+.oceanicNext .StringLiteral,
+.oceanicNext .mtk1.StringLiteral:not(.styled-warning),
+.oceanicNext .mtk1.FirstTemplateToken:not(.styled-warning),
+.oceanicNext .RegularExpressionLiteral,
+.oceanicNext .FirstTemplateToken,
+.oceanicNext .TemplateExpression:not(.Identifier) {
+  color: #99c794; }
+
+.oceanicNext .mtk8 {
+  color: #eb606b; }
+
+.oceanicNext .ModuleKeyword,
+.oceanicNext .ClassKeyword,
+.oceanicNext .NumberKeyword,
+.oceanicNext .BooleanKeyword,
+.oceanicNext .AnyKeyword,
+.oceanicNext .ConstKeyword,
+.oceanicNext .LetKeyword,
+.oceanicNext .VarKeyword,
+.oceanicNext .ConstructorKeyword,
+.oceanicNext .AnyKeyword,
+.oceanicNext .FunctionKeyword,
+.oceanicNext .StringKeyword,
+.oceanicNext .VoidKeyword,
+.oceanicNext .InterfaceKeyword,
+.oceanicNext .EqualsGreaterThanToken.ArrowFunction,
+.oceanicNext .JSDocParameterTag,
+.oceanicNext .GetKeyword,
+.oceanicNext .SetKeyword {
+  color: #c594c5 !important; }
+
+.oceanicNext .ConsoleKeyword {
+  color: #fac863 !important; }
+
+.oceanicNext .mtk7 {
+  color: #65737e; }
+
+.oceanicNext .ImportKeyword,
+.oceanicNext .ExportKeyword,
+.oceanicNext .FirstFutureReservedWord,
+.oceanicNext .ExtendsKeyword,
+.oceanicNext .FromKeyword,
+.oceanicNext .DeleteKeyword,
+.oceanicNext .AsKeyword,
+.oceanicNext .AwaitKeyword,
+.oceanicNext .CatchKeyword,
+.oceanicNext .DefaultKeyword,
+.oceanicNext .ElseKeyword,
+.oceanicNext .IfKeyword,
+.oceanicNext .ReturnKeyword,
+.oceanicNext .TryKeyword,
+.oceanicNext .StaticKeyword,
+.oceanicNext .PrivateKeyword,
+.oceanicNext .PublicKeyword,
+.oceanicNext .ProtectedKeyword,
+.oceanicNext .ReadonlyKeyword,
+.oceanicNext .ContinueKeyword,
+.oceanicNext .DeclareKeyword,
+.oceanicNext .NewKeyword,
+.oceanicNext .LastToken.ForOfStatement,
+.oceanicNext .ForKeyword,
+.oceanicNext .SwitchKeyword,
+.oceanicNext .CaseKeyword,
+.oceanicNext .BreakStatement,
+.oceanicNext .MinusToken,
+.oceanicNext .MinusMinusToken,
+.oceanicNext .PlusToken,
+.oceanicNext .PlusPlusToken,
+.oceanicNext .MinusMinusToken,
+.oceanicNext .FirstCompoundAssignment,
+.oceanicNext .MinusEqualsToken,
+.oceanicNext .AmpersandAmpersandToken,
+.oceanicNext .BarBarToken,
+.oceanicNext .FirstAssignment,
+.oceanicNext .EqualsEqualsToken,
+.oceanicNext .EqualsEqualsEqualsToken,
+.oceanicNext .ExclamationEqualsEqualsToken,
+.oceanicNext .FirstBinaryOperator,
+.oceanicNext .GreaterThanToken,
+.oceanicNext .GreaterThanEqualsToken,
+.oceanicNext .SlashToken,
+.oceanicNext .LessThanEqualsToken,
+.oceanicNext .AsteriskToken,
+.oceanicNext .QuestionToken,
+.oceanicNext .TypeOfKeyword {
+  color: #c594c5 !important; }
+
+.oceanicNext .AtToken,
+.oceanicNext .FirstPunctuation,
+.oceanicNext .CloseBraceToken,
+.oceanicNext .CommaToken,
+.oceanicNext .OpenParenToken,
+.oceanicNext .CloseParenToken,
+.oceanicNext .ColonToken,
+.oceanicNext .OpenBracketToken,
+.oceanicNext .CloseBracketToken,
+.oceanicNext .SemicolonToken,
+.oceanicNext .DotToken {
+  color: #cdd3de; }
+
+.oceanicNext .Identifier.Parameter {
+  color: #f99157; }
+
+.oceanicNext .CallExpression {
+  color: #6699cc; }
+
+.vstudio .monaco-editor,
+.vstudio .monaco-editor-background,
+.vstudio .monaco-editor .inputarea.ime-input,
+.vstudio .monaco-editor .margin,
+.vstudio .input-container {
+  background: #fff; }
+
+.vstudio .monaco-editor .line-numbers {
+  color: #2b91af; }
+
+.vstudio .monaco-editor .current-line ~ .line-numbers {
+  color: #2b91af; }
+
+.vstudio .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(100, 100, 100, 0.4); }
+
+.vstudio .mtk1,
+.vstudio .mtk10,
+.vstudio .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #000; }
+
+.vstudio .TypeReference.FirstBinaryOperator,
+.vstudio .GreaterThanToken.TypeReference {
+  color: #000 !important; }
+
+.vstudio .Identifier.Decorator,
+.vstudio .AtToken.Decorator {
+  color: #000000 !important; }
+
+.vstudio .DebuggerKeyword,
+.vstudio .FirstLiteralToken,
+.vstudio .NullKeyword,
+.vstudio .UndefinedKeyword,
+.vstudio .FalseKeyword,
+.vstudio .TrueKeyword {
+  color: #09885a !important; }
+
+.vstudio .Identifier.Method {
+  color: #000000; }
+
+.vstudio .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.vstudio .MethodSignature,
+.vstudio .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.vstudio .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.vstudio .Identifier.TypeReference.MethodDeclaration.Parameter,
+.vstudio .TypeReference.Constructor,
+.vstudio .ModuleDeclaration.Identifier,
+.vstudio .InterfaceDeclaration,
+.vstudio .ClassKeyword + .mtk1 + .Identifier,
+.vstudio .HeritageClause,
+.vstudio .SuperKeyword,
+.vstudio .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.vstudio .Identifier.NewExpression {
+  color: #000000 !important; }
+
+.vstudio .mtk4:not(.styled-warning) {
+  color: #ff0000 !important; }
+
+.vstudio .Identifier.FunctionDeclaration {
+  color: #000000 !important; }
+
+.vstudio .TypeReference.Parameter,
+.vstudio .TypeReference,
+.vstudio .StringKeyword.Parameter {
+  color: #000000 !important; }
+
+.vstudio .ThisKeyword {
+  color: #0000ff; }
+
+.vstudio .mtk5,
+.vstudio .StringLiteral,
+.vstudio .mtk1.StringLiteral:not(.styled-warning),
+.vstudio .mtk1.FirstTemplateToken:not(.styled-warning),
+.vstudio .RegularExpressionLiteral,
+.vstudio .FirstTemplateToken,
+.vstudio .TemplateExpression:not(.Identifier) {
+  color: #008000; }
+
+.vstudio .mtk8 {
+  color: #800000; }
+
+.vstudio .ModuleKeyword,
+.vstudio .ClassKeyword,
+.vstudio .NumberKeyword,
+.vstudio .BooleanKeyword,
+.vstudio .AnyKeyword,
+.vstudio .ConstKeyword,
+.vstudio .LetKeyword,
+.vstudio .VarKeyword,
+.vstudio .ConstructorKeyword,
+.vstudio .AnyKeyword,
+.vstudio .FunctionKeyword,
+.vstudio .StringKeyword,
+.vstudio .VoidKeyword,
+.vstudio .InterfaceKeyword,
+.vstudio .EqualsGreaterThanToken.ArrowFunction,
+.vstudio .JSDocParameterTag,
+.vstudio .GetKeyword,
+.vstudio .SetKeyword {
+  color: #0000ff !important; }
+
+.vstudio .ConsoleKeyword {
+  color: #000000 !important; }
+
+.vstudio .mtk7 {
+  color: #008000; }
+
+.vstudio .ImportKeyword,
+.vstudio .ExportKeyword,
+.vstudio .FirstFutureReservedWord,
+.vstudio .ExtendsKeyword,
+.vstudio .FromKeyword,
+.vstudio .DeleteKeyword,
+.vstudio .AsKeyword,
+.vstudio .AwaitKeyword,
+.vstudio .CatchKeyword,
+.vstudio .DefaultKeyword,
+.vstudio .ElseKeyword,
+.vstudio .IfKeyword,
+.vstudio .ReturnKeyword,
+.vstudio .TryKeyword,
+.vstudio .StaticKeyword,
+.vstudio .PrivateKeyword,
+.vstudio .PublicKeyword,
+.vstudio .ProtectedKeyword,
+.vstudio .ReadonlyKeyword,
+.vstudio .ContinueKeyword,
+.vstudio .DeclareKeyword,
+.vstudio .NewKeyword,
+.vstudio .LastToken.ForOfStatement,
+.vstudio .ForKeyword,
+.vstudio .SwitchKeyword,
+.vstudio .CaseKeyword,
+.vstudio .BreakStatement,
+.vstudio .MinusToken,
+.vstudio .MinusMinusToken,
+.vstudio .PlusToken,
+.vstudio .PlusPlusToken,
+.vstudio .MinusMinusToken,
+.vstudio .FirstCompoundAssignment,
+.vstudio .MinusEqualsToken,
+.vstudio .AmpersandAmpersandToken,
+.vstudio .BarBarToken,
+.vstudio .FirstAssignment,
+.vstudio .EqualsEqualsToken,
+.vstudio .EqualsEqualsEqualsToken,
+.vstudio .ExclamationEqualsEqualsToken,
+.vstudio .FirstBinaryOperator,
+.vstudio .GreaterThanToken,
+.vstudio .GreaterThanEqualsToken,
+.vstudio .SlashToken,
+.vstudio .LessThanEqualsToken,
+.vstudio .AsteriskToken,
+.vstudio .QuestionToken,
+.vstudio .TypeOfKeyword {
+  color: #0000ff !important; }
+
+.vstudio .AtToken,
+.vstudio .FirstPunctuation,
+.vstudio .CloseBraceToken,
+.vstudio .CommaToken,
+.vstudio .OpenParenToken,
+.vstudio .CloseParenToken,
+.vstudio .ColonToken,
+.vstudio .OpenBracketToken,
+.vstudio .CloseBracketToken,
+.vstudio .SemicolonToken,
+.vstudio .DotToken {
+  color: #000; }
+
+.vstudio .Identifier.Parameter {
+  color: #000000; }
+
+.vstudio .CallExpression {
+  color: #000000; }
+
+.winter-is-coming .monaco-editor,
+.winter-is-coming .monaco-editor-background,
+.winter-is-coming .monaco-editor .inputarea.ime-input,
+.winter-is-coming .monaco-editor .margin,
+.winter-is-coming .input-container {
+  background: #282822; }
+
+.winter-is-coming .monaco-editor .line-numbers {
+  color: #219fd5; }
+
+.winter-is-coming .monaco-editor .current-line ~ .line-numbers {
+  color: #84daff; }
+
+.winter-is-coming .monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(121, 121, 121, 0.4); }
+
+.winter-is-coming .mtk1,
+.winter-is-coming .mtk10,
+.winter-is-coming .mtk1.Identifier.NewExpression ~ .mtk1.Identifier.NewExpression {
+  color: #a4ceee; }
+
+.winter-is-coming .TypeReference.FirstBinaryOperator,
+.winter-is-coming .GreaterThanToken.TypeReference {
+  color: #a4ceee !important; }
+
+.winter-is-coming .Identifier.Decorator,
+.winter-is-coming .AtToken.Decorator {
+  color: #f7ecb5 !important; }
+
+.winter-is-coming .DebuggerKeyword,
+.winter-is-coming .FirstLiteralToken,
+.winter-is-coming .NullKeyword,
+.winter-is-coming .UndefinedKeyword,
+.winter-is-coming .FalseKeyword,
+.winter-is-coming .TrueKeyword {
+  color: #7fff6e !important; }
+
+.winter-is-coming .Identifier.Method {
+  color: #f7ecb5; }
+
+.winter-is-coming .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.Decorator,
+.winter-is-coming .MethodSignature,
+.winter-is-coming .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.TypeReference,
+.winter-is-coming .Identifier.FunctionDeclaration.TypeReference.Parameter,
+.winter-is-coming .Identifier.TypeReference.MethodDeclaration.Parameter,
+.winter-is-coming .TypeReference.Constructor,
+.winter-is-coming .ModuleDeclaration.Identifier,
+.winter-is-coming .InterfaceDeclaration,
+.winter-is-coming .ClassKeyword + .mtk1 + .Identifier,
+.winter-is-coming .HeritageClause,
+.winter-is-coming .SuperKeyword,
+.winter-is-coming .mtk1.Identifier.ClassDeclaration.PropertyDeclaration.NewExpression,
+.winter-is-coming .Identifier.NewExpression {
+  color: #d29ffc !important; }
+
+.winter-is-coming .mtk4:not(.styled-warning) {
+  color: #f7ecb5 !important; }
+
+.winter-is-coming .Identifier.FunctionDeclaration {
+  color: #f7ecb5 !important; }
+
+.winter-is-coming .TypeReference.Parameter,
+.winter-is-coming .TypeReference,
+.winter-is-coming .StringKeyword.Parameter {
+  color: #6dbdfa !important; }
+
+.winter-is-coming .ThisKeyword {
+  color: #00bff9; }
+
+.winter-is-coming .mtk5,
+.winter-is-coming .StringLiteral,
+.winter-is-coming .mtk1.StringLiteral:not(.styled-warning),
+.winter-is-coming .mtk1.FirstTemplateToken:not(.styled-warning),
+.winter-is-coming .RegularExpressionLiteral,
+.winter-is-coming .FirstTemplateToken,
+.winter-is-coming .TemplateExpression:not(.Identifier) {
+  color: #d8dee8; }
+
+.winter-is-coming .mtk8 {
+  color: #6dbdfa; }
+
+.winter-is-coming .ModuleKeyword,
+.winter-is-coming .ClassKeyword,
+.winter-is-coming .NumberKeyword,
+.winter-is-coming .BooleanKeyword,
+.winter-is-coming .AnyKeyword,
+.winter-is-coming .ConstKeyword,
+.winter-is-coming .LetKeyword,
+.winter-is-coming .VarKeyword,
+.winter-is-coming .ConstructorKeyword,
+.winter-is-coming .AnyKeyword,
+.winter-is-coming .FunctionKeyword,
+.winter-is-coming .StringKeyword,
+.winter-is-coming .VoidKeyword,
+.winter-is-coming .InterfaceKeyword,
+.winter-is-coming .EqualsGreaterThanToken.ArrowFunction,
+.winter-is-coming .JSDocParameterTag,
+.winter-is-coming .GetKeyword,
+.winter-is-coming .SetKeyword {
+  color: #00bff9 !important; }
+
+.winter-is-coming .ConsoleKeyword {
+  color: #6dbdfa !important; }
+
+.winter-is-coming .mtk7 {
+  color: #999999; }
+
+.winter-is-coming .ImportKeyword,
+.winter-is-coming .ExportKeyword,
+.winter-is-coming .FirstFutureReservedWord,
+.winter-is-coming .ExtendsKeyword,
+.winter-is-coming .FromKeyword,
+.winter-is-coming .DeleteKeyword,
+.winter-is-coming .AsKeyword,
+.winter-is-coming .AwaitKeyword,
+.winter-is-coming .CatchKeyword,
+.winter-is-coming .DefaultKeyword,
+.winter-is-coming .ElseKeyword,
+.winter-is-coming .IfKeyword,
+.winter-is-coming .ReturnKeyword,
+.winter-is-coming .TryKeyword,
+.winter-is-coming .StaticKeyword,
+.winter-is-coming .PrivateKeyword,
+.winter-is-coming .PublicKeyword,
+.winter-is-coming .ProtectedKeyword,
+.winter-is-coming .ReadonlyKeyword,
+.winter-is-coming .ContinueKeyword,
+.winter-is-coming .DeclareKeyword,
+.winter-is-coming .NewKeyword,
+.winter-is-coming .LastToken.ForOfStatement,
+.winter-is-coming .ForKeyword,
+.winter-is-coming .SwitchKeyword,
+.winter-is-coming .CaseKeyword,
+.winter-is-coming .BreakStatement,
+.winter-is-coming .MinusToken,
+.winter-is-coming .MinusMinusToken,
+.winter-is-coming .PlusToken,
+.winter-is-coming .PlusPlusToken,
+.winter-is-coming .MinusMinusToken,
+.winter-is-coming .FirstCompoundAssignment,
+.winter-is-coming .MinusEqualsToken,
+.winter-is-coming .AmpersandAmpersandToken,
+.winter-is-coming .BarBarToken,
+.winter-is-coming .FirstAssignment,
+.winter-is-coming .EqualsEqualsToken,
+.winter-is-coming .EqualsEqualsEqualsToken,
+.winter-is-coming .ExclamationEqualsEqualsToken,
+.winter-is-coming .FirstBinaryOperator,
+.winter-is-coming .GreaterThanToken,
+.winter-is-coming .GreaterThanEqualsToken,
+.winter-is-coming .SlashToken,
+.winter-is-coming .LessThanEqualsToken,
+.winter-is-coming .AsteriskToken,
+.winter-is-coming .QuestionToken,
+.winter-is-coming .TypeOfKeyword {
+  color: #00bff9 !important; }
+
+.winter-is-coming .AtToken,
+.winter-is-coming .FirstPunctuation,
+.winter-is-coming .CloseBraceToken,
+.winter-is-coming .CommaToken,
+.winter-is-coming .OpenParenToken,
+.winter-is-coming .CloseParenToken,
+.winter-is-coming .ColonToken,
+.winter-is-coming .OpenBracketToken,
+.winter-is-coming .CloseBracketToken,
+.winter-is-coming .SemicolonToken,
+.winter-is-coming .DotToken {
+  color: #a4ceee; }
+
+.winter-is-coming .Identifier.Parameter {
+  color: #da71b3; }
+
+.winter-is-coming .CallExpression {
+  color: #f7ecb5; }
+
+.solution-explorer {
+  display: block;
+  color: var(--file-color);
+  background: var(--code-bg); }
+
+.icon-add-file,
+.icon-add-folder {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  padding: 0 7px 0 3px; }
+
+.solution-tree-item .icon-edit,
+.icon-delete {
+  display: none; }
+
+.icon-add-folder svg {
+  width: 14px;
+  height: 14px;
+  fill: #afb0b3; }
+
+.icon-add-file svg {
+  width: 10px;
+  height: 12px;
+  stroke: #afb0b3; }
+
+.icon-edit,
+.icon-delete {
+  fill: #afb0b3;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  stroke: #afb0b3; }
+
+.icon-edit {
+  margin: 0 5px; }
+
+.icon-add-folder:before,
+.icon-add-file:before {
+  content: '+';
+  position: absolute;
+  color: #1aa01a;
+  right: 0;
+  bottom: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial;
+  line-height: 0; }
+
+.icon-add-file:hover:before,
+.icon-add-folder:hover:before {
+  color: #25d625; }
+
+.solution-explorer:hover .solution-title .icon-add-file,
+.solution-explorer:hover .solution-title .icon-add-folder {
+  display: block; }
+
+.icon-delete:hover,
+.icon-edit:hover,
+.icon-add-file:hover svg,
+.icon-add-folder:hover svg {
+  fill: #d6d6d6;
+  stroke: #d6d6d6; }
+
+.solution-title .icon-edit {
+  position: relative;
+  top: 2px; }
+
+.project-actions {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 12px; }
+  .project-actions .project-action {
+    display: flex;
+    align-items: center;
+    cursor: pointer; }
+  .project-actions .icon-delete {
+    display: block;
+    margin-left: 5px; }
+
+.solution-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.solution-tree {
+  padding: 10px 0 10px 5px; }
+
+.solution-title {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  padding: 11px 10px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between; }
+
+.solution-tree-item {
+  display: flex;
+  padding: 0 10px 0 1000px;
+  margin-left: -1000px;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+  cursor: pointer;
+  transition: color .14s, background-color .14s; }
+
+.solution-tree-item:hover {
+  background-color: rgba(108, 174, 221, 0.098);
+  color: #fff; }
+
+.solution-tree-item.selected {
+  background: #22596f;
+  color: #f3f3f3;
+  border-right: 3px solid #ca410c; }
+
+.solution-tree-item__name {
+  width: 100%;
+  position: relative;
+  padding-left: 37px;
+  font-size: 13px;
+  line-height: 28px;
+  white-space: nowrap; }
+
+.solution-tree-item--failed:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 90"><path d="M0,90 50,0 100,90" fill="%23FFC107"></path><line x1="50" y1="32" x2="50" y2="60" stroke="%23212121" stroke-width="9"></line><circle r="5" cx="50" cy="75" fill="%23212121" /></svg>');
+  width: 14px;
+  height: 14px;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.solution-tree-item__input {
+  border: none;
+  color: #fff;
+  padding: 0 3px;
+  line-height: 18px;
+  background: #3e3e39;
+  z-index: 11;
+  position: relative;
+  width: calc(100% - 15px); }
+
+.solution-title > .solution-tree-item__input,
+.icon-folder + .solution-tree-item__input {
+  width: 100%; }
+
+.solution-title > .solution-tree-item__input {
+  font-size: 14px;
+  font-family: inherit; }
+
+.solution-tree-item__blocker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5); }
+
+.solution-tree-item__error {
+  position: absolute;
+  left: 100%;
+  top: 10px;
+  z-index: 12;
+  padding: 10px 10px;
+  background: #cc441a;
+  color: #fff;
+  line-height: 24px;
+  font-size: 13px;
+  margin-left: 8px;
+  margin-top: -10px;
+  border-radius: 8px; }
+
+.solution-tree-item__error:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -16px;
+  border: 8px solid transparent;
+  border-right-color: #cc441a;
+  top: 10px; }
+
+.solution-tree-item.file .solution-tree-item__name {
+  padding-left: 19px; }
+
+.solution-tree-item__name:after {
+  position: absolute; }
+
+.solution-tree-item__name .icon-folder {
+  position: absolute;
+  top: 50%;
+  width: 17px;
+  height: 15px;
+  left: 16px;
+  fill: #ecb81c;
+  transform: translateY(-50%); }
+
+.solution-tree-item__name .icon-file {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 8px;
+  vertical-align: top;
+  left: -3px; }
+
+.solution-tree-item.folder .icon-arrow {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.solution-tree-item.file .solution-tree-item__name.ts:before {
+  content: "TS";
+  color: #95c9de;
+  margin-right: 3px;
+  font-size: 10px;
+  position: relative;
+  left: -2px; }
+
+.solution-tree-item.folder + .solution-tree {
+  display: none; }
+
+.solution-tree-item.folder.opened + .solution-tree {
+  display: block;
+  padding-left: 20px;
+  padding-bottom: 0;
+  padding-top: 0; }
+
+.solution-tree-item .icon-add-file,
+.solution-tree-item .icon-add-folder {
+  margin-right: 2px;
+  top: 1px; }
+
+.solution-tree-item:hover .icon-edit,
+.solution-tree-item:hover .icon-delete,
+.solution-tree-item:hover .icon-add-file,
+.solution-tree-item:hover .icon-add-folder {
+  display: inline-block; }
+
+.container {
+  display: flex;
+  width: 100%; }
+
+textarea, pre {
+  flex: 1;
+  padding: 15px;
+  overflow: auto;
+  margin: 0;
+  max-height: 700px;
+  background: #333;
+  color: #fff; }
+
+input {
+  width: 100%;
+  box-sizing: border-box; }
+
+.box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0 2em;
+  overflow: auto; }
+  .box-label {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px; }
+
+.error {
+  color: #E36049; }
+
+.loading {
+  position: relative;
+  font-size: 2em; }
+
+.loading:before {
+  content: 'Compiling...';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; }
+
+my-app {
+  display: block;
+  padding-top: 15px;
+  text-align: center; }
+
+.d-flex {
+  display: flex; }
+
+.label {
+  margin-top: 0.5em;
+  color: #fff;
+  font-size: 1.5em; }
+
+.output {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: #fff; }
+
+child {
+  display: flex;
+  flex-wrap: wrap; }
+
+h2 {
+  width: 100%;
+  font-size: 16px; }
+
+sub-child {
+  padding: 0 2em;
+  width: 33.3%;
+  box-sizing: border-box; }
+
+.w-50 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.align-start {
+  align-self: flex-start; }
+
+.btn {
+  position: relative;
+  background: none;
+  color: #c5c5c5;
+  border: none;
+  cursor: pointer;
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+  padding: 0 1em;
+  border-radius: 3px;
+  outline: none;
+  font-family: Arial;
+  transition: background-color .3s, color .3s; }
+  .btn.\--disabled, .btn.\--disabled:hover {
+    color: #929292;
+    background: none;
+    cursor: not-allowed; }
+  .btn.\--started, .btn:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff; }
+
+#btn-start {
+  padding-left: 25px; }
+  #btn-start:before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    border: solid transparent;
+    border-width: 6px;
+    border-left-color: inherit;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border-right-width: 10px;
+    border-left-width: 10px; }
+  #btn-start.\--started:before {
+    border-left-color: #42bd47; }
+
+#btn-prev {
+  padding-left: 22px; }
+  #btn-prev:before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 10px;
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid;
+    border-top: 2px solid;
+    transform: translateY(-50%) rotate(-45deg); }
+
+#btn-pause {
+  padding-left: 22px; }
+  #btn-pause:before, #btn-pause:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 10px;
+    width: 0;
+    height: 10px;
+    transform: translateY(-50%);
+    border-left: 3px solid; }
+  #btn-pause:before {
+    left: 10px; }
+  #btn-pause:after {
+    left: 15px; }
+
+#btn-next {
+  padding-right: 22px; }
+  #btn-next:before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 10px;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    transform: translateY(-50%) rotate(45deg); }
+
+.scheme {
+  width: 500px;
+  margin: 1em auto;
+  position: relative;
+  font-size: 12px;
+  padding: 0 2em;
+  font-family: Arial; }
+
+.step {
+  display: block;
+  line-height: 2em;
+  padding: 0 .2em;
+  background: #0e9aad;
+  width: 15.2em;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  margin-bottom: 1em;
+  align-self: flex-start;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-decoration: none; }
+  .step:hover {
+    background: #fff;
+    color: #000; }
+  .step--active {
+    background: #9C27B0 !important; }
+    .step--active:hover {
+      color: #fff;
+      border: 1px solid #fff; }
+
+.group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px dashed #fff;
+  padding: 2em 1em;
+  margin-bottom: 1em;
+  border-radius: 2em; }
+  .group:before, .group:after {
+    position: absolute;
+    left: 2.75em;
+    color: #fff;
+    font-size: 0.75em; }
+  .group:before {
+    content: 'enter view';
+    top: 0.75em; }
+  .group:after {
+    content: 'leave view';
+    bottom: 0.75em; }
+  .group .step:last-of-type {
+    margin-bottom: 0; }
+
+.cd-triggers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+  .cd-triggers .step:not(:hover) {
+    background: #869b3d; }
+  .cd-triggers__chain {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em; }
+  .cd-triggers__manual {
+    position: relative;
+    align-self: flex-end;
+    margin-right: 4em; }
+    .cd-triggers__manual:before {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      border-left: 2px solid;
+      transform: translateX(-50%);
+      color: #fff;
+      height: 18em;
+      z-index: -1; }
+    .cd-triggers__manual:after {
+      left: 50%;
+      top: calc(100% + 18em);
+      transform: translate(-50%, -50%); }
+
+.process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 4em; }
+
+.step__detect-changes {
+  position: relative;
+  margin: 0 0 1em 0;
+  width: 100%; }
+
+.step__detect-changes:before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 8.5em;
+  border-left: 2px solid;
+  transform: translateX(-50%);
+  color: #fff;
+  height: 3em;
+  z-index: -1; }
+
+.step__detect-changes:after {
+  left: 8.5em;
+  bottom: 100%;
+  transform: translate(-50%, 50%); }
+
+.group__detect-changes {
+  align-self: flex-start; }
+
+.group__refresh-view {
+  margin-left: 1em;
+  margin-top: calc(4em + 2px); }
+  .group__refresh-view:before, .group__refresh-view:after {
+    content: none; }
+
+.dynamic {
+  margin-top: calc(5em + 4px);
+  margin-left: 1em; }
+
+.step__refresh-child-components {
+  position: relative;
+  background: #d88b1f; }
+
+.step__refresh-child-components:before,
+.step__refresh-child-components:after {
+  content: '';
+  position: absolute;
+  z-index: -1; }
+
+.step__refresh-child-components:before {
+  content: 'for loop tView.components';
+  right: calc(100% + 10px);
+  white-space: nowrap;
+  color: #fff;
+  font-size: 0.75em;
+  top: -8px; }
+
+.step__refresh-child-components:after {
+  top: 50%;
+  height: 0;
+  width: 18em;
+  background: none;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  border-left: none;
+  right: 100%;
+  color: #fff; }
+
+.step__component-refresh {
+  position: relative; }
+
+.step__component-refresh:before,
+.step__component-refresh:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%; }
+
+.step__component-refresh:before {
+  height: calc(36em + 3px);
+  width: calc(2em + 6px);
+  margin-left: -1.5px;
+  border: 2px solid;
+  border-right: none;
+  border-radius: 15px 0 0 15px;
+  margin-top: -1px;
+  z-index: -1;
+  color: #fff; }
+
+.step__component-refresh:after {
+  transform: translate(50%, -50%); }
+
+.step__render-embedded-template,
+.step__execute-init-hooks {
+  position: relative; }
+
+.step.step__execute-init-hooks:before {
+  content: '';
+  position: absolute;
+  height: calc(2em + 3px);
+  bottom: 100%;
+  right: calc(50% - 1px);
+  border: 2px solid;
+  color: #fff;
+  border-bottom: 0;
+  border-left: 0;
+  border-top-right-radius: 15px;
+  width: 5em;
+  background: none; }
+
+.step__execute-init-hooks:after {
+  left: 50%;
+  bottom: calc(100% + 1px);
+  transform: translate(-50%, 50%); }
+
+.step__render-embedded-template:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  color: #fff; }
+
+.step__render-embedded-template:after {
+  top: calc(50% - 1px);
+  right: -2em;
+  width: 12em;
+  height: calc(11em - 16px);
+  border: 2px solid;
+  border-radius: 0 15px 15px 0;
+  border-left: none; }
+
+.step_render_component_or_template {
+  margin-left: 1em; }
+
+.step__create_view_query {
+  position: relative; }
+
+.step__template:before,
+.step__template:after,
+.step__create_view_query i:before,
+.step__create_view_query i:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  color: #fff; }
+
+.step__template:before {
+  top: 50%;
+  left: 100%;
+  width: 3em;
+  height: 0;
+  border-top: 2px solid;
+  transform: translateY(-50%); }
+
+.step__render-embedded-template:before,
+.step__template:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  left: 100%;
+  border: solid transparent;
+  border-right-color: #fff;
+  border-width: 4px;
+  transform: translate(-50%, 50%);
+  border-right-width: 8px;
+  bottom: 50%;
+  margin-top: 5px;
+  border-left-width: 8px; }
+
+.step__template {
+  position: relative; }
+
+.step__create_view_query i:before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  border-left: 2px solid;
+  transform: translateX(-50%);
+  color: #fff;
+  height: calc(4em + 3px);
+  z-index: -1; }
+
+.step__create_view_query i:after {
+  left: 50%;
+  bottom: calc(100% + 1px);
+  transform: translate(-50%, 50%); }
+
+.step__refresh-embedded-views {
+  position: relative;
+  background: #d88b1f; }
+
+.step__refresh-embedded-views:after {
+  content: 'for loop';
+  position: absolute;
+  top: -6em;
+  left: calc(100% + 29px);
+  z-index: -1;
+  color: #fff;
+  font-size: .75em;
+  white-space: nowrap; }
+
+.step__refresh_descendant_views {
+  position: relative;
+  background: #d88b1f; }
+
+.step__refresh_descendant_views:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: calc(6em - 4px);
+  height: 2px;
+  margin-top: -1px;
+  z-index: -1;
+  color: #fff;
+  background: #fff; }
+
+.step__refresh_descendant_views:after {
+  content: 'for loop';
+  position: absolute;
+  top: -1.5em;
+  left: calc(100% + 6px);
+  z-index: -1;
+  color: #fff;
+  font-size: .75em;
+  white-space: nowrap; }
+
+[data-step="5"] {
+  margin-left: 2em; }
+
+.step__execute-init-and-content-hooks {
+  position: relative; }
+
+.step__execute-init-and-content-hooks:before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 2px;
+  background: #fff;
+  z-index: -1;
+  height: calc(3em + 3px);
+  margin-left: -1px; }
+
+.cd-triggers__manual:after, .step__detect-changes:after, .step__execute-init-hooks:after, .step__create_view_query i:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  border-top-color: #fff;
+  border-width: 4px;
+  border-top-width: 8px;
+  border-bottom-width: 8px;
+  z-index: -1; }
+
+.step__component-refresh:after {
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-left-color: #fff;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  z-index: -1; }
+
+.info {
+  display: none;
+  margin-right: 15px; }
+
+.tree-view {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
+  font-family: Arial; }
+
+#info {
+  margin-left: 5px;
+  color: #d4d4d4;
+  font-size: 13px;
+  font-family: Arial; }
+
+#range-value {
+  width: 28px;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center; }
+
+/* Range slider */
+.range-container {
+  display: flex;
+  align-items: center;
+  width: 200px; }
+
+.rangeslider,
+.rangeslider__fill {
+  display: block;
+  -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+.rangeslider {
+  background: repeating-linear-gradient(-45deg, #f5f5f5, #f5f5f5 20px, #e9e9e9 20px, #e9e9e9 40px);
+  position: relative; }
+
+.rangeslider--horizontal {
+  height: 8px;
+  width: 100%; }
+
+.rangeslider--vertical {
+  width: 20px;
+  min-height: 150px;
+  max-height: 100%; }
+
+.rangeslider--disabled {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4; }
+
+.rangeslider__fill {
+  background: #d88b1f;
+  position: absolute; }
+
+.rangeslider--horizontal .rangeslider__fill {
+  top: 0;
+  height: 100%; }
+
+.rangeslider--vertical .rangeslider__fill {
+  bottom: 0;
+  width: 100%; }
+
+.rangeslider__handle {
+  background: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4xIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g");
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(0, 0, 0, 0.1)));
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1));
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+.rangeslider__handle:after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjEzIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==");
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.13)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.13), rgba(255, 255, 255, 0));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.13), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(255, 255, 255, 0));
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+.rangeslider__handle:active, .rangeslider--active .rangeslider__handle {
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4xMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==");
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.12)));
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.12));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.12));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.12)); }
+
+.rangeslider--horizontal .rangeslider__handle {
+  top: -7px;
+  touch-action: pan-y;
+  -ms-touch-action: pan-y; }
+
+input[type="range"]:focus + .rangeslider .rangeslider__handle {
+  -moz-box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+  -webkit-box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+  box-shadow: 0 0 8px rgba(255, 0, 255, 0.9); }
+
+.tree {
+  margin-bottom: 1em;
+  padding: 0;
+  list-style: none; }
+  .tree ul {
+    list-style: none;
+    padding-left: 32px; }
+  .tree li {
+    position: relative; }
+    .tree li:before, .tree li:after {
+      content: '';
+      position: absolute;
+      left: -12px; }
+    .tree li:before {
+      border-top: 1px solid #fff;
+      top: 1.7em;
+      width: 12px;
+      height: 0; }
+    .tree li:after {
+      border-left: 1px solid #fff;
+      height: 100%;
+      width: 0;
+      top: 0; }
+  .tree ul > li:last-child::after {
+    height: 1.7em; }
+  .tree > li:last-child:before,
+  .tree > li:last-child:after {
+    content: none; }
+  .tree-item {
+    display: inline-block;
+    margin-top: .7em;
+    padding: 0 10px;
+    line-height: 2em;
+    border-radius: 3px;
+    background: #efefef;
+    color: #233; }
+    .tree-item.active {
+      background: #9c27b0;
+      color: #fff; }
+
