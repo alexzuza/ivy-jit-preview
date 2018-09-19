@@ -13,6 +13,7 @@
         document.head.appendChild(a);
         a.textContent = localStorage.ngFont
     }
+
     if (localStorage.ngFont) addFont(); else {
         var request = new XMLHttpRequest;
         request.open("GET", "./assets/font.css", !0);
@@ -21,7 +22,8 @@
         };
         request.send()
     }</script>
-<link href="styles.3d88707ec8dddc43b12c.css" rel="stylesheet"></head>
+    <link href="styles.3d88707ec8dddc43b12c.css" rel="stylesheet">
+</head>
 <body class="material">
 <header class="top">
     <h1 class="logo">
@@ -242,12 +244,14 @@
     var require = {
         paths: {
             'vs': './monaco-editor-core/vs',
-            'vs/language/html':  document.location.href
+            'vs/language/html': document.location.href
         }
     };
 </script>
 <script src="./monaco-editor-core/vs/loader.js"></script>
 <script src="./monaco-editor-core/vs/editor/editor.main.nls.js"></script>
 <script src="./monaco-editor-core/vs/editor/editor.main.js"></script>
-<script type="text/javascript" src="main.3d88707ec8dddc43b12c.js"></script><script type="text/javascript" src="ngEntry.3d88707ec8dddc43b12c.js"></script></body>
+<script type="text/javascript" src="main.3d88707ec8dddc43b12c.js"></script>
+<script type="text/javascript" src="ngEntry.3d88707ec8dddc43b12c.js"></script>
+</body>
 </html>
