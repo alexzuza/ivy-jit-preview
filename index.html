@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <base target="_blank">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ivy preview</title>
@@ -13,7 +14,6 @@
         document.head.appendChild(a);
         a.textContent = localStorage.ngFont
     }
-
     if (localStorage.ngFont) addFont(); else {
         var request = new XMLHttpRequest;
         request.open("GET", "./assets/font.css", !0);
@@ -22,8 +22,7 @@
         };
         request.send()
     }</script>
-    <link href="styles.3d88707ec8dddc43b12c.css" rel="stylesheet">
-</head>
+<link href="styles.e498bb2f5e4d5ce41a3e.css" rel="stylesheet"></head>
 <body class="material">
 <header class="top">
     <h1 class="logo">
@@ -83,123 +82,45 @@
         </div>
         <div class="box-content">
             <div class="scheme">
-                <div class="cd-triggers">
-                    <div class="cd-triggers__chain">
-                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2549"
-                           target="_blank" title="Go to definition" class="step" data-step="markDirty">
-                            markDirty
-                        </a>
-                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2363"
-                           target="_blank" title="Go to definition" class="step" data-step="markViewDirty">
-                            markViewDirty
-                        </a>
-                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2387"
-                           target="_blank" title="Go to definition" class="step" data-step="scheduleTick">
-                            scheduleTick
-                        </a>
-                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2417"
-                           target="_blank" title="Go to definition" class="step" data-step="tickRootContext">
-                            tickRootContext
-                        </a>
-                    </div>
-                    <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2453"
-                       target="_blank" title="Go to definition" class="cd-triggers__manual step">
-                        detectChanges
-                    </a>
-                </div>
-                <div class="process">
-                    <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L667"
-                       target="_blank" title="Go to definition" data-step="renderComponentOrTemplate"
-                       class="step step_render_component_or_template">
-                        renderComponentOrTemplate
-                    </a>
-                    <div class="group align-start">
-                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L370"
-                           target="_blank" title="Go to definition" class="step step__execute-init-and-content-hooks"
-                           data-step="executeInitAndContentHooks">
-                            executeInitAndContentHooks
-                        </a>
-                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L336"
-                           target="_blank" title="Go to definition" class="step" data-step="setHostBindings(0, 0)">
-                            setHostBindings
-                        </a>
-                        <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2161"
-                           target="_blank" title="Go to definition" class="step step__component-refresh"
-                           data-step="componentRefresh">
-                            componentRefresh
-                        </a>
-                    </div>
-                    <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2504"
-                       target="_blank" title="Go to definition" class="step step__detect-changes"
-                       data-step="detectChangesInternal">
-                        detectChangesInternal
-                    </a>
+                <div>
+                    <a data-step="markDirty" class="trigger" href="#"></a>
+                    <a data-step="markViewDirty" class="trigger" href="#"></a>
+                    <a data-step="scheduleTick" class="trigger" href="#"></a>
+                    <a data-step="tickRootContext" class="trigger" href="#"></a>
 
-                    <div class="d-flex align-start">
-                        <div class="group group__detect-changes">
-                            <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2521"
-                               target="_blank" title="Go to definition" class="step step__create_view_query"
-                               data-step="createViewQuery">
-                                <i></i>
-                                createViewQuery
-                            </a>
-                            <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2513"
-                               target="_blank" title="Go to definition" class="step step__template"
-                               data-step="template(rFlags, context)">
-                                templateFn(rf, context)
-                            </a>
-                            <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L314"
-                               target="_blank" title="Go to definition" class="step step__refresh_descendant_views"
-                               data-step="refreshDescendantViews">
-                                refreshDescendantViews
-                            </a>
-                            <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2528"
-                               target="_blank" title="Go to definition" class="step step__update_view_query"
-                               data-step="updateViewQuery">
-                                updateViewQuery
-                            </a>
-                        </div>
-                        <div class="refresh-view-implementation">
-                            <div class="dynamic">
-                                <a href="https://github.com/angular/angular/blob/88ab1d0e553238f45e16fabd208134f836564a63/packages/core/src/render3/instructions.ts#L487"
-                                   target="_blank" title="Go to definition" class="step step__render-embedded-template"
-                                   data-step="renderEmbeddedTemplate">
-                                    renderEmbeddedTemplate
-                                </a>
-                            </div>
-                            <div class="group__refresh-view">
-                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/hooks.ts#L99"
-                                   target="_blank" title="Go to definition" class="step step__execute-init-hooks"
-                                   data-step="executeInitHooks">
-                                    executeInitHooks
-                                </a>
-                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L2023"
-                                   target="_blank" title="Go to definition" class="step step__refresh-embedded-views"
-                                   data-step="refreshDynamicEmbeddedViews">
-                                    refreshDynamicEmbeddedViews
-                                </a>
-                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L350"
-                                   target="_blank" title="Go to definition" class="step step__refresh-content-queries"
-                                   data-step="refreshContentQueries">
-                                    refreshContentQueries
-                                </a>
-                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L327"
-                                   target="_blank" title="Go to definition" class="step"
-                                   data-step="executeContentHooks">
-                                    executeContentHooks
-                                </a>
-                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L330"
-                                   target="_blank" title="Go to definition" class="step" data-step="setHostBindings">
-                                    setHostBindings
-                                </a>
-                                <a href="https://github.com/angular/angular/blob/8f81dba367912d5c905dcd90893475e563bc2eea/packages/core/src/render3/instructions.ts#L362"
-                                   target="_blank" title="Go to definition" class="step step__refresh-child-components"
-                                   data-step="refreshChildComponents">
-                                    refreshChildComponents
-                                </a>
-                            </div>
-                        </div>
+                    <div class="group">
+                        <a data-step="renderComponentOrTemplate" href="#"></a>
+                        <a data-step="renderComponentOrTemplate-refreshDescendantViews" href="#" class="ghost">refreshDescendantViews<i></i></a>
+                        <a data-step="renderComponentOrTemplate-executeViewHooks" href="#">executeViewHooks</a>
                     </div>
+                    <div class="sub-group" data-title="refreshDescendantViews">
+                        <a data-step="executeInitHooks" href="#" class="fake"><i></i></a>
+                        <a data-step="setHostBindings" href="#"></a>
+                        <a data-step="refreshDynamicEmbeddedViews" href="#" class="switch"><i></i></a>
+                        <a data-step="refreshContentQueries" href="#"></a>
+                        <a data-step="executeContentHooks" href="#"></a>
+                        <a data-step="refreshChildComponents" href="#" class="switch"></a>
+                    </div>
+                    <a data-step="componentRefresh" href="#"></a>
+                    <div class="group">
+                        <a data-step="detectChangesInternal"></a>
+                        <a data-step="createViewQuery"></a>
+                        <a data-step="templateFn"></a>
+                        <a data-step="detectChangesInternal-refreshDescendantViews" href="#" class="ghost">refreshDescendantViews<i></i></a>
+                        <a data-step="updateViewQuery"></a>
+                        <a data-step="detectChangesInternal-executeViewHooks" href="#">executeViewHooks</a>
+                    </div>
+
+                </div>
+                <div>
+
+                    <div class="group" style="margin-top: 418px">
+                        <a data-step="renderEmbeddedTemplate"></a>
+                        <a data-step="embeddedTemplateFn"></a>
+                        <a data-step="renderEmbeddedTemplate-refreshDescendantViews" href="#" class="ghost">refreshDescendantViews <i></i> </a>
+                        <a data-step="renderEmbeddedTemplate-executeViewHooks" href="#">executeViewHooks</a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -244,14 +165,12 @@
     var require = {
         paths: {
             'vs': './monaco-editor-core/vs',
-            'vs/language/html': document.location.href
+            'vs/language/html':  document.location.href
         }
     };
 </script>
 <script src="./monaco-editor-core/vs/loader.js"></script>
 <script src="./monaco-editor-core/vs/editor/editor.main.nls.js"></script>
 <script src="./monaco-editor-core/vs/editor/editor.main.js"></script>
-<script type="text/javascript" src="main.3d88707ec8dddc43b12c.js"></script>
-<script type="text/javascript" src="ngEntry.3d88707ec8dddc43b12c.js"></script>
-</body>
+<script type="text/javascript" src="main.e498bb2f5e4d5ce41a3e.js"></script><script type="text/javascript" src="ngEntry.e498bb2f5e4d5ce41a3e.js"></script></body>
 </html>
