@@ -3327,13 +3327,13 @@ input[type="range"]:focus + .rangeslider .rangeslider__handle {
   bottom: calc(50% - 0px);
   right: -2em;
   width: 2em;
-  height: calc(15em - 7px);
+  height: calc(12em - 9px);
   border: 2px solid;
   border-radius: 0 15px 15px 0;
   border-left: none; }
 
 [data-step="renderEmbeddedTemplate-refreshDescendantViews"] i:after {
-  top: -159px;
+  top: -121px;
   transform: translateY(-50%);
   left: calc(100% - 115px); }
 
