@@ -23,7 +23,7 @@
         request.send()
     }</script>
     <script src="https://unpkg.com/zone.js@0.8.26/dist/zone.js"></script>
-<link href="styles.5f52a2f1ca57afe9331c.css" rel="stylesheet"></head>
+<link href="styles.ece25148bc9fd13614b8.css" rel="stylesheet"></head>
 <body class="material">
 <header class="top">
     <h1 class="logo">
@@ -56,6 +56,7 @@
             <button class="btn --disabled" id="btn-pause">Pause</button>
             <button class="btn --disabled" id="btn-next">Next</button>
         </div>
+        <button class="btn" id="btn-save">Save</button>
     </div>
 </header>
 <section class="page">
@@ -165,9 +166,9 @@
 <script>
     var require = {
         paths: {
-            "monaco-worker": document.location.href,
+            "monaco-worker": location.href.split('#')[0],
             'vs': './monaco-editor-core/vs',
-            'vs/language/html':  document.location.href
+            'vs/language/html':   location.href.split('#')[0]
         }
     };
 </script>
@@ -175,5 +176,5 @@
 <script src="./monaco-editor-core/vs/editor/editor.main.nls.js"></script>
 <script src="./monaco-editor-core/vs/editor/editor.main.js"></script>
 
-<script type="text/javascript" src="main.5f52a2f1ca57afe9331c.js"></script><script type="text/javascript" src="ngEntry.5f52a2f1ca57afe9331c.js"></script></body>
+<script type="text/javascript" src="main.ece25148bc9fd13614b8.js"></script><script type="text/javascript" src="ngEntry.ece25148bc9fd13614b8.js"></script></body>
 </html>
