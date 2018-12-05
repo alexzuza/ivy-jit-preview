@@ -80,14 +80,14 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// __webpack_hash__
-/******/ 	__webpack_require__.h = "ece25148bc9fd13614b8";
+/******/ 	__webpack_require__.h = "5dfcc602e397a2666bc9";
 /******/
 /******/ 	// __webpack_chunkname__
 /******/ 	__webpack_require__.cn = "ngEntry";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 362);
+/******/ 	return __webpack_require__(__webpack_require__.s = 363);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -311,7 +311,7 @@ function __importDefault(mod) {
 /* unused harmony export SafeSubscriber */
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(51);
-/* harmony import */ var _Observer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(111);
+/* harmony import */ var _Observer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(112);
 /* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
 /* harmony import */ var _internal_symbol_rxSubscriber__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(82);
 /* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(26);
@@ -562,7 +562,7 @@ var SafeSubscriber = /*@__PURE__*/ (function (_super) {
 "use strict";
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/canReportError.js
-var canReportError = __webpack_require__(108);
+var canReportError = __webpack_require__(109);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/Subscriber.js
 var Subscriber = __webpack_require__(1);
@@ -571,7 +571,7 @@ var Subscriber = __webpack_require__(1);
 var rxSubscriber = __webpack_require__(82);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/Observer.js
-var Observer = __webpack_require__(111);
+var Observer = __webpack_require__(112);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/util/toSubscriber.js
 /** PURE_IMPORTS_START _Subscriber,_symbol_rxSubscriber,_Observer PURE_IMPORTS_END */
@@ -730,7 +730,7 @@ function getPromiseCtor(promiseCtor) {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return subscribeToResult; });
 /* harmony import */ var _InnerSubscriber__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(25);
-/* harmony import */ var _subscribeTo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(172);
+/* harmony import */ var _subscribeTo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(173);
 /** PURE_IMPORTS_START _InnerSubscriber,_subscribeTo PURE_IMPORTS_END */
 
 
@@ -784,7 +784,7 @@ var OuterSubscriber = /*@__PURE__*/ (function (_super) {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Subscription; });
 /* harmony import */ var _util_isArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(13);
-/* harmony import */ var _util_isObject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(169);
+/* harmony import */ var _util_isObject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(170);
 /* harmony import */ var _util_isFunction__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(51);
 /* harmony import */ var _util_tryCatch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(17);
 /* harmony import */ var _util_errorObject__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6);
@@ -955,7 +955,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // by the TypeScript language service and during build for verification. `ngc`
 // replaces this file with production index.ts when it rewrites private symbol
 // names.
-__export(__webpack_require__(391));
+__export(__webpack_require__(392));
 
 
 /***/ }),
@@ -971,7 +971,7 @@ __export(__webpack_require__(391));
 /* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1);
 /* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
 /* harmony import */ var _util_ObjectUnsubscribedError__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(45);
-/* harmony import */ var _SubjectSubscription__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(170);
+/* harmony import */ var _SubjectSubscription__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(171);
 /* harmony import */ var _internal_symbol_rxSubscriber__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(82);
 /** PURE_IMPORTS_START tslib,_Observable,_Subscriber,_Subscription,_util_ObjectUnsubscribedError,_SubjectSubscription,_internal_symbol_rxSubscriber PURE_IMPORTS_END */
 
@@ -2835,7 +2835,7 @@ var __global = typeof global !== 'undefined' && global;
 var _global = __global || __window || __self;
 exports.global = _global;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(112)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(113)))
 
 /***/ }),
 /* 11 */
@@ -2982,7 +2982,7 @@ function noSideEffects(fn) {
 }
 exports.noSideEffects = noSideEffects;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(112)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(113)))
 
 /***/ }),
 /* 15 */
@@ -3828,10 +3828,10 @@ exports.parseSelectorToR3Selector = parseSelectorToR3Selector;
 var Observable = __webpack_require__(2);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/isPromise.js
-var isPromise = __webpack_require__(175);
+var isPromise = __webpack_require__(176);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/isArrayLike.js
-var isArrayLike = __webpack_require__(174);
+var isArrayLike = __webpack_require__(175);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/symbol/observable.js
 var symbol_observable = __webpack_require__(44);
@@ -3862,7 +3862,7 @@ var fromArray = __webpack_require__(24);
 var Subscription = __webpack_require__(5);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/subscribeToPromise.js
-var subscribeToPromise = __webpack_require__(176);
+var subscribeToPromise = __webpack_require__(177);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/observable/fromPromise.js
 /** PURE_IMPORTS_START _Observable,_Subscription,_util_subscribeToPromise PURE_IMPORTS_END */
@@ -3893,7 +3893,7 @@ function fromPromise(input, scheduler) {
 //# sourceMappingURL=fromPromise.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/subscribeToIterable.js
-var subscribeToIterable = __webpack_require__(177);
+var subscribeToIterable = __webpack_require__(178);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/observable/fromIterable.js
 /** PURE_IMPORTS_START _Observable,_Subscription,_symbol_iterator,_util_subscribeToIterable PURE_IMPORTS_END */
@@ -3950,7 +3950,7 @@ function fromIterable(input, scheduler) {
 //# sourceMappingURL=fromIterable.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/subscribeToObservable.js
-var subscribeToObservable = __webpack_require__(173);
+var subscribeToObservable = __webpack_require__(174);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/observable/fromObservable.js
 /** PURE_IMPORTS_START _Observable,_Subscription,_symbol_observable,_util_subscribeToObservable PURE_IMPORTS_END */
@@ -3980,7 +3980,7 @@ function fromObservable(input, scheduler) {
 //# sourceMappingURL=fromObservable.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/subscribeTo.js
-var subscribeTo = __webpack_require__(172);
+var subscribeTo = __webpack_require__(173);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/observable/from.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return from; });
@@ -4039,7 +4039,7 @@ var util_1 = __webpack_require__(14);
 var assert_1 = __webpack_require__(20);
 var container_1 = __webpack_require__(91);
 var context_1 = __webpack_require__(269);
-var injector_1 = __webpack_require__(120);
+var injector_1 = __webpack_require__(121);
 var view_1 = __webpack_require__(18);
 /**
  * Returns whether the values are different from a change detection stand point.
@@ -4124,6 +4124,8 @@ function getNativeByTNode(tNode, hostView) {
 }
 exports.getNativeByTNode = getNativeByTNode;
 function getTNode(index, view) {
+    ngDevMode && assert_1.assertGreaterThan(index, -1, 'wrong index for TNode');
+    ngDevMode && assert_1.assertLessThan(index, view[view_1.TVIEW].data.length, 'wrong index for TNode');
     return view[view_1.TVIEW].data[index + view_1.HEADER_OFFSET];
 }
 exports.getTNode = getTNode;
@@ -4134,11 +4136,11 @@ function getComponentViewByIndex(nodeIndex, hostView) {
 }
 exports.getComponentViewByIndex = getComponentViewByIndex;
 function isContentQueryHost(tNode) {
-    return (tNode.flags & 16384 /* hasContentQuery */) !== 0;
+    return (tNode.flags & 4 /* hasContentQuery */) !== 0;
 }
 exports.isContentQueryHost = isContentQueryHost;
 function isComponent(tNode) {
-    return (tNode.flags & 4096 /* isComponent */) === 4096 /* isComponent */;
+    return (tNode.flags & 1 /* isComponent */) === 1 /* isComponent */;
 }
 exports.isComponent = isComponent;
 function isComponentDef(def) {
@@ -4181,6 +4183,7 @@ exports.getRootContext = getRootContext;
  * a component, directive or a DOM node).
  */
 function readPatchedData(target) {
+    ngDevMode && assert_1.assertDefined(target, 'Target expected');
     return target[context_1.MONKEY_PATCH_KEY_NAME];
 }
 exports.readPatchedData = readPatchedData;
@@ -4284,7 +4287,7 @@ exports.addAllToArray = addAllToArray;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return fromArray; });
 /* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
 /* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
-/* harmony import */ var _util_subscribeToArray__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(171);
+/* harmony import */ var _util_subscribeToArray__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(172);
 /** PURE_IMPORTS_START _Observable,_Subscription,_util_subscribeToArray PURE_IMPORTS_END */
 
 
@@ -4381,6 +4384,39 @@ var config = {
 
 /***/ }),
 /* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+var assertions_1 = __webpack_require__(240);
+var InterpolationConfig = /** @class */ (function () {
+    function InterpolationConfig(start, end) {
+        this.start = start;
+        this.end = end;
+    }
+    InterpolationConfig.fromArray = function (markers) {
+        if (!markers) {
+            return exports.DEFAULT_INTERPOLATION_CONFIG;
+        }
+        assertions_1.assertInterpolationSymbols('interpolation', markers);
+        return new InterpolationConfig(markers[0], markers[1]);
+    };
+    return InterpolationConfig;
+}());
+exports.InterpolationConfig = InterpolationConfig;
+exports.DEFAULT_INTERPOLATION_CONFIG = new InterpolationConfig('{{', '}}');
+
+
+/***/ }),
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4391,7 +4427,7 @@ function noop() { }
 
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4573,7 +4609,7 @@ exports.findNode = findNode;
 
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4892,39 +4928,6 @@ exports.NAMED_ENTITIES['ngsp'] = exports.NGSP_UNICODE;
 
 
 /***/ }),
-/* 30 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-Object.defineProperty(exports, "__esModule", { value: true });
-var assertions_1 = __webpack_require__(244);
-var InterpolationConfig = /** @class */ (function () {
-    function InterpolationConfig(start, end) {
-        this.start = start;
-        this.end = end;
-    }
-    InterpolationConfig.fromArray = function (markers) {
-        if (!markers) {
-            return exports.DEFAULT_INTERPOLATION_CONFIG;
-        }
-        assertions_1.assertInterpolationSymbols('interpolation', markers);
-        return new InterpolationConfig(markers[0], markers[1]);
-    };
-    return InterpolationConfig;
-}());
-exports.InterpolationConfig = InterpolationConfig;
-exports.DEFAULT_INTERPOLATION_CONFIG = new InterpolationConfig('{{', '}}');
-
-
-/***/ }),
 /* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5182,7 +5185,7 @@ function getOrCreateCurrentQueries(QueryType) {
     if (previousOrParentTNode && previousOrParentTNode !== lView[view_1.HOST_NODE] &&
         !util_1.isContentQueryHost(previousOrParentTNode)) {
         currentQueries && (currentQueries = lView[view_1.QUERIES] = currentQueries.clone());
-        previousOrParentTNode.flags |= 16384 /* hasContentQuery */;
+        previousOrParentTNode.flags |= 4 /* hasContentQuery */;
     }
     return currentQueries || (lView[view_1.QUERIES] = new QueryType(null, null, null));
 }
@@ -5345,7 +5348,7 @@ exports.leaveView = leaveView;
 Object.defineProperty(exports, "__esModule", { value: true });
 var change_detection_1 = __webpack_require__(127);
 var injector_1 = __webpack_require__(63);
-var view_1 = __webpack_require__(117);
+var view_1 = __webpack_require__(118);
 var util_1 = __webpack_require__(14);
 var errors_1 = __webpack_require__(222);
 var types_1 = __webpack_require__(42);
@@ -5817,8 +5820,8 @@ function identity(x) {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Notification; });
 /* harmony import */ var _observable_empty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(11);
-/* harmony import */ var _observable_of__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(102);
-/* harmony import */ var _observable_throwError__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(103);
+/* harmony import */ var _observable_of__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(103);
+/* harmony import */ var _observable_throwError__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(104);
 /** PURE_IMPORTS_START _observable_empty,_observable_of,_observable_throwError PURE_IMPORTS_END */
 
 
@@ -6268,18 +6271,18 @@ var di_1 = __webpack_require__(69);
 var errors_1 = __webpack_require__(273);
 var hooks_1 = __webpack_require__(147);
 var container_1 = __webpack_require__(91);
-var injector_1 = __webpack_require__(120);
-var projection_1 = __webpack_require__(202);
-var renderer_1 = __webpack_require__(94);
+var injector_1 = __webpack_require__(121);
+var projection_1 = __webpack_require__(203);
+var renderer_1 = __webpack_require__(95);
 var view_1 = __webpack_require__(18);
 var node_assert_1 = __webpack_require__(146);
 var node_manipulation_1 = __webpack_require__(149);
-var node_selector_matcher_1 = __webpack_require__(395);
+var node_selector_matcher_1 = __webpack_require__(396);
 var state_1 = __webpack_require__(32);
-var class_and_style_bindings_1 = __webpack_require__(396);
-var player_factory_1 = __webpack_require__(204);
-var util_1 = __webpack_require__(205);
-var tokens_1 = __webpack_require__(121);
+var class_and_style_bindings_1 = __webpack_require__(274);
+var player_factory_1 = __webpack_require__(205);
+var util_1 = __webpack_require__(150);
+var tokens_1 = __webpack_require__(94);
 var util_2 = __webpack_require__(23);
 /**
  * A permanent marker promise which signifies that the current CD tree is
@@ -6339,7 +6342,7 @@ function setHostBindings(tView, viewData) {
                     currentElementIndex = -instruction;
                     // Injector block and providers are taken into account.
                     var providerCount = tView.expandoInstructions[++i];
-                    bindingRootIndex += injector_1.INJECTOR_SIZE + providerCount;
+                    bindingRootIndex += injector_1.INJECTOR_BLOOM_PARENT_SIZE + providerCount;
                     currentDirectiveIndex = bindingRootIndex;
                 }
                 else {
@@ -6405,6 +6408,7 @@ function createNodeAtIndex(index, type, native, name, attrs) {
     if (tNode == null) {
         var previousOrParentTNode = state_1.getPreviousOrParentTNode();
         var isParent = state_1.getIsParent();
+        // TODO(misko): Refactor createTNode so that it does not depend on LView.
         tNode = tView.data[adjustedIndex] = createTNode(lView, type, adjustedIndex, name, attrs, null);
         // Now link ourselves into the tree.
         if (previousOrParentTNode) {
@@ -6432,10 +6436,7 @@ function createViewNode(index, view) {
     if (view[view_1.TVIEW].node == null) {
         view[view_1.TVIEW].node = createTNode(view, 2 /* View */, index, null, null, null);
     }
-    state_1.setIsParent(true);
-    var tNode = view[view_1.TVIEW].node;
-    state_1.setPreviousOrParentTNode(tNode);
-    return view[view_1.HOST_NODE] = tNode;
+    return view[view_1.HOST_NODE] = view[view_1.TVIEW].node;
 }
 exports.createViewNode = createViewNode;
 /**
@@ -6686,7 +6687,7 @@ function elementContainerEnd() {
     if (currentQueries) {
         lView[view_1.QUERIES] = currentQueries.addNode(previousOrParentTNode);
     }
-    hooks_1.queueLifecycleHooks(previousOrParentTNode.flags, tView);
+    hooks_1.queueLifecycleHooks(tView, previousOrParentTNode);
 }
 exports.elementContainerEnd = elementContainerEnd;
 /**
@@ -6936,52 +6937,55 @@ function listener(eventName, listenerFn, useCapture) {
     if (useCapture === void 0) { useCapture = false; }
     var lView = state_1.getLView();
     var tNode = state_1.getPreviousOrParentTNode();
+    var tView = lView[view_1.TVIEW];
+    var firstTemplatePass = tView.firstTemplatePass;
+    var tCleanup = firstTemplatePass && (tView.cleanup || (tView.cleanup = []));
     ngDevMode && node_assert_1.assertNodeOfPossibleTypes(tNode, 3 /* Element */, 0 /* Container */, 4 /* ElementContainer */);
     // add native event listener - applicable to elements only
     if (tNode.type === 3 /* Element */) {
         var native = util_2.getNativeByTNode(tNode, lView);
         ngDevMode && ngDevMode.rendererAddEventListener++;
         var renderer = lView[view_1.RENDERER];
+        var lCleanup = getCleanup(lView);
+        var lCleanupIndex = lCleanup.length;
+        var useCaptureOrSubIdx = useCapture;
         // In order to match current behavior, native DOM event listeners must be added for all
         // events (including outputs).
         if (renderer_1.isProceduralRenderer(renderer)) {
             var cleanupFn = renderer.listen(native, eventName, listenerFn);
-            storeCleanupFn(lView, cleanupFn);
+            lCleanup.push(listenerFn, cleanupFn);
+            useCaptureOrSubIdx = lCleanupIndex + 1;
         }
         else {
             var wrappedListener = wrapListenerWithPreventDefault(listenerFn);
             native.addEventListener(eventName, wrappedListener, useCapture);
-            var cleanupInstances = getCleanup(lView);
-            cleanupInstances.push(wrappedListener);
-            if (state_1.getFirstTemplatePass()) {
-                getTViewCleanup(lView).push(eventName, tNode.index, cleanupInstances.length - 1, useCapture);
-            }
+            lCleanup.push(wrappedListener);
         }
+        tCleanup && tCleanup.push(eventName, tNode.index, lCleanupIndex, useCaptureOrSubIdx);
     }
     // subscribe to directive outputs
     if (tNode.outputs === undefined) {
         // if we create TNode here, inputs must be undefined so we know they still need to be
         // checked
-        tNode.outputs = generatePropertyAliases(tNode.flags, 1 /* Output */);
+        tNode.outputs = generatePropertyAliases(tNode, 1 /* Output */);
     }
     var outputs = tNode.outputs;
-    var outputData;
-    if (outputs && (outputData = outputs[eventName])) {
-        createOutput(lView, outputData, listenerFn);
+    var props;
+    if (outputs && (props = outputs[eventName])) {
+        var propsLength = props.length;
+        if (propsLength) {
+            var lCleanup = getCleanup(lView);
+            for (var i = 0; i < propsLength; i += 2) {
+                ngDevMode && assert_1.assertDataInRange(lView, props[i]);
+                var subscription = lView[props[i]][props[i + 1]].subscribe(listenerFn);
+                var idx = lCleanup.length;
+                lCleanup.push(listenerFn, subscription);
+                tCleanup && tCleanup.push(eventName, tNode.index, idx, -(idx + 1));
+            }
+        }
     }
 }
 exports.listener = listener;
-/**
- * Iterates through the outputs associated with a particular event name and subscribes to
- * each output.
- */
-function createOutput(lView, outputs, listener) {
-    for (var i = 0; i < outputs.length; i += 2) {
-        ngDevMode && assert_1.assertDataInRange(lView, outputs[i]);
-        var subscription = lView[outputs[i]][outputs[i + 1]].subscribe(listener);
-        storeCleanupWithContext(lView, subscription, subscription.unsubscribe);
-    }
-}
 /**
  * Saves context for this cleanup function in LView.cleanupInstances.
  *
@@ -6990,9 +6994,10 @@ function createOutput(lView, outputs, listener) {
  * - Index of context we just saved in LView.cleanupInstances
  */
 function storeCleanupWithContext(lView, context, cleanupFn) {
-    getCleanup(lView).push(context);
+    var lCleanup = getCleanup(lView);
+    lCleanup.push(context);
     if (lView[view_1.TVIEW].firstTemplatePass) {
-        getTViewCleanup(lView).push(cleanupFn, lView[view_1.CLEANUP].length - 1);
+        getTViewCleanup(lView).push(cleanupFn, lCleanup.length - 1);
     }
 }
 exports.storeCleanupWithContext = storeCleanupWithContext;
@@ -7028,7 +7033,7 @@ function elementEnd() {
     if (currentQueries) {
         lView[view_1.QUERIES] = currentQueries.addNode(previousOrParentTNode);
     }
-    hooks_1.queueLifecycleHooks(previousOrParentTNode.flags, state_1.getLView()[view_1.TVIEW]);
+    hooks_1.queueLifecycleHooks(state_1.getLView()[view_1.TVIEW], previousOrParentTNode);
     state_1.decreaseElementDepthCount();
 }
 exports.elementEnd = elementEnd;
@@ -7112,18 +7117,20 @@ exports.elementProperty = elementProperty;
  * @param tViews Any TViews attached to this node
  * @returns the TNode object
  */
-function createTNode(viewData, type, adjustedIndex, tagName, attrs, tViews) {
+function createTNode(lView, type, adjustedIndex, tagName, attrs, tViews) {
     var previousOrParentTNode = state_1.getPreviousOrParentTNode();
     ngDevMode && ngDevMode.tNode++;
     var parent = state_1.getIsParent() ? previousOrParentTNode : previousOrParentTNode && previousOrParentTNode.parent;
     // Parents cannot cross component boundaries because components will be used in multiple places,
     // so it's only set if the view is the same.
-    var parentInSameView = parent && viewData && parent !== viewData[view_1.HOST_NODE];
+    var parentInSameView = parent && lView && parent !== lView[view_1.HOST_NODE];
     var tParent = parentInSameView ? parent : null;
     return {
         type: type,
         index: adjustedIndex,
         injectorIndex: tParent ? tParent.injectorIndex : -1,
+        directiveStart: -1,
+        directiveEnd: -1,
         flags: 0,
         providerIndexes: 0,
         tagName: tagName,
@@ -7166,13 +7173,12 @@ function setNgReflectProperties(lView, element, propName, value) {
  * @param Direction direction whether to consider inputs or outputs
  * @returns PropertyAliases|null aggregate of all properties if any, `null` otherwise
  */
-function generatePropertyAliases(tNodeFlags, direction) {
+function generatePropertyAliases(tNode, direction) {
     var tView = state_1.getLView()[view_1.TVIEW];
-    var count = tNodeFlags & 4095 /* DirectiveCountMask */;
     var propStore = null;
-    if (count > 0) {
-        var start = tNodeFlags >> 16 /* DirectiveStartingIndexShift */;
-        var end = start + count;
+    var start = tNode.directiveStart;
+    var end = tNode.directiveEnd;
+    if (end > start) {
         var isInput = direction === 0 /* Input */;
         var defs = tView.data;
         for (var i = start; i < end; i++) {
@@ -7207,7 +7213,7 @@ function elementClassProp(index, classIndex, value, directive) {
         return hackImplementationOfElementClassProp(index, classIndex, value, directive); // proper supported in next PR
     }
     var val = (value instanceof player_factory_1.BoundPlayerFactory) ? value : (!!value);
-    class_and_style_bindings_1.updateClassProp(util_1.getStylingContext(index, state_1.getLView()), classIndex, val);
+    class_and_style_bindings_1.updateClassProp(util_1.getStylingContext(index + view_1.HEADER_OFFSET, state_1.getLView()), classIndex, val);
 }
 exports.elementClassProp = elementClassProp;
 /**
@@ -7250,21 +7256,21 @@ function elementStyling(classDeclarations, styleDeclarations, styleSanitizer, di
     if (!tNode.stylingTemplate) {
         var hasClassInput = inputData && inputData.hasOwnProperty('class') ? true : false;
         if (hasClassInput) {
-            tNode.flags |= 32768 /* hasClassInput */;
+            tNode.flags |= 8 /* hasClassInput */;
         }
         // initialize the styling template.
         tNode.stylingTemplate = class_and_style_bindings_1.createStylingContextTemplate(classDeclarations, styleDeclarations, styleSanitizer, hasClassInput);
     }
     if (styleDeclarations && styleDeclarations.length ||
         classDeclarations && classDeclarations.length) {
-        var index = tNode.index - view_1.HEADER_OFFSET;
+        var index = tNode.index;
         if (delegateToClassInput(tNode)) {
             var lView = state_1.getLView();
             var stylingContext = util_1.getStylingContext(index, lView);
             var initialClasses = stylingContext[6 /* PreviousOrCachedMultiClassValue */];
             setInputsForProperty(lView, tNode.inputs['class'], initialClasses);
         }
-        elementStylingApply(index);
+        elementStylingApply(index - view_1.HEADER_OFFSET);
     }
 }
 exports.elementStyling = elementStyling;
@@ -7289,7 +7295,7 @@ function elementStylingApply(index, directive) {
     }
     var lView = state_1.getLView();
     var isFirstRender = (lView[view_1.FLAGS] & 1 /* CreationMode */) !== 0;
-    var totalPlayersQueued = class_and_style_bindings_1.renderStyleAndClassBindings(util_1.getStylingContext(index, lView), lView[view_1.RENDERER], lView, isFirstRender);
+    var totalPlayersQueued = class_and_style_bindings_1.renderStyleAndClassBindings(util_1.getStylingContext(index + view_1.HEADER_OFFSET, lView), lView[view_1.RENDERER], lView, isFirstRender);
     if (totalPlayersQueued > 0) {
         var rootContext = util_2.getRootContext(lView);
         scheduleTick(rootContext, 2 /* FlushPlayers */);
@@ -7318,10 +7324,8 @@ exports.elementStylingApply = elementStylingApply;
  * @param directive the ref to the directive that is attempting to change styling.
  */
 function elementStyleProp(index, styleIndex, value, suffix, directive) {
-    if (directive != undefined)
-        return hackImplementationOfElementStyleProp(index, styleIndex, value, suffix, directive); // supported in next PR
     var valueToAdd = null;
-    if (value) {
+    if (value !== null) {
         if (suffix) {
             // when a suffix is applied then it will bypass
             // sanitization entirely (b/c a new string is created)
@@ -7335,7 +7339,12 @@ function elementStyleProp(index, styleIndex, value, suffix, directive) {
             valueToAdd = value;
         }
     }
-    class_and_style_bindings_1.updateStyleProp(util_1.getStylingContext(index, state_1.getLView()), styleIndex, valueToAdd);
+    if (directive != undefined) {
+        hackImplementationOfElementStyleProp(index, styleIndex, valueToAdd, suffix, directive);
+    }
+    else {
+        class_and_style_bindings_1.updateStyleProp(util_1.getStylingContext(index + view_1.HEADER_OFFSET, state_1.getLView()), styleIndex, valueToAdd);
+    }
 }
 exports.elementStyleProp = elementStyleProp;
 /**
@@ -7365,7 +7374,7 @@ function elementStylingMap(index, classes, styles, directive) {
         return hackImplementationOfElementStylingMap(index, classes, styles, directive); // supported in next PR
     var lView = state_1.getLView();
     var tNode = util_2.getTNode(index, lView);
-    var stylingContext = util_1.getStylingContext(index, lView);
+    var stylingContext = util_1.getStylingContext(index + view_1.HEADER_OFFSET, lView);
     if (delegateToClassInput(tNode) && classes !== tokens_1.NO_CHANGE) {
         var initialClasses = stylingContext[6 /* PreviousOrCachedMultiClassValue */];
         var classInputVal = (initialClasses.length ? (initialClasses + ' ') : '') + classes;
@@ -7378,10 +7387,34 @@ function hackImplementationOfElementStyling(classDeclarations, styleDeclarations
     var node = util_2.getNativeByTNode(state_1.getPreviousOrParentTNode(), state_1.getLView());
     ngDevMode && assert_1.assertDefined(node, 'expecting parent DOM node');
     var hostStylingHackMap = (node.hostStylingHack || (node.hostStylingHack = new Map()));
+    var squashedClassDeclarations = hackSquashDeclaration(classDeclarations);
     hostStylingHackMap.set(directive, {
-        classDeclarations: hackSquashDeclaration(classDeclarations),
+        classDeclarations: squashedClassDeclarations,
         styleDeclarations: hackSquashDeclaration(styleDeclarations), styleSanitizer: styleSanitizer
     });
+    hackSetStaticClasses(node, squashedClassDeclarations);
+}
+function hackSetStaticClasses(node, classDeclarations) {
+    // Static classes need to be set here because static classes don't generate
+    // elementClassProp instructions.
+    var lView = state_1.getLView();
+    var staticClassStartIndex = classDeclarations.indexOf(1 /* VALUES_MODE */) + 1;
+    var renderer = lView[view_1.RENDERER];
+    for (var i = staticClassStartIndex; i < classDeclarations.length; i += 2) {
+        var className = classDeclarations[i];
+        var value = classDeclarations[i + 1];
+        // if value is true, then this is a static class and we should set it now.
+        // class bindings are set separately in elementClassProp.
+        if (value === true) {
+            if (renderer_1.isProceduralRenderer(renderer)) {
+                renderer.addClass(node, className);
+            }
+            else {
+                var classList = node.classList;
+                classList.add(className);
+            }
+        }
+    }
 }
 function hackSquashDeclaration(declarations) {
     // assume the array is correct. This should be fine for View Engine compatibility.
@@ -7406,7 +7439,13 @@ function hackImplementationOfElementStylingApply(index, directive) {
     // Do nothing because the hack implementation is eager.
 }
 function hackImplementationOfElementStyleProp(index, styleIndex, value, suffix, directive) {
-    throw new Error('unimplemented. Should not be needed by ViewEngine compatibility');
+    var lView = state_1.getLView();
+    var node = util_2.getNativeByIndex(index, lView);
+    ngDevMode && assert_1.assertDefined(node, 'could not locate node');
+    var hostStylingHack = node.hostStylingHack.get(directive);
+    var styleName = hostStylingHack.styleDeclarations[styleIndex];
+    var renderer = lView[view_1.RENDERER];
+    class_and_style_bindings_1.setStyle(node, styleName, value, renderer, null);
 }
 function hackImplementationOfElementStylingMap(index, classes, styles, directive) {
     throw new Error('unimplemented. Should not be needed by ViewEngine compatibility');
@@ -7508,24 +7547,24 @@ function resolveDirectives(tView, viewData, directives, tNode, localRefs) {
 /**
  * Instantiate all the directives that were previously resolved on the current node.
  */
-function instantiateAllDirectives(tView, viewData, previousOrParentTNode) {
-    var start = previousOrParentTNode.flags >> 16 /* DirectiveStartingIndexShift */;
-    var end = start + (previousOrParentTNode.flags & 4095 /* DirectiveCountMask */);
+function instantiateAllDirectives(tView, lView, tNode) {
+    var start = tNode.directiveStart;
+    var end = tNode.directiveEnd;
     if (!state_1.getFirstTemplatePass() && start < end) {
-        di_1.getOrCreateNodeInjectorForNode(previousOrParentTNode, viewData);
+        di_1.getOrCreateNodeInjectorForNode(tNode, lView);
     }
     for (var i = start; i < end; i++) {
         var def = tView.data[i];
         if (util_2.isComponentDef(def)) {
-            addComponentLogic(viewData, previousOrParentTNode, def);
+            addComponentLogic(lView, tNode, def);
         }
-        var directive = di_1.getNodeInjectable(tView.data, viewData, i, previousOrParentTNode);
-        postProcessDirective(viewData, directive, def, i);
+        var directive = di_1.getNodeInjectable(tView.data, lView, i, tNode);
+        postProcessDirective(lView, directive, def, i);
     }
 }
-function invokeDirectivesHostBindings(tView, viewData, previousOrParentTNode) {
-    var start = previousOrParentTNode.flags >> 16 /* DirectiveStartingIndexShift */;
-    var end = start + (previousOrParentTNode.flags & 4095 /* DirectiveCountMask */);
+function invokeDirectivesHostBindings(tView, viewData, tNode) {
+    var start = tNode.directiveStart;
+    var end = tNode.directiveEnd;
     var expando = tView.expandoInstructions;
     var firstTemplatePass = state_1.getFirstTemplatePass();
     for (var i = start; i < end; i++) {
@@ -7534,13 +7573,14 @@ function invokeDirectivesHostBindings(tView, viewData, previousOrParentTNode) {
         if (def.hostBindings) {
             var previousExpandoLength = expando.length;
             state_1.setCurrentDirectiveDef(def);
-            def.hostBindings(1 /* Create */, directive, previousOrParentTNode.index);
+            def.hostBindings(1 /* Create */, directive, tNode.index);
             state_1.setCurrentDirectiveDef(null);
             // `hostBindings` function may or may not contain `allocHostVars` call
             // (e.g. it may not if it only contains host listeners), so we need to check whether
-            // `expandoInstructions` has changed and if not - we push `null` to keep indices in sync
+            // `expandoInstructions` has changed and if not - we still push `hostBindings` to
+            // expando block, to make sure we execute it for DI cycle
             if (previousExpandoLength === expando.length && firstTemplatePass) {
-                expando.push(null);
+                expando.push(def.hostBindings);
             }
         }
         else if (firstTemplatePass) {
@@ -7625,9 +7665,9 @@ function findDirectiveMatches(tView, viewData, tNode) {
                 matches || (matches = []);
                 di_1.diPublicInInjector(di_1.getOrCreateNodeInjectorForNode(state_1.getPreviousOrParentTNode(), viewData), viewData, def.type);
                 if (util_2.isComponentDef(def)) {
-                    if (tNode.flags & 4096 /* isComponent */)
+                    if (tNode.flags & 1 /* isComponent */)
                         errors_1.throwMultipleComponentError(tNode);
-                    tNode.flags = 4096 /* isComponent */;
+                    tNode.flags = 1 /* isComponent */;
                     // The component is always stored first with directives after.
                     matches.unshift(def);
                 }
@@ -7655,10 +7695,16 @@ function queueHostBindingForCheck(tView, def, hostVars) {
     ngDevMode &&
         assert_1.assertEqual(state_1.getFirstTemplatePass(), true, 'Should only be called in first template pass.');
     var expando = tView.expandoInstructions;
-    // check whether a given `hostBindings` function already exists in expandoInstructions,
+    var length = expando.length;
+    // Check whether a given `hostBindings` function already exists in expandoInstructions,
     // which can happen in case directive definition was extended from base definition (as a part of
-    // the `InheritDefinitionFeature` logic)
-    if (expando.length < 2 || expando[expando.length - 2] !== def.hostBindings) {
+    // the `InheritDefinitionFeature` logic). If we found the same `hostBindings` function in the
+    // list, we just increase the number of host vars associated with that function, but do not add it
+    // into the list again.
+    if (length >= 2 && expando[length - 2] === def.hostBindings) {
+        expando[length - 1] = expando[length - 1] + hostVars;
+    }
+    else {
         expando.push(def.hostBindings, hostVars);
     }
 }
@@ -7697,11 +7743,12 @@ function saveNameToExportMap(index, def, exportsMap) {
 function initNodeFlags(tNode, index, numberOfDirectives) {
     ngDevMode && assert_1.assertEqual(state_1.getFirstTemplatePass(), true, 'expected firstTemplatePass to be true');
     var flags = tNode.flags;
-    ngDevMode && assert_1.assertEqual(flags === 0 || flags === 4096 /* isComponent */, true, 'expected node flags to not be initialized');
-    ngDevMode && assert_1.assertNotEqual(numberOfDirectives, 4095 /* DirectiveCountMask */, 'Reached the max number of directives');
+    ngDevMode && assert_1.assertEqual(flags === 0 || flags === 1 /* isComponent */, true, 'expected node flags to not be initialized');
+    ngDevMode && assert_1.assertNotEqual(numberOfDirectives, tNode.directiveEnd - tNode.directiveStart, 'Reached the max number of directives');
     // When the first directive is created on a node, save the index
-    tNode.flags = index << 16 /* DirectiveStartingIndexShift */ | flags & 4096 /* isComponent */ |
-        numberOfDirectives;
+    tNode.flags = flags & 1 /* isComponent */;
+    tNode.directiveStart = index;
+    tNode.directiveEnd = index + numberOfDirectives;
     tNode.providerIndexes = index;
 }
 exports.initNodeFlags = initNodeFlags;
@@ -7843,7 +7890,7 @@ function template(index, templateFn, consts, vars, tagName, attrs, localRefs, lo
     if (currentQueries) {
         lView[view_1.QUERIES] = currentQueries.addNode(previousOrParentTNode);
     }
-    hooks_1.queueLifecycleHooks(tNode.flags, tView);
+    hooks_1.queueLifecycleHooks(tView, tNode);
     state_1.setIsParent(false);
 }
 exports.template = template;
@@ -8202,7 +8249,7 @@ function projection(nodeIndex, selectorIndex, attrs) {
         else {
             // This flag must be set now or we won't know that this node is projected
             // if the nodes are inserted into a container later.
-            nodeToProject.flags |= 8192 /* isProjected */;
+            nodeToProject.flags |= 2 /* isProjected */;
             node_manipulation_1.appendProjectedNode(nodeToProject, tProjectionNode, lView, projectedView);
         }
         // If we are finished with a list of re-projected nodes, we need to get
@@ -8682,14 +8729,14 @@ function initializeTNodeInputs(tNode) {
     if (tNode) {
         if (tNode.inputs === undefined) {
             // mark inputs as checked
-            tNode.inputs = generatePropertyAliases(tNode.flags, 0 /* Input */);
+            tNode.inputs = generatePropertyAliases(tNode, 0 /* Input */);
         }
         return tNode.inputs;
     }
     return null;
 }
 function delegateToClassInput(tNode) {
-    return tNode.flags & 32768 /* hasClassInput */;
+    return tNode.flags & 8 /* hasClassInput */;
 }
 exports.delegateToClassInput = delegateToClassInput;
 /**
@@ -8906,9 +8953,9 @@ var ObjectUnsubscribedError = ObjectUnsubscribedErrorImpl;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return concat; });
 /* harmony import */ var _util_isScheduler__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(15);
-/* harmony import */ var _of__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(102);
+/* harmony import */ var _of__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(103);
 /* harmony import */ var _from__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(22);
-/* harmony import */ var _operators_concatAll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(164);
+/* harmony import */ var _operators_concatAll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(165);
 /** PURE_IMPORTS_START _util_isScheduler,_of,_from,_operators_concatAll PURE_IMPORTS_END */
 
 
@@ -9124,7 +9171,7 @@ var reflective_injector_1 = __webpack_require__(411);
 exports.ReflectiveInjector = reflective_injector_1.ReflectiveInjector;
 var r3_injector_1 = __webpack_require__(206);
 exports.createInjector = r3_injector_1.createInjector;
-var reflective_provider_1 = __webpack_require__(286);
+var reflective_provider_1 = __webpack_require__(287);
 exports.ResolvedReflectiveFactory = reflective_provider_1.ResolvedReflectiveFactory;
 var reflective_key_1 = __webpack_require__(215);
 exports.ReflectiveKey = reflective_key_1.ReflectiveKey;
@@ -9369,9 +9416,9 @@ exports.InjectionToken = InjectionToken;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-__webpack_require__(118);
+__webpack_require__(119);
 var constants_1 = __webpack_require__(144);
-var view_1 = __webpack_require__(117);
+var view_1 = __webpack_require__(118);
 var util_1 = __webpack_require__(14);
 var fields_1 = __webpack_require__(61);
 exports.EMPTY = {};
@@ -10145,7 +10192,7 @@ exports.RecurseVisitor = RecurseVisitor;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var property_1 = __webpack_require__(75);
+var property_1 = __webpack_require__(76);
 exports.NG_COMPONENT_DEF = property_1.getClosureSafeProperty({ ngComponentDef: property_1.getClosureSafeProperty });
 exports.NG_DIRECTIVE_DEF = property_1.getClosureSafeProperty({ ngDirectiveDef: property_1.getClosureSafeProperty });
 exports.NG_INJECTABLE_DEF = property_1.getClosureSafeProperty({ ngInjectableDef: property_1.getClosureSafeProperty });
@@ -10190,18 +10237,18 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var injector_1 = __webpack_require__(63);
 var injector_compatibility_1 = __webpack_require__(40);
-var ng_module_factory_1 = __webpack_require__(77);
+var ng_module_factory_1 = __webpack_require__(78);
 var assert_1 = __webpack_require__(20);
 var di_1 = __webpack_require__(69);
 var instructions_1 = __webpack_require__(41);
 var container_1 = __webpack_require__(91);
-var renderer_1 = __webpack_require__(94);
+var renderer_1 = __webpack_require__(95);
 var view_1 = __webpack_require__(18);
 var node_assert_1 = __webpack_require__(146);
 var node_manipulation_1 = __webpack_require__(149);
 var state_1 = __webpack_require__(32);
 var util_1 = __webpack_require__(23);
-var view_ref_1 = __webpack_require__(274);
+var view_ref_1 = __webpack_require__(275);
 /**
  * Creates an ElementRef from the most recent node.
  *
@@ -10419,8 +10466,9 @@ function createContainerRef(ViewContainerRefToken, ElementRefToken, hostTNode, h
             };
             ViewContainerRef_.prototype.detach = function (index) {
                 var adjustedIdx = this._adjustIndex(index, -1);
-                node_manipulation_1.detachView(this._lContainer, adjustedIdx, !!this._hostTNode.detached);
-                return this._viewRefs.splice(adjustedIdx, 1)[0] || null;
+                var view = node_manipulation_1.detachView(this._lContainer, adjustedIdx, !!this._hostTNode.detached);
+                var wasDetached = this._viewRefs.splice(adjustedIdx, 1)[0] != null;
+                return wasDetached ? new view_ref_1.ViewRef(view, view[view_1.CONTEXT], view[view_1.CONTAINER_INDEX]) : null;
             };
             ViewContainerRef_.prototype._adjustIndex = function (index, shift) {
                 if (shift === void 0) { shift = 0; }
@@ -10483,7 +10531,7 @@ exports.injectChangeDetectorRef = injectChangeDetectorRef;
  */
 function createViewRef(hostTNode, hostView, context) {
     if (util_1.isComponent(hostTNode)) {
-        var componentIndex = hostTNode.flags >> 16 /* DirectiveStartingIndexShift */;
+        var componentIndex = hostTNode.directiveStart;
         var componentView = util_1.getComponentViewByIndex(hostTNode.index, hostView);
         return new view_ref_1.ViewRef(componentView, context, componentIndex);
     }
@@ -10527,7 +10575,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var di_1 = __webpack_require__(69);
 var util_1 = __webpack_require__(14);
 var noop_1 = __webpack_require__(93);
-var property_1 = __webpack_require__(75);
+var property_1 = __webpack_require__(76);
 var defs_1 = __webpack_require__(31);
 var forward_ref_1 = __webpack_require__(70);
 var injection_token_1 = __webpack_require__(52);
@@ -11288,10 +11336,10 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var parse_util_1 = __webpack_require__(47);
-var html = __webpack_require__(28);
-var interpolation_config_1 = __webpack_require__(30);
-var lex = __webpack_require__(369);
-var tags_1 = __webpack_require__(29);
+var html = __webpack_require__(29);
+var interpolation_config_1 = __webpack_require__(27);
+var lex = __webpack_require__(370);
+var tags_1 = __webpack_require__(30);
 var TreeError = /** @class */ (function (_super) {
     __extends(TreeError, _super);
     function TreeError(elementName, span, msg) {
@@ -11658,7 +11706,7 @@ function lastOnStack(stack, element) {
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var decorators_1 = __webpack_require__(76);
+var decorators_1 = __webpack_require__(77);
 /**
  * Inject decorator and metadata.
  *
@@ -11715,7 +11763,7 @@ var injector_compatibility_1 = __webpack_require__(40);
 var assert_1 = __webpack_require__(20);
 var definition_1 = __webpack_require__(53);
 var fields_1 = __webpack_require__(61);
-var injector_1 = __webpack_require__(120);
+var injector_1 = __webpack_require__(121);
 var view_1 = __webpack_require__(18);
 var node_assert_1 = __webpack_require__(146);
 var state_1 = __webpack_require__(32);
@@ -11828,7 +11876,7 @@ function getOrCreateNodeInjectorForNode(tNode, hostView) {
         insertBloom(tView.data, tNode); // foundation for node bloom
         insertBloom(hostView, null); // foundation for cumulative bloom
         insertBloom(tView.blueprint, null);
-        ngDevMode && assert_1.assertEqual(tNode.flags === 0 || tNode.flags === 4096 /* isComponent */, true, 'expected tNode.flags to not be initialized');
+        ngDevMode && assert_1.assertEqual(tNode.flags === 0 || tNode.flags === 1 /* isComponent */, true, 'expected tNode.flags to not be initialized');
     }
     var parentLoc = getParentInjectorLocation(tNode, hostView);
     var parentIndex = util_1.getParentInjectorIndex(parentLoc);
@@ -12061,28 +12109,30 @@ function getOrCreateInjectable(tNode, lView, token, flags, notFoundValue) {
 }
 exports.getOrCreateInjectable = getOrCreateInjectable;
 var NOT_FOUND = {};
-function searchTokensOnInjector(injectorIndex, injectorView, token, previousTView) {
-    var currentTView = injectorView[view_1.TVIEW];
+function searchTokensOnInjector(injectorIndex, lView, token, previousTView) {
+    var currentTView = lView[view_1.TVIEW];
     var tNode = currentTView.data[injectorIndex + injector_1.TNODE];
-    // First, we step through providers
-    var canAccessViewProviders = false;
-    // We need to determine if view providers can be accessed by the starting element.
-    // It happens in 2 cases:
-    // 1) On the initial element injector , if we are instantiating a token which can see the
-    // viewProviders of the component of that element. Such token are:
-    // - the component itself (but not other directives)
-    // - viewProviders tokens of the component (but not providers tokens)
-    // 2) Upper in the element injector tree, if the starting element is actually in the view of
-    // the current element. To determine this, we track the transition of view during the climb,
-    // and check the host node of the current view to identify component views.
-    if (previousTView == null && util_1.isComponent(tNode) && includeViewProviders ||
-        previousTView != null && previousTView != currentTView &&
-            (currentTView.node == null || currentTView.node.type === 3 /* Element */)) {
-        canAccessViewProviders = true;
-    }
-    var injectableIdx = locateDirectiveOrProvider(tNode, injectorView, token, canAccessViewProviders);
+    // First, we need to determine if view providers can be accessed by the starting element.
+    // There are two possibities
+    var canAccessViewProviders = previousTView == null ?
+        // 1) This is the first invocation `previousTView == null` which means that we are at the
+        // `TNode` of where injector is starting to look. In such a case the only time we are allowed
+        // to look into the ViewProviders is if:
+        // - we are on a component
+        // - AND the injector set `includeViewProviders` to true (implying that the token can see
+        // ViewProviders because it is the Component or a Service which itself was declared in
+        // ViewProviders)
+        (util_1.isComponent(tNode) && includeViewProviders) :
+        // 2) `previousTView != null` which means that we are now walking across the parent nodes.
+        // In such a case we are only allowed to look into the ViewProviders if:
+        // - We just crossed from child View to Parent View `previousTView != currentTView`
+        // - AND the parent TNode is an Element.
+        // This means that we just came from the Component's View and therefore are allowed to see
+        // into the ViewProviders.
+        (previousTView != currentTView && (tNode.type === 3 /* Element */));
+    var injectableIdx = locateDirectiveOrProvider(tNode, lView, token, canAccessViewProviders);
     if (injectableIdx !== null) {
-        return getNodeInjectable(currentTView.data, injectorView, injectableIdx, tNode);
+        return getNodeInjectable(currentTView.data, lView, injectableIdx, tNode);
     }
     else {
         return NOT_FOUND;
@@ -12102,15 +12152,15 @@ function locateDirectiveOrProvider(tNode, lView, token, canAccessViewProviders) 
     var nodeFlags = tNode.flags;
     var nodeProviderIndexes = tNode.providerIndexes;
     var tInjectables = tView.data;
-    var startInjectables = nodeProviderIndexes & 65535 /* ProvidersStartIndexMask */;
-    var startDirectives = nodeFlags >> 16 /* DirectiveStartingIndexShift */;
+    var injectablesStart = nodeProviderIndexes & 65535 /* ProvidersStartIndexMask */;
+    var directivesStart = tNode.directiveStart;
+    var directiveEnd = tNode.directiveEnd;
     var cptViewProvidersCount = nodeProviderIndexes >> 16 /* CptViewProvidersCountShift */;
-    var startingIndex = canAccessViewProviders ? startInjectables : startInjectables + cptViewProvidersCount;
-    var directiveCount = nodeFlags & 4095 /* DirectiveCountMask */;
-    for (var i = startingIndex; i < startDirectives + directiveCount; i++) {
+    var startingIndex = canAccessViewProviders ? injectablesStart : injectablesStart + cptViewProvidersCount;
+    for (var i = startingIndex; i < directiveEnd; i++) {
         var providerTokenOrDef = tInjectables[i];
-        if (i < startDirectives && token === providerTokenOrDef ||
-            i >= startDirectives && providerTokenOrDef.type === token) {
+        if (i < directivesStart && token === providerTokenOrDef ||
+            i >= directivesStart && providerTokenOrDef.type === token) {
             return i;
         }
     }
@@ -12272,7 +12322,7 @@ exports.getInheritedFactory = getInheritedFactory;
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var util_1 = __webpack_require__(14);
-var property_1 = __webpack_require__(75);
+var property_1 = __webpack_require__(76);
 var __forward_ref__ = property_1.getClosureSafeProperty({ __forward_ref__: property_1.getClosureSafeProperty });
 /**
  * Allows to refer to references which are not yet defined.
@@ -12324,6 +12374,137 @@ exports.resolveForwardRef = resolveForwardRef;
 
 "use strict";
 
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+var util_1 = __webpack_require__(14);
+function devModeEqual(a, b) {
+    var isListLikeIterableA = isListLikeIterable(a);
+    var isListLikeIterableB = isListLikeIterable(b);
+    if (isListLikeIterableA && isListLikeIterableB) {
+        return areIterablesEqual(a, b, devModeEqual);
+    }
+    else {
+        var isAObject = a && (typeof a === 'object' || typeof a === 'function');
+        var isBObject = b && (typeof b === 'object' || typeof b === 'function');
+        if (!isListLikeIterableA && isAObject && !isListLikeIterableB && isBObject) {
+            return true;
+        }
+        else {
+            return util_1.looseIdentical(a, b);
+        }
+    }
+}
+exports.devModeEqual = devModeEqual;
+/**
+ * Indicates that the result of a {@link Pipe} transformation has changed even though the
+ * reference has not changed.
+ *
+ * Wrapped values are unwrapped automatically during the change detection, and the unwrapped value
+ * is stored.
+ *
+ * Example:
+ *
+ * ```
+ * if (this._latestValue === this._latestReturnedValue) {
+ *    return this._latestReturnedValue;
+ *  } else {
+ *    this._latestReturnedValue = this._latestValue;
+ *    return WrappedValue.wrap(this._latestValue); // this will force update
+ *  }
+ * ```
+ *
+ * @publicApi
+ */
+var WrappedValue = /** @class */ (function () {
+    function WrappedValue(value) {
+        this.wrapped = value;
+    }
+    /** Creates a wrapped value. */
+    WrappedValue.wrap = function (value) { return new WrappedValue(value); };
+    /**
+     * Returns the underlying value of a wrapped value.
+     * Returns the given `value` when it is not wrapped.
+     **/
+    WrappedValue.unwrap = function (value) { return WrappedValue.isWrapped(value) ? value.wrapped : value; };
+    /** Returns true if `value` is a wrapped value. */
+    WrappedValue.isWrapped = function (value) { return value instanceof WrappedValue; };
+    return WrappedValue;
+}());
+exports.WrappedValue = WrappedValue;
+/**
+ * Represents a basic change from a previous to a new value.
+ *
+ * @publicApi
+ */
+var SimpleChange = /** @class */ (function () {
+    function SimpleChange(previousValue, currentValue, firstChange) {
+        this.previousValue = previousValue;
+        this.currentValue = currentValue;
+        this.firstChange = firstChange;
+    }
+    /**
+     * Check whether the new value is the first value assigned.
+     */
+    SimpleChange.prototype.isFirstChange = function () { return this.firstChange; };
+    return SimpleChange;
+}());
+exports.SimpleChange = SimpleChange;
+function isListLikeIterable(obj) {
+    if (!isJsObject(obj))
+        return false;
+    return Array.isArray(obj) ||
+        (!(obj instanceof Map) && // JS Map are iterables but return entries as [k, v]
+            util_1.getSymbolIterator() in obj); // JS Iterable have a Symbol.iterator prop
+}
+exports.isListLikeIterable = isListLikeIterable;
+function areIterablesEqual(a, b, comparator) {
+    var iterator1 = a[util_1.getSymbolIterator()]();
+    var iterator2 = b[util_1.getSymbolIterator()]();
+    while (true) {
+        var item1 = iterator1.next();
+        var item2 = iterator2.next();
+        if (item1.done && item2.done)
+            return true;
+        if (item1.done || item2.done)
+            return false;
+        if (!comparator(item1.value, item2.value))
+            return false;
+    }
+}
+exports.areIterablesEqual = areIterablesEqual;
+function iterateListLike(obj, fn) {
+    if (Array.isArray(obj)) {
+        for (var i = 0; i < obj.length; i++) {
+            fn(obj[i]);
+        }
+    }
+    else {
+        var iterator = obj[util_1.getSymbolIterator()]();
+        var item = void 0;
+        while (!((item = iterator.next()).done)) {
+            fn(item.value);
+        }
+    }
+}
+exports.iterateListLike = iterateListLike;
+function isJsObject(o) {
+    return o !== null && (typeof o === 'function' || typeof o === 'object');
+}
+exports.isJsObject = isJsObject;
+
+
+/***/ }),
+/* 72 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 Object.defineProperty(exports, "__esModule", { value: true });
 var EventType;
 (function (EventType) {
@@ -12363,7 +12544,7 @@ exports.EMITTER = self.EMITTER;
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12383,11 +12564,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // by the TypeScript language service and during build for verification. `ngc`
 // replaces this file with production index.ts when it rewrites private symbol
 // names.
-__export(__webpack_require__(363));
+__export(__webpack_require__(364));
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13247,7 +13428,7 @@ exports.BoundElementProperty = BoundElementProperty;
 
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13274,7 +13455,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var html_tags_1 = __webpack_require__(129);
-var interpolation_config_1 = __webpack_require__(30);
+var interpolation_config_1 = __webpack_require__(27);
 var parser_1 = __webpack_require__(67);
 var parser_2 = __webpack_require__(67);
 exports.ParseTreeResult = parser_2.ParseTreeResult;
@@ -13295,7 +13476,7 @@ exports.HtmlParser = HtmlParser;
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13334,7 +13515,7 @@ exports.fillProperties = fillProperties;
 
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13478,7 +13659,7 @@ exports.makePropDecorator = makePropDecorator;
 
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13517,137 +13698,6 @@ exports.NgModuleFactory = NgModuleFactory;
 
 
 /***/ }),
-/* 78 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-Object.defineProperty(exports, "__esModule", { value: true });
-var util_1 = __webpack_require__(14);
-function devModeEqual(a, b) {
-    var isListLikeIterableA = isListLikeIterable(a);
-    var isListLikeIterableB = isListLikeIterable(b);
-    if (isListLikeIterableA && isListLikeIterableB) {
-        return areIterablesEqual(a, b, devModeEqual);
-    }
-    else {
-        var isAObject = a && (typeof a === 'object' || typeof a === 'function');
-        var isBObject = b && (typeof b === 'object' || typeof b === 'function');
-        if (!isListLikeIterableA && isAObject && !isListLikeIterableB && isBObject) {
-            return true;
-        }
-        else {
-            return util_1.looseIdentical(a, b);
-        }
-    }
-}
-exports.devModeEqual = devModeEqual;
-/**
- * Indicates that the result of a {@link Pipe} transformation has changed even though the
- * reference has not changed.
- *
- * Wrapped values are unwrapped automatically during the change detection, and the unwrapped value
- * is stored.
- *
- * Example:
- *
- * ```
- * if (this._latestValue === this._latestReturnedValue) {
- *    return this._latestReturnedValue;
- *  } else {
- *    this._latestReturnedValue = this._latestValue;
- *    return WrappedValue.wrap(this._latestValue); // this will force update
- *  }
- * ```
- *
- * @publicApi
- */
-var WrappedValue = /** @class */ (function () {
-    function WrappedValue(value) {
-        this.wrapped = value;
-    }
-    /** Creates a wrapped value. */
-    WrappedValue.wrap = function (value) { return new WrappedValue(value); };
-    /**
-     * Returns the underlying value of a wrapped value.
-     * Returns the given `value` when it is not wrapped.
-     **/
-    WrappedValue.unwrap = function (value) { return WrappedValue.isWrapped(value) ? value.wrapped : value; };
-    /** Returns true if `value` is a wrapped value. */
-    WrappedValue.isWrapped = function (value) { return value instanceof WrappedValue; };
-    return WrappedValue;
-}());
-exports.WrappedValue = WrappedValue;
-/**
- * Represents a basic change from a previous to a new value.
- *
- * @publicApi
- */
-var SimpleChange = /** @class */ (function () {
-    function SimpleChange(previousValue, currentValue, firstChange) {
-        this.previousValue = previousValue;
-        this.currentValue = currentValue;
-        this.firstChange = firstChange;
-    }
-    /**
-     * Check whether the new value is the first value assigned.
-     */
-    SimpleChange.prototype.isFirstChange = function () { return this.firstChange; };
-    return SimpleChange;
-}());
-exports.SimpleChange = SimpleChange;
-function isListLikeIterable(obj) {
-    if (!isJsObject(obj))
-        return false;
-    return Array.isArray(obj) ||
-        (!(obj instanceof Map) && // JS Map are iterables but return entries as [k, v]
-            util_1.getSymbolIterator() in obj); // JS Iterable have a Symbol.iterator prop
-}
-exports.isListLikeIterable = isListLikeIterable;
-function areIterablesEqual(a, b, comparator) {
-    var iterator1 = a[util_1.getSymbolIterator()]();
-    var iterator2 = b[util_1.getSymbolIterator()]();
-    while (true) {
-        var item1 = iterator1.next();
-        var item2 = iterator2.next();
-        if (item1.done && item2.done)
-            return true;
-        if (item1.done || item2.done)
-            return false;
-        if (!comparator(item1.value, item2.value))
-            return false;
-    }
-}
-exports.areIterablesEqual = areIterablesEqual;
-function iterateListLike(obj, fn) {
-    if (Array.isArray(obj)) {
-        for (var i = 0; i < obj.length; i++) {
-            fn(obj[i]);
-        }
-    }
-    else {
-        var iterator = obj[util_1.getSymbolIterator()]();
-        var item = void 0;
-        while (!((item = iterator.next()).done)) {
-            fn(item.value);
-        }
-    }
-}
-exports.iterateListLike = iterateListLike;
-function isJsObject(o) {
-    return o !== null && (typeof o === 'function' || typeof o === 'object');
-}
-exports.isJsObject = isJsObject;
-
-
-/***/ }),
 /* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13675,7 +13725,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var util_1 = __webpack_require__(14);
-var component_factory_1 = __webpack_require__(95);
+var component_factory_1 = __webpack_require__(96);
 function noComponentFactoryError(component) {
     var error = Error("No component factory found for " + util_1.stringify(component) + ". Did you add it to @NgModule.entryComponents?");
     error[ERROR_COMPONENT] = component;
@@ -13780,7 +13830,7 @@ __export(__webpack_require__(424));
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return pipe; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return pipeFromArray; });
-/* harmony import */ var _noop__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(27);
+/* harmony import */ var _noop__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(28);
 /** PURE_IMPORTS_START _noop PURE_IMPORTS_END */
 
 function pipe() {
@@ -14197,7 +14247,7 @@ exports.Identifiers = Identifiers;
 Object.defineProperty(exports, "__esModule", { value: true });
 var i18n = __webpack_require__(60);
 var xmb_1 = __webpack_require__(132);
-var map_util_1 = __webpack_require__(181);
+var map_util_1 = __webpack_require__(182);
 var o = __webpack_require__(9);
 /* Closure variables holding messages must be named `MSG_[A-Z0-9]+` */
 var TRANSLATION_PREFIX = 'MSG_';
@@ -14455,9 +14505,9 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(21);
-var tags_1 = __webpack_require__(29);
+var tags_1 = __webpack_require__(30);
 var util_1 = __webpack_require__(10);
-var dom_security_schema_1 = __webpack_require__(370);
+var dom_security_schema_1 = __webpack_require__(371);
 var element_schema_registry_1 = __webpack_require__(246);
 var BOOLEAN = 'boolean';
 var NUMBER = 'number';
@@ -15570,7 +15620,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-__webpack_require__(118);
+__webpack_require__(119);
 var assert_1 = __webpack_require__(20);
 var definition_1 = __webpack_require__(53);
 var context_1 = __webpack_require__(269);
@@ -15595,7 +15645,7 @@ var util_1 = __webpack_require__(23);
  *
  * @param target Component, Directive or DOM Node.
  */
-function getContext(target) {
+function getLContext(target) {
     var mpValue = util_1.readPatchedData(target);
     if (mpValue) {
         // only when it's an array is it considered an LView instance
@@ -15684,7 +15734,7 @@ function getContext(target) {
     }
     return mpValue || null;
 }
-exports.getContext = getContext;
+exports.getLContext = getLContext;
 /**
  * Creates an empty instance of a `LContext` context
  */
@@ -15803,8 +15853,8 @@ function findViaDirective(lView, directiveInstance) {
     // list of directives for the instance.
     var tNode = lView[view_1.TVIEW].firstChild;
     while (tNode) {
-        var directiveIndexStart = getDirectiveStartIndex(tNode);
-        var directiveIndexEnd = getDirectiveEndIndex(tNode, directiveIndexStart);
+        var directiveIndexStart = tNode.directiveStart;
+        var directiveIndexEnd = tNode.directiveEnd;
         for (var i = directiveIndexStart; i < directiveIndexEnd; i++) {
             if (lView[i] === directiveInstance) {
                 return tNode.index;
@@ -15824,19 +15874,19 @@ function findViaDirective(lView, directiveInstance) {
  */
 function getDirectivesAtNodeIndex(nodeIndex, lView, includeComponents) {
     var tNode = lView[view_1.TVIEW].data[nodeIndex];
-    var directiveStartIndex = getDirectiveStartIndex(tNode);
+    var directiveStartIndex = tNode.directiveStart;
     if (directiveStartIndex == 0)
         return definition_1.EMPTY_ARRAY;
-    var directiveEndIndex = getDirectiveEndIndex(tNode, directiveStartIndex);
-    if (!includeComponents && tNode.flags & 4096 /* isComponent */)
+    var directiveEndIndex = tNode.directiveEnd;
+    if (!includeComponents && tNode.flags & 1 /* isComponent */)
         directiveStartIndex++;
     return lView.slice(directiveStartIndex, directiveEndIndex);
 }
 exports.getDirectivesAtNodeIndex = getDirectivesAtNodeIndex;
 function getComponentAtNodeIndex(nodeIndex, lView) {
     var tNode = lView[view_1.TVIEW].data[nodeIndex];
-    var directiveStartIndex = getDirectiveStartIndex(tNode);
-    return tNode.flags & 4096 /* isComponent */ ? lView[directiveStartIndex] : null;
+    var directiveStartIndex = tNode.directiveStart;
+    return tNode.flags & 1 /* isComponent */ ? lView[directiveStartIndex] : null;
 }
 exports.getComponentAtNodeIndex = getComponentAtNodeIndex;
 /**
@@ -15858,19 +15908,6 @@ function discoverLocalRefs(lView, nodeIndex) {
     return null;
 }
 exports.discoverLocalRefs = discoverLocalRefs;
-function getDirectiveStartIndex(tNode) {
-    // the tNode instances store a flag value which then has a
-    // pointer which tells the starting index of where all the
-    // active directives are in the master directive array
-    return tNode.flags >> 16 /* DirectiveStartingIndexShift */;
-}
-function getDirectiveEndIndex(tNode, startIndex) {
-    // The end value is also a part of the same flag
-    // (see `TNodeFlags` to see how the flag bit shifting
-    // values are used).
-    var count = tNode.flags & 4095 /* DirectiveCountMask */;
-    return count ? (startIndex + count) : -1;
-}
 
 
 /***/ }),
@@ -15911,6 +15948,24 @@ exports.noop = noop;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+/** A special value which designates that a value has not changed. */
+exports.NO_CHANGE = {};
+
+
+/***/ }),
+/* 95 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
 // TODO: cleanup once the code is merged in angular/angular
 var RendererStyleFlags3;
 (function (RendererStyleFlags3) {
@@ -15931,7 +15986,7 @@ exports.unusedValueExportToPlacateAjd = 1;
 
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15969,7 +16024,7 @@ exports.ComponentFactory = ComponentFactory;
 
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16097,7 +16152,7 @@ var SWITCH_RENDERER2_FACTORY = exports.SWITCH_RENDERER2_FACTORY__POST_R3__;
 
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16151,7 +16206,7 @@ exports.enableProdMode = enableProdMode;
 
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16199,7 +16254,7 @@ var SWITCH_TEMPLATE_REF_FACTORY = exports.SWITCH_TEMPLATE_REF_FACTORY__POST_R3__
 
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16320,7 +16375,7 @@ exports.EventManagerPlugin = EventManagerPlugin;
 
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16388,18 +16443,18 @@ var RefCountSubscriber = /*@__PURE__*/ (function (_super) {
 
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReplaySubject; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var _Subject__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8);
-/* harmony import */ var _scheduler_queue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(168);
+/* harmony import */ var _scheduler_queue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(169);
 /* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
-/* harmony import */ var _operators_observeOn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(162);
+/* harmony import */ var _operators_observeOn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(163);
 /* harmony import */ var _util_ObjectUnsubscribedError__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(45);
-/* harmony import */ var _SubjectSubscription__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(170);
+/* harmony import */ var _SubjectSubscription__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(171);
 /** PURE_IMPORTS_START tslib,_Subject,_scheduler_queue,_Subscription,_operators_observeOn,_util_ObjectUnsubscribedError,_SubjectSubscription PURE_IMPORTS_END */
 
 
@@ -16520,7 +16575,7 @@ var ReplayEvent = /*@__PURE__*/ (function () {
 
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16528,7 +16583,7 @@ var ReplayEvent = /*@__PURE__*/ (function () {
 /* harmony import */ var _util_isScheduler__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(15);
 /* harmony import */ var _fromArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(24);
 /* harmony import */ var _empty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(11);
-/* harmony import */ var _scalar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(109);
+/* harmony import */ var _scalar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(110);
 /** PURE_IMPORTS_START _util_isScheduler,_fromArray,_empty,_scalar PURE_IMPORTS_END */
 
 
@@ -16559,7 +16614,7 @@ function of() {
 
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16583,7 +16638,7 @@ function dispatch(_a) {
 
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16700,7 +16755,7 @@ var CombineLatestSubscriber = /*@__PURE__*/ (function (_super) {
 
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16720,7 +16775,7 @@ function mergeAll(concurrent) {
 
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16750,7 +16805,7 @@ function defer(observableFactory) {
 
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16985,7 +17040,7 @@ var ZipBufferIterator = /*@__PURE__*/ (function (_super) {
 
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17012,7 +17067,7 @@ function canReportError(observer) {
 
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17033,7 +17088,7 @@ function scalar(value) {
 
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17156,7 +17211,7 @@ var asap = /*@__PURE__*/ new AsapScheduler_AsapScheduler(AsapAction_AsapAction);
 
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17183,7 +17238,7 @@ var empty = {
 
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 var g;
@@ -17209,7 +17264,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17553,7 +17608,7 @@ function numberTimesBigInt(num, b) {
 
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17647,7 +17702,7 @@ exports.SimplePlaceholderMapper = SimplePlaceholderMapper;
 
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18014,7 +18069,7 @@ function parseIntAutoRadix(text) {
 
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18055,7 +18110,7 @@ exports.I18nError = I18nError;
 
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18116,7 +18171,7 @@ var ViewEncapsulation;
 
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18181,10 +18236,10 @@ if (typeof ngDevMode === 'undefined' || ngDevMode) {
     ngDevModeResetPerfCounters();
 }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(112)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(113)))
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18201,7 +18256,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * found in the LICENSE file at https://angular.io/license
  */
 var util_1 = __webpack_require__(14);
-__export(__webpack_require__(393));
+__export(__webpack_require__(394));
 function getCompilerFacade() {
     var globalNg = util_1.global.ng;
     if (!globalNg || !globalNg.ɵcompilerFacade) {
@@ -18216,7 +18271,7 @@ exports.getCompilerFacade = getCompilerFacade;
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18231,7 +18286,7 @@ exports.getCompilerFacade = getCompilerFacade;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TNODE = 8;
 exports.PARENT_INJECTOR = 8;
-exports.INJECTOR_SIZE = 9;
+exports.INJECTOR_BLOOM_PARENT_SIZE = 9;
 exports.NO_PARENT_INJECTOR = -1;
 /**
  * Each injector is saved in 9 contiguous slots in `LView` and 9 contiguous slots in
@@ -18361,24 +18416,6 @@ exports.unusedValueExportToPlacateAjd = 1;
 
 
 /***/ }),
-/* 121 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-Object.defineProperty(exports, "__esModule", { value: true });
-/** A special value which designates that a value has not changed. */
-exports.NO_CHANGE = {};
-
-
-/***/ }),
 /* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18437,7 +18474,7 @@ exports.Sanitizer = Sanitizer;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var is_dev_mode_1 = __webpack_require__(97);
+var is_dev_mode_1 = __webpack_require__(98);
 /**
  * A pattern that recognizes a commonly useful subset of URLs that are safe.
  *
@@ -18609,24 +18646,24 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var rxjs_1 = __webpack_require__(323);
+var rxjs_1 = __webpack_require__(324);
 var operators_1 = __webpack_require__(460);
 var application_init_1 = __webpack_require__(216);
 var application_tokens_1 = __webpack_require__(126);
-var console_1 = __webpack_require__(155);
+var console_1 = __webpack_require__(156);
 var di_1 = __webpack_require__(48);
 var error_handler_1 = __webpack_require__(124);
-var is_dev_mode_1 = __webpack_require__(97);
-var compiler_1 = __webpack_require__(156);
-var component_factory_1 = __webpack_require__(95);
+var is_dev_mode_1 = __webpack_require__(98);
+var compiler_1 = __webpack_require__(157);
+var component_factory_1 = __webpack_require__(96);
 var component_factory_resolver_1 = __webpack_require__(79);
-var ng_module_factory_1 = __webpack_require__(77);
-var profile_1 = __webpack_require__(288);
+var ng_module_factory_1 = __webpack_require__(78);
+var profile_1 = __webpack_require__(289);
 var assert_1 = __webpack_require__(20);
 var ng_module_ref_1 = __webpack_require__(210);
 var testability_1 = __webpack_require__(217);
 var util_1 = __webpack_require__(14);
-var lang_1 = __webpack_require__(154);
+var lang_1 = __webpack_require__(155);
 var ng_zone_1 = __webpack_require__(218);
 var _platform;
 var compileNgModuleFactory = compileNgModuleFactory__POST_R3__;
@@ -19214,11 +19251,11 @@ exports.PACKAGE_ROOT_URL = new di_1.InjectionToken('Application Packages Root UR
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var default_iterable_differ_1 = __webpack_require__(157);
+var default_iterable_differ_1 = __webpack_require__(158);
 var default_keyvalue_differ_1 = __webpack_require__(221);
-var iterable_differs_1 = __webpack_require__(295);
-var keyvalue_differs_1 = __webpack_require__(296);
-var change_detection_util_1 = __webpack_require__(78);
+var iterable_differs_1 = __webpack_require__(296);
+var keyvalue_differs_1 = __webpack_require__(297);
+var change_detection_util_1 = __webpack_require__(71);
 exports.SimpleChange = change_detection_util_1.SimpleChange;
 exports.WrappedValue = change_detection_util_1.WrappedValue;
 exports.devModeEqual = change_detection_util_1.devModeEqual;
@@ -19228,15 +19265,15 @@ var constants_1 = __webpack_require__(144);
 exports.ChangeDetectionStrategy = constants_1.ChangeDetectionStrategy;
 exports.ChangeDetectorStatus = constants_1.ChangeDetectorStatus;
 exports.isDefaultChangeDetectionStrategy = constants_1.isDefaultChangeDetectionStrategy;
-var default_iterable_differ_2 = __webpack_require__(157);
+var default_iterable_differ_2 = __webpack_require__(158);
 exports.DefaultIterableDifferFactory = default_iterable_differ_2.DefaultIterableDifferFactory;
-var default_iterable_differ_3 = __webpack_require__(157);
+var default_iterable_differ_3 = __webpack_require__(158);
 exports.DefaultIterableDiffer = default_iterable_differ_3.DefaultIterableDiffer;
 var default_keyvalue_differ_2 = __webpack_require__(221);
 exports.DefaultKeyValueDifferFactory = default_keyvalue_differ_2.DefaultKeyValueDifferFactory;
-var iterable_differs_2 = __webpack_require__(295);
+var iterable_differs_2 = __webpack_require__(296);
 exports.IterableDiffers = iterable_differs_2.IterableDiffers;
-var keyvalue_differs_2 = __webpack_require__(296);
+var keyvalue_differs_2 = __webpack_require__(297);
 exports.KeyValueDiffers = keyvalue_differs_2.KeyValueDiffers;
 /**
  * Structural diffing for `Object`s and `Map`s.
@@ -19291,7 +19328,7 @@ var Scheduler = /*@__PURE__*/ (function () {
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var tags_1 = __webpack_require__(29);
+var tags_1 = __webpack_require__(30);
 var HtmlTagDefinition = /** @class */ (function () {
     function HtmlTagDefinition(_a) {
         var _b = _a === void 0 ? {} : _a, closedByChildren = _b.closedByChildren, requiredParents = _b.requiredParents, implicitNamespacePrefix = _b.implicitNamespacePrefix, _c = _b.contentType, contentType = _c === void 0 ? tags_1.TagContentType.PARSABLE_DATA : _c, _d = _b.closedByParent, closedByParent = _d === void 0 ? false : _d, _e = _b.isVoid, isVoid = _e === void 0 ? false : _e, _f = _b.ignoreFirstLf, ignoreFirstLf = _f === void 0 ? false : _f;
@@ -19833,8 +19870,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var digest_1 = __webpack_require__(113);
-var serializer_1 = __webpack_require__(114);
+var digest_1 = __webpack_require__(114);
+var serializer_1 = __webpack_require__(115);
 var xml = __webpack_require__(133);
 var _MESSAGES_TAG = 'messagebundle';
 var _MESSAGE_TAG = 'msg';
@@ -20123,7 +20160,7 @@ exports.escapeXml = escapeXml;
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var o = __webpack_require__(9);
-var source_map_1 = __webpack_require__(366);
+var source_map_1 = __webpack_require__(367);
 var _SINGLE_QUOTE_ESCAPE_STRING_RE = /'|\\|\n|\r|\$/g;
 var _LEGAL_IDENTIFIER_RE = /^[$A-Z_][0-9A-Z_$]*$/i;
 var _INDENT_WITH = '  ';
@@ -20667,7 +20704,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var cdAst = __webpack_require__(73);
+var cdAst = __webpack_require__(74);
 var identifiers_1 = __webpack_require__(38);
 var o = __webpack_require__(9);
 var EventHandlerVars = /** @class */ (function () {
@@ -21480,10 +21517,10 @@ exports.isAsciiHexDigit = isAsciiHexDigit;
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var chars = __webpack_require__(137);
-var interpolation_config_1 = __webpack_require__(30);
+var interpolation_config_1 = __webpack_require__(27);
 var util_1 = __webpack_require__(10);
-var ast_1 = __webpack_require__(73);
-var lexer_1 = __webpack_require__(115);
+var ast_1 = __webpack_require__(74);
+var lexer_1 = __webpack_require__(116);
 var SplitInterpolation = /** @class */ (function () {
     function SplitInterpolation(strings, expressions, offsets) {
         this.strings = strings;
@@ -22249,9 +22286,9 @@ var SimpleExpressionChecker = /** @class */ (function () {
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var html = __webpack_require__(28);
+var html = __webpack_require__(29);
 var parser_1 = __webpack_require__(67);
-var tags_1 = __webpack_require__(29);
+var tags_1 = __webpack_require__(30);
 exports.PRESERVE_WS_ATTR_NAME = 'ngPreserveWhitespaces';
 var SKIP_WS_TRIM_TAGS = new Set(['pre', 'template', 'textarea', 'script', 'style']);
 // Equivalent to \s with \u00a0 (non-breaking space) excluded.
@@ -22434,8 +22471,8 @@ var Template = /** @class */ (function () {
 }());
 exports.Template = Template;
 var Content = /** @class */ (function () {
-    function Content(selectorIndex, attributes, sourceSpan, i18n) {
-        this.selectorIndex = selectorIndex;
+    function Content(selector, attributes, sourceSpan, i18n) {
+        this.selector = selector;
         this.attributes = attributes;
         this.sourceSpan = sourceSpan;
         this.i18n = i18n;
@@ -23707,8 +23744,8 @@ exports.isDefaultChangeDetectionStrategy = isDefaultChangeDetectionStrategy;
 Object.defineProperty(exports, "__esModule", { value: true });
 var defs_1 = __webpack_require__(31);
 var injector_compatibility_1 = __webpack_require__(40);
-var r3 = __webpack_require__(201);
-var sanitization = __webpack_require__(279);
+var r3 = __webpack_require__(202);
+var sanitization = __webpack_require__(280);
 /**
  * A mapping of the @angular/core API surface used in generated expressions to the actual symbols.
  *
@@ -23900,15 +23937,12 @@ exports.queueInitHooks = queueInitHooks;
  * Loops through the directives on a node and queues all their hooks except ngOnInit
  * and ngDoCheck, which are queued separately in directiveCreate.
  */
-function queueLifecycleHooks(flags, tView) {
+function queueLifecycleHooks(tView, tNode) {
     if (tView.firstTemplatePass) {
-        var start = flags >> 16 /* DirectiveStartingIndexShift */;
-        var count = flags & 4095 /* DirectiveCountMask */;
-        var end = start + count;
         // It's necessary to loop through the directives at elementEnd() (rather than processing in
         // directiveCreate) so we can preserve the current hook order. Content, view, and destroy
         // hooks for projected components and directives must be called *before* their hosts.
-        for (var i = start; i < end; i++) {
+        for (var i = tNode.directiveStart, end = tNode.directiveEnd; i < end; i++) {
             var def = tView.data[i];
             queueContentHooks(def, tView, i);
             queueViewHooks(def, tView, i);
@@ -23998,7 +24032,7 @@ var view_engine_compatibility_1 = __webpack_require__(62);
  * Returns the component instance associated with a given DOM host element.
  * Elements which don't represent components return `null`.
  *
- * @param element Host DOM element from which the component should be retrieved for.
+ * @param element Host DOM element from which the component should be retrieved.
  *
  * ```
  * <my-app>
@@ -24015,15 +24049,38 @@ var view_engine_compatibility_1 = __webpack_require__(62);
  * @publicApi
  */
 function getComponent(element) {
-    if (!(element instanceof Node))
-        throw new Error('Expecting instance of DOM Node');
-    var context = loadContext(element);
+    var context = loadLContextFromNode(element);
     if (context.component === undefined) {
         context.component = context_discovery_1.getComponentAtNodeIndex(context.nodeIndex, context.lView);
     }
     return context.component;
 }
 exports.getComponent = getComponent;
+/**
+ * Returns the component instance associated with a given DOM host element.
+ * Elements which don't represent components return `null`.
+ *
+ * @param element Host DOM element from which the component should be retrieved.
+ *
+ * ```
+ * <my-app>
+ *   #VIEW
+ *     <div>
+ *       <child-comp></child-comp>
+ *     </div>
+ * </mp-app>
+ *
+ * expect(getComponent(<child-comp>) instanceof ChildComponent).toBeTruthy();
+ * expect(getComponent(<my-app>) instanceof MyApp).toBeTruthy();
+ * ```
+ *
+ * @publicApi
+ */
+function getContext(element) {
+    var context = loadLContextFromNode(element);
+    return context.lView[view_1.CONTEXT];
+}
+exports.getContext = getContext;
 /**
  * Returns the component instance associated with view which owns the DOM element (`null`
  * otherwise).
@@ -24045,7 +24102,7 @@ exports.getComponent = getComponent;
  * @publicApi
  */
 function getViewComponent(element) {
-    var context = loadContext(element);
+    var context = loadLContext(element);
     var lView = context.lView;
     while (lView[view_1.PARENT] && lView[view_1.HOST] === null) {
         // As long as lView[HOST] is null we know we are part of sub-template such as `*ngIf`
@@ -24060,8 +24117,8 @@ exports.getViewComponent = getViewComponent;
  *
  */
 function getRootContext(target) {
-    var lView = Array.isArray(target) ? target : loadContext(target).lView;
-    var rootLView = getRootView(lView);
+    var lViewData = Array.isArray(target) ? target : loadLContext(target).lView;
+    var rootLView = getRootView(lViewData);
     return rootLView[view_1.CONTEXT];
 }
 exports.getRootContext = getRootContext;
@@ -24086,11 +24143,41 @@ exports.getRootComponents = getRootComponents;
  * @publicApi
  */
 function getInjector(target) {
-    var context = loadContext(target);
+    var context = loadLContext(target);
     var tNode = context.lView[view_1.TVIEW].data[context.nodeIndex];
     return new view_engine_compatibility_1.NodeInjector(tNode, context.lView);
 }
 exports.getInjector = getInjector;
+/**
+ * Retrieve a set of injection tokens at a given DOM node.
+ *
+ * @param element Element for which the injection tokens should be retrieved.
+ * @publicApi
+ */
+function getInjectionTokens(element) {
+    var context = loadLContext(element, false);
+    if (!context)
+        return [];
+    var lView = context.lView;
+    var tView = lView[view_1.TVIEW];
+    var tNode = tView.data[context.nodeIndex];
+    var providerTokens = [];
+    var startIndex = tNode.providerIndexes & 65535 /* ProvidersStartIndexMask */;
+    var endIndex = tNode.directiveEnd;
+    for (var i = startIndex; i < endIndex; i++) {
+        var value = tView.data[i];
+        if (isDirectiveDefHack(value)) {
+            // The fact that we sometimes store Type and sometimes DirectiveDef in this location is a
+            // design flaw.  We should always store same type so that we can be monomorphic. The issue
+            // is that for Components/Directives we store the def instead the type. The correct behavior
+            // is that we should always be storing injectable type in this location.
+            value = value.type;
+        }
+        providerTokens.push(value);
+    }
+    return providerTokens;
+}
+exports.getInjectionTokens = getInjectionTokens;
 /**
  * Retrieves directives associated with a given DOM host element.
  *
@@ -24099,23 +24186,23 @@ exports.getInjector = getInjector;
  * @publicApi
  */
 function getDirectives(target) {
-    var context = loadContext(target);
+    var context = loadLContext(target);
     if (context.directives === undefined) {
         context.directives = context_discovery_1.getDirectivesAtNodeIndex(context.nodeIndex, context.lView, false);
     }
     return context.directives || [];
 }
 exports.getDirectives = getDirectives;
-function loadContext(target, throwOnNotFound) {
+function loadLContext(target, throwOnNotFound) {
     if (throwOnNotFound === void 0) { throwOnNotFound = true; }
-    var context = context_discovery_1.getContext(target);
+    var context = context_discovery_1.getLContext(target);
     if (!context && throwOnNotFound) {
         throw new Error(ngDevMode ? "Unable to find context associated with " + util_1.stringify(target) :
             'Invalid ng target');
     }
     return context;
 }
-exports.loadContext = loadContext;
+exports.loadLContext = loadLContext;
 /**
  * Retrieve the root view from any component by walking the parent `LView` until
  * reaching the root `LView`.
@@ -24149,7 +24236,7 @@ exports.getRootView = getRootView;
  * @publicApi
  */
 function getLocalRefs(target) {
-    var context = loadContext(target);
+    var context = loadLContext(target);
     if (context.localRefs === undefined) {
         context.localRefs = context_discovery_1.discoverLocalRefs(context.lView, context.nodeIndex);
     }
@@ -24167,7 +24254,7 @@ exports.getLocalRefs = getLocalRefs;
  * @publicApi
  */
 function getHostElement(directive) {
-    return context_discovery_1.getContext(directive).native;
+    return context_discovery_1.getLContext(directive).native;
 }
 exports.getHostElement = getHostElement;
 /**
@@ -24185,6 +24272,83 @@ function getRenderedText(component) {
     return hostElement.textContent || '';
 }
 exports.getRenderedText = getRenderedText;
+function loadLContextFromNode(node) {
+    if (!(node instanceof Node))
+        throw new Error('Expecting instance of DOM Node');
+    return loadLContext(node);
+}
+exports.loadLContextFromNode = loadLContextFromNode;
+function isBrowserEvents(listener) {
+    // Browser events are those which don't have `useCapture` as boolean.
+    return typeof listener.useCapture === 'boolean';
+}
+exports.isBrowserEvents = isBrowserEvents;
+/**
+ * Retrieves a list of DOM listeners.
+ *
+ * ```
+ * <my-app>
+ *   #VIEW
+ *     <div (click)="doSomething()">
+ *     </div>
+ * </mp-app>
+ *
+ * expect(getListeners(<div>)).toEqual({
+ *   name: 'click',
+ *   element: <div>,
+ *   callback: () => doSomething(),
+ *   useCapture: false
+ * });
+ * ```
+ *
+ * @param element Element for which the DOM listeners should be retrieved.
+ * @publicApi
+ */
+function getListeners(element) {
+    var lContext = loadLContextFromNode(element);
+    var lView = lContext.lView;
+    var tView = lView[view_1.TVIEW];
+    var lCleanup = lView[view_1.CLEANUP];
+    var tCleanup = tView.cleanup;
+    var listeners = [];
+    if (tCleanup && lCleanup) {
+        for (var i = 0; i < tCleanup.length;) {
+            var firstParam = tCleanup[i++];
+            var secondParam = tCleanup[i++];
+            if (typeof firstParam === 'string') {
+                var name_1 = firstParam;
+                var listenerElement = lView[secondParam];
+                var callback = lCleanup[tCleanup[i++]];
+                var useCaptureOrIndx = tCleanup[i++];
+                // if useCaptureOrIndx is boolean then report it as is.
+                // if useCaptureOrIndx is positive number then it in unsubscribe method
+                // if useCaptureOrIndx is negative number then it is a Subscription
+                var useCapture = typeof useCaptureOrIndx === 'boolean' ?
+                    useCaptureOrIndx :
+                    (useCaptureOrIndx >= 0 ? false : null);
+                if (element == listenerElement) {
+                    listeners.push({ element: element, name: name_1, callback: callback, useCapture: useCapture });
+                }
+            }
+        }
+    }
+    listeners.sort(sortListeners);
+    return listeners;
+}
+exports.getListeners = getListeners;
+function sortListeners(a, b) {
+    if (a.name == b.name)
+        return 0;
+    return a.name < b.name ? -1 : 1;
+}
+/**
+ * This function should not exist because it is megamorphic and only mostly correct.
+ *
+ * See call site for more info.
+ */
+function isDirectiveDefHack(obj) {
+    return obj.type !== undefined && obj.template !== undefined && obj.declaredInputs !== undefined;
+}
 
 
 /***/ }),
@@ -24205,9 +24369,9 @@ var assert_1 = __webpack_require__(20);
 var context_discovery_1 = __webpack_require__(92);
 var hooks_1 = __webpack_require__(147);
 var container_1 = __webpack_require__(91);
-var node_1 = __webpack_require__(203);
-var projection_1 = __webpack_require__(202);
-var renderer_1 = __webpack_require__(94);
+var node_1 = __webpack_require__(204);
+var projection_1 = __webpack_require__(203);
+var renderer_1 = __webpack_require__(95);
 var view_1 = __webpack_require__(18);
 var node_assert_1 = __webpack_require__(146);
 var util_1 = __webpack_require__(23);
@@ -24333,7 +24497,7 @@ function walkTNodeTree(viewToWalk, action, renderer, renderParent, beforeNode) {
         }
         if (nextTNode === null) {
             // this last node was projected, we need to get back down to its projection node
-            if (tNode.next === null && (tNode.flags & 8192 /* isProjected */)) {
+            if (tNode.next === null && (tNode.flags & 2 /* isProjected */)) {
                 currentView = projectionNodeStack[projectionNodeIndex--];
                 tNode = projectionNodeStack[projectionNodeIndex--];
             }
@@ -24515,6 +24679,7 @@ exports.insertView = insertView;
  * @param lContainer The container from which to detach a view
  * @param removeIndex The index of the view to detach
  * @param detached Whether or not this view is already detached.
+ * @returns Detached LView instance.
  */
 function detachView(lContainer, removeIndex, detached) {
     var views = lContainer[container_1.VIEWS];
@@ -24533,6 +24698,7 @@ function detachView(lContainer, removeIndex, detached) {
     viewToDetach[view_1.PARENT] = null;
     // Unsets the attached flag
     viewToDetach[view_1.FLAGS] &= ~8 /* Attached */;
+    return viewToDetach;
 }
 exports.detachView = detachView;
 /**
@@ -24616,25 +24782,41 @@ function cleanUpView(viewOrContainer) {
 }
 /** Removes listeners and unsubscribes from output subscriptions */
 function removeListeners(lView) {
-    var cleanup = lView[view_1.TVIEW].cleanup;
-    if (cleanup != null) {
-        for (var i = 0; i < cleanup.length - 1; i += 2) {
-            if (typeof cleanup[i] === 'string') {
+    var tCleanup = lView[view_1.TVIEW].cleanup;
+    if (tCleanup != null) {
+        var lCleanup = lView[view_1.CLEANUP];
+        for (var i = 0; i < tCleanup.length - 1; i += 2) {
+            if (typeof tCleanup[i] === 'string') {
                 // This is a listener with the native renderer
-                var native = util_1.readElementValue(lView[cleanup[i + 1]]);
-                var listener = lView[view_1.CLEANUP][cleanup[i + 2]];
-                native.removeEventListener(cleanup[i], listener, cleanup[i + 3]);
+                var idx = tCleanup[i + 1];
+                var listener = lCleanup[tCleanup[i + 2]];
+                var native = util_1.readElementValue(lView[idx]);
+                var useCaptureOrSubIdx = tCleanup[i + 3];
+                if (typeof useCaptureOrSubIdx === 'boolean') {
+                    // DOM listener
+                    native.removeEventListener(tCleanup[i], listener, useCaptureOrSubIdx);
+                }
+                else {
+                    if (useCaptureOrSubIdx >= 0) {
+                        // unregister
+                        lCleanup[useCaptureOrSubIdx]();
+                    }
+                    else {
+                        // Subscription
+                        lCleanup[-useCaptureOrSubIdx].unsubscribe();
+                    }
+                }
                 i += 2;
             }
-            else if (typeof cleanup[i] === 'number') {
+            else if (typeof tCleanup[i] === 'number') {
                 // This is a listener with renderer2 (cleanup fn can be found by index)
-                var cleanupFn = lView[view_1.CLEANUP][cleanup[i]];
+                var cleanupFn = lCleanup[tCleanup[i]];
                 cleanupFn();
             }
             else {
                 // This is a cleanup function that is grouped with the index of its context
-                var context = lView[view_1.CLEANUP][cleanup[i + 1]];
-                cleanup[i].call(context);
+                var context = lCleanup[tCleanup[i + 1]];
+                tCleanup[i].call(context);
             }
         }
         lView[view_1.CLEANUP] = null;
@@ -24682,7 +24864,7 @@ function canInsertNativeChildOfElement(tNode) {
     if (tNode.parent == null ||
         // We should also eagerly insert if the parent is a regular, non-component element
         // since we know that this relationship will never be broken.
-        tNode.parent.type === 3 /* Element */ && !(tNode.parent.flags & 4096 /* isComponent */)) {
+        tNode.parent.type === 3 /* Element */ && !(tNode.parent.flags & 1 /* isComponent */)) {
         return true;
     }
     // Parent is a Component. Component's content nodes are not inserted immediately
@@ -24918,6 +25100,168 @@ exports.appendProjectedNode = appendProjectedNode;
 
 "use strict";
 
+Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+__webpack_require__(119);
+var context_discovery_1 = __webpack_require__(92);
+var container_1 = __webpack_require__(91);
+var view_1 = __webpack_require__(18);
+var util_1 = __webpack_require__(23);
+var core_player_handler_1 = __webpack_require__(397);
+function createEmptyStylingContext(element, sanitizer, initialStylingValues) {
+    return [
+        null,
+        sanitizer || null,
+        initialStylingValues || [null],
+        0,
+        0,
+        element || null,
+        null,
+        null // PreviousMultiStyleValue
+    ];
+}
+exports.createEmptyStylingContext = createEmptyStylingContext;
+/**
+ * Used clone a copy of a pre-computed template of a styling context.
+ *
+ * A pre-computed template is designed to be computed once for a given element
+ * (instructions.ts has logic for caching this).
+ */
+function allocStylingContext(element, templateStyleContext) {
+    // each instance gets a copy
+    var context = templateStyleContext.slice();
+    context[5 /* ElementPosition */] = element;
+    return context;
+}
+exports.allocStylingContext = allocStylingContext;
+/**
+ * Retrieve the `StylingContext` at a given index.
+ *
+ * This method lazily creates the `StylingContext`. This is because in most cases
+ * we have styling without any bindings. Creating `StylingContext` eagerly would mean that
+ * every style declaration such as `<div style="color: red">` would result `StyleContext`
+ * which would create unnecessary memory pressure.
+ *
+ * @param index Index of the style allocation. See: `elementStyling`.
+ * @param viewData The view to search for the styling context
+ */
+function getStylingContext(index, viewData) {
+    var storageIndex = index;
+    var slotValue = viewData[storageIndex];
+    var wrapper = viewData;
+    while (Array.isArray(slotValue)) {
+        wrapper = slotValue;
+        slotValue = slotValue[view_1.HOST];
+    }
+    if (isStylingContext(wrapper)) {
+        return wrapper;
+    }
+    else {
+        // This is an LView or an LContainer
+        var stylingTemplate = util_1.getTNode(index - view_1.HEADER_OFFSET, viewData).stylingTemplate;
+        if (wrapper !== viewData) {
+            storageIndex = view_1.HOST;
+        }
+        return wrapper[storageIndex] = stylingTemplate ?
+            allocStylingContext(slotValue, stylingTemplate) :
+            createEmptyStylingContext(slotValue);
+    }
+}
+exports.getStylingContext = getStylingContext;
+function isStylingContext(value) {
+    // Not an LView or an LContainer
+    return Array.isArray(value) && typeof value[view_1.FLAGS] !== 'number' &&
+        typeof value[container_1.ACTIVE_INDEX] !== 'number';
+}
+exports.isStylingContext = isStylingContext;
+function addPlayerInternal(playerContext, rootContext, element, player, playerContextIndex, ref) {
+    ref = ref || element;
+    if (playerContextIndex) {
+        playerContext[playerContextIndex] = player;
+    }
+    else {
+        playerContext.push(player);
+    }
+    if (player) {
+        player.addEventListener(200 /* Destroyed */, function () {
+            var index = playerContext.indexOf(player);
+            var nonFactoryPlayerIndex = playerContext[0 /* NonBuilderPlayersStart */];
+            // if the player is being removed from the factory side of the context
+            // (which is where the [style] and [class] bindings do their thing) then
+            // that side of the array cannot be resized since the respective bindings
+            // have pointer index values that point to the associated factory instance
+            if (index) {
+                if (index < nonFactoryPlayerIndex) {
+                    playerContext[index] = null;
+                }
+                else {
+                    playerContext.splice(index, 1);
+                }
+            }
+            player.destroy();
+        });
+        var playerHandler = rootContext.playerHandler || (rootContext.playerHandler = new core_player_handler_1.CorePlayerHandler());
+        playerHandler.queuePlayer(player, ref);
+        return true;
+    }
+    return false;
+}
+exports.addPlayerInternal = addPlayerInternal;
+function getPlayersInternal(playerContext) {
+    var players = [];
+    var nonFactoryPlayersStart = playerContext[0 /* NonBuilderPlayersStart */];
+    // add all factory-based players (which are apart of [style] and [class] bindings)
+    for (var i = 1 /* PlayerBuildersStartPosition */ + 1 /* PlayerOffsetPosition */; i < nonFactoryPlayersStart; i += 2 /* PlayerAndPlayerBuildersTupleSize */) {
+        var player = playerContext[i];
+        if (player) {
+            players.push(player);
+        }
+    }
+    // add all custom players (not apart of [style] and [class] bindings)
+    for (var i = nonFactoryPlayersStart; i < playerContext.length; i++) {
+        players.push(playerContext[i]);
+    }
+    return players;
+}
+exports.getPlayersInternal = getPlayersInternal;
+function getOrCreatePlayerContext(target, context) {
+    context = context || context_discovery_1.getLContext(target);
+    if (!context) {
+        ngDevMode && throwInvalidRefError();
+        return null;
+    }
+    var lView = context.lView, nodeIndex = context.nodeIndex;
+    var stylingContext = getStylingContext(nodeIndex, lView);
+    return getPlayerContext(stylingContext) || allocPlayerContext(stylingContext);
+}
+exports.getOrCreatePlayerContext = getOrCreatePlayerContext;
+function getPlayerContext(stylingContext) {
+    return stylingContext[0 /* PlayerContext */];
+}
+exports.getPlayerContext = getPlayerContext;
+function allocPlayerContext(data) {
+    return data[0 /* PlayerContext */] =
+        [5 /* SinglePlayerBuildersStartPosition */, null, null, null, null];
+}
+exports.allocPlayerContext = allocPlayerContext;
+function throwInvalidRefError() {
+    throw new Error('Only elements that exist in an Angular application can be used for animations');
+}
+exports.throwInvalidRefError = throwInvalidRefError;
+
+
+/***/ }),
+/* 151 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 /**
  * @license
  * Copyright Google Inc. All Rights Reserved.
@@ -24939,7 +25283,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var rxjs_1 = __webpack_require__(323);
+var rxjs_1 = __webpack_require__(324);
 /**
  * Use in directives and components to emit custom events synchronously
  * or asynchronously, and register handlers for those events by subscribing
@@ -25062,7 +25406,7 @@ exports.EventEmitter = EventEmitter;
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25258,7 +25602,7 @@ var InnerRefCountSubscription = /*@__PURE__*/ (function (_super) {
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25273,8 +25617,8 @@ var InnerRefCountSubscription = /*@__PURE__*/ (function (_super) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var metadata_1 = __webpack_require__(68);
 var di_1 = __webpack_require__(264);
-var reflection_capabilities_1 = __webpack_require__(153);
-var compiler_facade_1 = __webpack_require__(119);
+var reflection_capabilities_1 = __webpack_require__(154);
+var compiler_facade_1 = __webpack_require__(120);
 var _reflect = null;
 function getReflect() {
     return (_reflect = _reflect || new reflection_capabilities_1.ReflectionCapabilities());
@@ -25347,7 +25691,7 @@ function reflectDependency(compiler, dep) {
 
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25362,7 +25706,7 @@ function reflectDependency(compiler, dep) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var type_1 = __webpack_require__(212);
 var util_1 = __webpack_require__(14);
-var decorators_1 = __webpack_require__(76);
+var decorators_1 = __webpack_require__(77);
 /**
  * Attention: These regex has to hold even if the code is minified!
  */
@@ -25593,7 +25937,7 @@ function getParentCtor(ctor) {
 
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25627,7 +25971,7 @@ exports.isObservable = isObservable;
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25668,7 +26012,7 @@ exports.Console = Console;
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25795,7 +26139,7 @@ exports.CompilerFactory = CompilerFactory;
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25809,7 +26153,7 @@ exports.CompilerFactory = CompilerFactory;
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var util_1 = __webpack_require__(14);
-var change_detection_util_1 = __webpack_require__(78);
+var change_detection_util_1 = __webpack_require__(71);
 var DefaultIterableDifferFactory = /** @class */ (function () {
     function DefaultIterableDifferFactory() {
     }
@@ -26482,7 +26826,7 @@ function getPreviousIndex(item, addRemoveOffset, moveOffsets) {
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26498,12 +26842,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var change_detection_1 = __webpack_require__(127);
 var di_1 = __webpack_require__(48);
 var element_ref_1 = __webpack_require__(54);
-var template_ref_1 = __webpack_require__(98);
+var template_ref_1 = __webpack_require__(99);
 var view_container_ref_1 = __webpack_require__(219);
-var api_1 = __webpack_require__(96);
+var api_1 = __webpack_require__(97);
 var util_1 = __webpack_require__(14);
-var lang_1 = __webpack_require__(154);
-var refs_1 = __webpack_require__(159);
+var lang_1 = __webpack_require__(155);
+var refs_1 = __webpack_require__(160);
 var types_1 = __webpack_require__(42);
 var util_2 = __webpack_require__(33);
 var RendererV1TokenKey = util_2.tokenKey(api_1.Renderer);
@@ -27007,7 +27351,7 @@ function callProviderLifecycles(view, index, lifecycles, initIndex) {
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27035,14 +27379,14 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var injector_1 = __webpack_require__(63);
 var injector_compatibility_1 = __webpack_require__(40);
-var component_factory_1 = __webpack_require__(95);
+var component_factory_1 = __webpack_require__(96);
 var component_factory_resolver_1 = __webpack_require__(79);
 var element_ref_1 = __webpack_require__(54);
-var ng_module_factory_1 = __webpack_require__(77);
-var template_ref_1 = __webpack_require__(98);
+var ng_module_factory_1 = __webpack_require__(78);
+var template_ref_1 = __webpack_require__(99);
 var util_1 = __webpack_require__(14);
 var version_1 = __webpack_require__(208);
-var ng_module_1 = __webpack_require__(302);
+var ng_module_1 = __webpack_require__(303);
 var types_1 = __webpack_require__(42);
 var util_2 = __webpack_require__(33);
 var view_attach_1 = __webpack_require__(223);
@@ -27539,7 +27883,7 @@ var NgModuleRef_ = /** @class */ (function () {
 
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27550,7 +27894,7 @@ var NgModuleRef_ = /** @class */ (function () {
 /* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2);
 /* harmony import */ var _Subscriber__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1);
 /* harmony import */ var _Subscription__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5);
-/* harmony import */ var _operators_refCount__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(100);
+/* harmony import */ var _operators_refCount__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(101);
 /** PURE_IMPORTS_START tslib,_Subject,_Observable,_Subscriber,_Subscription,_operators_refCount PURE_IMPORTS_END */
 
 
@@ -27697,7 +28041,7 @@ var RefCountSubscriber = /*@__PURE__*/ (function (_super) {
 
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27751,7 +28095,7 @@ var BehaviorSubject = /*@__PURE__*/ (function (_super) {
 
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27834,7 +28178,7 @@ var ObserveOnMessage = /*@__PURE__*/ (function () {
 
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27852,12 +28196,12 @@ var TimeoutError = TimeoutErrorImpl;
 
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return concatAll; });
-/* harmony import */ var _mergeAll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(105);
+/* harmony import */ var _mergeAll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(106);
 /** PURE_IMPORTS_START _mergeAll PURE_IMPORTS_END */
 
 function concatAll() {
@@ -27867,14 +28211,14 @@ function concatAll() {
 
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return merge; });
 /* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
 /* harmony import */ var _util_isScheduler__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(15);
-/* harmony import */ var _operators_mergeAll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(105);
+/* harmony import */ var _operators_mergeAll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(106);
 /* harmony import */ var _fromArray__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(24);
 /** PURE_IMPORTS_START _Observable,_util_isScheduler,_operators_mergeAll,_fromArray PURE_IMPORTS_END */
 
@@ -27907,7 +28251,7 @@ function merge() {
 
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28000,7 +28344,7 @@ var RaceSubscriber = /*@__PURE__*/ (function (_super) {
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28053,7 +28397,7 @@ function dispatch(state) {
 
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28134,7 +28478,7 @@ var queue = /*@__PURE__*/ new QueueScheduler_QueueScheduler(QueueAction_QueueAct
 
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28147,7 +28491,7 @@ function isObject(x) {
 
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28189,7 +28533,7 @@ var SubjectSubscription = /*@__PURE__*/ (function (_super) {
 
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28209,19 +28553,19 @@ var subscribeToArray = function (array) {
 
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return subscribeTo; });
 /* harmony import */ var _Observable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
-/* harmony import */ var _subscribeToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(171);
-/* harmony import */ var _subscribeToPromise__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(176);
-/* harmony import */ var _subscribeToIterable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(177);
-/* harmony import */ var _subscribeToObservable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(173);
-/* harmony import */ var _isArrayLike__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(174);
-/* harmony import */ var _isPromise__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(175);
-/* harmony import */ var _isObject__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(169);
+/* harmony import */ var _subscribeToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(172);
+/* harmony import */ var _subscribeToPromise__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(177);
+/* harmony import */ var _subscribeToIterable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(178);
+/* harmony import */ var _subscribeToObservable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(174);
+/* harmony import */ var _isArrayLike__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(175);
+/* harmony import */ var _isPromise__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(176);
+/* harmony import */ var _isObject__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(170);
 /* harmony import */ var _symbol_iterator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(37);
 /* harmony import */ var _symbol_observable__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(44);
 /** PURE_IMPORTS_START _Observable,_subscribeToArray,_subscribeToPromise,_subscribeToIterable,_subscribeToObservable,_isArrayLike,_isPromise,_isObject,_symbol_iterator,_symbol_observable PURE_IMPORTS_END */
@@ -28271,7 +28615,7 @@ var subscribeTo = function (result) {
 
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28294,7 +28638,7 @@ var subscribeToObservable = function (obj) {
 
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28305,7 +28649,7 @@ var isArrayLike = (function (x) { return x && typeof x.length === 'number' && ty
 
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28318,7 +28662,7 @@ function isPromise(value) {
 
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28342,7 +28686,7 @@ var subscribeToPromise = function (promise) {
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28378,10 +28722,10 @@ var subscribeToIterable = function (iterable) {
 
 
 /***/ }),
-/* 178 */,
 /* 179 */,
 /* 180 */,
-/* 181 */
+/* 181 */,
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28411,7 +28755,7 @@ exports.mapLiteral = mapLiteral;
 
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28466,7 +28810,7 @@ exports.typeWithParameters = typeWithParameters;
 
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28480,11 +28824,11 @@ exports.typeWithParameters = typeWithParameters;
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var compile_metadata_1 = __webpack_require__(19);
-var map_util_1 = __webpack_require__(181);
+var map_util_1 = __webpack_require__(182);
 var o = __webpack_require__(9);
 var r3_factory_1 = __webpack_require__(84);
 var r3_identifiers_1 = __webpack_require__(85);
-var util_1 = __webpack_require__(182);
+var util_1 = __webpack_require__(183);
 /**
  * Construct an `R3NgModuleDef` for the given `R3NgModuleMetadata`.
  */
@@ -28556,7 +28900,7 @@ function tupleTypeOf(exp) {
 
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28631,7 +28975,7 @@ exports.compilePipeFromRender2 = compilePipeFromRender2;
 
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28659,22 +29003,26 @@ var compile_metadata_1 = __webpack_require__(19);
 var expression_converter_1 = __webpack_require__(135);
 var core = __webpack_require__(21);
 var lifecycle_reflector_1 = __webpack_require__(136);
+var interpolation_config_1 = __webpack_require__(27);
 var o = __webpack_require__(9);
 var parse_util_1 = __webpack_require__(47);
 var selector_1 = __webpack_require__(66);
-var shadow_css_1 = __webpack_require__(242);
-var style_compiler_1 = __webpack_require__(186);
+var shadow_css_1 = __webpack_require__(243);
+var style_compiler_1 = __webpack_require__(187);
 var util_1 = __webpack_require__(10);
 var r3_factory_1 = __webpack_require__(84);
 var r3_identifiers_1 = __webpack_require__(85);
-var util_2 = __webpack_require__(182);
-var styling_1 = __webpack_require__(243);
-var template_1 = __webpack_require__(187);
+var util_2 = __webpack_require__(183);
+var styling_1 = __webpack_require__(244);
+var template_1 = __webpack_require__(188);
 var util_3 = __webpack_require__(131);
 var EMPTY_ARRAY = [];
 // This regex matches any binding names that contain the "attr." prefix, e.g. "attr.required"
 // If there is a match, the first matching group will contain the attribute name to bind.
 var ATTR_REGEX = /attr\.([^\]]+)/;
+function getStylingPrefix(propName) {
+    return propName.substring(0, 5).toLowerCase();
+}
 function baseDirectiveFields(meta, constantPool, bindingParser) {
     var definitionMap = new util_3.DefinitionMap();
     // e.g. `type: MyDirective`
@@ -28691,8 +29039,14 @@ function baseDirectiveFields(meta, constantPool, bindingParser) {
     definitionMap.set('factory', result.factory);
     definitionMap.set('contentQueries', createContentQueriesFunction(meta, constantPool));
     definitionMap.set('contentQueriesRefresh', createContentQueriesRefreshFunction(meta));
-    // Initialize hostVarsCount to number of bound host properties (interpolations illegal)
-    var hostVarsCount = Object.keys(meta.host.properties).length;
+    // Initialize hostVarsCount to number of bound host properties (interpolations illegal),
+    // except 'style' and 'class' properties, since they should *not* allocate host var slots
+    var hostVarsCount = Object.keys(meta.host.properties)
+        .filter(function (name) {
+        var prefix = getStylingPrefix(name);
+        return prefix !== 'style' && prefix !== 'class';
+    })
+        .length;
     var elVarExp = o.variable('elIndex');
     var contextVarExp = o.variable(util_3.CONTEXT_NAME);
     var styleBuilder = new styling_1.StylingBuilder(elVarExp, contextVarExp);
@@ -28832,7 +29186,7 @@ function compileComponentFromMetadata(meta, constantPool, bindingParser) {
     var pipesUsed = new Set();
     var template = meta.template;
     var templateBuilder = new template_1.TemplateDefinitionBuilder(constantPool, template_1.BindingScope.ROOT_SCOPE, 0, templateTypeName, null, null, templateName, meta.viewQueries, directiveMatcher, directivesUsed, meta.pipes, pipesUsed, r3_identifiers_1.Identifiers.namespaceHTML, meta.relativeContextFilePath, meta.i18nUseExternalIds);
-    var templateFunctionExpression = templateBuilder.buildTemplateFunction(template.nodes, [], template.hasNgContent, template.ngContentSelectors);
+    var templateFunctionExpression = templateBuilder.buildTemplateFunction(template.nodes, []);
     // e.g. `consts: 2`
     definitionMap.set('consts', o.literal(templateBuilder.getConstCount()));
     // e.g. `vars: 2`
@@ -28915,11 +29269,7 @@ function compileComponentFromRender2(outputCtx, component, render3Ast, reflector
     var definitionField = outputCtx.constantPool.propertyNameOf(2 /* Component */);
     var summary = component.toSummary();
     // Compute the R3ComponentMetadata from the CompileDirectiveMetadata
-    var meta = __assign({}, directiveMetadataFromGlobalMetadata(component, outputCtx, reflector), { selector: component.selector, template: {
-            nodes: render3Ast.nodes,
-            hasNgContent: render3Ast.hasNgContent,
-            ngContentSelectors: render3Ast.ngContentSelectors,
-        }, directives: [], pipes: typeMapToExpressionMap(pipeTypeByName, outputCtx), viewQueries: queriesFromGlobalMetadata(component.viewQueries, outputCtx), wrapDirectivesAndPipesInClosure: false, styles: (summary.template && summary.template.styles) || EMPTY_ARRAY, encapsulation: (summary.template && summary.template.encapsulation) || core.ViewEncapsulation.Emulated, animations: null, viewProviders: component.viewProviders.length > 0 ? new o.WrappedNodeExpr(component.viewProviders) : null, relativeContextFilePath: '', i18nUseExternalIds: true });
+    var meta = __assign({}, directiveMetadataFromGlobalMetadata(component, outputCtx, reflector), { selector: component.selector, template: { nodes: render3Ast.nodes }, directives: [], pipes: typeMapToExpressionMap(pipeTypeByName, outputCtx), viewQueries: queriesFromGlobalMetadata(component.viewQueries, outputCtx), wrapDirectivesAndPipesInClosure: false, styles: (summary.template && summary.template.styles) || EMPTY_ARRAY, encapsulation: (summary.template && summary.template.encapsulation) || core.ViewEncapsulation.Emulated, interpolation: interpolation_config_1.DEFAULT_INTERPOLATION_CONFIG, animations: null, viewProviders: component.viewProviders.length > 0 ? new o.WrappedNodeExpr(component.viewProviders) : null, relativeContextFilePath: '', i18nUseExternalIds: true });
     var res = compileComponentFromMetadata(meta, outputCtx.constantPool, bindingParser);
     // Create the partial class to be merged with the actual class.
     outputCtx.statements.push(new o.ClassStmt(name, null, [new o.ClassField(definitionField, o.INFERRED_TYPE, [o.StmtModifier.Static], res.expression)], [], new o.ClassMethod(null, [], []), []));
@@ -29152,7 +29502,7 @@ function createHostBindingsFunction(meta, elVarExp, bindingContext, styleBuilder
         for (var _i = 0, bindings_1 = bindings; _i < bindings_1.length; _i++) {
             var binding = bindings_1[_i];
             var name_1 = binding.name;
-            var stylePrefix = name_1.substring(0, 5).toLowerCase();
+            var stylePrefix = getStylingPrefix(name_1);
             if (stylePrefix === 'style') {
                 var _a = parseNamedProperty(name_1), propertyName = _a.propertyName, unit = _a.unit;
                 styleBuilder.registerStyleInput(propertyName, binding.expression, unit, binding.sourceSpan);
@@ -29300,7 +29650,7 @@ function parseNamedProperty(name) {
 
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29316,7 +29666,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var compile_metadata_1 = __webpack_require__(19);
 var core_1 = __webpack_require__(21);
 var o = __webpack_require__(9);
-var shadow_css_1 = __webpack_require__(242);
+var shadow_css_1 = __webpack_require__(243);
 var COMPONENT_VARIABLE = '%COMP%';
 exports.HOST_ATTR = "_nghost-" + COMPONENT_VARIABLE;
 exports.CONTENT_ATTR = "_ngcontent-" + COMPONENT_VARIABLE;
@@ -29397,7 +29747,7 @@ function getStylesVarName(component) {
 
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29426,28 +29776,28 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var compile_metadata_1 = __webpack_require__(19);
 var expression_converter_1 = __webpack_require__(135);
 var core = __webpack_require__(21);
-var ast_1 = __webpack_require__(73);
-var lexer_1 = __webpack_require__(115);
+var ast_1 = __webpack_require__(74);
+var lexer_1 = __webpack_require__(116);
 var parser_1 = __webpack_require__(138);
-var html = __webpack_require__(28);
-var html_parser_1 = __webpack_require__(74);
+var html = __webpack_require__(29);
+var html_parser_1 = __webpack_require__(75);
 var html_whitespaces_1 = __webpack_require__(139);
-var interpolation_config_1 = __webpack_require__(30);
-var tags_1 = __webpack_require__(29);
-var map_util_1 = __webpack_require__(181);
+var interpolation_config_1 = __webpack_require__(27);
+var tags_1 = __webpack_require__(30);
+var map_util_1 = __webpack_require__(182);
 var o = __webpack_require__(9);
 var dom_element_schema_registry_1 = __webpack_require__(87);
 var selector_1 = __webpack_require__(66);
-var binding_parser_1 = __webpack_require__(188);
+var binding_parser_1 = __webpack_require__(189);
 var util_1 = __webpack_require__(10);
 var t = __webpack_require__(140);
 var r3_identifiers_1 = __webpack_require__(85);
 var r3_template_transform_1 = __webpack_require__(247);
-var context_1 = __webpack_require__(371);
-var meta_1 = __webpack_require__(372);
-var serializer_1 = __webpack_require__(374);
+var context_1 = __webpack_require__(372);
+var meta_1 = __webpack_require__(373);
+var serializer_1 = __webpack_require__(375);
 var util_2 = __webpack_require__(86);
-var styling_1 = __webpack_require__(243);
+var styling_1 = __webpack_require__(244);
 var util_3 = __webpack_require__(131);
 function mapBindingToInstruction(type) {
     switch (type) {
@@ -29467,6 +29817,8 @@ function renderFlagCheckIfStmt(flags, statements) {
     return o.ifStmt(o.variable(util_3.RENDER_FLAGS).bitwiseAnd(o.literal(flags), null, false), statements);
 }
 exports.renderFlagCheckIfStmt = renderFlagCheckIfStmt;
+// Default selector used by `<ng-content>` if none specified
+var DEFAULT_CONTENT_SELECTOR = '*';
 var TemplateDefinitionBuilder = /** @class */ (function () {
     function TemplateDefinitionBuilder(constantPool, parentBindingScope, level, contextName, i18nContext, templateIndex, templateName, viewQueries, directiveMatcher, directives, pipeTypeByName, pipes, _namespace, relativeContextFilePath, i18nUseExternalIds) {
         if (level === void 0) { level = 0; }
@@ -29516,6 +29868,10 @@ var TemplateDefinitionBuilder = /** @class */ (function () {
         this._pureFunctionSlots = 0;
         // Number of binding slots
         this._bindingSlots = 0;
+        // Whether the template includes <ng-content> tags.
+        this._hasNgContent = false;
+        // Selectors found in the <ng-content> tags in the template.
+        this._ngContentSelectors = [];
         // These should be handled in the template or element directly.
         this.visitReference = util_3.invalid;
         this.visitVariable = util_3.invalid;
@@ -29557,28 +29913,13 @@ var TemplateDefinitionBuilder = /** @class */ (function () {
             return [lhs.set(rhs.prop(variable.value || util_3.IMPLICIT_REFERENCE)).toConstDecl()];
         });
     };
-    TemplateDefinitionBuilder.prototype.buildTemplateFunction = function (nodes, variables, hasNgContent, ngContentSelectors, i18n) {
+    TemplateDefinitionBuilder.prototype.buildTemplateFunction = function (nodes, variables, i18n) {
         var _this = this;
-        if (hasNgContent === void 0) { hasNgContent = false; }
-        if (ngContentSelectors === void 0) { ngContentSelectors = []; }
         if (this._namespace !== r3_identifiers_1.Identifiers.namespaceHTML) {
             this.creationInstruction(null, this._namespace);
         }
         // Create variable bindings
         variables.forEach(function (v) { return _this.registerContextVariables(v); });
-        // Output a `ProjectionDef` instruction when some `<ng-content>` are present
-        if (hasNgContent) {
-            var parameters = [];
-            // Only selectors with a non-default value are generated
-            if (ngContentSelectors.length > 1) {
-                var r3Selectors = ngContentSelectors.map(function (s) { return core.parseSelectorToR3Selector(s); });
-                // `projectionDef` needs both the parsed and raw value of the selectors
-                var parsed = this.constantPool.getConstLiteral(util_3.asLiteral(r3Selectors), true);
-                var unParsed = this.constantPool.getConstLiteral(util_3.asLiteral(ngContentSelectors), true);
-                parameters.push(parsed, unParsed);
-            }
-            this.creationInstruction(null, r3_identifiers_1.Identifiers.projectionDef, parameters);
-        }
         // Initiate i18n context in case:
         // - this template has parent i18n context
         // - or the template has i18n meta associated with it,
@@ -29594,6 +29935,22 @@ var TemplateDefinitionBuilder = /** @class */ (function () {
         // pass. It's necessary to separate the passes to ensure local refs are defined before
         // resolving bindings. We also count bindings in this pass as we walk bound expressions.
         t.visitAll(this, nodes);
+        // Output a `ProjectionDef` instruction when some `<ng-content>` are present
+        if (this._hasNgContent) {
+            var parameters = [];
+            // Only selectors with a non-default value are generated
+            if (this._ngContentSelectors.length) {
+                var r3Selectors = this._ngContentSelectors.map(function (s) { return core.parseSelectorToR3Selector(s); });
+                // `projectionDef` needs both the parsed and raw value of the selectors
+                var parsed = this.constantPool.getConstLiteral(util_3.asLiteral(r3Selectors), true);
+                var unParsed = this.constantPool.getConstLiteral(util_3.asLiteral(this._ngContentSelectors), true);
+                parameters.push(parsed, unParsed);
+            }
+            // Since we accumulate ngContent selectors while processing template elements,
+            // we *prepend* `projectionDef` to creation instructions block, to put it before
+            // any `projection` instructions
+            this.creationInstruction(null, r3_identifiers_1.Identifiers.projectionDef, parameters, /* prepend */ true);
+        }
         // Add total binding count to pure function count so pure function instructions are
         // generated with the correct slot offset when update instructions are processed.
         this._pureFunctionSlots += this._bindingSlots;
@@ -29771,8 +30128,11 @@ var TemplateDefinitionBuilder = /** @class */ (function () {
         this.i18n = null; // reset local i18n context
     };
     TemplateDefinitionBuilder.prototype.visitContent = function (ngContent) {
+        this._hasNgContent = true;
         var slot = this.allocateDataSlot();
-        var selectorIndex = ngContent.selectorIndex;
+        var selectorIndex = ngContent.selector === DEFAULT_CONTENT_SELECTOR ?
+            0 :
+            this._ngContentSelectors.push(ngContent.selector);
         var parameters = [o.literal(slot)];
         var attributeAsList = [];
         ngContent.attributes.forEach(function (attribute) {
@@ -30050,7 +30410,7 @@ var TemplateDefinitionBuilder = /** @class */ (function () {
         // be able to support bindings in nested templates to local refs that occur after the
         // template definition. e.g. <div *ngIf="showing"> {{ foo }} </div>  <div #foo></div>
         this._nestedTemplateFns.push(function () {
-            var templateFunctionExpr = templateVisitor.buildTemplateFunction(template.children, template.variables, false, [], template.i18n);
+            var templateFunctionExpr = templateVisitor.buildTemplateFunction(template.children, template.variables, template.i18n);
             _this.constantPool.statements.push(templateFunctionExpr.toDeclStmt(templateName, null));
         });
         // e.g. template(1, MyComp_Template_1)
@@ -30129,8 +30489,9 @@ var TemplateDefinitionBuilder = /** @class */ (function () {
     // instructions are queued in callbacks that execute once the initial pass has completed.
     // Otherwise, we wouldn't be able to support local refs that are defined after their
     // bindings. e.g. {{ foo }} <div #foo></div>
-    TemplateDefinitionBuilder.prototype.instructionFn = function (fns, span, reference, paramsOrFn) {
-        fns.push(function () {
+    TemplateDefinitionBuilder.prototype.instructionFn = function (fns, span, reference, paramsOrFn, prepend) {
+        if (prepend === void 0) { prepend = false; }
+        fns[prepend ? 'unshift' : 'push'](function () {
             var params = Array.isArray(paramsOrFn) ? paramsOrFn : paramsOrFn();
             return instruction(span, reference, params).toStmt();
         });
@@ -30149,8 +30510,8 @@ var TemplateDefinitionBuilder = /** @class */ (function () {
             }
         }
     };
-    TemplateDefinitionBuilder.prototype.creationInstruction = function (span, reference, paramsOrFn) {
-        this.instructionFn(this._creationCodeFns, span, reference, paramsOrFn || []);
+    TemplateDefinitionBuilder.prototype.creationInstruction = function (span, reference, paramsOrFn, prepend) {
+        this.instructionFn(this._creationCodeFns, span, reference, paramsOrFn || [], prepend);
     };
     TemplateDefinitionBuilder.prototype.updateInstruction = function (span, reference, paramsOrFn) {
         this.instructionFn(this._updateCodeFns, span, reference, paramsOrFn || []);
@@ -30586,39 +30947,42 @@ function interpolate(args) {
  * @param templateUrl URL to use for source mapping of the parsed template
  */
 function parseTemplate(template, templateUrl, options) {
-    var bindingParser = makeBindingParser();
+    if (options === void 0) { options = {}; }
+    var interpolationConfig = options.interpolationConfig, preserveWhitespaces = options.preserveWhitespaces;
+    var bindingParser = makeBindingParser(interpolationConfig);
     var htmlParser = new html_parser_1.HtmlParser();
-    var parseResult = htmlParser.parse(template, templateUrl, true);
+    var parseResult = htmlParser.parse(template, templateUrl, true, interpolationConfig);
     if (parseResult.errors && parseResult.errors.length > 0) {
-        return { errors: parseResult.errors, nodes: [], hasNgContent: false, ngContentSelectors: [] };
+        return { errors: parseResult.errors, nodes: [] };
     }
     var rootNodes = parseResult.rootNodes;
     // process i18n meta information (scan attributes, generate ids)
     // before we run whitespace removal process, because existing i18n
     // extraction process (ng xi18n) relies on a raw content to generate
     // message ids
-    var i18nConfig = { keepI18nAttrs: !options.preserveWhitespaces };
-    rootNodes = html.visitAll(new meta_1.I18nMetaVisitor(i18nConfig), rootNodes);
-    if (!options.preserveWhitespaces) {
+    rootNodes =
+        html.visitAll(new meta_1.I18nMetaVisitor(interpolationConfig, !preserveWhitespaces), rootNodes);
+    if (!preserveWhitespaces) {
         rootNodes = html.visitAll(new html_whitespaces_1.WhitespaceVisitor(), rootNodes);
         // run i18n meta visitor again in case we remove whitespaces, because
         // that might affect generated i18n message content. During this pass
         // i18n IDs generated at the first pass will be preserved, so we can mimic
         // existing extraction process (ng xi18n)
-        rootNodes = html.visitAll(new meta_1.I18nMetaVisitor({ keepI18nAttrs: false }), rootNodes);
+        rootNodes = html.visitAll(new meta_1.I18nMetaVisitor(interpolationConfig, /* keepI18nAttrs */ false), rootNodes);
     }
-    var _a = r3_template_transform_1.htmlAstToRender3Ast(rootNodes, bindingParser), nodes = _a.nodes, hasNgContent = _a.hasNgContent, ngContentSelectors = _a.ngContentSelectors, errors = _a.errors;
+    var _a = r3_template_transform_1.htmlAstToRender3Ast(rootNodes, bindingParser), nodes = _a.nodes, errors = _a.errors;
     if (errors && errors.length > 0) {
-        return { errors: errors, nodes: [], hasNgContent: false, ngContentSelectors: [] };
+        return { errors: errors, nodes: [] };
     }
-    return { nodes: nodes, hasNgContent: hasNgContent, ngContentSelectors: ngContentSelectors };
+    return { nodes: nodes };
 }
 exports.parseTemplate = parseTemplate;
 /**
  * Construct a `BindingParser` with a default configuration.
  */
-function makeBindingParser() {
-    return new binding_parser_1.BindingParser(new parser_1.Parser(new lexer_1.Lexer()), interpolation_config_1.DEFAULT_INTERPOLATION_CONFIG, new dom_element_schema_registry_1.DomElementSchemaRegistry(), null, []);
+function makeBindingParser(interpolationConfig) {
+    if (interpolationConfig === void 0) { interpolationConfig = interpolation_config_1.DEFAULT_INTERPOLATION_CONFIG; }
+    return new binding_parser_1.BindingParser(new parser_1.Parser(new lexer_1.Lexer()), interpolationConfig, new dom_element_schema_registry_1.DomElementSchemaRegistry(), null, []);
 }
 exports.makeBindingParser = makeBindingParser;
 function resolveSanitizationFn(input, context) {
@@ -30654,7 +31018,7 @@ function hasTextChildrenOnly(children) {
 
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30681,8 +31045,8 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(21);
-var ast_1 = __webpack_require__(73);
-var tags_1 = __webpack_require__(29);
+var ast_1 = __webpack_require__(74);
+var tags_1 = __webpack_require__(30);
 var parse_util_1 = __webpack_require__(47);
 var selector_1 = __webpack_require__(66);
 var util_1 = __webpack_require__(10);
@@ -30710,6 +31074,11 @@ var BindingParser = /** @class */ (function () {
             this.pipesByName = pipesByName_1;
         }
     }
+    Object.defineProperty(BindingParser.prototype, "interpolationConfig", {
+        get: function () { return this._interpolationConfig; },
+        enumerable: true,
+        configurable: true
+    });
     BindingParser.prototype.getUsedPipes = function () { return Array.from(this._usedPipes.values()); };
     BindingParser.prototype.createBoundHostProperties = function (dirMeta, sourceSpan) {
         var _this = this;
@@ -31044,7 +31413,7 @@ exports.calcPossibleSecurityContexts = calcPossibleSecurityContexts;
 
 
 /***/ }),
-/* 189 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31102,7 +31471,7 @@ var URL_WITH_SCHEMA_REGEXP = /^([^:/?#]+):/;
 
 
 /***/ }),
-/* 190 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31115,7 +31484,7 @@ var URL_WITH_SCHEMA_REGEXP = /^([^:/?#]+):/;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var tags_1 = __webpack_require__(29);
+var tags_1 = __webpack_require__(30);
 var NG_CONTENT_SELECT_ATTR = 'select';
 var LINK_ELEMENT = 'link';
 var LINK_STYLE_REL_ATTR = 'rel';
@@ -31197,7 +31566,7 @@ function normalizeNgContentSelect(selectAttr) {
 
 
 /***/ }),
-/* 191 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31213,10 +31582,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var compile_metadata_1 = __webpack_require__(19);
 var config_1 = __webpack_require__(141);
 var core_1 = __webpack_require__(21);
-var html = __webpack_require__(28);
-var interpolation_config_1 = __webpack_require__(30);
-var style_url_resolver_1 = __webpack_require__(189);
-var template_preparser_1 = __webpack_require__(190);
+var html = __webpack_require__(29);
+var interpolation_config_1 = __webpack_require__(27);
+var style_url_resolver_1 = __webpack_require__(190);
+var template_preparser_1 = __webpack_require__(191);
 var util_1 = __webpack_require__(10);
 var DirectiveNormalizer = /** @class */ (function () {
     function DirectiveNormalizer(_resourceLoader, _urlResolver, _htmlParser, _config) {
@@ -31432,7 +31801,7 @@ var TemplatePreparseVisitor = /** @class */ (function () {
 
 
 /***/ }),
-/* 192 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31459,7 +31828,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var parser_1 = __webpack_require__(67);
-var xml_tags_1 = __webpack_require__(376);
+var xml_tags_1 = __webpack_require__(377);
 var parser_2 = __webpack_require__(67);
 exports.ParseTreeResult = parser_2.ParseTreeResult;
 exports.TreeError = parser_2.TreeError;
@@ -31478,7 +31847,7 @@ exports.XmlParser = XmlParser;
 
 
 /***/ }),
-/* 193 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31530,7 +31899,7 @@ var _ValueOutputAstTransformer = /** @class */ (function () {
 
 
 /***/ }),
-/* 194 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31558,7 +31927,7 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var static_symbol_1 = __webpack_require__(39);
 var util_1 = __webpack_require__(90);
-var assertions_1 = __webpack_require__(244);
+var assertions_1 = __webpack_require__(240);
 var cpl = __webpack_require__(19);
 var core_1 = __webpack_require__(21);
 var directive_resolver_1 = __webpack_require__(89);
@@ -32623,7 +32992,7 @@ function componentStillLoadingError(compType) {
 
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32666,7 +33035,7 @@ exports.NgModuleResolver = NgModuleResolver;
 
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32720,7 +33089,7 @@ exports.PipeResolver = PipeResolver;
 
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32736,21 +33105,21 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var compile_metadata_1 = __webpack_require__(19);
 var constant_pool_1 = __webpack_require__(130);
 var core_1 = __webpack_require__(21);
-var message_bundle_1 = __webpack_require__(198);
+var message_bundle_1 = __webpack_require__(199);
 var identifiers_1 = __webpack_require__(38);
-var html_parser_1 = __webpack_require__(74);
+var html_parser_1 = __webpack_require__(75);
 var html_whitespaces_1 = __webpack_require__(139);
-var interpolation_config_1 = __webpack_require__(30);
+var interpolation_config_1 = __webpack_require__(27);
 var o = __webpack_require__(9);
-var r3_module_compiler_1 = __webpack_require__(183);
-var r3_pipe_compiler_1 = __webpack_require__(184);
+var r3_module_compiler_1 = __webpack_require__(184);
+var r3_pipe_compiler_1 = __webpack_require__(185);
 var r3_template_transform_1 = __webpack_require__(247);
-var compiler_1 = __webpack_require__(185);
+var compiler_1 = __webpack_require__(186);
 var dom_element_schema_registry_1 = __webpack_require__(87);
-var binding_parser_1 = __webpack_require__(188);
+var binding_parser_1 = __webpack_require__(189);
 var util_1 = __webpack_require__(10);
 var generated_file_1 = __webpack_require__(260);
-var lazy_routes_1 = __webpack_require__(381);
+var lazy_routes_1 = __webpack_require__(382);
 var static_symbol_1 = __webpack_require__(39);
 var summary_serializer_1 = __webpack_require__(261);
 var util_2 = __webpack_require__(90);
@@ -33495,7 +33864,7 @@ function mergeAndValidateNgFiles(files) {
 
 
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33610,7 +33979,7 @@ var MapPlaceholderNames = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34563,7 +34932,7 @@ function formatMetadataError(e, context) {
 
 
 /***/ }),
-/* 200 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34664,7 +35033,7 @@ exports.AotSummaryResolver = AotSummaryResolver;
 
 
 /***/ }),
-/* 201 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34688,6 +35057,7 @@ exports.defineDirective = definition_1.defineDirective;
 exports.defineNgModule = definition_1.defineNgModule;
 exports.definePipe = definition_1.definePipe;
 var discovery_utils_1 = __webpack_require__(148);
+exports.getComponent = discovery_utils_1.getComponent;
 exports.getHostElement = discovery_utils_1.getHostElement;
 exports.getRenderedText = discovery_utils_1.getRenderedText;
 var inherit_definition_feature_1 = __webpack_require__(398);
@@ -34696,7 +35066,7 @@ var ng_onchanges_feature_1 = __webpack_require__(399);
 exports.NgOnChangesFeature = ng_onchanges_feature_1.NgOnChangesFeature;
 var providers_feature_1 = __webpack_require__(400);
 exports.ProvidersFeature = providers_feature_1.ProvidersFeature;
-var component_ref_1 = __webpack_require__(276);
+var component_ref_1 = __webpack_require__(277);
 exports.ComponentFactory = component_ref_1.ComponentFactory;
 exports.ComponentFactoryResolver = component_ref_1.ComponentFactoryResolver;
 exports.ComponentRef = component_ref_1.ComponentRef;
@@ -34784,7 +35154,7 @@ exports.queryRefresh = query_1.queryRefresh;
 var instructions_2 = __webpack_require__(41);
 exports.registerContentQuery = instructions_2.registerContentQuery;
 exports.loadQueryList = instructions_2.loadQueryList;
-var pure_function_1 = __webpack_require__(278);
+var pure_function_1 = __webpack_require__(279);
 exports.pureFunction0 = pure_function_1.pureFunction0;
 exports.pureFunction1 = pure_function_1.pureFunction1;
 exports.pureFunction2 = pure_function_1.pureFunction2;
@@ -34797,12 +35167,12 @@ exports.pureFunction8 = pure_function_1.pureFunction8;
 exports.pureFunctionV = pure_function_1.pureFunctionV;
 var view_engine_compatibility_prebound_1 = __webpack_require__(409);
 exports.templateRefExtractor = view_engine_compatibility_prebound_1.templateRefExtractor;
-var tokens_1 = __webpack_require__(121);
+var tokens_1 = __webpack_require__(94);
 exports.NO_CHANGE = tokens_1.NO_CHANGE;
 
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34822,7 +35192,7 @@ exports.unusedValueExportToPlacateAjd = 1;
 
 
 /***/ }),
-/* 203 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34841,7 +35211,7 @@ exports.unusedValueExportToPlacateAjd = 1;
 
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34875,166 +35245,6 @@ var BoundPlayerFactory = /** @class */ (function () {
     return BoundPlayerFactory;
 }());
 exports.BoundPlayerFactory = BoundPlayerFactory;
-
-
-/***/ }),
-/* 205 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-__webpack_require__(118);
-var context_discovery_1 = __webpack_require__(92);
-var container_1 = __webpack_require__(91);
-var view_1 = __webpack_require__(18);
-var util_1 = __webpack_require__(23);
-var core_player_handler_1 = __webpack_require__(397);
-function createEmptyStylingContext(element, sanitizer, initialStylingValues) {
-    return [
-        null,
-        sanitizer || null,
-        initialStylingValues || [null],
-        0,
-        0,
-        element || null,
-        null,
-        null // PreviousMultiStyleValue
-    ];
-}
-exports.createEmptyStylingContext = createEmptyStylingContext;
-/**
- * Used clone a copy of a pre-computed template of a styling context.
- *
- * A pre-computed template is designed to be computed once for a given element
- * (instructions.ts has logic for caching this).
- */
-function allocStylingContext(element, templateStyleContext) {
-    // each instance gets a copy
-    var context = templateStyleContext.slice();
-    context[5 /* ElementPosition */] = element;
-    return context;
-}
-exports.allocStylingContext = allocStylingContext;
-/**
- * Retrieve the `StylingContext` at a given index.
- *
- * This method lazily creates the `StylingContext`. This is because in most cases
- * we have styling without any bindings. Creating `StylingContext` eagerly would mean that
- * every style declaration such as `<div style="color: red">` would result `StyleContext`
- * which would create unnecessary memory pressure.
- *
- * @param index Index of the style allocation. See: `elementStyling`.
- * @param viewData The view to search for the styling context
- */
-function getStylingContext(index, viewData) {
-    var storageIndex = index + view_1.HEADER_OFFSET;
-    var slotValue = viewData[storageIndex];
-    var wrapper = viewData;
-    while (Array.isArray(slotValue)) {
-        wrapper = slotValue;
-        slotValue = slotValue[view_1.HOST];
-    }
-    if (isStylingContext(wrapper)) {
-        return wrapper;
-    }
-    else {
-        // This is an LView or an LContainer
-        var stylingTemplate = util_1.getTNode(index, viewData).stylingTemplate;
-        if (wrapper !== viewData) {
-            storageIndex = view_1.HOST;
-        }
-        return wrapper[storageIndex] = stylingTemplate ?
-            allocStylingContext(slotValue, stylingTemplate) :
-            createEmptyStylingContext(slotValue);
-    }
-}
-exports.getStylingContext = getStylingContext;
-function isStylingContext(value) {
-    // Not an LView or an LContainer
-    return typeof value[view_1.FLAGS] !== 'number' && typeof value[container_1.ACTIVE_INDEX] !== 'number';
-}
-function addPlayerInternal(playerContext, rootContext, element, player, playerContextIndex, ref) {
-    ref = ref || element;
-    if (playerContextIndex) {
-        playerContext[playerContextIndex] = player;
-    }
-    else {
-        playerContext.push(player);
-    }
-    if (player) {
-        player.addEventListener(200 /* Destroyed */, function () {
-            var index = playerContext.indexOf(player);
-            var nonFactoryPlayerIndex = playerContext[0 /* NonBuilderPlayersStart */];
-            // if the player is being removed from the factory side of the context
-            // (which is where the [style] and [class] bindings do their thing) then
-            // that side of the array cannot be resized since the respective bindings
-            // have pointer index values that point to the associated factory instance
-            if (index) {
-                if (index < nonFactoryPlayerIndex) {
-                    playerContext[index] = null;
-                }
-                else {
-                    playerContext.splice(index, 1);
-                }
-            }
-            player.destroy();
-        });
-        var playerHandler = rootContext.playerHandler || (rootContext.playerHandler = new core_player_handler_1.CorePlayerHandler());
-        playerHandler.queuePlayer(player, ref);
-        return true;
-    }
-    return false;
-}
-exports.addPlayerInternal = addPlayerInternal;
-function getPlayersInternal(playerContext) {
-    var players = [];
-    var nonFactoryPlayersStart = playerContext[0 /* NonBuilderPlayersStart */];
-    // add all factory-based players (which are apart of [style] and [class] bindings)
-    for (var i = 1 /* PlayerBuildersStartPosition */ + 1 /* PlayerOffsetPosition */; i < nonFactoryPlayersStart; i += 2 /* PlayerAndPlayerBuildersTupleSize */) {
-        var player = playerContext[i];
-        if (player) {
-            players.push(player);
-        }
-    }
-    // add all custom players (not apart of [style] and [class] bindings)
-    for (var i = nonFactoryPlayersStart; i < playerContext.length; i++) {
-        players.push(playerContext[i]);
-    }
-    return players;
-}
-exports.getPlayersInternal = getPlayersInternal;
-function getOrCreatePlayerContext(target, context) {
-    context = context || context_discovery_1.getContext(target);
-    if (!context) {
-        ngDevMode && throwInvalidRefError();
-        return null;
-    }
-    var lView = context.lView, nodeIndex = context.nodeIndex;
-    var stylingContext = getStylingContext(nodeIndex - view_1.HEADER_OFFSET, lView);
-    return getPlayerContext(stylingContext) || allocPlayerContext(stylingContext);
-}
-exports.getOrCreatePlayerContext = getOrCreatePlayerContext;
-function getPlayerContext(stylingContext) {
-    return stylingContext[0 /* PlayerContext */];
-}
-exports.getPlayerContext = getPlayerContext;
-function allocPlayerContext(data) {
-    return data[0 /* PlayerContext */] =
-        [5 /* SinglePlayerBuildersStartPosition */, null, null, null, null];
-}
-exports.allocPlayerContext = allocPlayerContext;
-function throwInvalidRefError() {
-    throw new Error('Only elements that exist in an Angular application can be used for animations');
-}
-exports.throwInvalidRefError = throwInvalidRefError;
 
 
 /***/ }),
@@ -35166,7 +35376,7 @@ var R3Injector = /** @class */ (function () {
                     if (def && this.injectableDefInScope(def)) {
                         // Found an ngInjectableDef and it's scoped to this injector. Pretend as if it was here
                         // all along.
-                        record = makeRecord(injectableDefFactory(token), NOT_YET);
+                        record = makeRecord(injectableDefOrInjectorDefFactory(token), NOT_YET);
                         this.records.set(token, record);
                     }
                 }
@@ -35232,7 +35442,7 @@ var R3Injector = /** @class */ (function () {
         }
         // Track the InjectorType and add a provider for it.
         this.injectorDefTypes.add(defType);
-        this.records.set(defType, makeRecord(def.factory));
+        this.records.set(defType, makeRecord(def.factory, NOT_YET));
         // Add providers in the same way that @NgModule resolution did:
         // First, include providers from any imports.
         if (def.imports != null && !isDuplicate) {
@@ -35319,9 +35529,13 @@ var R3Injector = /** @class */ (function () {
     return R3Injector;
 }());
 exports.R3Injector = R3Injector;
-function injectableDefFactory(token) {
+function injectableDefOrInjectorDefFactory(token) {
     var injectableDef = defs_1.getInjectableDef(token);
     if (injectableDef === null) {
+        var injectorDef = defs_1.getInjectorDef(token);
+        if (injectorDef !== null) {
+            return injectorDef.factory;
+        }
         if (token instanceof injection_token_1.InjectionToken) {
             throw new Error("Token " + util_1.stringify(token) + " is missing an ngInjectableDef definition.");
         }
@@ -35348,7 +35562,7 @@ function providerToRecord(provider) {
 function providerToFactory(provider) {
     var factory = undefined;
     if (isTypeProvider(provider)) {
-        return injectableDefFactory(forward_ref_1.resolveForwardRef(provider));
+        return injectableDefOrInjectorDefFactory(forward_ref_1.resolveForwardRef(provider));
     }
     else {
         if (isValueProvider(provider)) {
@@ -35366,7 +35580,7 @@ function providerToFactory(provider) {
                 factory = function () { return new ((classRef_1).bind.apply((classRef_1), [void 0].concat(injector_compatibility_1.injectArgs(provider.deps))))(); };
             }
             else {
-                return injectableDefFactory(classRef_1);
+                return injectableDefOrInjectorDefFactory(classRef_1);
             }
         }
     }
@@ -35374,7 +35588,6 @@ function providerToFactory(provider) {
 }
 exports.providerToFactory = providerToFactory;
 function makeRecord(factory, value, multi) {
-    if (value === void 0) { value = NOT_YET; }
     if (multi === void 0) { multi = false; }
     return {
         factory: factory,
@@ -35483,8 +35696,8 @@ exports.VERSION = new Version('0.0.0-PLACEHOLDER');
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var is_dev_mode_1 = __webpack_require__(97);
-var inert_body_1 = __webpack_require__(277);
+var is_dev_mode_1 = __webpack_require__(98);
+var inert_body_1 = __webpack_require__(278);
 var url_sanitizer_1 = __webpack_require__(123);
 function tagSet(tags) {
     var res = {};
@@ -35751,10 +35964,10 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var r3_injector_1 = __webpack_require__(206);
 var component_factory_resolver_1 = __webpack_require__(79);
-var ng_module_factory_1 = __webpack_require__(77);
+var ng_module_factory_1 = __webpack_require__(78);
 var util_1 = __webpack_require__(14);
 var assert_1 = __webpack_require__(20);
-var component_ref_1 = __webpack_require__(276);
+var component_ref_1 = __webpack_require__(277);
 var definition_1 = __webpack_require__(53);
 exports.COMPONENT_FACTORY_RESOLVER = {
     provide: component_factory_resolver_1.ComponentFactoryResolver,
@@ -35826,9 +36039,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var assert_1 = __webpack_require__(20);
 var definition_1 = __webpack_require__(53);
 var fields_1 = __webpack_require__(61);
-var compiler_facade_1 = __webpack_require__(119);
+var compiler_facade_1 = __webpack_require__(120);
 var environment_1 = __webpack_require__(145);
-var util_1 = __webpack_require__(152);
+var util_1 = __webpack_require__(153);
 var EMPTY_ARRAY = [];
 /**
  * Compiles a module in JIT mode.
@@ -36070,9 +36283,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * found in the LICENSE file at https://angular.io/license
  */
 var injectable_1 = __webpack_require__(410);
-var decorators_1 = __webpack_require__(76);
+var decorators_1 = __webpack_require__(77);
 var defs_1 = __webpack_require__(31);
-var util_1 = __webpack_require__(284);
+var util_1 = __webpack_require__(285);
 /**
  * Injectable decorator and metadata.
  *
@@ -36253,7 +36466,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var lang_1 = __webpack_require__(154);
+var lang_1 = __webpack_require__(155);
 var di_1 = __webpack_require__(48);
 /**
  * A function that will be executed when an application is initialized.
@@ -36598,7 +36811,7 @@ var _testabilityGetter = new _NoopGetTestability();
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var event_emitter_1 = __webpack_require__(150);
+var event_emitter_1 = __webpack_require__(151);
 /**
  * An injectable service for executing work inside or outside of the Angular zone.
  *
@@ -37020,7 +37233,7 @@ var SWITCH_CHANGE_DETECTOR_REF_FACTORY = exports.SWITCH_CHANGE_DETECTOR_REF_FACT
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var util_1 = __webpack_require__(14);
-var change_detection_util_1 = __webpack_require__(78);
+var change_detection_util_1 = __webpack_require__(71);
 var DefaultKeyValueDifferFactory = /** @class */ (function () {
     function DefaultKeyValueDifferFactory() {
     }
@@ -37488,7 +37701,7 @@ function removeFromArray(arr, index) {
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var element_ref_1 = __webpack_require__(54);
-var query_list_1 = __webpack_require__(292);
+var query_list_1 = __webpack_require__(293);
 var types_1 = __webpack_require__(42);
 var util_1 = __webpack_require__(33);
 function queryDef(flags, id, bindings) {
@@ -37810,7 +38023,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(7);
 var dom_tokens_1 = __webpack_require__(43);
-var event_manager_1 = __webpack_require__(99);
+var event_manager_1 = __webpack_require__(100);
 /**
  * Supported HammerJS recognizer event names.
  */
@@ -38214,7 +38427,7 @@ var SafeResourceUrlImpl = /** @class */ (function (_super) {
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(7);
-var compiler_1 = __webpack_require__(72);
+var compiler_1 = __webpack_require__(73);
 var compiler_reflector_1 = __webpack_require__(454);
 exports.ERROR_COLLECTOR_TOKEN = new core_1.InjectionToken('ErrorCollector');
 /**
@@ -38441,13 +38654,14 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var constant_pool_1 = __webpack_require__(130);
 var injectable_compiler_2_1 = __webpack_require__(239);
+var interpolation_config_1 = __webpack_require__(27);
 var output_ast_1 = __webpack_require__(9);
 var r3_factory_1 = __webpack_require__(84);
-var r3_jit_1 = __webpack_require__(240);
-var r3_module_compiler_1 = __webpack_require__(183);
-var r3_pipe_compiler_1 = __webpack_require__(184);
-var compiler_1 = __webpack_require__(185);
-var template_1 = __webpack_require__(187);
+var r3_jit_1 = __webpack_require__(241);
+var r3_module_compiler_1 = __webpack_require__(184);
+var r3_pipe_compiler_1 = __webpack_require__(185);
+var compiler_1 = __webpack_require__(186);
+var template_1 = __webpack_require__(188);
 var dom_element_schema_registry_1 = __webpack_require__(87);
 var CompilerFacadeImpl = /** @class */ (function () {
     function CompilerFacadeImpl() {
@@ -38512,18 +38726,19 @@ var CompilerFacadeImpl = /** @class */ (function () {
     CompilerFacadeImpl.prototype.compileComponent = function (angularCoreEnv, sourceMapUrl, facade) {
         // The ConstantPool is a requirement of the JIT'er.
         var constantPool = new constant_pool_1.ConstantPool();
+        var interpolationConfig = facade.interpolation ?
+            interpolation_config_1.InterpolationConfig.fromArray(facade.interpolation) :
+            interpolation_config_1.DEFAULT_INTERPOLATION_CONFIG;
         // Parse the template and check for errors.
-        var template = template_1.parseTemplate(facade.template, sourceMapUrl, {
-            preserveWhitespaces: facade.preserveWhitespaces || false,
-        });
+        var template = template_1.parseTemplate(facade.template, sourceMapUrl, { preserveWhitespaces: facade.preserveWhitespaces || false, interpolationConfig: interpolationConfig });
         if (template.errors !== undefined) {
             var errors = template.errors.map(function (err) { return err.toString(); }).join(', ');
             throw new Error("Errors during JIT compilation of template for " + facade.name + ": " + errors);
         }
         // Compile the component metadata, including template, into an expression.
         // TODO(alxhub): implement inputs, outputs, queries, etc.
-        var res = compiler_1.compileComponentFromMetadata(__assign({}, facade, convertDirectiveFacadeToMetadata(facade), { selector: facade.selector || this.elementSchemaRegistry.getDefaultComponentElementName(), template: template, viewQueries: facade.viewQueries.map(convertToR3QueryMetadata), wrapDirectivesAndPipesInClosure: false, styles: facade.styles || [], encapsulation: facade.encapsulation, animations: facade.animations != null ? new output_ast_1.WrappedNodeExpr(facade.animations) : null, viewProviders: facade.viewProviders != null ? new output_ast_1.WrappedNodeExpr(facade.viewProviders) :
-                null, relativeContextFilePath: '', i18nUseExternalIds: true }), constantPool, template_1.makeBindingParser());
+        var res = compiler_1.compileComponentFromMetadata(__assign({}, facade, convertDirectiveFacadeToMetadata(facade), { selector: facade.selector || this.elementSchemaRegistry.getDefaultComponentElementName(), template: template, viewQueries: facade.viewQueries.map(convertToR3QueryMetadata), wrapDirectivesAndPipesInClosure: false, styles: facade.styles || [], encapsulation: facade.encapsulation, interpolation: interpolationConfig, animations: facade.animations != null ? new output_ast_1.WrappedNodeExpr(facade.animations) : null, viewProviders: facade.viewProviders != null ? new output_ast_1.WrappedNodeExpr(facade.viewProviders) :
+                null, relativeContextFilePath: '', i18nUseExternalIds: true }), constantPool, template_1.makeBindingParser(interpolationConfig));
         var preStatements = constantPool.statements.concat(res.statements);
         return r3_jit_1.jitExpression(res.expression, angularCoreEnv, sourceMapUrl, preStatements);
     };
@@ -38683,7 +38898,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var identifiers_1 = __webpack_require__(38);
 var o = __webpack_require__(9);
 var r3_factory_1 = __webpack_require__(84);
-var util_1 = __webpack_require__(182);
+var util_1 = __webpack_require__(183);
 function compileInjectable(meta) {
     var result = null;
     function makeFn(ret) {
@@ -38755,8 +38970,61 @@ exports.compileInjectable = compileInjectable;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+function assertArrayOfStrings(identifier, value) {
+    if (value == null) {
+        return;
+    }
+    if (!Array.isArray(value)) {
+        throw new Error("Expected '" + identifier + "' to be an array of strings.");
+    }
+    for (var i = 0; i < value.length; i += 1) {
+        if (typeof value[i] !== 'string') {
+            throw new Error("Expected '" + identifier + "' to be an array of strings.");
+        }
+    }
+}
+exports.assertArrayOfStrings = assertArrayOfStrings;
+var INTERPOLATION_BLACKLIST_REGEXPS = [
+    /^\s*$/,
+    /[<>]/,
+    /^[{}]$/,
+    /&(#|[a-z])/i,
+    /^\/\//,
+];
+function assertInterpolationSymbols(identifier, value) {
+    if (value != null && !(Array.isArray(value) && value.length == 2)) {
+        throw new Error("Expected '" + identifier + "' to be an array, [start, end].");
+    }
+    else if (value != null) {
+        var start_1 = value[0];
+        var end_1 = value[1];
+        // black list checking
+        INTERPOLATION_BLACKLIST_REGEXPS.forEach(function (regexp) {
+            if (regexp.test(start_1) || regexp.test(end_1)) {
+                throw new Error("['" + start_1 + "', '" + end_1 + "'] contains unusable interpolation symbol.");
+            }
+        });
+    }
+}
+exports.assertInterpolationSymbols = assertInterpolationSymbols;
+
+
+/***/ }),
+/* 241 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
 var o = __webpack_require__(9);
-var output_jit_1 = __webpack_require__(241);
+var output_jit_1 = __webpack_require__(242);
 /**
  * Implementation of `CompileReflector` which resolves references to @angular/core
  * symbols at runtime, according to a consumer-provided mapping.
@@ -38810,7 +39078,7 @@ exports.jitExpression = jitExpression;
 
 
 /***/ }),
-/* 241 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38838,7 +39106,7 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var compile_metadata_1 = __webpack_require__(19);
 var abstract_emitter_1 = __webpack_require__(134);
-var abstract_js_emitter_1 = __webpack_require__(367);
+var abstract_js_emitter_1 = __webpack_require__(368);
 var o = __webpack_require__(9);
 function evalExpression(sourceUrl, ctx, vars, createSourceMap) {
     var fnBody = ctx.toSource() + "\n//# sourceURL=" + sourceUrl;
@@ -38931,7 +39199,7 @@ exports.JitEmitterVisitor = JitEmitterVisitor;
 
 
 /***/ }),
-/* 242 */
+/* 243 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39541,7 +39809,7 @@ function escapeBlocks(input) {
 
 
 /***/ }),
-/* 243 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39549,7 +39817,7 @@ function escapeBlocks(input) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var o = __webpack_require__(9);
 var r3_identifiers_1 = __webpack_require__(85);
-var style_parser_1 = __webpack_require__(368);
+var style_parser_1 = __webpack_require__(369);
 /**
  * Produces creation/update instructions for all styling bindings (class and style)
  *
@@ -39707,7 +39975,7 @@ var StylingBuilder = /** @class */ (function () {
                 // a constant because the inital class values do not change (since they're static).
                 params_1.push(constantPool.getConstLiteral(initialClasses, true));
             }
-            else if (initialStyles || useSanitizer) {
+            else if (initialStyles || useSanitizer || this._directiveExpr) {
                 // no point in having an extra `null` value unless there are follow-up params
                 params_1.push(o.NULL_EXPR);
             }
@@ -39852,59 +40120,6 @@ function isStyleSanitizable(prop) {
 
 
 /***/ }),
-/* 244 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-Object.defineProperty(exports, "__esModule", { value: true });
-function assertArrayOfStrings(identifier, value) {
-    if (value == null) {
-        return;
-    }
-    if (!Array.isArray(value)) {
-        throw new Error("Expected '" + identifier + "' to be an array of strings.");
-    }
-    for (var i = 0; i < value.length; i += 1) {
-        if (typeof value[i] !== 'string') {
-            throw new Error("Expected '" + identifier + "' to be an array of strings.");
-        }
-    }
-}
-exports.assertArrayOfStrings = assertArrayOfStrings;
-var INTERPOLATION_BLACKLIST_REGEXPS = [
-    /^\s*$/,
-    /[<>]/,
-    /^[{}]$/,
-    /&(#|[a-z])/i,
-    /^\/\//,
-];
-function assertInterpolationSymbols(identifier, value) {
-    if (value != null && !(Array.isArray(value) && value.length == 2)) {
-        throw new Error("Expected '" + identifier + "' to be an array, [start, end].");
-    }
-    else if (value != null) {
-        var start_1 = value[0];
-        var end_1 = value[1];
-        // black list checking
-        INTERPOLATION_BLACKLIST_REGEXPS.forEach(function (regexp) {
-            if (regexp.test(start_1) || regexp.test(end_1)) {
-                throw new Error("['" + start_1 + "', '" + end_1 + "'] contains unusable interpolation symbol.");
-            }
-        });
-    }
-}
-exports.assertInterpolationSymbols = assertInterpolationSymbols;
-
-
-/***/ }),
 /* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -40010,12 +40225,12 @@ exports.ElementSchemaRegistry = ElementSchemaRegistry;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var html = __webpack_require__(28);
+var html = __webpack_require__(29);
 var html_whitespaces_1 = __webpack_require__(139);
-var tags_1 = __webpack_require__(29);
+var tags_1 = __webpack_require__(30);
 var parse_util_1 = __webpack_require__(47);
-var style_url_resolver_1 = __webpack_require__(189);
-var template_preparser_1 = __webpack_require__(190);
+var style_url_resolver_1 = __webpack_require__(190);
+var template_preparser_1 = __webpack_require__(191);
 var util_1 = __webpack_require__(10);
 var t = __webpack_require__(140);
 var util_2 = __webpack_require__(86);
@@ -40041,8 +40256,6 @@ var IDENT_PROPERTY_IDX = 9;
 // Group 10 = identifier inside ()
 var IDENT_EVENT_IDX = 10;
 var TEMPLATE_ATTR_PREFIX = '*';
-// Default selector used by `<ng-content>` if none specified
-var DEFAULT_CONTENT_SELECTOR = '*';
 function htmlAstToRender3Ast(htmlNodes, bindingParser) {
     var transformer = new HtmlAstToIvyAst(bindingParser);
     var ivyNodes = html.visitAll(transformer, htmlNodes);
@@ -40056,8 +40269,6 @@ function htmlAstToRender3Ast(htmlNodes, bindingParser) {
     return {
         nodes: ivyNodes,
         errors: allErrors,
-        ngContentSelectors: transformer.ngContentSelectors,
-        hasNgContent: transformer.hasNgContent,
     };
 }
 exports.htmlAstToRender3Ast = htmlAstToRender3Ast;
@@ -40065,10 +40276,6 @@ var HtmlAstToIvyAst = /** @class */ (function () {
     function HtmlAstToIvyAst(bindingParser) {
         this.bindingParser = bindingParser;
         this.errors = [];
-        // Selectors for the `ng-content` tags. Only non `*` selectors are recorded here
-        this.ngContentSelectors = [];
-        // Any `<ng-content>` in the template ?
-        this.hasNgContent = false;
     }
     // HTML visitor
     HtmlAstToIvyAst.prototype.visitElement = function (element) {
@@ -40134,14 +40341,12 @@ var HtmlAstToIvyAst = /** @class */ (function () {
         var parsedElement;
         if (preparsedElement.type === template_preparser_1.PreparsedElementType.NG_CONTENT) {
             // `<ng-content>`
-            this.hasNgContent = true;
             if (element.children && !element.children.every(isEmptyTextNode)) {
                 this.reportError("<ng-content> element cannot have content.", element.sourceSpan);
             }
             var selector = preparsedElement.selectAttr;
-            var attributes_1 = element.attrs.map(function (attribute) { return _this.visitAttribute(attribute); });
-            var selectorIndex = selector === DEFAULT_CONTENT_SELECTOR ? 0 : this.ngContentSelectors.push(selector);
-            parsedElement = new t.Content(selectorIndex, attributes_1, element.sourceSpan, element.i18n);
+            var attrs = element.attrs.map(function (attr) { return _this.visitAttribute(attr); });
+            parsedElement = new t.Content(selector, attrs, element.sourceSpan, element.i18n);
         }
         else if (isTemplateElement) {
             // `<ng-template>`
@@ -40181,8 +40386,11 @@ var HtmlAstToIvyAst = /** @class */ (function () {
         Object.keys(meta.placeholders).forEach(function (key) {
             var value = meta.placeholders[key];
             if (key.startsWith(util_2.I18N_ICU_VAR_PREFIX)) {
-                vars[key] =
-                    _this._visitTextWithInterpolation("{{" + value + "}}", expansion.sourceSpan);
+                var config = _this.bindingParser.interpolationConfig;
+                // ICU expression is a plain string, not wrapped into start
+                // and end tags, so we wrap it before passing to binding parser
+                var wrapped = "" + config.start + value + config.end;
+                vars[key] = _this._visitTextWithInterpolation(wrapped, expansion.sourceSpan);
             }
             else {
                 placeholders[key] = _this._visitTextWithInterpolation(value, expansion.sourceSpan);
@@ -40343,12 +40551,12 @@ function isEmptyTextNode(node) {
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var lexer_1 = __webpack_require__(115);
+var lexer_1 = __webpack_require__(116);
 var parser_1 = __webpack_require__(138);
-var html = __webpack_require__(28);
+var html = __webpack_require__(29);
 var html_tags_1 = __webpack_require__(129);
 var i18n = __webpack_require__(60);
-var placeholder_1 = __webpack_require__(373);
+var placeholder_1 = __webpack_require__(374);
 var _expParser = new parser_1.Parser(new lexer_1.Lexer());
 /**
  * Returns a function converting html nodes to an i18n Message given an interpolationConfig
@@ -40492,29 +40700,29 @@ function _extractPlaceholderName(input) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var config_1 = __webpack_require__(141);
 var core_1 = __webpack_require__(21);
-var directive_normalizer_1 = __webpack_require__(191);
+var directive_normalizer_1 = __webpack_require__(192);
 var directive_resolver_1 = __webpack_require__(89);
-var lexer_1 = __webpack_require__(115);
+var lexer_1 = __webpack_require__(116);
 var parser_1 = __webpack_require__(138);
 var i18n_html_parser_1 = __webpack_require__(250);
-var injectable_compiler_1 = __webpack_require__(378);
-var metadata_resolver_1 = __webpack_require__(194);
-var html_parser_1 = __webpack_require__(74);
+var injectable_compiler_1 = __webpack_require__(379);
+var metadata_resolver_1 = __webpack_require__(195);
+var html_parser_1 = __webpack_require__(75);
 var ng_module_compiler_1 = __webpack_require__(255);
-var ng_module_resolver_1 = __webpack_require__(195);
+var ng_module_resolver_1 = __webpack_require__(196);
 var ts_emitter_1 = __webpack_require__(142);
-var pipe_resolver_1 = __webpack_require__(196);
+var pipe_resolver_1 = __webpack_require__(197);
 var dom_element_schema_registry_1 = __webpack_require__(87);
-var style_compiler_1 = __webpack_require__(186);
+var style_compiler_1 = __webpack_require__(187);
 var template_parser_1 = __webpack_require__(258);
 var util_1 = __webpack_require__(10);
-var type_check_compiler_1 = __webpack_require__(380);
+var type_check_compiler_1 = __webpack_require__(381);
 var view_compiler_1 = __webpack_require__(259);
-var compiler_1 = __webpack_require__(197);
-var static_reflector_1 = __webpack_require__(199);
+var compiler_1 = __webpack_require__(198);
+var static_reflector_1 = __webpack_require__(200);
 var static_symbol_1 = __webpack_require__(39);
 var static_symbol_resolver_1 = __webpack_require__(143);
-var summary_resolver_1 = __webpack_require__(200);
+var summary_resolver_1 = __webpack_require__(201);
 function createAotUrlResolver(host) {
     return {
         resolve: function (basePath, url) {
@@ -40581,15 +40789,15 @@ exports.createAotCompiler = createAotCompiler;
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(21);
-var interpolation_config_1 = __webpack_require__(30);
+var interpolation_config_1 = __webpack_require__(27);
 var parser_1 = __webpack_require__(67);
-var digest_1 = __webpack_require__(113);
+var digest_1 = __webpack_require__(114);
 var extractor_merger_1 = __webpack_require__(251);
 var xliff_1 = __webpack_require__(252);
 var xliff2_1 = __webpack_require__(253);
 var xmb_1 = __webpack_require__(132);
 var xtb_1 = __webpack_require__(254);
-var translation_bundle_1 = __webpack_require__(377);
+var translation_bundle_1 = __webpack_require__(378);
 var I18NHtmlParser = /** @class */ (function () {
     function I18NHtmlParser(_htmlParser, translations, translationsFormat, missingTranslation, console) {
         if (missingTranslation === void 0) { missingTranslation = core_1.MissingTranslationStrategy.Warning; }
@@ -40648,11 +40856,11 @@ function createSerializer(format) {
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var html = __webpack_require__(28);
+var html = __webpack_require__(29);
 var parser_1 = __webpack_require__(67);
 var i18n = __webpack_require__(60);
 var i18n_parser_1 = __webpack_require__(248);
-var parse_util_1 = __webpack_require__(116);
+var parse_util_1 = __webpack_require__(117);
 var _I18N_ATTR = 'i18n';
 var _I18N_ATTR_PREFIX = 'i18n-';
 var _I18N_COMMENT_PREFIX_REGEXP = /^i18n:?/;
@@ -41084,12 +41292,12 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ml = __webpack_require__(28);
-var xml_parser_1 = __webpack_require__(192);
-var digest_1 = __webpack_require__(113);
+var ml = __webpack_require__(29);
+var xml_parser_1 = __webpack_require__(193);
+var digest_1 = __webpack_require__(114);
 var i18n = __webpack_require__(60);
-var parse_util_1 = __webpack_require__(116);
-var serializer_1 = __webpack_require__(114);
+var parse_util_1 = __webpack_require__(117);
+var serializer_1 = __webpack_require__(115);
 var xml = __webpack_require__(133);
 var _VERSION = '1.2';
 var _XMLNS = 'urn:oasis:names:tc:xliff:document:1.2';
@@ -41372,12 +41580,12 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ml = __webpack_require__(28);
-var xml_parser_1 = __webpack_require__(192);
-var digest_1 = __webpack_require__(113);
+var ml = __webpack_require__(29);
+var xml_parser_1 = __webpack_require__(193);
+var digest_1 = __webpack_require__(114);
 var i18n = __webpack_require__(60);
-var parse_util_1 = __webpack_require__(116);
-var serializer_1 = __webpack_require__(114);
+var parse_util_1 = __webpack_require__(117);
+var serializer_1 = __webpack_require__(115);
 var xml = __webpack_require__(133);
 var _VERSION = '2.0';
 var _XMLNS = 'urn:oasis:names:tc:xliff:document:2.0';
@@ -41710,11 +41918,11 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ml = __webpack_require__(28);
-var xml_parser_1 = __webpack_require__(192);
+var ml = __webpack_require__(29);
+var xml_parser_1 = __webpack_require__(193);
 var i18n = __webpack_require__(60);
-var parse_util_1 = __webpack_require__(116);
-var serializer_1 = __webpack_require__(114);
+var parse_util_1 = __webpack_require__(117);
+var serializer_1 = __webpack_require__(115);
 var xmb_1 = __webpack_require__(132);
 var _TRANSLATIONS_TAG = 'translationbundle';
 var _TRANSLATION_TAG = 'translation';
@@ -42483,7 +42691,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var identifiers_1 = __webpack_require__(38);
 var lifecycle_reflector_1 = __webpack_require__(136);
 var o = __webpack_require__(9);
-var value_util_1 = __webpack_require__(193);
+var value_util_1 = __webpack_require__(194);
 var template_ast_1 = __webpack_require__(88);
 function providerDef(ctx, providerAst) {
     var flags = 0 /* None */;
@@ -42689,22 +42897,22 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var compile_metadata_1 = __webpack_require__(19);
-var ast_1 = __webpack_require__(73);
+var ast_1 = __webpack_require__(74);
 var identifiers_1 = __webpack_require__(38);
-var html = __webpack_require__(28);
-var html_parser_1 = __webpack_require__(74);
+var html = __webpack_require__(29);
+var html_parser_1 = __webpack_require__(75);
 var html_whitespaces_1 = __webpack_require__(139);
-var icu_ast_expander_1 = __webpack_require__(379);
-var interpolation_config_1 = __webpack_require__(30);
-var tags_1 = __webpack_require__(29);
+var icu_ast_expander_1 = __webpack_require__(380);
+var interpolation_config_1 = __webpack_require__(27);
+var tags_1 = __webpack_require__(30);
 var parse_util_1 = __webpack_require__(47);
 var provider_analyzer_1 = __webpack_require__(256);
 var selector_1 = __webpack_require__(66);
-var style_url_resolver_1 = __webpack_require__(189);
+var style_url_resolver_1 = __webpack_require__(190);
 var util_1 = __webpack_require__(10);
-var binding_parser_1 = __webpack_require__(188);
+var binding_parser_1 = __webpack_require__(189);
 var t = __webpack_require__(88);
-var template_preparser_1 = __webpack_require__(190);
+var template_preparser_1 = __webpack_require__(191);
 var BIND_NAME_REGEXP = /^(?:(?:(?:(bind-)|(let-)|(ref-|#)|(on-)|(bindon-)|(@))(.+))|\[\(([^\)]+)\)\]|\[([^\]]+)\]|\(([^\)]+)\))$/;
 // Group 1 = "bind-"
 var KW_BIND_IDX = 1;
@@ -43427,9 +43635,9 @@ var expression_converter_1 = __webpack_require__(135);
 var core_1 = __webpack_require__(21);
 var identifiers_1 = __webpack_require__(38);
 var lifecycle_reflector_1 = __webpack_require__(136);
-var tags_1 = __webpack_require__(29);
+var tags_1 = __webpack_require__(30);
 var o = __webpack_require__(9);
-var value_util_1 = __webpack_require__(193);
+var value_util_1 = __webpack_require__(194);
 var template_ast_1 = __webpack_require__(88);
 var provider_compiler_1 = __webpack_require__(257);
 var CLASS_ATTR = 'class';
@@ -44906,11 +45114,11 @@ exports.HostListener = directives_1.HostListener;
 exports.Input = directives_1.Input;
 exports.Output = directives_1.Output;
 exports.Pipe = directives_1.Pipe;
-var ng_module_1 = __webpack_require__(283);
+var ng_module_1 = __webpack_require__(284);
 exports.CUSTOM_ELEMENTS_SCHEMA = ng_module_1.CUSTOM_ELEMENTS_SCHEMA;
 exports.NO_ERRORS_SCHEMA = ng_module_1.NO_ERRORS_SCHEMA;
 exports.NgModule = ng_module_1.NgModule;
-var view_1 = __webpack_require__(117);
+var view_1 = __webpack_require__(118);
 exports.ViewEncapsulation = view_1.ViewEncapsulation;
 
 
@@ -44940,7 +45148,7 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var injection_token_1 = __webpack_require__(52);
-var decorators_1 = __webpack_require__(76);
+var decorators_1 = __webpack_require__(77);
 /**
  * This token can be used to create a virtual provider that will populate the
  * `entryComponents` fields of components and ng modules based on its `useValue`.
@@ -45072,10 +45280,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var constants_1 = __webpack_require__(144);
 var fields_1 = __webpack_require__(61);
 var directive_1 = __webpack_require__(266);
-var pipe_1 = __webpack_require__(282);
-var decorators_1 = __webpack_require__(76);
+var pipe_1 = __webpack_require__(283);
+var decorators_1 = __webpack_require__(77);
 var noop_1 = __webpack_require__(93);
-var property_1 = __webpack_require__(75);
+var property_1 = __webpack_require__(76);
 /**
  * Type of the Directive metadata.
  *
@@ -45218,14 +45426,14 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var resource_loading_1 = __webpack_require__(267);
-var view_1 = __webpack_require__(117);
+var view_1 = __webpack_require__(118);
 var util_1 = __webpack_require__(14);
 var definition_1 = __webpack_require__(53);
 var fields_1 = __webpack_require__(61);
-var compiler_facade_1 = __webpack_require__(119);
+var compiler_facade_1 = __webpack_require__(120);
 var environment_1 = __webpack_require__(145);
 var module_1 = __webpack_require__(211);
-var util_2 = __webpack_require__(152);
+var util_2 = __webpack_require__(153);
 /**
  * Compile an Angular component according to its decorator metadata, and patch the resulting
  * ngComponentDef onto the component type.
@@ -45254,7 +45462,7 @@ function compileComponent(type, metadata) {
                     error.push("Did you run and wait for 'resolveComponentResources()'?");
                     throw new Error(error.join('\n'));
                 }
-                var meta = __assign({}, directiveMetadata(type, metadata), { template: metadata.template || '', preserveWhitespaces: metadata.preserveWhitespaces || false, styles: metadata.styles || definition_1.EMPTY_ARRAY, animations: metadata.animations, viewQueries: extractQueriesMetadata(util_2.getReflect().propMetadata(type), isViewQuery), directives: [], pipes: new Map(), encapsulation: metadata.encapsulation || view_1.ViewEncapsulation.Emulated, viewProviders: metadata.viewProviders || null });
+                var meta = __assign({}, directiveMetadata(type, metadata), { template: metadata.template || '', preserveWhitespaces: metadata.preserveWhitespaces || false, styles: metadata.styles || definition_1.EMPTY_ARRAY, animations: metadata.animations, viewQueries: extractQueriesMetadata(util_2.getReflect().propMetadata(type), isViewQuery), directives: [], pipes: new Map(), encapsulation: metadata.encapsulation || view_1.ViewEncapsulation.Emulated, interpolation: metadata.interpolation, viewProviders: metadata.viewProviders || null });
                 ngComponentDef = compiler.compileComponent(environment_1.angularCoreEnv, "ng://" + util_1.stringify(type) + "/template.html", meta);
                 // If component compilation is async, then the @NgModule annotation which declares the
                 // component may execute and set an ngSelectorScope property on the component type. This
@@ -45496,7 +45704,7 @@ var di_1 = __webpack_require__(69);
 var global_utils_1 = __webpack_require__(270);
 var hooks_1 = __webpack_require__(147);
 var instructions_1 = __webpack_require__(41);
-var renderer_1 = __webpack_require__(94);
+var renderer_1 = __webpack_require__(95);
 var view_1 = __webpack_require__(18);
 var state_1 = __webpack_require__(32);
 var util_1 = __webpack_require__(23);
@@ -45571,7 +45779,7 @@ function createRootComponentView(rNode, def, rootView, rendererFactory, renderer
     var tNode = instructions_1.createNodeAtIndex(0, 3 /* Element */, rNode, null, null);
     if (tView.firstTemplatePass) {
         di_1.diPublicInInjector(di_1.getOrCreateNodeInjectorForNode(tNode, rootView), rootView, def.type);
-        tNode.flags = 4096 /* isComponent */;
+        tNode.flags = 1 /* isComponent */;
         instructions_1.initNodeFlags(tNode, rootView.length, 1);
         instructions_1.queueComponentIndexForCheck(tNode);
     }
@@ -45628,7 +45836,9 @@ function LifecycleHooksFeature(component, def) {
     var rootTView = util_1.readPatchedLView(component)[view_1.TVIEW];
     var dirIndex = rootTView.data.length - 1;
     hooks_1.queueInitHooks(dirIndex, def.onInit, def.doCheck, rootTView);
-    hooks_1.queueLifecycleHooks(dirIndex << 16 /* DirectiveStartingIndexShift */ | 1, rootTView);
+    // TODO(misko): replace `as TNode` with createTNode call. (needs refactoring to lose dep on
+    // LNode).
+    hooks_1.queueLifecycleHooks(rootTView, { directiveStart: dirIndex, directiveEnd: dirIndex + 1 });
 }
 exports.LifecycleHooksFeature = LifecycleHooksFeature;
 /**
@@ -45700,7 +45910,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var util_1 = __webpack_require__(14);
 var assert_1 = __webpack_require__(20);
-var global_utils_api_1 = __webpack_require__(394);
+var global_utils_api_1 = __webpack_require__(395);
 /**
  * This file introduces series of globally accessible debug tools
  * to allow for the Angular debugging story to function.
@@ -45728,6 +45938,8 @@ function publishDefaultGlobalUtils() {
     if (!_published) {
         _published = true;
         publishGlobalUtil('getComponent', global_utils_api_1.getComponent);
+        publishGlobalUtil('getContext', global_utils_api_1.getContext);
+        publishGlobalUtil('getListeners', global_utils_api_1.getListeners);
         publishGlobalUtil('getViewComponent', global_utils_api_1.getViewComponent);
         publishGlobalUtil('getHostElement', global_utils_api_1.getHostElement);
         publishGlobalUtil('getInjector', global_utils_api_1.getInjector);
@@ -45812,11 +46024,11 @@ exports.normalizeDebugBindingValue = normalizeDebugBindingValue;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var change_detection_util_1 = __webpack_require__(78);
+var change_detection_util_1 = __webpack_require__(71);
 var assert_1 = __webpack_require__(20);
 var errors_1 = __webpack_require__(273);
 var state_1 = __webpack_require__(32);
-var tokens_1 = __webpack_require__(121);
+var tokens_1 = __webpack_require__(94);
 var util_1 = __webpack_require__(23);
 // TODO(misko): consider inlining
 /** Updates binding and returns the value. */
@@ -45908,6 +46120,813 @@ exports.throwErrorIfNoChangesMode = throwErrorIfNoChangesMode;
 
 /***/ }),
 /* 274 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var renderer_1 = __webpack_require__(95);
+var tokens_1 = __webpack_require__(94);
+var util_1 = __webpack_require__(23);
+var player_factory_1 = __webpack_require__(205);
+var util_2 = __webpack_require__(150);
+var EMPTY_ARR = [];
+var EMPTY_OBJ = {};
+/**
+ * Creates a styling context template where styling information is stored.
+ * Any styles that are later referenced using `updateStyleProp` must be
+ * passed in within this function. Initial values for those styles are to
+ * be declared after all initial style properties are declared (this change in
+ * mode between declarations and initial styles is made possible using a special
+ * enum value found in `definition.ts`).
+ *
+ * @param initialStyleDeclarations a list of style declarations and initial style values
+ *    that are used later within the styling context.
+ *
+ *    -> ['width', 'height', SPECIAL_ENUM_VAL, 'width', '100px']
+ *       This implies that `width` and `height` will be later styled and that the `width`
+ *       property has an initial value of `100px`.
+ *
+ * @param initialClassDeclarations a list of class declarations and initial class values
+ *    that are used later within the styling context.
+ *
+ *    -> ['foo', 'bar', SPECIAL_ENUM_VAL, 'foo', true]
+ *       This implies that `foo` and `bar` will be later styled and that the `foo`
+ *       class will be applied to the element as an initial class since it's true
+ */
+function createStylingContextTemplate(initialClassDeclarations, initialStyleDeclarations, styleSanitizer, onlyProcessSingleClasses) {
+    var initialStylingValues = [null];
+    var context = util_2.createEmptyStylingContext(null, styleSanitizer, initialStylingValues);
+    // we use two maps since a class name might collide with a CSS style prop
+    var stylesLookup = {};
+    var classesLookup = {};
+    var totalStyleDeclarations = 0;
+    if (initialStyleDeclarations) {
+        var hasPassedDeclarations = false;
+        for (var i = 0; i < initialStyleDeclarations.length; i++) {
+            var v = initialStyleDeclarations[i];
+            // this flag value marks where the declarations end the initial values begin
+            if (v === 1 /* VALUES_MODE */) {
+                hasPassedDeclarations = true;
+            }
+            else {
+                var prop = v;
+                if (hasPassedDeclarations) {
+                    var value = initialStyleDeclarations[++i];
+                    initialStylingValues.push(value);
+                    stylesLookup[prop] = initialStylingValues.length - 1;
+                }
+                else {
+                    totalStyleDeclarations++;
+                    stylesLookup[prop] = 0;
+                }
+            }
+        }
+    }
+    // make where the class offsets begin
+    context[4 /* ClassOffsetPosition */] = totalStyleDeclarations;
+    var initialStaticClasses = onlyProcessSingleClasses ? [] : null;
+    if (initialClassDeclarations) {
+        var hasPassedDeclarations = false;
+        for (var i = 0; i < initialClassDeclarations.length; i++) {
+            var v = initialClassDeclarations[i];
+            // this flag value marks where the declarations end the initial values begin
+            if (v === 1 /* VALUES_MODE */) {
+                hasPassedDeclarations = true;
+            }
+            else {
+                var className = v;
+                if (hasPassedDeclarations) {
+                    var value = initialClassDeclarations[++i];
+                    initialStylingValues.push(value);
+                    classesLookup[className] = initialStylingValues.length - 1;
+                    initialStaticClasses && initialStaticClasses.push(className);
+                }
+                else {
+                    classesLookup[className] = 0;
+                }
+            }
+        }
+    }
+    var styleProps = Object.keys(stylesLookup);
+    var classNames = Object.keys(classesLookup);
+    var classNamesIndexStart = styleProps.length;
+    var totalProps = styleProps.length + classNames.length;
+    // *2 because we are filling for both single and multi style spaces
+    var maxLength = totalProps * 4 /* Size */ * 2 + 8 /* SingleStylesStartPosition */;
+    // we need to fill the array from the start so that we can access
+    // both the multi and the single array positions in the same loop block
+    for (var i = 8 /* SingleStylesStartPosition */; i < maxLength; i++) {
+        context.push(null);
+    }
+    var singleStart = 8 /* SingleStylesStartPosition */;
+    var multiStart = totalProps * 4 /* Size */ + 8 /* SingleStylesStartPosition */;
+    // fill single and multi-level styles
+    for (var i = 0; i < totalProps; i++) {
+        var isClassBased_1 = i >= classNamesIndexStart;
+        var prop = isClassBased_1 ? classNames[i - classNamesIndexStart] : styleProps[i];
+        var indexForInitial = isClassBased_1 ? classesLookup[prop] : stylesLookup[prop];
+        var initialValue = initialStylingValues[indexForInitial];
+        var indexForMulti = i * 4 /* Size */ + multiStart;
+        var indexForSingle = i * 4 /* Size */ + singleStart;
+        var initialFlag = prepareInitialFlag(prop, isClassBased_1, styleSanitizer || null);
+        setFlag(context, indexForSingle, pointers(initialFlag, indexForInitial, indexForMulti));
+        setProp(context, indexForSingle, prop);
+        setValue(context, indexForSingle, null);
+        setPlayerBuilderIndex(context, indexForSingle, 0);
+        var flagForMulti = initialFlag | (initialValue !== null ? 1 /* Dirty */ : 0 /* None */);
+        setFlag(context, indexForMulti, pointers(flagForMulti, indexForInitial, indexForSingle));
+        setProp(context, indexForMulti, prop);
+        setValue(context, indexForMulti, null);
+        setPlayerBuilderIndex(context, indexForMulti, 0);
+    }
+    // there is no initial value flag for the master index since it doesn't
+    // reference an initial style value
+    var masterFlag = pointers(0, 0, multiStart) |
+        (onlyProcessSingleClasses ? 16 /* OnlyProcessSingleClasses */ : 0);
+    setFlag(context, 3 /* MasterFlagPosition */, masterFlag);
+    setContextDirty(context, initialStylingValues.length > 1);
+    if (initialStaticClasses) {
+        context[6 /* PreviousOrCachedMultiClassValue */] = initialStaticClasses.join(' ');
+    }
+    return context;
+}
+exports.createStylingContextTemplate = createStylingContextTemplate;
+/**
+ * Sets and resolves all `multi` styling on an `StylingContext` so that they can be
+ * applied to the element once `renderStyleAndClassBindings` is called.
+ *
+ * All missing styles/class (any values that are not provided in the new `styles`
+ * or `classes` params) will resolve to `null` within their respective positions
+ * in the context.
+ *
+ * @param context The styling context that will be updated with the
+ *    newly provided style values.
+ * @param classesInput The key/value map of CSS class names that will be used for the update.
+ * @param stylesInput The key/value map of CSS styles that will be used for the update.
+ */
+function updateStylingMap(context, classesInput, stylesInput) {
+    stylesInput = stylesInput || null;
+    var element = context[5 /* ElementPosition */];
+    var classesPlayerBuilder = classesInput instanceof player_factory_1.BoundPlayerFactory ?
+        new ClassAndStylePlayerBuilder(classesInput, element, 1 /* Class */) :
+        null;
+    var stylesPlayerBuilder = stylesInput instanceof player_factory_1.BoundPlayerFactory ?
+        new ClassAndStylePlayerBuilder(stylesInput, element, 2 /* Style */) :
+        null;
+    var classesValue = classesPlayerBuilder ?
+        classesInput.value :
+        classesInput;
+    var stylesValue = stylesPlayerBuilder ? stylesInput.value : stylesInput;
+    // early exit (this is what's done to avoid using ctx.bind() to cache the value)
+    var ignoreAllClassUpdates = limitToSingleClasses(context) || classesValue === tokens_1.NO_CHANGE ||
+        classesValue === context[6 /* PreviousOrCachedMultiClassValue */];
+    var ignoreAllStyleUpdates = stylesValue === tokens_1.NO_CHANGE || stylesValue === context[7 /* PreviousMultiStyleValue */];
+    if (ignoreAllClassUpdates && ignoreAllStyleUpdates)
+        return;
+    context[6 /* PreviousOrCachedMultiClassValue */] = classesValue;
+    context[7 /* PreviousMultiStyleValue */] = stylesValue;
+    var classNames = EMPTY_ARR;
+    var applyAllClasses = false;
+    var playerBuildersAreDirty = false;
+    var classesPlayerBuilderIndex = classesPlayerBuilder ? 1 /* ClassMapPlayerBuilderPosition */ : 0;
+    if (hasPlayerBuilderChanged(context, classesPlayerBuilder, 1 /* ClassMapPlayerBuilderPosition */)) {
+        setPlayerBuilder(context, classesPlayerBuilder, 1 /* ClassMapPlayerBuilderPosition */);
+        playerBuildersAreDirty = true;
+    }
+    var stylesPlayerBuilderIndex = stylesPlayerBuilder ? 3 /* StyleMapPlayerBuilderPosition */ : 0;
+    if (hasPlayerBuilderChanged(context, stylesPlayerBuilder, 3 /* StyleMapPlayerBuilderPosition */)) {
+        setPlayerBuilder(context, stylesPlayerBuilder, 3 /* StyleMapPlayerBuilderPosition */);
+        playerBuildersAreDirty = true;
+    }
+    // each time a string-based value pops up then it shouldn't require a deep
+    // check of what's changed.
+    if (!ignoreAllClassUpdates) {
+        if (typeof classesValue == 'string') {
+            classNames = classesValue.split(/\s+/);
+            // this boolean is used to avoid having to create a key/value map of `true` values
+            // since a classname string implies that all those classes are added
+            applyAllClasses = true;
+        }
+        else {
+            classNames = classesValue ? Object.keys(classesValue) : EMPTY_ARR;
+        }
+    }
+    var classes = (classesValue || EMPTY_OBJ);
+    var styleProps = stylesValue ? Object.keys(stylesValue) : EMPTY_ARR;
+    var styles = stylesValue || EMPTY_OBJ;
+    var classesStartIndex = styleProps.length;
+    var multiStartIndex = getMultiStartIndex(context);
+    var dirty = false;
+    var ctxIndex = multiStartIndex;
+    var propIndex = 0;
+    var propLimit = styleProps.length + classNames.length;
+    // the main loop here will try and figure out how the shape of the provided
+    // styles differ with respect to the context. Later if the context/styles/classes
+    // are off-balance then they will be dealt in another loop after this one
+    while (ctxIndex < context.length && propIndex < propLimit) {
+        var isClassBased_2 = propIndex >= classesStartIndex;
+        var processValue = (!isClassBased_2 && !ignoreAllStyleUpdates) || (isClassBased_2 && !ignoreAllClassUpdates);
+        // when there is a cache-hit for a string-based class then we should
+        // avoid doing any work diffing any of the changes
+        if (processValue) {
+            var adjustedPropIndex = isClassBased_2 ? propIndex - classesStartIndex : propIndex;
+            var newProp = isClassBased_2 ? classNames[adjustedPropIndex] : styleProps[adjustedPropIndex];
+            var newValue = isClassBased_2 ? (applyAllClasses ? true : classes[newProp]) : styles[newProp];
+            var playerBuilderIndex = isClassBased_2 ? classesPlayerBuilderIndex : stylesPlayerBuilderIndex;
+            var prop = getProp(context, ctxIndex);
+            if (prop === newProp) {
+                var value = getValue(context, ctxIndex);
+                var flag = getPointers(context, ctxIndex);
+                setPlayerBuilderIndex(context, ctxIndex, playerBuilderIndex);
+                if (hasValueChanged(flag, value, newValue)) {
+                    setValue(context, ctxIndex, newValue);
+                    playerBuildersAreDirty = playerBuildersAreDirty || !!playerBuilderIndex;
+                    var initialValue = getInitialValue(context, flag);
+                    // there is no point in setting this to dirty if the previously
+                    // rendered value was being referenced by the initial style (or null)
+                    if (hasValueChanged(flag, initialValue, newValue)) {
+                        setDirty(context, ctxIndex, true);
+                        dirty = true;
+                    }
+                }
+            }
+            else {
+                var indexOfEntry = findEntryPositionByProp(context, newProp, ctxIndex);
+                if (indexOfEntry > 0) {
+                    // it was found at a later point ... just swap the values
+                    var valueToCompare = getValue(context, indexOfEntry);
+                    var flagToCompare = getPointers(context, indexOfEntry);
+                    swapMultiContextEntries(context, ctxIndex, indexOfEntry);
+                    if (hasValueChanged(flagToCompare, valueToCompare, newValue)) {
+                        var initialValue = getInitialValue(context, flagToCompare);
+                        setValue(context, ctxIndex, newValue);
+                        if (hasValueChanged(flagToCompare, initialValue, newValue)) {
+                            setDirty(context, ctxIndex, true);
+                            playerBuildersAreDirty = playerBuildersAreDirty || !!playerBuilderIndex;
+                            dirty = true;
+                        }
+                    }
+                }
+                else {
+                    // we only care to do this if the insertion is in the middle
+                    var newFlag = prepareInitialFlag(newProp, isClassBased_2, getStyleSanitizer(context));
+                    playerBuildersAreDirty = playerBuildersAreDirty || !!playerBuilderIndex;
+                    insertNewMultiProperty(context, ctxIndex, isClassBased_2, newProp, newFlag, newValue, playerBuilderIndex);
+                    dirty = true;
+                }
+            }
+        }
+        ctxIndex += 4 /* Size */;
+        propIndex++;
+    }
+    // this means that there are left-over values in the context that
+    // were not included in the provided styles/classes and in this
+    // case the  goal is to "remove" them from the context (by nullifying)
+    while (ctxIndex < context.length) {
+        var flag = getPointers(context, ctxIndex);
+        var isClassBased_3 = (flag & 2 /* Class */) === 2 /* Class */;
+        var processValue = (!isClassBased_3 && !ignoreAllStyleUpdates) || (isClassBased_3 && !ignoreAllClassUpdates);
+        if (processValue) {
+            var value = getValue(context, ctxIndex);
+            var doRemoveValue = valueExists(value, isClassBased_3);
+            if (doRemoveValue) {
+                setDirty(context, ctxIndex, true);
+                setValue(context, ctxIndex, null);
+                // we keep the player factory the same so that the `nulled` value can
+                // be instructed into the player because removing a style and/or a class
+                // is a valid animation player instruction.
+                var playerBuilderIndex = isClassBased_3 ? classesPlayerBuilderIndex : stylesPlayerBuilderIndex;
+                setPlayerBuilderIndex(context, ctxIndex, playerBuilderIndex);
+                dirty = true;
+            }
+        }
+        ctxIndex += 4 /* Size */;
+    }
+    // this means that there are left-over properties in the context that
+    // were not detected in the context during the loop above. In that
+    // case we want to add the new entries into the list
+    var sanitizer = getStyleSanitizer(context);
+    while (propIndex < propLimit) {
+        var isClassBased_4 = propIndex >= classesStartIndex;
+        var processValue = (!isClassBased_4 && !ignoreAllStyleUpdates) || (isClassBased_4 && !ignoreAllClassUpdates);
+        if (processValue) {
+            var adjustedPropIndex = isClassBased_4 ? propIndex - classesStartIndex : propIndex;
+            var prop = isClassBased_4 ? classNames[adjustedPropIndex] : styleProps[adjustedPropIndex];
+            var value = isClassBased_4 ? (applyAllClasses ? true : classes[prop]) : styles[prop];
+            var flag = prepareInitialFlag(prop, isClassBased_4, sanitizer) | 1 /* Dirty */;
+            var playerBuilderIndex = isClassBased_4 ? classesPlayerBuilderIndex : stylesPlayerBuilderIndex;
+            context.push(flag, prop, value, playerBuilderIndex);
+            dirty = true;
+        }
+        propIndex++;
+    }
+    if (dirty) {
+        setContextDirty(context, true);
+    }
+    if (playerBuildersAreDirty) {
+        setContextPlayersDirty(context, true);
+    }
+}
+exports.updateStylingMap = updateStylingMap;
+/**
+ * Sets and resolves a single styling property/value on the provided `StylingContext` so
+ * that they can be applied to the element once `renderStyleAndClassBindings` is called.
+ *
+ * Note that prop-level styling values are considered higher priority than any styling that
+ * has been applied using `updateStylingMap`, therefore, when styling values are rendered
+ * then any styles/classes that have been applied using this function will be considered first
+ * (then multi values second and then initial values as a backup).
+ *
+ * @param context The styling context that will be updated with the
+ *    newly provided style value.
+ * @param index The index of the property which is being updated.
+ * @param value The CSS style value that will be assigned
+ */
+function updateStyleProp(context, index, input) {
+    var singleIndex = 8 /* SingleStylesStartPosition */ + index * 4 /* Size */;
+    var currValue = getValue(context, singleIndex);
+    var currFlag = getPointers(context, singleIndex);
+    var value = (input instanceof player_factory_1.BoundPlayerFactory) ? input.value : input;
+    // didn't change ... nothing to make a note of
+    if (hasValueChanged(currFlag, currValue, value)) {
+        var isClassBased_5 = (currFlag & 2 /* Class */) === 2 /* Class */;
+        var element = context[5 /* ElementPosition */];
+        var playerBuilder = input instanceof player_factory_1.BoundPlayerFactory ?
+            new ClassAndStylePlayerBuilder(input, element, isClassBased_5 ? 1 /* Class */ : 2 /* Style */) :
+            null;
+        var value_1 = (playerBuilder ? input.value : input);
+        var currPlayerIndex = getPlayerBuilderIndex(context, singleIndex);
+        var playerBuildersAreDirty = false;
+        var playerBuilderIndex = playerBuilder ? currPlayerIndex : 0;
+        if (hasPlayerBuilderChanged(context, playerBuilder, currPlayerIndex)) {
+            var newIndex = setPlayerBuilder(context, playerBuilder, currPlayerIndex);
+            playerBuilderIndex = playerBuilder ? newIndex : 0;
+            setPlayerBuilderIndex(context, singleIndex, playerBuilderIndex);
+            playerBuildersAreDirty = true;
+        }
+        // the value will always get updated (even if the dirty flag is skipped)
+        setValue(context, singleIndex, value_1);
+        var indexForMulti = getMultiOrSingleIndex(currFlag);
+        // if the value is the same in the multi-area then there's no point in re-assembling
+        var valueForMulti = getValue(context, indexForMulti);
+        if (!valueForMulti || hasValueChanged(currFlag, valueForMulti, value_1)) {
+            var multiDirty = false;
+            var singleDirty = true;
+            // only when the value is set to `null` should the multi-value get flagged
+            if (!valueExists(value_1, isClassBased_5) && valueExists(valueForMulti, isClassBased_5)) {
+                multiDirty = true;
+                singleDirty = false;
+            }
+            setDirty(context, indexForMulti, multiDirty);
+            setDirty(context, singleIndex, singleDirty);
+            setContextDirty(context, true);
+        }
+        if (playerBuildersAreDirty) {
+            setContextPlayersDirty(context, true);
+        }
+    }
+}
+exports.updateStyleProp = updateStyleProp;
+/**
+ * This method will toggle the referenced CSS class (by the provided index)
+ * within the given context.
+ *
+ * @param context The styling context that will be updated with the
+ *    newly provided class value.
+ * @param index The index of the CSS class which is being updated.
+ * @param addOrRemove Whether or not to add or remove the CSS class
+ */
+function updateClassProp(context, index, addOrRemove) {
+    var adjustedIndex = index + context[4 /* ClassOffsetPosition */];
+    updateStyleProp(context, adjustedIndex, addOrRemove);
+}
+exports.updateClassProp = updateClassProp;
+/**
+ * Renders all queued styling using a renderer onto the given element.
+ *
+ * This function works by rendering any styles (that have been applied
+ * using `updateStylingMap`) and any classes (that have been applied using
+ * `updateStyleProp`) onto the provided element using the provided renderer.
+ * Just before the styles/classes are rendered a final key/value style map
+ * will be assembled (if `styleStore` or `classStore` are provided).
+ *
+ * @param lElement the element that the styles will be rendered on
+ * @param context The styling context that will be used to determine
+ *      what styles will be rendered
+ * @param renderer the renderer that will be used to apply the styling
+ * @param classesStore if provided, the updated class values will be applied
+ *    to this key/value map instead of being renderered via the renderer.
+ * @param stylesStore if provided, the updated style values will be applied
+ *    to this key/value map instead of being renderered via the renderer.
+ * @returns number the total amount of players that got queued for animation (if any)
+ */
+function renderStyleAndClassBindings(context, renderer, rootOrView, isFirstRender, classesStore, stylesStore) {
+    var totalPlayersQueued = 0;
+    if (isContextDirty(context)) {
+        var flushPlayerBuilders = context[3 /* MasterFlagPosition */] & 8 /* PlayerBuildersDirty */;
+        var native = context[5 /* ElementPosition */];
+        var multiStartIndex = getMultiStartIndex(context);
+        var styleSanitizer = getStyleSanitizer(context);
+        var onlySingleClasses = limitToSingleClasses(context);
+        for (var i = 8 /* SingleStylesStartPosition */; i < context.length; i += 4 /* Size */) {
+            // there is no point in rendering styles that have not changed on screen
+            if (isDirty(context, i)) {
+                var prop = getProp(context, i);
+                var value = getValue(context, i);
+                var flag = getPointers(context, i);
+                var playerBuilder = getPlayerBuilder(context, i);
+                var isClassBased_6 = flag & 2 /* Class */ ? true : false;
+                var isInSingleRegion = i < multiStartIndex;
+                var readInitialValue = !isClassBased_6 || !onlySingleClasses;
+                var valueToApply = value;
+                // VALUE DEFER CASE 1: Use a multi value instead of a null single value
+                // this check implies that a single value was removed and we
+                // should now defer to a multi value and use that (if set).
+                if (isInSingleRegion && !valueExists(valueToApply, isClassBased_6)) {
+                    // single values ALWAYS have a reference to a multi index
+                    var multiIndex = getMultiOrSingleIndex(flag);
+                    valueToApply = getValue(context, multiIndex);
+                }
+                // VALUE DEFER CASE 2: Use the initial value if all else fails (is falsy)
+                // the initial value will always be a string or null,
+                // therefore we can safely adopt it incase there's nothing else
+                // note that this should always be a falsy check since `false` is used
+                // for both class and style comparisons (styles can't be false and false
+                // classes are turned off and should therefore defer to their initial values)
+                if (!valueExists(valueToApply, isClassBased_6) && readInitialValue) {
+                    valueToApply = getInitialValue(context, flag);
+                }
+                // if the first render is true then we do not want to start applying falsy
+                // values to the DOM element's styling. Otherwise then we know there has
+                // been a change and even if it's falsy then it's removing something that
+                // was truthy before.
+                var doApplyValue = isFirstRender ? valueToApply : true;
+                if (doApplyValue) {
+                    if (isClassBased_6) {
+                        setClass(native, prop, valueToApply ? true : false, renderer, classesStore, playerBuilder);
+                    }
+                    else {
+                        var sanitizer = (flag & 4 /* Sanitize */) ? styleSanitizer : null;
+                        setStyle(native, prop, valueToApply, renderer, sanitizer, stylesStore, playerBuilder);
+                    }
+                }
+                setDirty(context, i, false);
+            }
+        }
+        if (flushPlayerBuilders) {
+            var rootContext = Array.isArray(rootOrView) ? util_1.getRootContext(rootOrView) : rootOrView;
+            var playerContext = util_2.getPlayerContext(context);
+            var playersStartIndex = playerContext[0 /* NonBuilderPlayersStart */];
+            for (var i = 1 /* PlayerBuildersStartPosition */; i < playersStartIndex; i += 2 /* PlayerAndPlayerBuildersTupleSize */) {
+                var builder = playerContext[i];
+                var playerInsertionIndex = i + 1 /* PlayerOffsetPosition */;
+                var oldPlayer = playerContext[playerInsertionIndex];
+                if (builder) {
+                    var player = builder.buildPlayer(oldPlayer, isFirstRender);
+                    if (player !== undefined) {
+                        if (player != null) {
+                            var wasQueued = util_2.addPlayerInternal(playerContext, rootContext, native, player, playerInsertionIndex);
+                            wasQueued && totalPlayersQueued++;
+                        }
+                        if (oldPlayer) {
+                            oldPlayer.destroy();
+                        }
+                    }
+                }
+                else if (oldPlayer) {
+                    // the player builder has been removed ... therefore we should delete the associated
+                    // player
+                    oldPlayer.destroy();
+                }
+            }
+            setContextPlayersDirty(context, false);
+        }
+        setContextDirty(context, false);
+    }
+    return totalPlayersQueued;
+}
+exports.renderStyleAndClassBindings = renderStyleAndClassBindings;
+/**
+ * This function renders a given CSS prop/value entry using the
+ * provided renderer. If a `store` value is provided then
+ * that will be used a render context instead of the provided
+ * renderer.
+ *
+ * @param native the DOM Element
+ * @param prop the CSS style property that will be rendered
+ * @param value the CSS style value that will be rendered
+ * @param renderer
+ * @param store an optional key/value map that will be used as a context to render styles on
+ */
+function setStyle(native, prop, value, renderer, sanitizer, store, playerBuilder) {
+    value = sanitizer && value ? sanitizer(prop, value) : value;
+    if (store || playerBuilder) {
+        if (store) {
+            store.setValue(prop, value);
+        }
+        if (playerBuilder) {
+            playerBuilder.setValue(prop, value);
+        }
+    }
+    else if (value) {
+        ngDevMode && ngDevMode.rendererSetStyle++;
+        renderer_1.isProceduralRenderer(renderer) ?
+            renderer.setStyle(native, prop, value, renderer_1.RendererStyleFlags3.DashCase) :
+            native['style'].setProperty(prop, value);
+    }
+    else {
+        ngDevMode && ngDevMode.rendererRemoveStyle++;
+        renderer_1.isProceduralRenderer(renderer) ?
+            renderer.removeStyle(native, prop, renderer_1.RendererStyleFlags3.DashCase) :
+            native['style'].removeProperty(prop);
+    }
+}
+exports.setStyle = setStyle;
+/**
+ * This function renders a given CSS class value using the provided
+ * renderer (by adding or removing it from the provided element).
+ * If a `store` value is provided then that will be used a render
+ * context instead of the provided renderer.
+ *
+ * @param native the DOM Element
+ * @param prop the CSS style property that will be rendered
+ * @param value the CSS style value that will be rendered
+ * @param renderer
+ * @param store an optional key/value map that will be used as a context to render styles on
+ */
+function setClass(native, className, add, renderer, store, playerBuilder) {
+    if (store || playerBuilder) {
+        if (store) {
+            store.setValue(className, add);
+        }
+        if (playerBuilder) {
+            playerBuilder.setValue(className, add);
+        }
+    }
+    else if (add) {
+        ngDevMode && ngDevMode.rendererAddClass++;
+        renderer_1.isProceduralRenderer(renderer) ? renderer.addClass(native, className) :
+            native['classList'].add(className);
+    }
+    else {
+        ngDevMode && ngDevMode.rendererRemoveClass++;
+        renderer_1.isProceduralRenderer(renderer) ? renderer.removeClass(native, className) :
+            native['classList'].remove(className);
+    }
+}
+function setDirty(context, index, isDirtyYes) {
+    var adjustedIndex = index >= 8 /* SingleStylesStartPosition */ ? (index + 0 /* FlagsOffset */) : index;
+    if (isDirtyYes) {
+        context[adjustedIndex] |= 1 /* Dirty */;
+    }
+    else {
+        context[adjustedIndex] &= ~1 /* Dirty */;
+    }
+}
+function isDirty(context, index) {
+    var adjustedIndex = index >= 8 /* SingleStylesStartPosition */ ? (index + 0 /* FlagsOffset */) : index;
+    return (context[adjustedIndex] & 1 /* Dirty */) == 1 /* Dirty */;
+}
+function isClassBased(context, index) {
+    var adjustedIndex = index >= 8 /* SingleStylesStartPosition */ ? (index + 0 /* FlagsOffset */) : index;
+    return (context[adjustedIndex] & 2 /* Class */) == 2 /* Class */;
+}
+exports.isClassBased = isClassBased;
+function isSanitizable(context, index) {
+    var adjustedIndex = index >= 8 /* SingleStylesStartPosition */ ? (index + 0 /* FlagsOffset */) : index;
+    return (context[adjustedIndex] & 4 /* Sanitize */) == 4 /* Sanitize */;
+}
+function pointers(configFlag, staticIndex, dynamicIndex) {
+    return (configFlag & 31 /* BitMask */) | (staticIndex << 5 /* BitCountSize */) |
+        (dynamicIndex << (14 /* BitCountSize */ + 5 /* BitCountSize */));
+}
+function getInitialValue(context, flag) {
+    var index = getInitialIndex(flag);
+    return context[2 /* InitialStylesPosition */][index];
+}
+function getInitialIndex(flag) {
+    return (flag >> 5 /* BitCountSize */) & 16383 /* BitMask */;
+}
+function getMultiOrSingleIndex(flag) {
+    var index = (flag >> (14 /* BitCountSize */ + 5 /* BitCountSize */)) & 16383 /* BitMask */;
+    return index >= 8 /* SingleStylesStartPosition */ ? index : -1;
+}
+function getMultiStartIndex(context) {
+    return getMultiOrSingleIndex(context[3 /* MasterFlagPosition */]);
+}
+function getStyleSanitizer(context) {
+    return context[1 /* StyleSanitizerPosition */];
+}
+function setProp(context, index, prop) {
+    context[index + 1 /* PropertyOffset */] = prop;
+}
+function setValue(context, index, value) {
+    context[index + 2 /* ValueOffset */] = value;
+}
+function hasPlayerBuilderChanged(context, builder, index) {
+    var playerContext = context[0 /* PlayerContext */];
+    if (builder) {
+        if (!playerContext || index === 0) {
+            return true;
+        }
+    }
+    else if (!playerContext) {
+        return false;
+    }
+    return playerContext[index] !== builder;
+}
+function setPlayerBuilder(context, builder, insertionIndex) {
+    var playerContext = context[0 /* PlayerContext */] || util_2.allocPlayerContext(context);
+    if (insertionIndex > 0) {
+        playerContext[insertionIndex] = builder;
+    }
+    else {
+        insertionIndex = playerContext[0 /* NonBuilderPlayersStart */];
+        playerContext.splice(insertionIndex, 0, builder, null);
+        playerContext[0 /* NonBuilderPlayersStart */] +=
+            2 /* PlayerAndPlayerBuildersTupleSize */;
+    }
+    return insertionIndex;
+}
+function setPlayerBuilderIndex(context, index, playerBuilderIndex) {
+    context[index + 3 /* PlayerBuilderIndexOffset */] = playerBuilderIndex;
+}
+function getPlayerBuilderIndex(context, index) {
+    return context[index + 3 /* PlayerBuilderIndexOffset */] || 0;
+}
+function getPlayerBuilder(context, index) {
+    var playerBuilderIndex = getPlayerBuilderIndex(context, index);
+    if (playerBuilderIndex) {
+        var playerContext = context[0 /* PlayerContext */];
+        if (playerContext) {
+            return playerContext[playerBuilderIndex];
+        }
+    }
+    return null;
+}
+function setFlag(context, index, flag) {
+    var adjustedIndex = index === 3 /* MasterFlagPosition */ ? index : (index + 0 /* FlagsOffset */);
+    context[adjustedIndex] = flag;
+}
+function getPointers(context, index) {
+    var adjustedIndex = index === 3 /* MasterFlagPosition */ ? index : (index + 0 /* FlagsOffset */);
+    return context[adjustedIndex];
+}
+function getValue(context, index) {
+    return context[index + 2 /* ValueOffset */];
+}
+exports.getValue = getValue;
+function getProp(context, index) {
+    return context[index + 1 /* PropertyOffset */];
+}
+exports.getProp = getProp;
+function isContextDirty(context) {
+    return isDirty(context, 3 /* MasterFlagPosition */);
+}
+exports.isContextDirty = isContextDirty;
+function limitToSingleClasses(context) {
+    return context[3 /* MasterFlagPosition */] & 16 /* OnlyProcessSingleClasses */;
+}
+exports.limitToSingleClasses = limitToSingleClasses;
+function setContextDirty(context, isDirtyYes) {
+    setDirty(context, 3 /* MasterFlagPosition */, isDirtyYes);
+}
+exports.setContextDirty = setContextDirty;
+function setContextPlayersDirty(context, isDirtyYes) {
+    if (isDirtyYes) {
+        context[3 /* MasterFlagPosition */] |= 8 /* PlayerBuildersDirty */;
+    }
+    else {
+        context[3 /* MasterFlagPosition */] &= ~8 /* PlayerBuildersDirty */;
+    }
+}
+exports.setContextPlayersDirty = setContextPlayersDirty;
+function findEntryPositionByProp(context, prop, startIndex) {
+    for (var i = (startIndex || 0) + 1 /* PropertyOffset */; i < context.length; i += 4 /* Size */) {
+        var thisProp = context[i];
+        if (thisProp == prop) {
+            return i - 1 /* PropertyOffset */;
+        }
+    }
+    return -1;
+}
+function swapMultiContextEntries(context, indexA, indexB) {
+    var tmpValue = getValue(context, indexA);
+    var tmpProp = getProp(context, indexA);
+    var tmpFlag = getPointers(context, indexA);
+    var tmpPlayerBuilderIndex = getPlayerBuilderIndex(context, indexA);
+    var flagA = tmpFlag;
+    var flagB = getPointers(context, indexB);
+    var singleIndexA = getMultiOrSingleIndex(flagA);
+    if (singleIndexA >= 0) {
+        var _flag = getPointers(context, singleIndexA);
+        var _initial = getInitialIndex(_flag);
+        setFlag(context, singleIndexA, pointers(_flag, _initial, indexB));
+    }
+    var singleIndexB = getMultiOrSingleIndex(flagB);
+    if (singleIndexB >= 0) {
+        var _flag = getPointers(context, singleIndexB);
+        var _initial = getInitialIndex(_flag);
+        setFlag(context, singleIndexB, pointers(_flag, _initial, indexA));
+    }
+    setValue(context, indexA, getValue(context, indexB));
+    setProp(context, indexA, getProp(context, indexB));
+    setFlag(context, indexA, getPointers(context, indexB));
+    setPlayerBuilderIndex(context, indexA, getPlayerBuilderIndex(context, indexB));
+    setValue(context, indexB, tmpValue);
+    setProp(context, indexB, tmpProp);
+    setFlag(context, indexB, tmpFlag);
+    setPlayerBuilderIndex(context, indexB, tmpPlayerBuilderIndex);
+}
+function updateSinglePointerValues(context, indexStartPosition) {
+    for (var i = indexStartPosition; i < context.length; i += 4 /* Size */) {
+        var multiFlag = getPointers(context, i);
+        var singleIndex = getMultiOrSingleIndex(multiFlag);
+        if (singleIndex > 0) {
+            var singleFlag = getPointers(context, singleIndex);
+            var initialIndexForSingle = getInitialIndex(singleFlag);
+            var flagValue = (isDirty(context, singleIndex) ? 1 /* Dirty */ : 0 /* None */) |
+                (isClassBased(context, singleIndex) ? 2 /* Class */ : 0 /* None */) |
+                (isSanitizable(context, singleIndex) ? 4 /* Sanitize */ : 0 /* None */);
+            var updatedFlag = pointers(flagValue, initialIndexForSingle, i);
+            setFlag(context, singleIndex, updatedFlag);
+        }
+    }
+}
+function insertNewMultiProperty(context, index, classBased, name, flag, value, playerIndex) {
+    var doShift = index < context.length;
+    // prop does not exist in the list, add it in
+    context.splice(index, 0, flag | 1 /* Dirty */ | (classBased ? 2 /* Class */ : 0 /* None */), name, value, playerIndex);
+    if (doShift) {
+        // because the value was inserted midway into the array then we
+        // need to update all the shifted multi values' single value
+        // pointers to point to the newly shifted location
+        updateSinglePointerValues(context, index + 4 /* Size */);
+    }
+}
+function valueExists(value, isClassBased) {
+    if (isClassBased) {
+        return value ? true : false;
+    }
+    return value !== null;
+}
+function prepareInitialFlag(name, isClassBased, sanitizer) {
+    if (isClassBased) {
+        return 2 /* Class */;
+    }
+    else if (sanitizer && sanitizer(name)) {
+        return 4 /* Sanitize */;
+    }
+    return 0 /* None */;
+}
+function hasValueChanged(flag, a, b) {
+    var isClassBased = flag & 2 /* Class */;
+    var hasValues = a && b;
+    var usesSanitizer = flag & 4 /* Sanitize */;
+    // the toString() comparison ensures that a value is checked
+    // ... otherwise (during sanitization bypassing) the === comparsion
+    // would fail since a new String() instance is created
+    if (!isClassBased && hasValues && usesSanitizer) {
+        // we know for sure we're dealing with strings at this point
+        return a.toString() !== b.toString();
+    }
+    // everything else is safe to check with a normal equality check
+    return a !== b;
+}
+var ClassAndStylePlayerBuilder = /** @class */ (function () {
+    function ClassAndStylePlayerBuilder(factory, _element, _type) {
+        this._element = _element;
+        this._type = _type;
+        this._values = {};
+        this._dirty = false;
+        this._factory = factory;
+    }
+    ClassAndStylePlayerBuilder.prototype.setValue = function (prop, value) {
+        if (this._values[prop] !== value) {
+            this._values[prop] = value;
+            this._dirty = true;
+        }
+    };
+    ClassAndStylePlayerBuilder.prototype.buildPlayer = function (currentPlayer, isFirstRender) {
+        // if no values have been set here then this means the binding didn't
+        // change and therefore the binding values were not updated through
+        // `setValue` which means no new player will be provided.
+        if (this._dirty) {
+            var player = this._factory.fn(this._element, this._type, this._values, isFirstRender, currentPlayer || null);
+            this._values = {};
+            this._dirty = false;
+            return player;
+        }
+        return undefined;
+    };
+    return ClassAndStylePlayerBuilder;
+}());
+exports.ClassAndStylePlayerBuilder = ClassAndStylePlayerBuilder;
+
+
+/***/ }),
+/* 275 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46167,9 +47186,19 @@ var ViewRef = /** @class */ (function () {
      * introduce other changes.
      */
     ViewRef.prototype.checkNoChanges = function () { instructions_1.checkNoChanges(this.context); };
-    ViewRef.prototype.attachToViewContainerRef = function (vcRef) { this._viewContainerRef = vcRef; };
+    ViewRef.prototype.attachToViewContainerRef = function (vcRef) {
+        if (this._appRef) {
+            throw new Error('This view is already attached directly to the ApplicationRef!');
+        }
+        this._viewContainerRef = vcRef;
+    };
     ViewRef.prototype.detachFromAppRef = function () { this._appRef = null; };
-    ViewRef.prototype.attachToAppRef = function (appRef) { this._appRef = appRef; };
+    ViewRef.prototype.attachToAppRef = function (appRef) {
+        if (this._viewContainerRef) {
+            throw new Error('This view is already attached to a ViewContainer!');
+        }
+        this._appRef = appRef;
+    };
     ViewRef.prototype._lookUpContext = function () {
         return this._context = this._lView[view_1.PARENT][this._componentIndex];
     };
@@ -46208,7 +47237,7 @@ function collectNativeNodes(lView, parentTNode, result) {
 
 
 /***/ }),
-/* 275 */
+/* 276 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46221,12 +47250,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-__webpack_require__(118);
+__webpack_require__(119);
 var context_discovery_1 = __webpack_require__(92);
 var discovery_utils_1 = __webpack_require__(148);
 var instructions_1 = __webpack_require__(41);
-var view_1 = __webpack_require__(18);
-var util_1 = __webpack_require__(205);
+var util_1 = __webpack_require__(150);
 /**
  * Adds a player to an element, directive or component instance that will later be
  * animated once change detection has passed.
@@ -46241,7 +47269,7 @@ var util_1 = __webpack_require__(205);
  * @param player The player that will be triggered to play once change detection has run.
  */
 function addPlayer(ref, player) {
-    var context = context_discovery_1.getContext(ref);
+    var context = context_discovery_1.getLContext(ref);
     if (!context) {
         ngDevMode && util_1.throwInvalidRefError();
         return;
@@ -46265,12 +47293,12 @@ exports.addPlayer = addPlayer;
  * @publicApi
  */
 function getPlayers(ref) {
-    var context = context_discovery_1.getContext(ref);
+    var context = context_discovery_1.getLContext(ref);
     if (!context) {
         ngDevMode && util_1.throwInvalidRefError();
         return [];
     }
-    var stylingContext = util_1.getStylingContext(context.nodeIndex - view_1.HEADER_OFFSET, context.lView);
+    var stylingContext = util_1.getStylingContext(context.nodeIndex, context.lView);
     var playerContext = stylingContext ? util_1.getPlayerContext(stylingContext) : null;
     return playerContext ? util_1.getPlayersInternal(playerContext) : [];
 }
@@ -46278,7 +47306,7 @@ exports.getPlayers = getPlayers;
 
 
 /***/ }),
-/* 276 */
+/* 277 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46306,10 +47334,10 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var injection_token_1 = __webpack_require__(52);
 var injector_compatibility_1 = __webpack_require__(40);
-var component_factory_1 = __webpack_require__(95);
+var component_factory_1 = __webpack_require__(96);
 var component_factory_resolver_1 = __webpack_require__(79);
 var element_ref_1 = __webpack_require__(54);
-var api_1 = __webpack_require__(96);
+var api_1 = __webpack_require__(97);
 var security_1 = __webpack_require__(122);
 var version_1 = __webpack_require__(208);
 var assert_1 = __webpack_require__(20);
@@ -46317,12 +47345,12 @@ var component_1 = __webpack_require__(268);
 var definition_1 = __webpack_require__(53);
 var di_1 = __webpack_require__(69);
 var instructions_1 = __webpack_require__(41);
-var renderer_1 = __webpack_require__(94);
+var renderer_1 = __webpack_require__(95);
 var view_1 = __webpack_require__(18);
 var state_1 = __webpack_require__(32);
 var util_1 = __webpack_require__(23);
 var view_engine_compatibility_1 = __webpack_require__(62);
-var view_ref_1 = __webpack_require__(274);
+var view_ref_1 = __webpack_require__(275);
 var ComponentFactoryResolver = /** @class */ (function (_super) {
     __extends(ComponentFactoryResolver, _super);
     function ComponentFactoryResolver() {
@@ -46402,23 +47430,16 @@ var ComponentFactory = /** @class */ (function (_super) {
     });
     ComponentFactory.prototype.create = function (injector, projectableNodes, rootSelectorOrNode, ngModule) {
         var isInternalRootView = rootSelectorOrNode === undefined;
-        var rendererFactory;
-        var sanitizer = null;
-        if (ngModule) {
-            rendererFactory = ngModule.injector.get(api_1.RendererFactory2);
-            sanitizer = ngModule.injector.get(security_1.Sanitizer, null);
-        }
-        else {
-            rendererFactory = renderer_1.domRendererFactory3;
-        }
+        var rootViewInjector = ngModule ? createChainedInjector(injector, ngModule.injector) : injector;
+        var rendererFactory = rootViewInjector.get(api_1.RendererFactory2, renderer_1.domRendererFactory3);
+        var sanitizer = rootViewInjector.get(security_1.Sanitizer, null);
         var hostRNode = isInternalRootView ?
             instructions_1.elementCreate(this.selector, rendererFactory.createRenderer(null, this.componentDef)) :
             instructions_1.locateHostElement(rendererFactory, rootSelectorOrNode);
         var rootFlags = this.componentDef.onPush ? 4 /* Dirty */ | 64 /* IsRoot */ :
             2 /* CheckAlways */ | 64 /* IsRoot */;
-        var rootContext = ngModule && !isInternalRootView ? ngModule.injector.get(exports.ROOT_CONTEXT) : component_1.createRootContext();
+        var rootContext = !isInternalRootView ? rootViewInjector.get(exports.ROOT_CONTEXT) : component_1.createRootContext();
         var renderer = rendererFactory.createRenderer(hostRNode, this.componentDef);
-        var rootViewInjector = ngModule ? createChainedInjector(injector, ngModule.injector) : injector;
         if (rootSelectorOrNode && hostRNode) {
             ngDevMode && ngDevMode.rendererSetAttribute++;
             renderer_1.isProceduralRenderer(renderer) ?
@@ -46540,7 +47561,7 @@ exports.ComponentRef = ComponentRef;
 
 
 /***/ }),
-/* 277 */
+/* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46709,7 +47730,7 @@ function isDOMParserAvailable() {
 
 
 /***/ }),
-/* 278 */
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46978,7 +47999,7 @@ exports.pureFunctionV = pureFunctionV;
 
 
 /***/ }),
-/* 279 */
+/* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46994,10 +48015,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var view_1 = __webpack_require__(18);
 var state_1 = __webpack_require__(32);
 var util_1 = __webpack_require__(23);
-var bypass_1 = __webpack_require__(280);
+var bypass_1 = __webpack_require__(281);
 var html_sanitizer_1 = __webpack_require__(209);
 var security_1 = __webpack_require__(122);
-var style_sanitizer_1 = __webpack_require__(281);
+var style_sanitizer_1 = __webpack_require__(282);
 var url_sanitizer_1 = __webpack_require__(123);
 /**
  * An `html` sanitizer which converts untrusted `html` **string** into trusted string by removing
@@ -47013,7 +48034,7 @@ var url_sanitizer_1 = __webpack_require__(123);
  * and urls have been removed.
  */
 function sanitizeHtml(unsafeHtml) {
-    var sanitizer = state_1.getLView()[view_1.SANITIZER];
+    var sanitizer = getSanitizer();
     if (sanitizer) {
         return sanitizer.sanitize(security_1.SecurityContext.HTML, unsafeHtml) || '';
     }
@@ -47037,7 +48058,7 @@ exports.sanitizeHtml = sanitizeHtml;
  * dangerous javascript and urls have been removed.
  */
 function sanitizeStyle(unsafeStyle) {
-    var sanitizer = state_1.getLView()[view_1.SANITIZER];
+    var sanitizer = getSanitizer();
     if (sanitizer) {
         return sanitizer.sanitize(security_1.SecurityContext.STYLE, unsafeStyle) || '';
     }
@@ -47062,7 +48083,7 @@ exports.sanitizeStyle = sanitizeStyle;
  * all of the dangerous javascript has been removed.
  */
 function sanitizeUrl(unsafeUrl) {
-    var sanitizer = state_1.getLView()[view_1.SANITIZER];
+    var sanitizer = getSanitizer();
     if (sanitizer) {
         return sanitizer.sanitize(security_1.SecurityContext.URL, unsafeUrl) || '';
     }
@@ -47082,7 +48103,7 @@ exports.sanitizeUrl = sanitizeUrl;
  * only trusted `url`s have been allowed to pass.
  */
 function sanitizeResourceUrl(unsafeResourceUrl) {
-    var sanitizer = state_1.getLView()[view_1.SANITIZER];
+    var sanitizer = getSanitizer();
     if (sanitizer) {
         return sanitizer.sanitize(security_1.SecurityContext.RESOURCE_URL, unsafeResourceUrl) || '';
     }
@@ -47103,7 +48124,7 @@ exports.sanitizeResourceUrl = sanitizeResourceUrl;
  * because only trusted `scripts` have been allowed to pass.
  */
 function sanitizeScript(unsafeScript) {
-    var sanitizer = state_1.getLView()[view_1.SANITIZER];
+    var sanitizer = getSanitizer();
     if (sanitizer) {
         return sanitizer.sanitize(security_1.SecurityContext.SCRIPT, unsafeScript) || '';
     }
@@ -47125,10 +48146,14 @@ exports.defaultStyleSanitizer = function (prop, value) {
     }
     return sanitizeStyle(value);
 };
+function getSanitizer() {
+    var lView = state_1.getLView();
+    return lView && lView[view_1.SANITIZER];
+}
 
 
 /***/ }),
-/* 280 */
+/* 281 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47219,7 +48244,7 @@ function bypassSanitizationTrustString(trustedString, mode) {
 
 
 /***/ }),
-/* 281 */
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47232,7 +48257,7 @@ function bypassSanitizationTrustString(trustedString, mode) {
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var is_dev_mode_1 = __webpack_require__(97);
+var is_dev_mode_1 = __webpack_require__(98);
 var url_sanitizer_1 = __webpack_require__(123);
 /**
  * Regular expression for safe style values.
@@ -47322,7 +48347,7 @@ exports._sanitizeStyle = _sanitizeStyle;
 
 
 /***/ }),
-/* 282 */
+/* 283 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47337,9 +48362,9 @@ exports._sanitizeStyle = _sanitizeStyle;
 Object.defineProperty(exports, "__esModule", { value: true });
 var fields_1 = __webpack_require__(61);
 var util_1 = __webpack_require__(23);
-var compiler_facade_1 = __webpack_require__(119);
+var compiler_facade_1 = __webpack_require__(120);
 var environment_1 = __webpack_require__(145);
-var util_2 = __webpack_require__(152);
+var util_2 = __webpack_require__(153);
 function compilePipe(type, meta) {
     var ngPipeDef = null;
     Object.defineProperty(type, fields_1.NG_PIPE_DEF, {
@@ -47363,16 +48388,16 @@ exports.compilePipe = compilePipe;
 
 
 /***/ }),
-/* 283 */
+/* 284 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var defs_1 = __webpack_require__(31);
-var util_1 = __webpack_require__(284);
+var util_1 = __webpack_require__(285);
 var module_1 = __webpack_require__(211);
-var decorators_1 = __webpack_require__(76);
+var decorators_1 = __webpack_require__(77);
 /**
  * Defines a schema that allows an NgModule to contain the following:
  * - Non-Angular elements named with dash case (`-`).
@@ -47426,7 +48451,7 @@ var SWITCH_COMPILE_NGMODULE = exports.SWITCH_COMPILE_NGMODULE__POST_R3__;
 
 
 /***/ }),
-/* 284 */
+/* 285 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47439,8 +48464,8 @@ var SWITCH_COMPILE_NGMODULE = exports.SWITCH_COMPILE_NGMODULE__POST_R3__;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var reflection_capabilities_1 = __webpack_require__(153);
-var property_1 = __webpack_require__(75);
+var reflection_capabilities_1 = __webpack_require__(154);
+var property_1 = __webpack_require__(76);
 var injector_compatibility_1 = __webpack_require__(40);
 var USE_VALUE = property_1.getClosureSafeProperty({ provide: String, useValue: property_1.getClosureSafeProperty });
 var EMPTY_ARRAY = [];
@@ -47488,7 +48513,7 @@ exports.convertInjectableProviderToFactory = convertInjectableProviderToFactory;
 
 
 /***/ }),
-/* 285 */
+/* 286 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47721,7 +48746,7 @@ exports.mixingMultiProvidersWithRegularProvidersError = mixingMultiProvidersWith
 
 
 /***/ }),
-/* 286 */
+/* 287 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47739,7 +48764,7 @@ var type_1 = __webpack_require__(212);
 var forward_ref_1 = __webpack_require__(70);
 var injection_token_1 = __webpack_require__(52);
 var metadata_1 = __webpack_require__(68);
-var reflective_errors_1 = __webpack_require__(285);
+var reflective_errors_1 = __webpack_require__(286);
 var reflective_key_1 = __webpack_require__(215);
 /**
  * `Dependency` is used by the framework to extend DI.
@@ -47947,7 +48972,7 @@ function _createDependency(token, optional, visibility) {
 
 
 /***/ }),
-/* 287 */
+/* 288 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47999,7 +49024,7 @@ exports.Reflector = Reflector;
 
 
 /***/ }),
-/* 288 */
+/* 289 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48085,7 +49110,7 @@ exports.wtfEndTimeRange = exports.wtfEnabled ? wtf_impl_1.endTimeRange : functio
 
 
 /***/ }),
-/* 289 */
+/* 290 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48105,7 +49130,7 @@ exports.ɵNoopNgZone = ng_zone_1.NoopNgZone;
 
 
 /***/ }),
-/* 290 */
+/* 291 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48119,30 +49144,30 @@ exports.ɵNoopNgZone = ng_zone_1.NoopNgZone;
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 // Public API for compiler
-var compiler_1 = __webpack_require__(156);
+var compiler_1 = __webpack_require__(157);
 exports.COMPILER_OPTIONS = compiler_1.COMPILER_OPTIONS;
 exports.Compiler = compiler_1.Compiler;
 exports.CompilerFactory = compiler_1.CompilerFactory;
 exports.ModuleWithComponentFactories = compiler_1.ModuleWithComponentFactories;
-var component_factory_1 = __webpack_require__(95);
+var component_factory_1 = __webpack_require__(96);
 exports.ComponentFactory = component_factory_1.ComponentFactory;
 exports.ComponentRef = component_factory_1.ComponentRef;
 var component_factory_resolver_1 = __webpack_require__(79);
 exports.ComponentFactoryResolver = component_factory_resolver_1.ComponentFactoryResolver;
 var element_ref_1 = __webpack_require__(54);
 exports.ElementRef = element_ref_1.ElementRef;
-var ng_module_factory_1 = __webpack_require__(77);
+var ng_module_factory_1 = __webpack_require__(78);
 exports.NgModuleFactory = ng_module_factory_1.NgModuleFactory;
 exports.NgModuleRef = ng_module_factory_1.NgModuleRef;
-var ng_module_factory_loader_1 = __webpack_require__(291);
+var ng_module_factory_loader_1 = __webpack_require__(292);
 exports.NgModuleFactoryLoader = ng_module_factory_loader_1.NgModuleFactoryLoader;
 exports.getModuleFactory = ng_module_factory_loader_1.getModuleFactory;
-var query_list_1 = __webpack_require__(292);
+var query_list_1 = __webpack_require__(293);
 exports.QueryList = query_list_1.QueryList;
 var system_js_ng_module_factory_loader_1 = __webpack_require__(415);
 exports.SystemJsNgModuleLoader = system_js_ng_module_factory_loader_1.SystemJsNgModuleLoader;
 exports.SystemJsNgModuleLoaderConfig = system_js_ng_module_factory_loader_1.SystemJsNgModuleLoaderConfig;
-var template_ref_1 = __webpack_require__(98);
+var template_ref_1 = __webpack_require__(99);
 exports.TemplateRef = template_ref_1.TemplateRef;
 var view_container_ref_1 = __webpack_require__(219);
 exports.ViewContainerRef = view_container_ref_1.ViewContainerRef;
@@ -48152,7 +49177,7 @@ exports.ViewRef = view_ref_1.ViewRef;
 
 
 /***/ }),
-/* 291 */
+/* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48209,7 +49234,7 @@ exports.getModuleFactory = getModuleFactory;
 
 
 /***/ }),
-/* 292 */
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48222,7 +49247,7 @@ exports.getModuleFactory = getModuleFactory;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var event_emitter_1 = __webpack_require__(150);
+var event_emitter_1 = __webpack_require__(151);
 var util_1 = __webpack_require__(14);
 /**
  * An unmodifiable list of items that Angular keeps up to date when the state
@@ -48325,7 +49350,7 @@ function flatten(list) {
 
 
 /***/ }),
-/* 293 */
+/* 294 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -48336,10 +49361,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 293;
+webpackEmptyContext.id = 294;
 
 /***/ }),
-/* 294 */
+/* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48361,6 +49386,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var assert_1 = __webpack_require__(20);
 var discovery_utils_1 = __webpack_require__(148);
 var view_1 = __webpack_require__(18);
+var class_and_style_bindings_1 = __webpack_require__(274);
+var util_1 = __webpack_require__(150);
 var EventListener = /** @class */ (function () {
     function EventListener(name, callback) {
         this.name = name;
@@ -48550,18 +49577,13 @@ var DebugNode__POST_R3__ = /** @class */ (function () {
         configurable: true
     });
     Object.defineProperty(DebugNode__POST_R3__.prototype, "context", {
-        get: function () {
-            // https://angular-team.atlassian.net/browse/FW-719
-            throw notImplemented();
-        },
+        get: function () { return discovery_utils_1.getContext(this.nativeNode); },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(DebugNode__POST_R3__.prototype, "listeners", {
         get: function () {
-            // TODO: add real implementation;
-            // https://angular-team.atlassian.net/browse/FW-719
-            return [];
+            return discovery_utils_1.getListeners(this.nativeNode).filter(discovery_utils_1.isBrowserEvents);
         },
         enumerable: true,
         configurable: true
@@ -48572,32 +49594,7 @@ var DebugNode__POST_R3__ = /** @class */ (function () {
         configurable: true
     });
     Object.defineProperty(DebugNode__POST_R3__.prototype, "providerTokens", {
-        get: function () {
-            // TODO move to discoverable utils
-            var context = discovery_utils_1.loadContext(this.nativeNode, false);
-            if (!context)
-                return [];
-            var lView = context.lView;
-            var tView = lView[view_1.TVIEW];
-            var tNode = tView.data[context.nodeIndex];
-            var providerTokens = [];
-            var nodeFlags = tNode.flags;
-            var startIndex = nodeFlags >> 16 /* DirectiveStartingIndexShift */;
-            var directiveCount = nodeFlags & 4095 /* DirectiveCountMask */;
-            var endIndex = startIndex + directiveCount;
-            for (var i = startIndex; i < endIndex; i++) {
-                var value = tView.data[i];
-                if (isDirectiveDefHack(value)) {
-                    // The fact that we sometimes store Type and sometimes DirectiveDef in this location is a
-                    // design flaw.  We should always store same type so that we can be monomorphic. The issue
-                    // is that for Components/Directives we store the def instead the type. The correct behavior
-                    // is that we should always be storing injectable type in this location.
-                    value = value.type;
-                }
-                providerTokens.push(value);
-            }
-            return providerTokens;
-        },
+        get: function () { return discovery_utils_1.getInjectionTokens(this.nativeNode); },
         enumerable: true,
         configurable: true
     });
@@ -48625,7 +49622,7 @@ var DebugElement__POST_R3__ = /** @class */ (function (_super) {
     });
     Object.defineProperty(DebugElement__POST_R3__.prototype, "properties", {
         get: function () {
-            var context = discovery_utils_1.loadContext(this.nativeNode);
+            var context = discovery_utils_1.loadLContext(this.nativeNode);
             var lView = context.lView;
             var tView = lView[view_1.TVIEW];
             var tNode = tView.data[context.nodeIndex];
@@ -48639,24 +49636,83 @@ var DebugElement__POST_R3__ = /** @class */ (function (_super) {
     });
     Object.defineProperty(DebugElement__POST_R3__.prototype, "attributes", {
         get: function () {
-            // https://angular-team.atlassian.net/browse/FW-719
-            throw notImplemented();
+            var attributes = {};
+            var element = this.nativeElement;
+            if (element) {
+                var eAttrs = element.attributes;
+                for (var i = 0; i < eAttrs.length; i++) {
+                    var attr = eAttrs[i];
+                    attributes[attr.name] = attr.value;
+                }
+            }
+            return attributes;
         },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(DebugElement__POST_R3__.prototype, "classes", {
         get: function () {
-            // https://angular-team.atlassian.net/browse/FW-719
-            throw notImplemented();
+            var classes = {};
+            var element = this.nativeElement;
+            if (element) {
+                var lContext = discovery_utils_1.loadLContextFromNode(element);
+                var lNode = lContext.lView[lContext.nodeIndex];
+                var stylingContext = util_1.getStylingContext(lContext.nodeIndex, lContext.lView);
+                if (stylingContext) {
+                    for (var i = 8 /* SingleStylesStartPosition */; i < lNode.length; i += 4 /* Size */) {
+                        if (class_and_style_bindings_1.isClassBased(lNode, i)) {
+                            var className = class_and_style_bindings_1.getProp(lNode, i);
+                            var value = class_and_style_bindings_1.getValue(lNode, i);
+                            if (typeof value == 'boolean') {
+                                // we want to ignore `null` since those don't overwrite the values.
+                                classes[className] = value;
+                            }
+                        }
+                    }
+                }
+                else {
+                    // Fallback, just read DOM.
+                    var eClasses = element.classList;
+                    for (var i = 0; i < eClasses.length; i++) {
+                        classes[eClasses[i]] = true;
+                    }
+                }
+            }
+            return classes;
         },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(DebugElement__POST_R3__.prototype, "styles", {
         get: function () {
-            // https://angular-team.atlassian.net/browse/FW-719
-            throw notImplemented();
+            var styles = {};
+            var element = this.nativeElement;
+            if (element) {
+                var lContext = discovery_utils_1.loadLContextFromNode(element);
+                var lNode = lContext.lView[lContext.nodeIndex];
+                var stylingContext = util_1.getStylingContext(lContext.nodeIndex, lContext.lView);
+                if (stylingContext) {
+                    for (var i = 8 /* SingleStylesStartPosition */; i < lNode.length; i += 4 /* Size */) {
+                        if (!class_and_style_bindings_1.isClassBased(lNode, i)) {
+                            var styleName = class_and_style_bindings_1.getProp(lNode, i);
+                            var value = class_and_style_bindings_1.getValue(lNode, i);
+                            if (value !== null) {
+                                // we want to ignore `null` since those don't overwrite the values.
+                                styles[styleName] = value;
+                            }
+                        }
+                    }
+                }
+                else {
+                    // Fallback, just read DOM.
+                    var eStyles = element.style;
+                    for (var i = 0; i < eStyles.length; i++) {
+                        var name_1 = eStyles.item(i);
+                        styles[name_1] = eStyles.getPropertyValue(name_1);
+                    }
+                }
+            }
+            return styles;
         },
         enumerable: true,
         configurable: true
@@ -48705,23 +49761,14 @@ var DebugElement__POST_R3__ = /** @class */ (function (_super) {
         return matches;
     };
     DebugElement__POST_R3__.prototype.triggerEventHandler = function (eventName, eventObj) {
-        // This is a hack implementation. The correct implementation would bypass the DOM and `TNode`
-        // information to invoke the listeners directly.
-        // https://angular-team.atlassian.net/browse/FW-719
-        var event = document.createEvent('MouseEvent');
-        event.initEvent(eventName, true, true);
-        this.nativeElement.dispatchEvent(event);
+        this.listeners.forEach(function (listener) {
+            if (listener.name === eventName) {
+                listener.callback(eventObj);
+            }
+        });
     };
     return DebugElement__POST_R3__;
 }(DebugNode__POST_R3__));
-/**
- * This function should not exist because it is megamorphic and only mostly correct.
- *
- * See call site for more info.
- */
-function isDirectiveDefHack(obj) {
-    return obj.type !== undefined && obj.template !== undefined && obj.declaredInputs !== undefined;
-}
 function _queryNodeChildrenR3(parentNode, predicate, matches, elementsOnly) {
     if (parentNode instanceof DebugElement__POST_R3__) {
         parentNode.childNodes.forEach(function (node) {
@@ -48777,7 +49824,7 @@ exports.DebugElement = DebugElement__PRE_R3__;
 
 
 /***/ }),
-/* 295 */
+/* 296 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48792,7 +49839,7 @@ exports.DebugElement = DebugElement__PRE_R3__;
 Object.defineProperty(exports, "__esModule", { value: true });
 var defs_1 = __webpack_require__(31);
 var metadata_1 = __webpack_require__(68);
-var default_iterable_differ_1 = __webpack_require__(157);
+var default_iterable_differ_1 = __webpack_require__(158);
 /**
  * A repository of different iterable diffing strategies used by NgFor, NgClass, and others.
  *
@@ -48869,7 +49916,7 @@ exports.getTypeNameForDebugging = getTypeNameForDebugging;
 
 
 /***/ }),
-/* 296 */
+/* 297 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48953,7 +50000,7 @@ exports.KeyValueDiffers = KeyValueDiffers;
 
 
 /***/ }),
-/* 297 */
+/* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49069,7 +50116,7 @@ var MissingTranslationStrategy;
 
 
 /***/ }),
-/* 298 */
+/* 299 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49088,7 +50135,7 @@ exports.ivyEnabled = exports.SWITCH_IVY_ENABLED__POST_R3__;
 
 
 /***/ }),
-/* 299 */
+/* 300 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49104,7 +50151,7 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-var element_1 = __webpack_require__(300);
+var element_1 = __webpack_require__(301);
 exports.anchorDef = element_1.anchorDef;
 exports.elementDef = element_1.elementDef;
 var entrypoint_1 = __webpack_require__(421);
@@ -49112,29 +50159,29 @@ exports.clearOverrides = entrypoint_1.clearOverrides;
 exports.createNgModuleFactory = entrypoint_1.createNgModuleFactory;
 exports.overrideComponentView = entrypoint_1.overrideComponentView;
 exports.overrideProvider = entrypoint_1.overrideProvider;
-var ng_content_1 = __webpack_require__(304);
+var ng_content_1 = __webpack_require__(305);
 exports.ngContentDef = ng_content_1.ngContentDef;
-var ng_module_1 = __webpack_require__(302);
+var ng_module_1 = __webpack_require__(303);
 exports.moduleDef = ng_module_1.moduleDef;
 exports.moduleProvideDef = ng_module_1.moduleProvideDef;
-var provider_1 = __webpack_require__(158);
+var provider_1 = __webpack_require__(159);
 exports.directiveDef = provider_1.directiveDef;
 exports.pipeDef = provider_1.pipeDef;
 exports.providerDef = provider_1.providerDef;
-var pure_expression_1 = __webpack_require__(305);
+var pure_expression_1 = __webpack_require__(306);
 exports.pureArrayDef = pure_expression_1.pureArrayDef;
 exports.pureObjectDef = pure_expression_1.pureObjectDef;
 exports.purePipeDef = pure_expression_1.purePipeDef;
 var query_1 = __webpack_require__(224);
 exports.queryDef = query_1.queryDef;
-var refs_1 = __webpack_require__(159);
+var refs_1 = __webpack_require__(160);
 exports.ViewRef_ = refs_1.ViewRef_;
 exports.createComponentFactory = refs_1.createComponentFactory;
 exports.getComponentViewDefinitionFactory = refs_1.getComponentViewDefinitionFactory;
 exports.nodeValue = refs_1.nodeValue;
-var services_1 = __webpack_require__(301);
+var services_1 = __webpack_require__(302);
 exports.initServicesIfNeeded = services_1.initServicesIfNeeded;
-var text_1 = __webpack_require__(306);
+var text_1 = __webpack_require__(307);
 exports.textDef = text_1.textDef;
 var util_1 = __webpack_require__(33);
 exports.EMPTY_ARRAY = util_1.EMPTY_ARRAY;
@@ -49146,7 +50193,7 @@ exports.interpolate = util_1.interpolate;
 exports.rootRenderNodes = util_1.rootRenderNodes;
 exports.tokenKey = util_1.tokenKey;
 exports.unwrapValue = util_1.unwrapValue;
-var view_1 = __webpack_require__(303);
+var view_1 = __webpack_require__(304);
 exports.viewDef = view_1.viewDef;
 var view_attach_1 = __webpack_require__(223);
 exports.attachEmbeddedView = view_attach_1.attachEmbeddedView;
@@ -49156,7 +50203,7 @@ __export(__webpack_require__(42));
 
 
 /***/ }),
-/* 300 */
+/* 301 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49169,7 +50216,7 @@ __export(__webpack_require__(42));
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var view_1 = __webpack_require__(117);
+var view_1 = __webpack_require__(118);
 var security_1 = __webpack_require__(122);
 var types_1 = __webpack_require__(42);
 var util_1 = __webpack_require__(33);
@@ -49461,7 +50508,7 @@ function setElementProperty(view, binding, renderNode, name, value) {
 
 
 /***/ }),
-/* 301 */
+/* 302 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49474,20 +50521,20 @@ function setElementProperty(view, binding, renderNode, name, value) {
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var debug_node_1 = __webpack_require__(294);
+var debug_node_1 = __webpack_require__(295);
 var defs_1 = __webpack_require__(31);
 var error_handler_1 = __webpack_require__(124);
-var is_dev_mode_1 = __webpack_require__(97);
-var api_1 = __webpack_require__(96);
+var is_dev_mode_1 = __webpack_require__(98);
+var api_1 = __webpack_require__(97);
 var security_1 = __webpack_require__(122);
 var ng_reflect_1 = __webpack_require__(271);
 var errors_1 = __webpack_require__(222);
-var provider_1 = __webpack_require__(158);
+var provider_1 = __webpack_require__(159);
 var query_1 = __webpack_require__(224);
-var refs_1 = __webpack_require__(159);
+var refs_1 = __webpack_require__(160);
 var types_1 = __webpack_require__(42);
 var util_1 = __webpack_require__(33);
-var view_1 = __webpack_require__(303);
+var view_1 = __webpack_require__(304);
 var initialized = false;
 function initServicesIfNeeded() {
     if (initialized) {
@@ -50247,7 +51294,7 @@ exports.DebugRenderer2 = DebugRenderer2;
 
 
 /***/ }),
-/* 302 */
+/* 303 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50265,7 +51312,7 @@ var forward_ref_1 = __webpack_require__(70);
 var injector_1 = __webpack_require__(63);
 var injector_compatibility_1 = __webpack_require__(40);
 var scope_1 = __webpack_require__(207);
-var ng_module_factory_1 = __webpack_require__(77);
+var ng_module_factory_1 = __webpack_require__(78);
 var util_1 = __webpack_require__(14);
 var util_2 = __webpack_require__(33);
 var UNDEFINED_VALUE = new Object();
@@ -50468,7 +51515,7 @@ exports.callNgModuleLifecycle = callNgModuleLifecycle;
 
 
 /***/ }),
-/* 303 */
+/* 304 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50481,14 +51528,14 @@ exports.callNgModuleLifecycle = callNgModuleLifecycle;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var element_1 = __webpack_require__(300);
+var element_1 = __webpack_require__(301);
 var errors_1 = __webpack_require__(222);
-var ng_content_1 = __webpack_require__(304);
-var provider_1 = __webpack_require__(158);
-var pure_expression_1 = __webpack_require__(305);
+var ng_content_1 = __webpack_require__(305);
+var provider_1 = __webpack_require__(159);
+var pure_expression_1 = __webpack_require__(306);
 var query_1 = __webpack_require__(224);
-var refs_1 = __webpack_require__(159);
-var text_1 = __webpack_require__(306);
+var refs_1 = __webpack_require__(160);
+var text_1 = __webpack_require__(307);
 var types_1 = __webpack_require__(42);
 var util_1 = __webpack_require__(33);
 var view_attach_1 = __webpack_require__(223);
@@ -51107,7 +52154,7 @@ function execQueriesAction(view, queryFlags, staticDynamicQueryFlag, checkType) 
 
 
 /***/ }),
-/* 304 */
+/* 305 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51163,7 +52210,7 @@ exports.appendNgContent = appendNgContent;
 
 
 /***/ }),
-/* 305 */
+/* 306 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51395,7 +52442,7 @@ exports.checkAndUpdatePureExpressionDynamic = checkAndUpdatePureExpressionDynami
 
 
 /***/ }),
-/* 306 */
+/* 307 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51541,7 +52588,7 @@ function _addInterpolationPart(value, binding) {
 
 
 /***/ }),
-/* 307 */
+/* 308 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51590,7 +52637,7 @@ exports.COMMON_DIRECTIVES = [
 
 
 /***/ }),
-/* 308 */
+/* 309 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51614,7 +52661,7 @@ __export(__webpack_require__(439));
 
 
 /***/ }),
-/* 309 */
+/* 310 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51641,17 +52688,17 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var common_1 = __webpack_require__(80);
 var core_1 = __webpack_require__(7);
-var browser_adapter_1 = __webpack_require__(310);
-var browser_platform_location_1 = __webpack_require__(311);
-var server_transition_1 = __webpack_require__(312);
-var testability_1 = __webpack_require__(313);
-var ng_probe_1 = __webpack_require__(314);
-var dom_renderer_1 = __webpack_require__(316);
+var browser_adapter_1 = __webpack_require__(311);
+var browser_platform_location_1 = __webpack_require__(312);
+var server_transition_1 = __webpack_require__(313);
+var testability_1 = __webpack_require__(314);
+var ng_probe_1 = __webpack_require__(315);
+var dom_renderer_1 = __webpack_require__(317);
 var dom_tokens_1 = __webpack_require__(43);
-var dom_events_1 = __webpack_require__(317);
-var event_manager_1 = __webpack_require__(99);
+var dom_events_1 = __webpack_require__(318);
+var event_manager_1 = __webpack_require__(100);
 var hammer_gestures_1 = __webpack_require__(226);
-var key_events_1 = __webpack_require__(318);
+var key_events_1 = __webpack_require__(319);
 var shared_styles_host_1 = __webpack_require__(225);
 var dom_sanitization_service_1 = __webpack_require__(227);
 exports.INTERNAL_BROWSER_PLATFORM_PROVIDERS = [
@@ -51763,7 +52810,7 @@ exports.BrowserModule = BrowserModule;
 
 
 /***/ }),
-/* 310 */
+/* 311 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52196,7 +53243,7 @@ function relativePath(url) {
 
 
 /***/ }),
-/* 311 */
+/* 312 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52310,7 +53357,7 @@ exports.BrowserPlatformLocation = BrowserPlatformLocation;
 
 
 /***/ }),
-/* 312 */
+/* 313 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52355,7 +53402,7 @@ exports.SERVER_TRANSITION_PROVIDERS = [
 
 
 /***/ }),
-/* 313 */
+/* 314 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52427,7 +53474,7 @@ exports.BrowserGetTestability = BrowserGetTestability;
 
 
 /***/ }),
-/* 314 */
+/* 315 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52452,7 +53499,7 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core = __webpack_require__(7);
-var util_1 = __webpack_require__(315);
+var util_1 = __webpack_require__(316);
 var CORE_TOKENS = {
     'ApplicationRef': core.ApplicationRef,
     'NgZone': core.NgZone,
@@ -52493,7 +53540,7 @@ exports.ELEMENT_PROBE_PROVIDERS = [
 
 
 /***/ }),
-/* 315 */
+/* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52550,7 +53597,7 @@ exports.exportNgVar = exportNgVar;
 
 
 /***/ }),
-/* 316 */
+/* 317 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52586,7 +53633,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(7);
-var event_manager_1 = __webpack_require__(99);
+var event_manager_1 = __webpack_require__(100);
 var shared_styles_host_1 = __webpack_require__(225);
 exports.NAMESPACE_URIS = {
     'svg': 'http://www.w3.org/2000/svg',
@@ -52842,7 +53889,7 @@ var ShadowDomRenderer = /** @class */ (function (_super) {
 
 
 /***/ }),
-/* 317 */
+/* 318 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52883,7 +53930,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var common_1 = __webpack_require__(80);
 var core_1 = __webpack_require__(7);
 var dom_tokens_1 = __webpack_require__(43);
-var event_manager_1 = __webpack_require__(99);
+var event_manager_1 = __webpack_require__(100);
 /**
  * Detect if Zone is present. If it is then use simple zone aware 'addEventListener'
  * since Angular can do much more
@@ -53095,7 +54142,7 @@ exports.DomEventsPlugin = DomEventsPlugin;
 
 
 /***/ }),
-/* 318 */
+/* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53136,7 +54183,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(7);
 var dom_adapter_1 = __webpack_require__(34);
 var dom_tokens_1 = __webpack_require__(43);
-var event_manager_1 = __webpack_require__(99);
+var event_manager_1 = __webpack_require__(100);
 /**
  * Defines supported modifiers for key events.
  */
@@ -53267,7 +54314,7 @@ exports.KeyEventsPlugin = KeyEventsPlugin;
 
 
 /***/ }),
-/* 319 */
+/* 320 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53437,7 +54484,7 @@ exports.BrowserTransferStateModule = BrowserTransferStateModule;
 
 
 /***/ }),
-/* 320 */
+/* 321 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53464,7 +54511,7 @@ exports.platformCoreDynamic = core_1.createPlatformFactory(core_1.platformCore, 
 
 
 /***/ }),
-/* 321 */
+/* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53478,10 +54525,10 @@ exports.platformCoreDynamic = core_1.createPlatformFactory(core_1.platformCore, 
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var common_1 = __webpack_require__(80);
-var compiler_1 = __webpack_require__(72);
+var compiler_1 = __webpack_require__(73);
 var core_1 = __webpack_require__(7);
-var platform_browser_1 = __webpack_require__(308);
-var resource_loader_impl_1 = __webpack_require__(322);
+var platform_browser_1 = __webpack_require__(309);
+var resource_loader_impl_1 = __webpack_require__(323);
 /**
  * @publicApi
  */
@@ -53497,7 +54544,7 @@ exports.INTERNAL_BROWSER_DYNAMIC_PLATFORM_PROVIDERS = [
 
 
 /***/ }),
-/* 322 */
+/* 323 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53529,7 +54576,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var compiler_1 = __webpack_require__(72);
+var compiler_1 = __webpack_require__(73);
 var core_1 = __webpack_require__(7);
 var ResourceLoaderImpl = /** @class */ (function (_super) {
     __extends(ResourceLoaderImpl, _super);
@@ -53579,7 +54626,7 @@ exports.ResourceLoaderImpl = ResourceLoaderImpl;
 
 
 /***/ }),
-/* 323 */
+/* 324 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53589,10 +54636,10 @@ __webpack_require__.r(__webpack_exports__);
 var Observable = __webpack_require__(2);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/ConnectableObservable.js
-var ConnectableObservable = __webpack_require__(160);
+var ConnectableObservable = __webpack_require__(161);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/operators/groupBy.js
-var groupBy = __webpack_require__(151);
+var groupBy = __webpack_require__(152);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/symbol/observable.js
 var observable = __webpack_require__(44);
@@ -53601,22 +54648,22 @@ var observable = __webpack_require__(44);
 var Subject = __webpack_require__(8);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/BehaviorSubject.js
-var BehaviorSubject = __webpack_require__(161);
+var BehaviorSubject = __webpack_require__(162);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/ReplaySubject.js
-var ReplaySubject = __webpack_require__(101);
+var ReplaySubject = __webpack_require__(102);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/AsyncSubject.js
 var AsyncSubject = __webpack_require__(57);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/scheduler/asap.js + 3 modules
-var asap = __webpack_require__(110);
+var asap = __webpack_require__(111);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/scheduler/async.js
 var scheduler_async = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/scheduler/queue.js + 2 modules
-var queue = __webpack_require__(168);
+var queue = __webpack_require__(169);
 
 // EXTERNAL MODULE: ./node_modules/tslib/tslib.es6.js
 var tslib_es6 = __webpack_require__(0);
@@ -53835,7 +54882,7 @@ var Notification = __webpack_require__(36);
 var pipe = __webpack_require__(81);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/noop.js
-var noop = __webpack_require__(27);
+var noop = __webpack_require__(28);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/identity.js
 var identity = __webpack_require__(35);
@@ -53861,13 +54908,13 @@ var ObjectUnsubscribedError = __webpack_require__(45);
 var UnsubscriptionError = __webpack_require__(83);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/TimeoutError.js
-var TimeoutError = __webpack_require__(163);
+var TimeoutError = __webpack_require__(164);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/operators/map.js
 var map = __webpack_require__(16);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/canReportError.js
-var canReportError = __webpack_require__(108);
+var canReportError = __webpack_require__(109);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/isArray.js
 var isArray = __webpack_require__(13);
@@ -54098,13 +55145,13 @@ function bindNodeCallback_dispatchError(arg) {
 //# sourceMappingURL=bindNodeCallback.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/combineLatest.js
-var combineLatest = __webpack_require__(104);
+var combineLatest = __webpack_require__(105);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/concat.js
 var concat = __webpack_require__(46);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/defer.js
-var defer = __webpack_require__(106);
+var defer = __webpack_require__(107);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/empty.js
 var empty = __webpack_require__(11);
@@ -54472,7 +55519,7 @@ function interval_dispatch(state) {
 //# sourceMappingURL=interval.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/merge.js
-var merge = __webpack_require__(165);
+var merge = __webpack_require__(166);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/observable/never.js
 /** PURE_IMPORTS_START _Observable,_util_noop PURE_IMPORTS_END */
@@ -54485,7 +55532,7 @@ function never() {
 //# sourceMappingURL=never.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/of.js
-var of = __webpack_require__(102);
+var of = __webpack_require__(103);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/observable/onErrorResumeNext.js
 /** PURE_IMPORTS_START _Observable,_from,_util_isArray,_empty PURE_IMPORTS_END */
@@ -54558,7 +55605,7 @@ function pairs_dispatch(state) {
 //# sourceMappingURL=pairs.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/race.js
-var race = __webpack_require__(166);
+var race = __webpack_require__(167);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/observable/range.js
 /** PURE_IMPORTS_START _Observable PURE_IMPORTS_END */
@@ -54610,10 +55657,10 @@ function range_dispatch(state) {
 //# sourceMappingURL=range.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/throwError.js
-var throwError = __webpack_require__(103);
+var throwError = __webpack_require__(104);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/timer.js
-var timer = __webpack_require__(167);
+var timer = __webpack_require__(168);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/observable/using.js
 /** PURE_IMPORTS_START _Observable,_from,_empty PURE_IMPORTS_END */
@@ -54651,7 +55698,7 @@ function using(resourceFactory, observableFactory) {
 //# sourceMappingURL=using.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/zip.js
-var zip = __webpack_require__(107);
+var zip = __webpack_require__(108);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/config.js
 var config = __webpack_require__(26);
@@ -54769,7 +55816,6 @@ var config = __webpack_require__(26);
 
 
 /***/ }),
-/* 324 */,
 /* 325 */,
 /* 326 */,
 /* 327 */,
@@ -54807,19 +55853,20 @@ var config = __webpack_require__(26);
 /* 359 */,
 /* 360 */,
 /* 361 */,
-/* 362 */
+/* 362 */,
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-__webpack_require__(72);
-var event_emitter_1 = __webpack_require__(71);
+__webpack_require__(73);
+var event_emitter_1 = __webpack_require__(72);
 var core = __webpack_require__(7);
 var common = __webpack_require__(80);
-var platformBrowser = __webpack_require__(308);
+var platformBrowser = __webpack_require__(309);
 var platformBrowserDynamic = __webpack_require__(451);
-var render3_1 = __webpack_require__(201);
+var render3_1 = __webpack_require__(202);
 event_emitter_1.EMITTER.subscribe(event_emitter_1.EventType.TRANSPILED, function (result) {
     result = result.replaceAll('require("@angular/core");', 'i0');
     result = result.replaceAll('require("@angular/common")', 'c_o_m_m_o_n');
@@ -54840,7 +55887,7 @@ event_emitter_1.EMITTER.subscribe(event_emitter_1.EventType.TRANSPILED, function
 
 
 /***/ }),
-/* 363 */
+/* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54860,11 +55907,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // by the TypeScript language service and during build for verification. `ngc`
 // replaces this file with production index.ts when it rewrites private symbol
 // names.
-__export(__webpack_require__(364));
+__export(__webpack_require__(365));
 
 
 /***/ }),
-/* 364 */
+/* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54885,12 +55932,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @description
  * Entry point for all public APIs of this package.
  */
-__export(__webpack_require__(365));
+__export(__webpack_require__(366));
 // This file only reexports content of the `src` folder. Keep it that way.
 
 
 /***/ }),
-/* 365 */
+/* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54929,55 +55976,55 @@ var core = __webpack_require__(21);
 exports.core = core;
 var jit_compiler_facade_1 = __webpack_require__(238);
 var util_1 = __webpack_require__(10);
-__export(__webpack_require__(375));
+__export(__webpack_require__(376));
 __export(__webpack_require__(88));
 var config_1 = __webpack_require__(141);
 exports.CompilerConfig = config_1.CompilerConfig;
 exports.preserveWhitespacesDefault = config_1.preserveWhitespacesDefault;
 __export(__webpack_require__(19));
 __export(__webpack_require__(249));
-__export(__webpack_require__(197));
+__export(__webpack_require__(198));
 __export(__webpack_require__(260));
 __export(__webpack_require__(262));
-__export(__webpack_require__(199));
+__export(__webpack_require__(200));
 __export(__webpack_require__(39));
 __export(__webpack_require__(143));
-__export(__webpack_require__(200));
+__export(__webpack_require__(201));
 var util_2 = __webpack_require__(90);
 exports.isLoweredSymbol = util_2.isLoweredSymbol;
 exports.createLoweredSymbol = util_2.createLoweredSymbol;
 __export(__webpack_require__(245));
-__export(__webpack_require__(382));
+__export(__webpack_require__(383));
 var identifiers_1 = __webpack_require__(38);
 exports.Identifiers = identifiers_1.Identifiers;
-var compiler_1 = __webpack_require__(383);
+var compiler_1 = __webpack_require__(384);
 exports.JitCompiler = compiler_1.JitCompiler;
-__export(__webpack_require__(385));
 __export(__webpack_require__(386));
 __export(__webpack_require__(387));
+__export(__webpack_require__(388));
 var constant_pool_1 = __webpack_require__(130);
 exports.ConstantPool = constant_pool_1.ConstantPool;
 var directive_resolver_1 = __webpack_require__(89);
 exports.DirectiveResolver = directive_resolver_1.DirectiveResolver;
-var pipe_resolver_1 = __webpack_require__(196);
+var pipe_resolver_1 = __webpack_require__(197);
 exports.PipeResolver = pipe_resolver_1.PipeResolver;
-var ng_module_resolver_1 = __webpack_require__(195);
+var ng_module_resolver_1 = __webpack_require__(196);
 exports.NgModuleResolver = ng_module_resolver_1.NgModuleResolver;
-var interpolation_config_1 = __webpack_require__(30);
+var interpolation_config_1 = __webpack_require__(27);
 exports.DEFAULT_INTERPOLATION_CONFIG = interpolation_config_1.DEFAULT_INTERPOLATION_CONFIG;
 exports.InterpolationConfig = interpolation_config_1.InterpolationConfig;
 __export(__webpack_require__(246));
-__export(__webpack_require__(388));
-__export(__webpack_require__(191));
-__export(__webpack_require__(73));
-__export(__webpack_require__(115));
-__export(__webpack_require__(138));
-__export(__webpack_require__(194));
-__export(__webpack_require__(28));
+__export(__webpack_require__(389));
+__export(__webpack_require__(192));
 __export(__webpack_require__(74));
-__export(__webpack_require__(129));
-__export(__webpack_require__(30));
+__export(__webpack_require__(116));
+__export(__webpack_require__(138));
+__export(__webpack_require__(195));
 __export(__webpack_require__(29));
+__export(__webpack_require__(75));
+__export(__webpack_require__(129));
+__export(__webpack_require__(27));
+__export(__webpack_require__(30));
 var ng_module_compiler_1 = __webpack_require__(255);
 exports.NgModuleCompiler = ng_module_compiler_1.NgModuleCompiler;
 var output_ast_1 = __webpack_require__(9);
@@ -55035,7 +56082,7 @@ __export(__webpack_require__(142));
 __export(__webpack_require__(47));
 __export(__webpack_require__(87));
 __export(__webpack_require__(66));
-__export(__webpack_require__(186));
+__export(__webpack_require__(187));
 __export(__webpack_require__(258));
 var view_compiler_1 = __webpack_require__(259);
 exports.ViewCompiler = view_compiler_1.ViewCompiler;
@@ -55056,20 +56103,20 @@ exports.TmplAstTemplate = r3_ast_1.Template;
 exports.TmplAstText = r3_ast_1.Text;
 exports.TmplAstTextAttribute = r3_ast_1.TextAttribute;
 exports.TmplAstVariable = r3_ast_1.Variable;
-__export(__webpack_require__(390));
-var r3_jit_1 = __webpack_require__(240);
+__export(__webpack_require__(391));
+var r3_jit_1 = __webpack_require__(241);
 exports.jitExpression = r3_jit_1.jitExpression;
 var r3_factory_1 = __webpack_require__(84);
 exports.R3ResolvedDependencyType = r3_factory_1.R3ResolvedDependencyType;
-var r3_module_compiler_1 = __webpack_require__(183);
+var r3_module_compiler_1 = __webpack_require__(184);
 exports.compileInjector = r3_module_compiler_1.compileInjector;
 exports.compileNgModule = r3_module_compiler_1.compileNgModule;
-var r3_pipe_compiler_1 = __webpack_require__(184);
+var r3_pipe_compiler_1 = __webpack_require__(185);
 exports.compilePipeFromMetadata = r3_pipe_compiler_1.compilePipeFromMetadata;
-var template_1 = __webpack_require__(187);
+var template_1 = __webpack_require__(188);
 exports.makeBindingParser = template_1.makeBindingParser;
 exports.parseTemplate = template_1.parseTemplate;
-var compiler_2 = __webpack_require__(185);
+var compiler_2 = __webpack_require__(186);
 exports.compileBaseDefFromMetadata = compiler_2.compileBaseDefFromMetadata;
 exports.compileComponentFromMetadata = compiler_2.compileComponentFromMetadata;
 exports.compileDirectiveFromMetadata = compiler_2.compileDirectiveFromMetadata;
@@ -55083,7 +56130,7 @@ jit_compiler_facade_1.publishFacade(util_1.global);
 
 
 /***/ }),
-/* 366 */
+/* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55245,7 +56292,7 @@ function toBase64Digit(value) {
 
 
 /***/ }),
-/* 367 */
+/* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55435,7 +56482,7 @@ exports.AbstractJsEmitterVisitor = AbstractJsEmitterVisitor;
 
 
 /***/ }),
-/* 368 */
+/* 369 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55542,7 +56589,7 @@ exports.hyphenate = hyphenate;
 
 
 /***/ }),
-/* 369 */
+/* 370 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55570,8 +56617,8 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var chars = __webpack_require__(137);
 var parse_util_1 = __webpack_require__(47);
-var interpolation_config_1 = __webpack_require__(30);
-var tags_1 = __webpack_require__(29);
+var interpolation_config_1 = __webpack_require__(27);
+var tags_1 = __webpack_require__(30);
 var TokenType;
 (function (TokenType) {
     TokenType[TokenType["TAG_OPEN_START"] = 0] = "TAG_OPEN_START";
@@ -56223,7 +57270,7 @@ function mergeTextTokens(srcTokens) {
 
 
 /***/ }),
-/* 370 */
+/* 371 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56294,7 +57341,7 @@ function registerContext(ctx, specs) {
 
 
 /***/ }),
-/* 371 */
+/* 372 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56504,7 +57551,7 @@ function serializePlaceholderValue(value) {
 
 
 /***/ }),
-/* 372 */
+/* 373 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56517,11 +57564,11 @@ function serializePlaceholderValue(value) {
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var digest_1 = __webpack_require__(113);
+var digest_1 = __webpack_require__(114);
 var i18n = __webpack_require__(60);
 var i18n_parser_1 = __webpack_require__(248);
-var html = __webpack_require__(28);
-var interpolation_config_1 = __webpack_require__(30);
+var html = __webpack_require__(29);
+var interpolation_config_1 = __webpack_require__(27);
 var parser_1 = __webpack_require__(67);
 var util_1 = __webpack_require__(86);
 function setI18nRefs(html, i18n) {
@@ -56533,10 +57580,13 @@ function setI18nRefs(html, i18n) {
  * stored with other element's and attribute's information.
  */
 var I18nMetaVisitor = /** @class */ (function () {
-    function I18nMetaVisitor(config) {
-        this.config = config;
+    function I18nMetaVisitor(interpolationConfig, keepI18nAttrs) {
+        if (interpolationConfig === void 0) { interpolationConfig = interpolation_config_1.DEFAULT_INTERPOLATION_CONFIG; }
+        if (keepI18nAttrs === void 0) { keepI18nAttrs = false; }
+        this.interpolationConfig = interpolationConfig;
+        this.keepI18nAttrs = keepI18nAttrs;
         // i18n message generation factory
-        this._createI18nMessage = i18n_parser_1.createI18nMessageFactory(interpolation_config_1.DEFAULT_INTERPOLATION_CONFIG);
+        this._createI18nMessage = i18n_parser_1.createI18nMessageFactory(interpolationConfig);
     }
     I18nMetaVisitor.prototype._generateI18nMessage = function (nodes, meta, visitNodeFn) {
         if (meta === void 0) { meta = ''; }
@@ -56584,7 +57634,7 @@ var I18nMetaVisitor = /** @class */ (function () {
                     }
                 }
             }
-            if (!this.config.keepI18nAttrs) {
+            if (!this.keepI18nAttrs) {
                 // update element's attributes,
                 // keeping only non-i18n related ones
                 element.attrs = attrs;
@@ -56619,14 +57669,15 @@ var I18nMetaVisitor = /** @class */ (function () {
     return I18nMetaVisitor;
 }());
 exports.I18nMetaVisitor = I18nMetaVisitor;
-function processI18nMeta(htmlAstWithErrors) {
-    return new parser_1.ParseTreeResult(html.visitAll(new I18nMetaVisitor({ keepI18nAttrs: false }), htmlAstWithErrors.rootNodes), htmlAstWithErrors.errors);
+function processI18nMeta(htmlAstWithErrors, interpolationConfig) {
+    if (interpolationConfig === void 0) { interpolationConfig = interpolation_config_1.DEFAULT_INTERPOLATION_CONFIG; }
+    return new parser_1.ParseTreeResult(html.visitAll(new I18nMetaVisitor(interpolationConfig, /* keepI18nAttrs */ false), htmlAstWithErrors.rootNodes), htmlAstWithErrors.errors);
 }
 exports.processI18nMeta = processI18nMeta;
 
 
 /***/ }),
-/* 373 */
+/* 374 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56742,7 +57793,7 @@ exports.PlaceholderRegistry = PlaceholderRegistry;
 
 
 /***/ }),
-/* 374 */
+/* 375 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56792,7 +57843,7 @@ exports.getSerializedI18nContent = getSerializedI18nContent;
 
 
 /***/ }),
-/* 375 */
+/* 376 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56815,7 +57866,7 @@ exports.VERSION = new util_1.Version('0.0.0-PLACEHOLDER');
 
 
 /***/ }),
-/* 376 */
+/* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56828,7 +57879,7 @@ exports.VERSION = new util_1.Version('0.0.0-PLACEHOLDER');
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var tags_1 = __webpack_require__(29);
+var tags_1 = __webpack_require__(30);
 var XmlTagDefinition = /** @class */ (function () {
     function XmlTagDefinition() {
         this.closedByParent = false;
@@ -56850,7 +57901,7 @@ exports.getXmlTagDefinition = getXmlTagDefinition;
 
 
 /***/ }),
-/* 377 */
+/* 378 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56864,8 +57915,8 @@ exports.getXmlTagDefinition = getXmlTagDefinition;
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(21);
-var html_parser_1 = __webpack_require__(74);
-var parse_util_1 = __webpack_require__(116);
+var html_parser_1 = __webpack_require__(75);
+var parse_util_1 = __webpack_require__(117);
 var xml_helper_1 = __webpack_require__(133);
 /**
  * A container for translated messages
@@ -57023,7 +58074,7 @@ var I18nToHtmlVisitor = /** @class */ (function () {
 
 
 /***/ }),
-/* 378 */
+/* 379 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57039,7 +58090,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var compile_metadata_1 = __webpack_require__(19);
 var identifiers_1 = __webpack_require__(38);
 var o = __webpack_require__(9);
-var value_util_1 = __webpack_require__(193);
+var value_util_1 = __webpack_require__(194);
 function mapEntry(key, value) {
     return { key: key, value: value, quoted: false };
 }
@@ -57155,7 +58206,7 @@ exports.InjectableCompiler = InjectableCompiler;
 
 
 /***/ }),
-/* 379 */
+/* 380 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57182,7 +58233,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var parse_util_1 = __webpack_require__(47);
-var html = __webpack_require__(28);
+var html = __webpack_require__(29);
 // http://cldr.unicode.org/index/cldr-spec/plural-rules
 var PLURAL_CASES = ['zero', 'one', 'two', 'few', 'many', 'other'];
 /**
@@ -57286,7 +58337,7 @@ function _expandDefaultForm(ast, errors) {
 
 
 /***/ }),
-/* 380 */
+/* 381 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57599,7 +58650,7 @@ var ViewBuilder = /** @class */ (function () {
 
 
 /***/ }),
-/* 381 */
+/* 382 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57659,7 +58710,7 @@ exports.parseLazyRoute = parseLazyRoute;
 
 
 /***/ }),
-/* 382 */
+/* 383 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57691,7 +58742,7 @@ exports.JitSummaryResolver = JitSummaryResolver;
 
 
 /***/ }),
-/* 383 */
+/* 384 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57707,8 +58758,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var compile_metadata_1 = __webpack_require__(19);
 var constant_pool_1 = __webpack_require__(130);
 var ir = __webpack_require__(9);
-var output_interpreter_1 = __webpack_require__(384);
-var output_jit_1 = __webpack_require__(241);
+var output_interpreter_1 = __webpack_require__(385);
+var output_jit_1 = __webpack_require__(242);
 var util_1 = __webpack_require__(10);
 /**
  * An internal module of the Angular compiler that begins with component types,
@@ -58002,7 +59053,7 @@ function createOutputContext() {
 
 
 /***/ }),
-/* 384 */
+/* 385 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58376,7 +59427,7 @@ var CATCH_STACK_VAR = 'stack';
 
 
 /***/ }),
-/* 385 */
+/* 386 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58401,7 +59452,7 @@ exports.CompileReflector = CompileReflector;
 
 
 /***/ }),
-/* 386 */
+/* 387 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58704,7 +59755,7 @@ function _resolveUrl(base, url) {
 
 
 /***/ }),
-/* 387 */
+/* 388 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58731,7 +59782,7 @@ exports.ResourceLoader = ResourceLoader;
 
 
 /***/ }),
-/* 388 */
+/* 389 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58744,13 +59795,13 @@ exports.ResourceLoader = ResourceLoader;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var extractor_1 = __webpack_require__(389);
+var extractor_1 = __webpack_require__(390);
 exports.Extractor = extractor_1.Extractor;
 var i18n_html_parser_1 = __webpack_require__(250);
 exports.I18NHtmlParser = i18n_html_parser_1.I18NHtmlParser;
-var message_bundle_1 = __webpack_require__(198);
+var message_bundle_1 = __webpack_require__(199);
 exports.MessageBundle = message_bundle_1.MessageBundle;
-var serializer_1 = __webpack_require__(114);
+var serializer_1 = __webpack_require__(115);
 exports.Serializer = serializer_1.Serializer;
 var xliff_1 = __webpack_require__(252);
 exports.Xliff = xliff_1.Xliff;
@@ -58763,7 +59814,7 @@ exports.Xtb = xtb_1.Xtb;
 
 
 /***/ }),
-/* 389 */
+/* 390 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58779,23 +59830,23 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Extract i18n messages from source code
  */
-var compiler_1 = __webpack_require__(197);
+var compiler_1 = __webpack_require__(198);
 var compiler_factory_1 = __webpack_require__(249);
-var static_reflector_1 = __webpack_require__(199);
+var static_reflector_1 = __webpack_require__(200);
 var static_symbol_1 = __webpack_require__(39);
 var static_symbol_resolver_1 = __webpack_require__(143);
-var summary_resolver_1 = __webpack_require__(200);
+var summary_resolver_1 = __webpack_require__(201);
 var config_1 = __webpack_require__(141);
 var core_1 = __webpack_require__(21);
-var directive_normalizer_1 = __webpack_require__(191);
+var directive_normalizer_1 = __webpack_require__(192);
 var directive_resolver_1 = __webpack_require__(89);
-var metadata_resolver_1 = __webpack_require__(194);
-var html_parser_1 = __webpack_require__(74);
-var interpolation_config_1 = __webpack_require__(30);
-var ng_module_resolver_1 = __webpack_require__(195);
-var pipe_resolver_1 = __webpack_require__(196);
+var metadata_resolver_1 = __webpack_require__(195);
+var html_parser_1 = __webpack_require__(75);
+var interpolation_config_1 = __webpack_require__(27);
+var ng_module_resolver_1 = __webpack_require__(196);
+var pipe_resolver_1 = __webpack_require__(197);
 var dom_element_schema_registry_1 = __webpack_require__(87);
-var message_bundle_1 = __webpack_require__(198);
+var message_bundle_1 = __webpack_require__(199);
 var Extractor = /** @class */ (function () {
     function Extractor(host, staticSymbolResolver, messageBundle, metadataResolver) {
         this.host = host;
@@ -58856,7 +59907,7 @@ exports.Extractor = Extractor;
 
 
 /***/ }),
-/* 390 */
+/* 391 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58882,7 +59933,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var ast_1 = __webpack_require__(73);
+var ast_1 = __webpack_require__(74);
 var selector_1 = __webpack_require__(66);
 var r3_ast_1 = __webpack_require__(140);
 var util_1 = __webpack_require__(131);
@@ -59340,7 +60391,7 @@ exports.R3BoundTarget = R3BoundTarget;
 
 
 /***/ }),
-/* 391 */
+/* 392 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59361,12 +60412,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @description
  * Entry point for all public APIs of this package.
  */
-__export(__webpack_require__(392));
+__export(__webpack_require__(393));
 // This file only reexports content of the `src` folder. Keep it that way.
 
 
 /***/ }),
-/* 392 */
+/* 393 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59399,7 +60450,7 @@ exports.PlatformRef = application_ref_1.PlatformRef;
 exports.ApplicationRef = application_ref_1.ApplicationRef;
 exports.createPlatformFactory = application_ref_1.createPlatformFactory;
 exports.NgProbeToken = application_ref_1.NgProbeToken;
-var is_dev_mode_1 = __webpack_require__(97);
+var is_dev_mode_1 = __webpack_require__(98);
 exports.enableProdMode = is_dev_mode_1.enableProdMode;
 exports.isDevMode = is_dev_mode_1.isDevMode;
 var application_tokens_1 = __webpack_require__(126);
@@ -59411,10 +60462,10 @@ exports.APP_BOOTSTRAP_LISTENER = application_tokens_1.APP_BOOTSTRAP_LISTENER;
 var application_init_1 = __webpack_require__(216);
 exports.APP_INITIALIZER = application_init_1.APP_INITIALIZER;
 exports.ApplicationInitStatus = application_init_1.ApplicationInitStatus;
-__export(__webpack_require__(289));
-__export(__webpack_require__(414));
 __export(__webpack_require__(290));
-var debug_node_1 = __webpack_require__(294);
+__export(__webpack_require__(414));
+__export(__webpack_require__(291));
+var debug_node_1 = __webpack_require__(295);
 exports.DebugElement = debug_node_1.DebugElement;
 exports.DebugNode = debug_node_1.DebugNode;
 exports.asNativeElements = debug_node_1.asNativeElements;
@@ -59425,21 +60476,21 @@ exports.TestabilityRegistry = testability_1.TestabilityRegistry;
 exports.setTestabilityGetter = testability_1.setTestabilityGetter;
 __export(__webpack_require__(417));
 __export(__webpack_require__(418));
-var tokens_1 = __webpack_require__(297);
+var tokens_1 = __webpack_require__(298);
 exports.TRANSLATIONS = tokens_1.TRANSLATIONS;
 exports.TRANSLATIONS_FORMAT = tokens_1.TRANSLATIONS_FORMAT;
 exports.LOCALE_ID = tokens_1.LOCALE_ID;
 exports.MissingTranslationStrategy = tokens_1.MissingTranslationStrategy;
 var application_module_1 = __webpack_require__(419);
 exports.ApplicationModule = application_module_1.ApplicationModule;
-var profile_1 = __webpack_require__(288);
+var profile_1 = __webpack_require__(289);
 exports.wtfCreateScope = profile_1.wtfCreateScope;
 exports.wtfLeave = profile_1.wtfLeave;
 exports.wtfStartTimeRange = profile_1.wtfStartTimeRange;
 exports.wtfEndTimeRange = profile_1.wtfEndTimeRange;
 var type_1 = __webpack_require__(212);
 exports.Type = type_1.Type;
-var event_emitter_1 = __webpack_require__(150);
+var event_emitter_1 = __webpack_require__(151);
 exports.EventEmitter = event_emitter_1.EventEmitter;
 var error_handler_1 = __webpack_require__(124);
 exports.ErrorHandler = error_handler_1.ErrorHandler;
@@ -59452,7 +60503,7 @@ __export(__webpack_require__(423));
 
 
 /***/ }),
-/* 393 */
+/* 394 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59473,7 +60524,7 @@ var R3ResolvedDependencyType;
 
 
 /***/ }),
-/* 394 */
+/* 395 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59496,19 +60547,21 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 var discovery_utils_1 = __webpack_require__(148);
 exports.getComponent = discovery_utils_1.getComponent;
+exports.getContext = discovery_utils_1.getContext;
 exports.getDirectives = discovery_utils_1.getDirectives;
 exports.getHostElement = discovery_utils_1.getHostElement;
 exports.getInjector = discovery_utils_1.getInjector;
+exports.getListeners = discovery_utils_1.getListeners;
 exports.getRootComponents = discovery_utils_1.getRootComponents;
 exports.getViewComponent = discovery_utils_1.getViewComponent;
 var instructions_1 = __webpack_require__(41);
 exports.markDirty = instructions_1.markDirty;
-var players_1 = __webpack_require__(275);
+var players_1 = __webpack_require__(276);
 exports.getPlayers = players_1.getPlayers;
 
 
 /***/ }),
-/* 395 */
+/* 396 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59521,10 +60574,10 @@ exports.getPlayers = players_1.getPlayers;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-__webpack_require__(118);
+__webpack_require__(119);
 var assert_1 = __webpack_require__(20);
-var node_1 = __webpack_require__(203);
-var projection_1 = __webpack_require__(202);
+var node_1 = __webpack_require__(204);
+var projection_1 = __webpack_require__(203);
 var unusedValueToPlacateAjd = node_1.unusedValueExportToPlacateAjd + projection_1.unusedValueExportToPlacateAjd;
 function isCssClassMatching(nodeClassAttrVal, cssClassToMatch) {
     var nodeClassesLen = nodeClassAttrVal.length;
@@ -59692,809 +60745,6 @@ exports.matchingSelectorIndex = matchingSelectorIndex;
 
 
 /***/ }),
-/* 396 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var renderer_1 = __webpack_require__(94);
-var tokens_1 = __webpack_require__(121);
-var util_1 = __webpack_require__(23);
-var player_factory_1 = __webpack_require__(204);
-var util_2 = __webpack_require__(205);
-var EMPTY_ARR = [];
-var EMPTY_OBJ = {};
-/**
- * Creates a styling context template where styling information is stored.
- * Any styles that are later referenced using `updateStyleProp` must be
- * passed in within this function. Initial values for those styles are to
- * be declared after all initial style properties are declared (this change in
- * mode between declarations and initial styles is made possible using a special
- * enum value found in `definition.ts`).
- *
- * @param initialStyleDeclarations a list of style declarations and initial style values
- *    that are used later within the styling context.
- *
- *    -> ['width', 'height', SPECIAL_ENUM_VAL, 'width', '100px']
- *       This implies that `width` and `height` will be later styled and that the `width`
- *       property has an initial value of `100px`.
- *
- * @param initialClassDeclarations a list of class declarations and initial class values
- *    that are used later within the styling context.
- *
- *    -> ['foo', 'bar', SPECIAL_ENUM_VAL, 'foo', true]
- *       This implies that `foo` and `bar` will be later styled and that the `foo`
- *       class will be applied to the element as an initial class since it's true
- */
-function createStylingContextTemplate(initialClassDeclarations, initialStyleDeclarations, styleSanitizer, onlyProcessSingleClasses) {
-    var initialStylingValues = [null];
-    var context = util_2.createEmptyStylingContext(null, styleSanitizer, initialStylingValues);
-    // we use two maps since a class name might collide with a CSS style prop
-    var stylesLookup = {};
-    var classesLookup = {};
-    var totalStyleDeclarations = 0;
-    if (initialStyleDeclarations) {
-        var hasPassedDeclarations = false;
-        for (var i = 0; i < initialStyleDeclarations.length; i++) {
-            var v = initialStyleDeclarations[i];
-            // this flag value marks where the declarations end the initial values begin
-            if (v === 1 /* VALUES_MODE */) {
-                hasPassedDeclarations = true;
-            }
-            else {
-                var prop = v;
-                if (hasPassedDeclarations) {
-                    var value = initialStyleDeclarations[++i];
-                    initialStylingValues.push(value);
-                    stylesLookup[prop] = initialStylingValues.length - 1;
-                }
-                else {
-                    totalStyleDeclarations++;
-                    stylesLookup[prop] = 0;
-                }
-            }
-        }
-    }
-    // make where the class offsets begin
-    context[4 /* ClassOffsetPosition */] = totalStyleDeclarations;
-    var initialStaticClasses = onlyProcessSingleClasses ? [] : null;
-    if (initialClassDeclarations) {
-        var hasPassedDeclarations = false;
-        for (var i = 0; i < initialClassDeclarations.length; i++) {
-            var v = initialClassDeclarations[i];
-            // this flag value marks where the declarations end the initial values begin
-            if (v === 1 /* VALUES_MODE */) {
-                hasPassedDeclarations = true;
-            }
-            else {
-                var className = v;
-                if (hasPassedDeclarations) {
-                    var value = initialClassDeclarations[++i];
-                    initialStylingValues.push(value);
-                    classesLookup[className] = initialStylingValues.length - 1;
-                    initialStaticClasses && initialStaticClasses.push(className);
-                }
-                else {
-                    classesLookup[className] = 0;
-                }
-            }
-        }
-    }
-    var styleProps = Object.keys(stylesLookup);
-    var classNames = Object.keys(classesLookup);
-    var classNamesIndexStart = styleProps.length;
-    var totalProps = styleProps.length + classNames.length;
-    // *2 because we are filling for both single and multi style spaces
-    var maxLength = totalProps * 4 /* Size */ * 2 + 8 /* SingleStylesStartPosition */;
-    // we need to fill the array from the start so that we can access
-    // both the multi and the single array positions in the same loop block
-    for (var i = 8 /* SingleStylesStartPosition */; i < maxLength; i++) {
-        context.push(null);
-    }
-    var singleStart = 8 /* SingleStylesStartPosition */;
-    var multiStart = totalProps * 4 /* Size */ + 8 /* SingleStylesStartPosition */;
-    // fill single and multi-level styles
-    for (var i = 0; i < totalProps; i++) {
-        var isClassBased_1 = i >= classNamesIndexStart;
-        var prop = isClassBased_1 ? classNames[i - classNamesIndexStart] : styleProps[i];
-        var indexForInitial = isClassBased_1 ? classesLookup[prop] : stylesLookup[prop];
-        var initialValue = initialStylingValues[indexForInitial];
-        var indexForMulti = i * 4 /* Size */ + multiStart;
-        var indexForSingle = i * 4 /* Size */ + singleStart;
-        var initialFlag = prepareInitialFlag(prop, isClassBased_1, styleSanitizer || null);
-        setFlag(context, indexForSingle, pointers(initialFlag, indexForInitial, indexForMulti));
-        setProp(context, indexForSingle, prop);
-        setValue(context, indexForSingle, null);
-        setPlayerBuilderIndex(context, indexForSingle, 0);
-        var flagForMulti = initialFlag | (initialValue !== null ? 1 /* Dirty */ : 0 /* None */);
-        setFlag(context, indexForMulti, pointers(flagForMulti, indexForInitial, indexForSingle));
-        setProp(context, indexForMulti, prop);
-        setValue(context, indexForMulti, null);
-        setPlayerBuilderIndex(context, indexForMulti, 0);
-    }
-    // there is no initial value flag for the master index since it doesn't
-    // reference an initial style value
-    var masterFlag = pointers(0, 0, multiStart) |
-        (onlyProcessSingleClasses ? 16 /* OnlyProcessSingleClasses */ : 0);
-    setFlag(context, 3 /* MasterFlagPosition */, masterFlag);
-    setContextDirty(context, initialStylingValues.length > 1);
-    if (initialStaticClasses) {
-        context[6 /* PreviousOrCachedMultiClassValue */] = initialStaticClasses.join(' ');
-    }
-    return context;
-}
-exports.createStylingContextTemplate = createStylingContextTemplate;
-/**
- * Sets and resolves all `multi` styling on an `StylingContext` so that they can be
- * applied to the element once `renderStyleAndClassBindings` is called.
- *
- * All missing styles/class (any values that are not provided in the new `styles`
- * or `classes` params) will resolve to `null` within their respective positions
- * in the context.
- *
- * @param context The styling context that will be updated with the
- *    newly provided style values.
- * @param classesInput The key/value map of CSS class names that will be used for the update.
- * @param stylesInput The key/value map of CSS styles that will be used for the update.
- */
-function updateStylingMap(context, classesInput, stylesInput) {
-    stylesInput = stylesInput || null;
-    var element = context[5 /* ElementPosition */];
-    var classesPlayerBuilder = classesInput instanceof player_factory_1.BoundPlayerFactory ?
-        new ClassAndStylePlayerBuilder(classesInput, element, 1 /* Class */) :
-        null;
-    var stylesPlayerBuilder = stylesInput instanceof player_factory_1.BoundPlayerFactory ?
-        new ClassAndStylePlayerBuilder(stylesInput, element, 2 /* Style */) :
-        null;
-    var classesValue = classesPlayerBuilder ?
-        classesInput.value :
-        classesInput;
-    var stylesValue = stylesPlayerBuilder ? stylesInput.value : stylesInput;
-    // early exit (this is what's done to avoid using ctx.bind() to cache the value)
-    var ignoreAllClassUpdates = limitToSingleClasses(context) || classesValue === tokens_1.NO_CHANGE ||
-        classesValue === context[6 /* PreviousOrCachedMultiClassValue */];
-    var ignoreAllStyleUpdates = stylesValue === tokens_1.NO_CHANGE || stylesValue === context[7 /* PreviousMultiStyleValue */];
-    if (ignoreAllClassUpdates && ignoreAllStyleUpdates)
-        return;
-    context[6 /* PreviousOrCachedMultiClassValue */] = classesValue;
-    context[7 /* PreviousMultiStyleValue */] = stylesValue;
-    var classNames = EMPTY_ARR;
-    var applyAllClasses = false;
-    var playerBuildersAreDirty = false;
-    var classesPlayerBuilderIndex = classesPlayerBuilder ? 1 /* ClassMapPlayerBuilderPosition */ : 0;
-    if (hasPlayerBuilderChanged(context, classesPlayerBuilder, 1 /* ClassMapPlayerBuilderPosition */)) {
-        setPlayerBuilder(context, classesPlayerBuilder, 1 /* ClassMapPlayerBuilderPosition */);
-        playerBuildersAreDirty = true;
-    }
-    var stylesPlayerBuilderIndex = stylesPlayerBuilder ? 3 /* StyleMapPlayerBuilderPosition */ : 0;
-    if (hasPlayerBuilderChanged(context, stylesPlayerBuilder, 3 /* StyleMapPlayerBuilderPosition */)) {
-        setPlayerBuilder(context, stylesPlayerBuilder, 3 /* StyleMapPlayerBuilderPosition */);
-        playerBuildersAreDirty = true;
-    }
-    // each time a string-based value pops up then it shouldn't require a deep
-    // check of what's changed.
-    if (!ignoreAllClassUpdates) {
-        if (typeof classesValue == 'string') {
-            classNames = classesValue.split(/\s+/);
-            // this boolean is used to avoid having to create a key/value map of `true` values
-            // since a classname string implies that all those classes are added
-            applyAllClasses = true;
-        }
-        else {
-            classNames = classesValue ? Object.keys(classesValue) : EMPTY_ARR;
-        }
-    }
-    var classes = (classesValue || EMPTY_OBJ);
-    var styleProps = stylesValue ? Object.keys(stylesValue) : EMPTY_ARR;
-    var styles = stylesValue || EMPTY_OBJ;
-    var classesStartIndex = styleProps.length;
-    var multiStartIndex = getMultiStartIndex(context);
-    var dirty = false;
-    var ctxIndex = multiStartIndex;
-    var propIndex = 0;
-    var propLimit = styleProps.length + classNames.length;
-    // the main loop here will try and figure out how the shape of the provided
-    // styles differ with respect to the context. Later if the context/styles/classes
-    // are off-balance then they will be dealt in another loop after this one
-    while (ctxIndex < context.length && propIndex < propLimit) {
-        var isClassBased_2 = propIndex >= classesStartIndex;
-        var processValue = (!isClassBased_2 && !ignoreAllStyleUpdates) || (isClassBased_2 && !ignoreAllClassUpdates);
-        // when there is a cache-hit for a string-based class then we should
-        // avoid doing any work diffing any of the changes
-        if (processValue) {
-            var adjustedPropIndex = isClassBased_2 ? propIndex - classesStartIndex : propIndex;
-            var newProp = isClassBased_2 ? classNames[adjustedPropIndex] : styleProps[adjustedPropIndex];
-            var newValue = isClassBased_2 ? (applyAllClasses ? true : classes[newProp]) : styles[newProp];
-            var playerBuilderIndex = isClassBased_2 ? classesPlayerBuilderIndex : stylesPlayerBuilderIndex;
-            var prop = getProp(context, ctxIndex);
-            if (prop === newProp) {
-                var value = getValue(context, ctxIndex);
-                var flag = getPointers(context, ctxIndex);
-                setPlayerBuilderIndex(context, ctxIndex, playerBuilderIndex);
-                if (hasValueChanged(flag, value, newValue)) {
-                    setValue(context, ctxIndex, newValue);
-                    playerBuildersAreDirty = playerBuildersAreDirty || !!playerBuilderIndex;
-                    var initialValue = getInitialValue(context, flag);
-                    // there is no point in setting this to dirty if the previously
-                    // rendered value was being referenced by the initial style (or null)
-                    if (hasValueChanged(flag, initialValue, newValue)) {
-                        setDirty(context, ctxIndex, true);
-                        dirty = true;
-                    }
-                }
-            }
-            else {
-                var indexOfEntry = findEntryPositionByProp(context, newProp, ctxIndex);
-                if (indexOfEntry > 0) {
-                    // it was found at a later point ... just swap the values
-                    var valueToCompare = getValue(context, indexOfEntry);
-                    var flagToCompare = getPointers(context, indexOfEntry);
-                    swapMultiContextEntries(context, ctxIndex, indexOfEntry);
-                    if (hasValueChanged(flagToCompare, valueToCompare, newValue)) {
-                        var initialValue = getInitialValue(context, flagToCompare);
-                        setValue(context, ctxIndex, newValue);
-                        if (hasValueChanged(flagToCompare, initialValue, newValue)) {
-                            setDirty(context, ctxIndex, true);
-                            playerBuildersAreDirty = playerBuildersAreDirty || !!playerBuilderIndex;
-                            dirty = true;
-                        }
-                    }
-                }
-                else {
-                    // we only care to do this if the insertion is in the middle
-                    var newFlag = prepareInitialFlag(newProp, isClassBased_2, getStyleSanitizer(context));
-                    playerBuildersAreDirty = playerBuildersAreDirty || !!playerBuilderIndex;
-                    insertNewMultiProperty(context, ctxIndex, isClassBased_2, newProp, newFlag, newValue, playerBuilderIndex);
-                    dirty = true;
-                }
-            }
-        }
-        ctxIndex += 4 /* Size */;
-        propIndex++;
-    }
-    // this means that there are left-over values in the context that
-    // were not included in the provided styles/classes and in this
-    // case the  goal is to "remove" them from the context (by nullifying)
-    while (ctxIndex < context.length) {
-        var flag = getPointers(context, ctxIndex);
-        var isClassBased_3 = (flag & 2 /* Class */) === 2 /* Class */;
-        var processValue = (!isClassBased_3 && !ignoreAllStyleUpdates) || (isClassBased_3 && !ignoreAllClassUpdates);
-        if (processValue) {
-            var value = getValue(context, ctxIndex);
-            var doRemoveValue = valueExists(value, isClassBased_3);
-            if (doRemoveValue) {
-                setDirty(context, ctxIndex, true);
-                setValue(context, ctxIndex, null);
-                // we keep the player factory the same so that the `nulled` value can
-                // be instructed into the player because removing a style and/or a class
-                // is a valid animation player instruction.
-                var playerBuilderIndex = isClassBased_3 ? classesPlayerBuilderIndex : stylesPlayerBuilderIndex;
-                setPlayerBuilderIndex(context, ctxIndex, playerBuilderIndex);
-                dirty = true;
-            }
-        }
-        ctxIndex += 4 /* Size */;
-    }
-    // this means that there are left-over properties in the context that
-    // were not detected in the context during the loop above. In that
-    // case we want to add the new entries into the list
-    var sanitizer = getStyleSanitizer(context);
-    while (propIndex < propLimit) {
-        var isClassBased_4 = propIndex >= classesStartIndex;
-        var processValue = (!isClassBased_4 && !ignoreAllStyleUpdates) || (isClassBased_4 && !ignoreAllClassUpdates);
-        if (processValue) {
-            var adjustedPropIndex = isClassBased_4 ? propIndex - classesStartIndex : propIndex;
-            var prop = isClassBased_4 ? classNames[adjustedPropIndex] : styleProps[adjustedPropIndex];
-            var value = isClassBased_4 ? (applyAllClasses ? true : classes[prop]) : styles[prop];
-            var flag = prepareInitialFlag(prop, isClassBased_4, sanitizer) | 1 /* Dirty */;
-            var playerBuilderIndex = isClassBased_4 ? classesPlayerBuilderIndex : stylesPlayerBuilderIndex;
-            context.push(flag, prop, value, playerBuilderIndex);
-            dirty = true;
-        }
-        propIndex++;
-    }
-    if (dirty) {
-        setContextDirty(context, true);
-    }
-    if (playerBuildersAreDirty) {
-        setContextPlayersDirty(context, true);
-    }
-}
-exports.updateStylingMap = updateStylingMap;
-/**
- * Sets and resolves a single styling property/value on the provided `StylingContext` so
- * that they can be applied to the element once `renderStyleAndClassBindings` is called.
- *
- * Note that prop-level styling values are considered higher priority than any styling that
- * has been applied using `updateStylingMap`, therefore, when styling values are rendered
- * then any styles/classes that have been applied using this function will be considered first
- * (then multi values second and then initial values as a backup).
- *
- * @param context The styling context that will be updated with the
- *    newly provided style value.
- * @param index The index of the property which is being updated.
- * @param value The CSS style value that will be assigned
- */
-function updateStyleProp(context, index, input) {
-    var singleIndex = 8 /* SingleStylesStartPosition */ + index * 4 /* Size */;
-    var currValue = getValue(context, singleIndex);
-    var currFlag = getPointers(context, singleIndex);
-    var value = (input instanceof player_factory_1.BoundPlayerFactory) ? input.value : input;
-    // didn't change ... nothing to make a note of
-    if (hasValueChanged(currFlag, currValue, value)) {
-        var isClassBased_5 = (currFlag & 2 /* Class */) === 2 /* Class */;
-        var element = context[5 /* ElementPosition */];
-        var playerBuilder = input instanceof player_factory_1.BoundPlayerFactory ?
-            new ClassAndStylePlayerBuilder(input, element, isClassBased_5 ? 1 /* Class */ : 2 /* Style */) :
-            null;
-        var value_1 = (playerBuilder ? input.value : input);
-        var currPlayerIndex = getPlayerBuilderIndex(context, singleIndex);
-        var playerBuildersAreDirty = false;
-        var playerBuilderIndex = playerBuilder ? currPlayerIndex : 0;
-        if (hasPlayerBuilderChanged(context, playerBuilder, currPlayerIndex)) {
-            var newIndex = setPlayerBuilder(context, playerBuilder, currPlayerIndex);
-            playerBuilderIndex = playerBuilder ? newIndex : 0;
-            setPlayerBuilderIndex(context, singleIndex, playerBuilderIndex);
-            playerBuildersAreDirty = true;
-        }
-        // the value will always get updated (even if the dirty flag is skipped)
-        setValue(context, singleIndex, value_1);
-        var indexForMulti = getMultiOrSingleIndex(currFlag);
-        // if the value is the same in the multi-area then there's no point in re-assembling
-        var valueForMulti = getValue(context, indexForMulti);
-        if (!valueForMulti || hasValueChanged(currFlag, valueForMulti, value_1)) {
-            var multiDirty = false;
-            var singleDirty = true;
-            // only when the value is set to `null` should the multi-value get flagged
-            if (!valueExists(value_1, isClassBased_5) && valueExists(valueForMulti, isClassBased_5)) {
-                multiDirty = true;
-                singleDirty = false;
-            }
-            setDirty(context, indexForMulti, multiDirty);
-            setDirty(context, singleIndex, singleDirty);
-            setContextDirty(context, true);
-        }
-        if (playerBuildersAreDirty) {
-            setContextPlayersDirty(context, true);
-        }
-    }
-}
-exports.updateStyleProp = updateStyleProp;
-/**
- * This method will toggle the referenced CSS class (by the provided index)
- * within the given context.
- *
- * @param context The styling context that will be updated with the
- *    newly provided class value.
- * @param index The index of the CSS class which is being updated.
- * @param addOrRemove Whether or not to add or remove the CSS class
- */
-function updateClassProp(context, index, addOrRemove) {
-    var adjustedIndex = index + context[4 /* ClassOffsetPosition */];
-    updateStyleProp(context, adjustedIndex, addOrRemove);
-}
-exports.updateClassProp = updateClassProp;
-/**
- * Renders all queued styling using a renderer onto the given element.
- *
- * This function works by rendering any styles (that have been applied
- * using `updateStylingMap`) and any classes (that have been applied using
- * `updateStyleProp`) onto the provided element using the provided renderer.
- * Just before the styles/classes are rendered a final key/value style map
- * will be assembled (if `styleStore` or `classStore` are provided).
- *
- * @param lElement the element that the styles will be rendered on
- * @param context The styling context that will be used to determine
- *      what styles will be rendered
- * @param renderer the renderer that will be used to apply the styling
- * @param classesStore if provided, the updated class values will be applied
- *    to this key/value map instead of being renderered via the renderer.
- * @param stylesStore if provided, the updated style values will be applied
- *    to this key/value map instead of being renderered via the renderer.
- * @returns number the total amount of players that got queued for animation (if any)
- */
-function renderStyleAndClassBindings(context, renderer, rootOrView, isFirstRender, classesStore, stylesStore) {
-    var totalPlayersQueued = 0;
-    if (isContextDirty(context)) {
-        var flushPlayerBuilders = context[3 /* MasterFlagPosition */] & 8 /* PlayerBuildersDirty */;
-        var native = context[5 /* ElementPosition */];
-        var multiStartIndex = getMultiStartIndex(context);
-        var styleSanitizer = getStyleSanitizer(context);
-        var onlySingleClasses = limitToSingleClasses(context);
-        for (var i = 8 /* SingleStylesStartPosition */; i < context.length; i += 4 /* Size */) {
-            // there is no point in rendering styles that have not changed on screen
-            if (isDirty(context, i)) {
-                var prop = getProp(context, i);
-                var value = getValue(context, i);
-                var flag = getPointers(context, i);
-                var playerBuilder = getPlayerBuilder(context, i);
-                var isClassBased_6 = flag & 2 /* Class */ ? true : false;
-                var isInSingleRegion = i < multiStartIndex;
-                var readInitialValue = !isClassBased_6 || !onlySingleClasses;
-                var valueToApply = value;
-                // VALUE DEFER CASE 1: Use a multi value instead of a null single value
-                // this check implies that a single value was removed and we
-                // should now defer to a multi value and use that (if set).
-                if (isInSingleRegion && !valueExists(valueToApply, isClassBased_6)) {
-                    // single values ALWAYS have a reference to a multi index
-                    var multiIndex = getMultiOrSingleIndex(flag);
-                    valueToApply = getValue(context, multiIndex);
-                }
-                // VALUE DEFER CASE 2: Use the initial value if all else fails (is falsy)
-                // the initial value will always be a string or null,
-                // therefore we can safely adopt it incase there's nothing else
-                // note that this should always be a falsy check since `false` is used
-                // for both class and style comparisons (styles can't be false and false
-                // classes are turned off and should therefore defer to their initial values)
-                if (!valueExists(valueToApply, isClassBased_6) && readInitialValue) {
-                    valueToApply = getInitialValue(context, flag);
-                }
-                // if the first render is true then we do not want to start applying falsy
-                // values to the DOM element's styling. Otherwise then we know there has
-                // been a change and even if it's falsy then it's removing something that
-                // was truthy before.
-                var doApplyValue = isFirstRender ? valueToApply : true;
-                if (doApplyValue) {
-                    if (isClassBased_6) {
-                        setClass(native, prop, valueToApply ? true : false, renderer, classesStore, playerBuilder);
-                    }
-                    else {
-                        var sanitizer = (flag & 4 /* Sanitize */) ? styleSanitizer : null;
-                        setStyle(native, prop, valueToApply, renderer, sanitizer, stylesStore, playerBuilder);
-                    }
-                }
-                setDirty(context, i, false);
-            }
-        }
-        if (flushPlayerBuilders) {
-            var rootContext = Array.isArray(rootOrView) ? util_1.getRootContext(rootOrView) : rootOrView;
-            var playerContext = util_2.getPlayerContext(context);
-            var playersStartIndex = playerContext[0 /* NonBuilderPlayersStart */];
-            for (var i = 1 /* PlayerBuildersStartPosition */; i < playersStartIndex; i += 2 /* PlayerAndPlayerBuildersTupleSize */) {
-                var builder = playerContext[i];
-                var playerInsertionIndex = i + 1 /* PlayerOffsetPosition */;
-                var oldPlayer = playerContext[playerInsertionIndex];
-                if (builder) {
-                    var player = builder.buildPlayer(oldPlayer, isFirstRender);
-                    if (player !== undefined) {
-                        if (player != null) {
-                            var wasQueued = util_2.addPlayerInternal(playerContext, rootContext, native, player, playerInsertionIndex);
-                            wasQueued && totalPlayersQueued++;
-                        }
-                        if (oldPlayer) {
-                            oldPlayer.destroy();
-                        }
-                    }
-                }
-                else if (oldPlayer) {
-                    // the player builder has been removed ... therefore we should delete the associated
-                    // player
-                    oldPlayer.destroy();
-                }
-            }
-            setContextPlayersDirty(context, false);
-        }
-        setContextDirty(context, false);
-    }
-    return totalPlayersQueued;
-}
-exports.renderStyleAndClassBindings = renderStyleAndClassBindings;
-/**
- * This function renders a given CSS prop/value entry using the
- * provided renderer. If a `store` value is provided then
- * that will be used a render context instead of the provided
- * renderer.
- *
- * @param native the DOM Element
- * @param prop the CSS style property that will be rendered
- * @param value the CSS style value that will be rendered
- * @param renderer
- * @param store an optional key/value map that will be used as a context to render styles on
- */
-function setStyle(native, prop, value, renderer, sanitizer, store, playerBuilder) {
-    value = sanitizer && value ? sanitizer(prop, value) : value;
-    if (store || playerBuilder) {
-        if (store) {
-            store.setValue(prop, value);
-        }
-        if (playerBuilder) {
-            playerBuilder.setValue(prop, value);
-        }
-    }
-    else if (value) {
-        ngDevMode && ngDevMode.rendererSetStyle++;
-        renderer_1.isProceduralRenderer(renderer) ?
-            renderer.setStyle(native, prop, value, renderer_1.RendererStyleFlags3.DashCase) :
-            native['style'].setProperty(prop, value);
-    }
-    else {
-        ngDevMode && ngDevMode.rendererRemoveStyle++;
-        renderer_1.isProceduralRenderer(renderer) ?
-            renderer.removeStyle(native, prop, renderer_1.RendererStyleFlags3.DashCase) :
-            native['style'].removeProperty(prop);
-    }
-}
-/**
- * This function renders a given CSS class value using the provided
- * renderer (by adding or removing it from the provided element).
- * If a `store` value is provided then that will be used a render
- * context instead of the provided renderer.
- *
- * @param native the DOM Element
- * @param prop the CSS style property that will be rendered
- * @param value the CSS style value that will be rendered
- * @param renderer
- * @param store an optional key/value map that will be used as a context to render styles on
- */
-function setClass(native, className, add, renderer, store, playerBuilder) {
-    if (store || playerBuilder) {
-        if (store) {
-            store.setValue(className, add);
-        }
-        if (playerBuilder) {
-            playerBuilder.setValue(className, add);
-        }
-    }
-    else if (add) {
-        ngDevMode && ngDevMode.rendererAddClass++;
-        renderer_1.isProceduralRenderer(renderer) ? renderer.addClass(native, className) :
-            native['classList'].add(className);
-    }
-    else {
-        ngDevMode && ngDevMode.rendererRemoveClass++;
-        renderer_1.isProceduralRenderer(renderer) ? renderer.removeClass(native, className) :
-            native['classList'].remove(className);
-    }
-}
-function setDirty(context, index, isDirtyYes) {
-    var adjustedIndex = index >= 8 /* SingleStylesStartPosition */ ? (index + 0 /* FlagsOffset */) : index;
-    if (isDirtyYes) {
-        context[adjustedIndex] |= 1 /* Dirty */;
-    }
-    else {
-        context[adjustedIndex] &= ~1 /* Dirty */;
-    }
-}
-function isDirty(context, index) {
-    var adjustedIndex = index >= 8 /* SingleStylesStartPosition */ ? (index + 0 /* FlagsOffset */) : index;
-    return (context[adjustedIndex] & 1 /* Dirty */) == 1 /* Dirty */;
-}
-function isClassBased(context, index) {
-    var adjustedIndex = index >= 8 /* SingleStylesStartPosition */ ? (index + 0 /* FlagsOffset */) : index;
-    return (context[adjustedIndex] & 2 /* Class */) == 2 /* Class */;
-}
-function isSanitizable(context, index) {
-    var adjustedIndex = index >= 8 /* SingleStylesStartPosition */ ? (index + 0 /* FlagsOffset */) : index;
-    return (context[adjustedIndex] & 4 /* Sanitize */) == 4 /* Sanitize */;
-}
-function pointers(configFlag, staticIndex, dynamicIndex) {
-    return (configFlag & 31 /* BitMask */) | (staticIndex << 5 /* BitCountSize */) |
-        (dynamicIndex << (14 /* BitCountSize */ + 5 /* BitCountSize */));
-}
-function getInitialValue(context, flag) {
-    var index = getInitialIndex(flag);
-    return context[2 /* InitialStylesPosition */][index];
-}
-function getInitialIndex(flag) {
-    return (flag >> 5 /* BitCountSize */) & 16383 /* BitMask */;
-}
-function getMultiOrSingleIndex(flag) {
-    var index = (flag >> (14 /* BitCountSize */ + 5 /* BitCountSize */)) & 16383 /* BitMask */;
-    return index >= 8 /* SingleStylesStartPosition */ ? index : -1;
-}
-function getMultiStartIndex(context) {
-    return getMultiOrSingleIndex(context[3 /* MasterFlagPosition */]);
-}
-function getStyleSanitizer(context) {
-    return context[1 /* StyleSanitizerPosition */];
-}
-function setProp(context, index, prop) {
-    context[index + 1 /* PropertyOffset */] = prop;
-}
-function setValue(context, index, value) {
-    context[index + 2 /* ValueOffset */] = value;
-}
-function hasPlayerBuilderChanged(context, builder, index) {
-    var playerContext = context[0 /* PlayerContext */];
-    if (builder) {
-        if (!playerContext || index === 0) {
-            return true;
-        }
-    }
-    else if (!playerContext) {
-        return false;
-    }
-    return playerContext[index] !== builder;
-}
-function setPlayerBuilder(context, builder, insertionIndex) {
-    var playerContext = context[0 /* PlayerContext */] || util_2.allocPlayerContext(context);
-    if (insertionIndex > 0) {
-        playerContext[insertionIndex] = builder;
-    }
-    else {
-        insertionIndex = playerContext[0 /* NonBuilderPlayersStart */];
-        playerContext.splice(insertionIndex, 0, builder, null);
-        playerContext[0 /* NonBuilderPlayersStart */] +=
-            2 /* PlayerAndPlayerBuildersTupleSize */;
-    }
-    return insertionIndex;
-}
-function setPlayerBuilderIndex(context, index, playerBuilderIndex) {
-    context[index + 3 /* PlayerBuilderIndexOffset */] = playerBuilderIndex;
-}
-function getPlayerBuilderIndex(context, index) {
-    return context[index + 3 /* PlayerBuilderIndexOffset */] || 0;
-}
-function getPlayerBuilder(context, index) {
-    var playerBuilderIndex = getPlayerBuilderIndex(context, index);
-    if (playerBuilderIndex) {
-        var playerContext = context[0 /* PlayerContext */];
-        if (playerContext) {
-            return playerContext[playerBuilderIndex];
-        }
-    }
-    return null;
-}
-function setFlag(context, index, flag) {
-    var adjustedIndex = index === 3 /* MasterFlagPosition */ ? index : (index + 0 /* FlagsOffset */);
-    context[adjustedIndex] = flag;
-}
-function getPointers(context, index) {
-    var adjustedIndex = index === 3 /* MasterFlagPosition */ ? index : (index + 0 /* FlagsOffset */);
-    return context[adjustedIndex];
-}
-function getValue(context, index) {
-    return context[index + 2 /* ValueOffset */];
-}
-function getProp(context, index) {
-    return context[index + 1 /* PropertyOffset */];
-}
-function isContextDirty(context) {
-    return isDirty(context, 3 /* MasterFlagPosition */);
-}
-exports.isContextDirty = isContextDirty;
-function limitToSingleClasses(context) {
-    return context[3 /* MasterFlagPosition */] & 16 /* OnlyProcessSingleClasses */;
-}
-exports.limitToSingleClasses = limitToSingleClasses;
-function setContextDirty(context, isDirtyYes) {
-    setDirty(context, 3 /* MasterFlagPosition */, isDirtyYes);
-}
-exports.setContextDirty = setContextDirty;
-function setContextPlayersDirty(context, isDirtyYes) {
-    if (isDirtyYes) {
-        context[3 /* MasterFlagPosition */] |= 8 /* PlayerBuildersDirty */;
-    }
-    else {
-        context[3 /* MasterFlagPosition */] &= ~8 /* PlayerBuildersDirty */;
-    }
-}
-exports.setContextPlayersDirty = setContextPlayersDirty;
-function findEntryPositionByProp(context, prop, startIndex) {
-    for (var i = (startIndex || 0) + 1 /* PropertyOffset */; i < context.length; i += 4 /* Size */) {
-        var thisProp = context[i];
-        if (thisProp == prop) {
-            return i - 1 /* PropertyOffset */;
-        }
-    }
-    return -1;
-}
-function swapMultiContextEntries(context, indexA, indexB) {
-    var tmpValue = getValue(context, indexA);
-    var tmpProp = getProp(context, indexA);
-    var tmpFlag = getPointers(context, indexA);
-    var tmpPlayerBuilderIndex = getPlayerBuilderIndex(context, indexA);
-    var flagA = tmpFlag;
-    var flagB = getPointers(context, indexB);
-    var singleIndexA = getMultiOrSingleIndex(flagA);
-    if (singleIndexA >= 0) {
-        var _flag = getPointers(context, singleIndexA);
-        var _initial = getInitialIndex(_flag);
-        setFlag(context, singleIndexA, pointers(_flag, _initial, indexB));
-    }
-    var singleIndexB = getMultiOrSingleIndex(flagB);
-    if (singleIndexB >= 0) {
-        var _flag = getPointers(context, singleIndexB);
-        var _initial = getInitialIndex(_flag);
-        setFlag(context, singleIndexB, pointers(_flag, _initial, indexA));
-    }
-    setValue(context, indexA, getValue(context, indexB));
-    setProp(context, indexA, getProp(context, indexB));
-    setFlag(context, indexA, getPointers(context, indexB));
-    setPlayerBuilderIndex(context, indexA, getPlayerBuilderIndex(context, indexB));
-    setValue(context, indexB, tmpValue);
-    setProp(context, indexB, tmpProp);
-    setFlag(context, indexB, tmpFlag);
-    setPlayerBuilderIndex(context, indexB, tmpPlayerBuilderIndex);
-}
-function updateSinglePointerValues(context, indexStartPosition) {
-    for (var i = indexStartPosition; i < context.length; i += 4 /* Size */) {
-        var multiFlag = getPointers(context, i);
-        var singleIndex = getMultiOrSingleIndex(multiFlag);
-        if (singleIndex > 0) {
-            var singleFlag = getPointers(context, singleIndex);
-            var initialIndexForSingle = getInitialIndex(singleFlag);
-            var flagValue = (isDirty(context, singleIndex) ? 1 /* Dirty */ : 0 /* None */) |
-                (isClassBased(context, singleIndex) ? 2 /* Class */ : 0 /* None */) |
-                (isSanitizable(context, singleIndex) ? 4 /* Sanitize */ : 0 /* None */);
-            var updatedFlag = pointers(flagValue, initialIndexForSingle, i);
-            setFlag(context, singleIndex, updatedFlag);
-        }
-    }
-}
-function insertNewMultiProperty(context, index, classBased, name, flag, value, playerIndex) {
-    var doShift = index < context.length;
-    // prop does not exist in the list, add it in
-    context.splice(index, 0, flag | 1 /* Dirty */ | (classBased ? 2 /* Class */ : 0 /* None */), name, value, playerIndex);
-    if (doShift) {
-        // because the value was inserted midway into the array then we
-        // need to update all the shifted multi values' single value
-        // pointers to point to the newly shifted location
-        updateSinglePointerValues(context, index + 4 /* Size */);
-    }
-}
-function valueExists(value, isClassBased) {
-    if (isClassBased) {
-        return value ? true : false;
-    }
-    return value !== null;
-}
-function prepareInitialFlag(name, isClassBased, sanitizer) {
-    if (isClassBased) {
-        return 2 /* Class */;
-    }
-    else if (sanitizer && sanitizer(name)) {
-        return 4 /* Sanitize */;
-    }
-    return 0 /* None */;
-}
-function hasValueChanged(flag, a, b) {
-    var isClassBased = flag & 2 /* Class */;
-    var hasValues = a && b;
-    var usesSanitizer = flag & 4 /* Sanitize */;
-    // the toString() comparison ensures that a value is checked
-    // ... otherwise (during sanitization bypassing) the === comparsion
-    // would fail since a new String() instance is created
-    if (!isClassBased && hasValues && usesSanitizer) {
-        // we know for sure we're dealing with strings at this point
-        return a.toString() !== b.toString();
-    }
-    // everything else is safe to check with a normal equality check
-    return a !== b;
-}
-var ClassAndStylePlayerBuilder = /** @class */ (function () {
-    function ClassAndStylePlayerBuilder(factory, _element, _type) {
-        this._element = _element;
-        this._type = _type;
-        this._values = {};
-        this._dirty = false;
-        this._factory = factory;
-    }
-    ClassAndStylePlayerBuilder.prototype.setValue = function (prop, value) {
-        if (this._values[prop] !== value) {
-            this._values[prop] = value;
-            this._dirty = true;
-        }
-    };
-    ClassAndStylePlayerBuilder.prototype.buildPlayer = function (currentPlayer, isFirstRender) {
-        // if no values have been set here then this means the binding didn't
-        // change and therefore the binding values were not updated through
-        // `setValue` which means no new player will be provided.
-        if (this._dirty) {
-            var player = this._factory.fn(this._element, this._type, this._values, isFirstRender, currentPlayer || null);
-            this._values = {};
-            this._dirty = false;
-            return player;
-        }
-        return undefined;
-    };
-    return ClassAndStylePlayerBuilder;
-}());
-exports.ClassAndStylePlayerBuilder = ClassAndStylePlayerBuilder;
-
-
-/***/ }),
 /* 397 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -60534,7 +60784,7 @@ exports.CorePlayerHandler = CorePlayerHandler;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var property_1 = __webpack_require__(75);
+var property_1 = __webpack_require__(76);
 var definition_1 = __webpack_require__(53);
 /**
  * Determines if a definition is a {@link ComponentDef} or a {@link DirectiveDef}
@@ -60718,7 +60968,7 @@ function maybeUnwrapEmpty(value) {
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var change_detection_util_1 = __webpack_require__(78);
+var change_detection_util_1 = __webpack_require__(71);
 var PRIVATE_PREFIX = '__ngOnChanges_';
 /**
  * The NgOnChangesFeature decorates a component with support for the ngOnChanges
@@ -60886,7 +61136,7 @@ var forward_ref_1 = __webpack_require__(70);
 var r3_injector_1 = __webpack_require__(206);
 var di_1 = __webpack_require__(69);
 var instructions_1 = __webpack_require__(41);
-var injector_1 = __webpack_require__(120);
+var injector_1 = __webpack_require__(121);
 var view_1 = __webpack_require__(18);
 var state_1 = __webpack_require__(32);
 var util_1 = __webpack_require__(23);
@@ -60937,21 +61187,21 @@ function resolveProvider(provider, tInjectables, lInjectablesBlueprint, isCompon
         var lView = state_1.getLView();
         var token = r3_injector_1.isTypeProvider(provider) ? provider : forward_ref_1.resolveForwardRef(provider.provide);
         var providerFactory = r3_injector_1.providerToFactory(provider);
-        var previousOrParentTNode = state_1.getPreviousOrParentTNode();
-        var beginIndex = previousOrParentTNode.providerIndexes & 65535 /* ProvidersStartIndexMask */;
-        var endIndex = previousOrParentTNode.flags >> 16 /* DirectiveStartingIndexShift */;
-        var cptViewProvidersCount = previousOrParentTNode.providerIndexes >> 16 /* CptViewProvidersCountShift */;
+        var tNode = state_1.getPreviousOrParentTNode();
+        var beginIndex = tNode.providerIndexes & 65535 /* ProvidersStartIndexMask */;
+        var endIndex = tNode.directiveStart;
+        var cptViewProvidersCount = tNode.providerIndexes >> 16 /* CptViewProvidersCountShift */;
         if (r3_injector_1.isTypeProvider(provider) || !provider.multi) {
             // Single provider case: the factory is created and pushed immediately
             var factory = new injector_1.NodeInjectorFactory(providerFactory, isViewProvider, instructions_1.directiveInject);
             var existingFactoryIndex = indexOf(token, tInjectables, isViewProvider ? beginIndex : beginIndex + cptViewProvidersCount, endIndex);
             if (existingFactoryIndex == -1) {
-                di_1.diPublicInInjector(di_1.getOrCreateNodeInjectorForNode(previousOrParentTNode, lView), lView, token);
+                di_1.diPublicInInjector(di_1.getOrCreateNodeInjectorForNode(tNode, lView), lView, token);
                 tInjectables.push(token);
-                previousOrParentTNode.flags += 1 << 16 /* DirectiveStartingIndexShift */;
+                tNode.directiveStart++;
+                tNode.directiveEnd++;
                 if (isViewProvider) {
-                    previousOrParentTNode.providerIndexes +=
-                        65536 /* CptViewProvidersCountShifter */;
+                    tNode.providerIndexes += 65536 /* CptViewProvidersCountShifter */;
                 }
                 lInjectablesBlueprint.push(factory);
                 lView.push(factory);
@@ -60991,16 +61241,16 @@ function resolveProvider(provider, tInjectables, lInjectablesBlueprint, isCompon
             if (isViewProvider && !doesViewProvidersFactoryExist ||
                 !isViewProvider && !doesProvidersFactoryExist) {
                 // Cases 1.a and 2.a
-                di_1.diPublicInInjector(di_1.getOrCreateNodeInjectorForNode(previousOrParentTNode, lView), lView, token);
+                di_1.diPublicInInjector(di_1.getOrCreateNodeInjectorForNode(tNode, lView), lView, token);
                 var factory = multiFactory(isViewProvider ? multiViewProvidersFactoryResolver : multiProvidersFactoryResolver, lInjectablesBlueprint.length, isViewProvider, isComponent, providerFactory);
                 if (!isViewProvider && doesViewProvidersFactoryExist) {
                     lInjectablesBlueprint[existingViewProvidersFactoryIndex].providerFactory = factory;
                 }
                 tInjectables.push(token);
-                previousOrParentTNode.flags += 1 << 16 /* DirectiveStartingIndexShift */;
+                tNode.directiveStart++;
+                tNode.directiveEnd++;
                 if (isViewProvider) {
-                    previousOrParentTNode.providerIndexes +=
-                        65536 /* CptViewProvidersCountShifter */;
+                    tNode.providerIndexes += 65536 /* CptViewProvidersCountShifter */;
                 }
                 lInjectablesBlueprint.push(factory);
                 lView.push(factory);
@@ -61105,7 +61355,7 @@ function multiFactory(factoryFn, index, isViewProvider, isComponent, f) {
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var html_sanitizer_1 = __webpack_require__(209);
-var inert_body_1 = __webpack_require__(277);
+var inert_body_1 = __webpack_require__(278);
 var url_sanitizer_1 = __webpack_require__(123);
 var assert_1 = __webpack_require__(20);
 var instructions_1 = __webpack_require__(41);
@@ -61114,7 +61364,7 @@ var i18n_1 = __webpack_require__(403);
 var view_1 = __webpack_require__(18);
 var node_manipulation_1 = __webpack_require__(149);
 var state_1 = __webpack_require__(32);
-var tokens_1 = __webpack_require__(121);
+var tokens_1 = __webpack_require__(94);
 var util_1 = __webpack_require__(23);
 var MARKER = "\uFFFD";
 var ICU_BLOCK_REGEX = /^\s*(�\d+�)\s*,\s*(select|plural)\s*,/;
@@ -62629,10 +62879,12 @@ exports.setClassMetadata = setClassMetadata;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+var change_detection_util_1 = __webpack_require__(71);
 var instructions_1 = __webpack_require__(41);
 var view_1 = __webpack_require__(18);
-var pure_function_1 = __webpack_require__(278);
+var pure_function_1 = __webpack_require__(279);
 var state_1 = __webpack_require__(32);
+var tokens_1 = __webpack_require__(94);
 /**
  * Create a pipe.
  *
@@ -62690,8 +62942,8 @@ function getPipeDef(name, registry) {
  */
 function pipeBind1(index, slotOffset, v1) {
     var pipeInstance = instructions_1.load(index);
-    return isPure(index) ? pure_function_1.pureFunction1(slotOffset, pipeInstance.transform, v1, pipeInstance) :
-        pipeInstance.transform(v1);
+    return unwrapValue(isPure(index) ? pure_function_1.pureFunction1(slotOffset, pipeInstance.transform, v1, pipeInstance) :
+        pipeInstance.transform(v1));
 }
 exports.pipeBind1 = pipeBind1;
 /**
@@ -62707,8 +62959,8 @@ exports.pipeBind1 = pipeBind1;
  */
 function pipeBind2(index, slotOffset, v1, v2) {
     var pipeInstance = instructions_1.load(index);
-    return isPure(index) ? pure_function_1.pureFunction2(slotOffset, pipeInstance.transform, v1, v2, pipeInstance) :
-        pipeInstance.transform(v1, v2);
+    return unwrapValue(isPure(index) ? pure_function_1.pureFunction2(slotOffset, pipeInstance.transform, v1, v2, pipeInstance) :
+        pipeInstance.transform(v1, v2));
 }
 exports.pipeBind2 = pipeBind2;
 /**
@@ -62725,9 +62977,8 @@ exports.pipeBind2 = pipeBind2;
  */
 function pipeBind3(index, slotOffset, v1, v2, v3) {
     var pipeInstance = instructions_1.load(index);
-    return isPure(index) ?
-        pure_function_1.pureFunction3(slotOffset, pipeInstance.transform, v1, v2, v3, pipeInstance) :
-        pipeInstance.transform(v1, v2, v3);
+    return unwrapValue(isPure(index) ? pure_function_1.pureFunction3(slotOffset, pipeInstance.transform, v1, v2, v3, pipeInstance) :
+        pipeInstance.transform(v1, v2, v3));
 }
 exports.pipeBind3 = pipeBind3;
 /**
@@ -62745,9 +62996,9 @@ exports.pipeBind3 = pipeBind3;
  */
 function pipeBind4(index, slotOffset, v1, v2, v3, v4) {
     var pipeInstance = instructions_1.load(index);
-    return isPure(index) ?
+    return unwrapValue(isPure(index) ?
         pure_function_1.pureFunction4(slotOffset, pipeInstance.transform, v1, v2, v3, v4, pipeInstance) :
-        pipeInstance.transform(v1, v2, v3, v4);
+        pipeInstance.transform(v1, v2, v3, v4));
 }
 exports.pipeBind4 = pipeBind4;
 /**
@@ -62762,12 +63013,26 @@ exports.pipeBind4 = pipeBind4;
  */
 function pipeBindV(index, slotOffset, values) {
     var pipeInstance = instructions_1.load(index);
-    return isPure(index) ? pure_function_1.pureFunctionV(slotOffset, pipeInstance.transform, values, pipeInstance) :
-        pipeInstance.transform.apply(pipeInstance, values);
+    return unwrapValue(isPure(index) ? pure_function_1.pureFunctionV(slotOffset, pipeInstance.transform, values, pipeInstance) :
+        pipeInstance.transform.apply(pipeInstance, values));
 }
 exports.pipeBindV = pipeBindV;
 function isPure(index) {
     return state_1.getLView()[view_1.TVIEW].data[index + view_1.HEADER_OFFSET].pure;
+}
+/**
+ * Unwrap the output of a pipe transformation.
+ * In order to trick change detection into considering that the new value is always different from
+ * the old one, the old value is overwritten by NO_CHANGE.
+ *
+ * @param newValue the pipe transformation output.
+ */
+function unwrapValue(newValue) {
+    if (change_detection_util_1.WrappedValue.isWrapped(newValue)) {
+        newValue = change_detection_util_1.WrappedValue.unwrap(newValue);
+        state_1.getLView()[state_1.getBindingRoot()] = tokens_1.NO_CHANGE;
+    }
+    return newValue;
 }
 
 
@@ -62785,17 +63050,17 @@ function isPure(index) {
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var event_emitter_1 = __webpack_require__(150);
+var event_emitter_1 = __webpack_require__(151);
 var element_ref_1 = __webpack_require__(54);
-var template_ref_1 = __webpack_require__(98);
+var template_ref_1 = __webpack_require__(99);
 var util_1 = __webpack_require__(14);
 var assert_1 = __webpack_require__(20);
 var di_1 = __webpack_require__(69);
 var fields_1 = __webpack_require__(61);
 var instructions_1 = __webpack_require__(41);
 var definition_1 = __webpack_require__(407);
-var injector_1 = __webpack_require__(120);
-var node_1 = __webpack_require__(203);
+var injector_1 = __webpack_require__(121);
+var node_1 = __webpack_require__(204);
 var query_1 = __webpack_require__(408);
 var view_1 = __webpack_require__(18);
 var state_1 = __webpack_require__(32);
@@ -63203,7 +63468,7 @@ exports.unusedValueExportToPlacateAjd = 1;
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var element_ref_1 = __webpack_require__(54);
-var template_ref_1 = __webpack_require__(98);
+var template_ref_1 = __webpack_require__(99);
 var view_engine_compatibility_1 = __webpack_require__(62);
 /**
  * Retrieves `TemplateRef` instance from `Injector` when a local reference is placed on the
@@ -63229,11 +63494,11 @@ exports.templateRefExtractor = templateRefExtractor;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var property_1 = __webpack_require__(75);
+var property_1 = __webpack_require__(76);
 var fields_1 = __webpack_require__(61);
-var compiler_facade_1 = __webpack_require__(119);
+var compiler_facade_1 = __webpack_require__(120);
 var environment_1 = __webpack_require__(145);
-var util_1 = __webpack_require__(152);
+var util_1 = __webpack_require__(153);
 /**
  * Compile an Angular injectable according to its `Injectable` metadata, and patch the resulting
  * `ngInjectableDef` onto the injectable type.
@@ -63326,9 +63591,9 @@ function isUseExistingProvider(meta) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var injector_1 = __webpack_require__(63);
 var metadata_1 = __webpack_require__(68);
-var reflective_errors_1 = __webpack_require__(285);
+var reflective_errors_1 = __webpack_require__(286);
 var reflective_key_1 = __webpack_require__(215);
-var reflective_provider_1 = __webpack_require__(286);
+var reflective_provider_1 = __webpack_require__(287);
 // Threshold for the dynamic version
 var UNDEFINED = new Object();
 /**
@@ -63647,9 +63912,9 @@ function _mapProviders(injector, fn) {
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var reflection_capabilities_1 = __webpack_require__(153);
-var reflector_1 = __webpack_require__(287);
-var reflector_2 = __webpack_require__(287);
+var reflection_capabilities_1 = __webpack_require__(154);
+var reflector_1 = __webpack_require__(288);
+var reflector_2 = __webpack_require__(288);
 exports.Reflector = reflector_2.Reflector;
 /**
  * The {@link Reflector} used internally in Angular to access metadata
@@ -63722,7 +63987,7 @@ exports.endTimeRange = endTimeRange;
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 // Public API for render
-var api_1 = __webpack_require__(96);
+var api_1 = __webpack_require__(97);
 exports.RenderComponentType = api_1.RenderComponentType;
 exports.Renderer = api_1.Renderer;
 exports.Renderer2 = api_1.Renderer2;
@@ -63758,7 +64023,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var di_1 = __webpack_require__(48);
-var compiler_1 = __webpack_require__(156);
+var compiler_1 = __webpack_require__(157);
 var _SEPARATOR = '#';
 var FACTORY_CLASS_SUFFIX = 'NgFactory';
 /**
@@ -63796,7 +64061,7 @@ var SystemJsNgModuleLoader = /** @class */ (function () {
         if (exportName === undefined) {
             exportName = 'default';
         }
-        return Promise.resolve().then(function () { return __webpack_require__(293)(module); }).then(function (module) { return module[exportName]; })
+        return Promise.resolve().then(function () { return __webpack_require__(294)(module); }).then(function (module) { return module[exportName]; })
             .then(function (type) { return checkNotEmpty(type, module, exportName); })
             .then(function (type) { return _this._compiler.compileModuleAsync(type); });
     };
@@ -63808,7 +64073,7 @@ var SystemJsNgModuleLoader = /** @class */ (function () {
             exportName = 'default';
             factoryClassSuffix = '';
         }
-        return Promise.resolve().then(function () { return __webpack_require__(293)(_this._config.factoryPathPrefix + module + _this._config.factoryPathSuffix); }).then(function (module) { return module[exportName + factoryClassSuffix]; })
+        return Promise.resolve().then(function () { return __webpack_require__(294)(_this._config.factoryPathPrefix + module + _this._config.factoryPathSuffix); }).then(function (module) { return module[exportName + factoryClassSuffix]; })
             .then(function (factory) { return checkNotEmpty(factory, module, exportName); });
     };
     SystemJsNgModuleLoader = __decorate([
@@ -63981,7 +64246,7 @@ exports.WrappedValue = change_detection_1.WrappedValue;
 Object.defineProperty(exports, "__esModule", { value: true });
 var application_ref_1 = __webpack_require__(125);
 var application_tokens_1 = __webpack_require__(126);
-var console_1 = __webpack_require__(155);
+var console_1 = __webpack_require__(156);
 var di_1 = __webpack_require__(48);
 var testability_1 = __webpack_require__(217);
 var _CORE_PLATFORM_PROVIDERS = [
@@ -64026,15 +64291,15 @@ var application_init_1 = __webpack_require__(216);
 var application_ref_1 = __webpack_require__(125);
 var application_tokens_1 = __webpack_require__(126);
 var change_detection_1 = __webpack_require__(127);
-var console_1 = __webpack_require__(155);
+var console_1 = __webpack_require__(156);
 var di_1 = __webpack_require__(48);
 var metadata_1 = __webpack_require__(68);
 var error_handler_1 = __webpack_require__(124);
-var tokens_1 = __webpack_require__(297);
-var linker_1 = __webpack_require__(290);
-var compiler_1 = __webpack_require__(156);
+var tokens_1 = __webpack_require__(298);
+var linker_1 = __webpack_require__(291);
+var compiler_1 = __webpack_require__(157);
 var metadata_2 = __webpack_require__(263);
-var zone_1 = __webpack_require__(289);
+var zone_1 = __webpack_require__(290);
 function _iterableDiffersFactory() {
     return change_detection_1.defaultIterableDiffers;
 }
@@ -64116,14 +64381,14 @@ exports.ɵAPP_ID_RANDOM_PROVIDER = application_tokens_1.APP_ID_RANDOM_PROVIDER;
 var change_detection_1 = __webpack_require__(127);
 exports.ɵdefaultIterableDiffers = change_detection_1.defaultIterableDiffers;
 exports.ɵdefaultKeyValueDiffers = change_detection_1.defaultKeyValueDiffers;
-var change_detection_util_1 = __webpack_require__(78);
+var change_detection_util_1 = __webpack_require__(71);
 exports.ɵdevModeEqual = change_detection_util_1.devModeEqual;
-var change_detection_util_2 = __webpack_require__(78);
+var change_detection_util_2 = __webpack_require__(71);
 exports.ɵisListLikeIterable = change_detection_util_2.isListLikeIterable;
 var constants_1 = __webpack_require__(144);
 exports.ɵChangeDetectorStatus = constants_1.ChangeDetectorStatus;
 exports.ɵisDefaultChangeDetectionStrategy = constants_1.isDefaultChangeDetectionStrategy;
-var console_1 = __webpack_require__(155);
+var console_1 = __webpack_require__(156);
 exports.ɵConsole = console_1.Console;
 var defs_1 = __webpack_require__(31);
 exports.ɵgetInjectableDef = defs_1.getInjectableDef;
@@ -64132,21 +64397,21 @@ exports.ɵinject = injector_compatibility_1.inject;
 exports.ɵsetCurrentInjector = injector_compatibility_1.setCurrentInjector;
 var scope_1 = __webpack_require__(207);
 exports.ɵAPP_ROOT = scope_1.APP_ROOT;
-var ivy_switch_1 = __webpack_require__(298);
+var ivy_switch_1 = __webpack_require__(299);
 exports.ɵivyEnabled = ivy_switch_1.ivyEnabled;
-var component_factory_1 = __webpack_require__(95);
+var component_factory_1 = __webpack_require__(96);
 exports.ɵComponentFactory = component_factory_1.ComponentFactory;
 var component_factory_resolver_1 = __webpack_require__(79);
 exports.ɵCodegenComponentFactoryResolver = component_factory_resolver_1.CodegenComponentFactoryResolver;
 var resource_loading_1 = __webpack_require__(267);
 exports.ɵresolveComponentResources = resource_loading_1.resolveComponentResources;
-var reflection_capabilities_1 = __webpack_require__(153);
+var reflection_capabilities_1 = __webpack_require__(154);
 exports.ɵReflectionCapabilities = reflection_capabilities_1.ReflectionCapabilities;
-var api_1 = __webpack_require__(96);
+var api_1 = __webpack_require__(97);
 exports.ɵRenderDebugInfo = api_1.RenderDebugInfo;
 var html_sanitizer_1 = __webpack_require__(209);
 exports.ɵ_sanitizeHtml = html_sanitizer_1._sanitizeHtml;
-var style_sanitizer_1 = __webpack_require__(281);
+var style_sanitizer_1 = __webpack_require__(282);
 exports.ɵ_sanitizeStyle = style_sanitizer_1._sanitizeStyle;
 var url_sanitizer_1 = __webpack_require__(123);
 exports.ɵ_sanitizeUrl = url_sanitizer_1._sanitizeUrl;
@@ -64154,17 +64419,17 @@ var util_1 = __webpack_require__(14);
 exports.ɵglobal = util_1.global;
 exports.ɵlooseIdentical = util_1.looseIdentical;
 exports.ɵstringify = util_1.stringify;
-var decorators_1 = __webpack_require__(76);
+var decorators_1 = __webpack_require__(77);
 exports.ɵmakeDecorator = decorators_1.makeDecorator;
-var lang_1 = __webpack_require__(154);
+var lang_1 = __webpack_require__(155);
 exports.ɵisObservable = lang_1.isObservable;
 exports.ɵisPromise = lang_1.isPromise;
-var index_1 = __webpack_require__(299);
+var index_1 = __webpack_require__(300);
 exports.ɵclearOverrides = index_1.clearOverrides;
 exports.ɵinitServicesIfNeeded = index_1.initServicesIfNeeded;
 exports.ɵoverrideComponentView = index_1.overrideComponentView;
 exports.ɵoverrideProvider = index_1.overrideProvider;
-var provider_1 = __webpack_require__(158);
+var provider_1 = __webpack_require__(159);
 exports.ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR = provider_1.NOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR;
 
 
@@ -64196,8 +64461,8 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var injector_1 = __webpack_require__(63);
-var ng_module_factory_1 = __webpack_require__(77);
-var services_1 = __webpack_require__(301);
+var ng_module_factory_1 = __webpack_require__(78);
+var services_1 = __webpack_require__(302);
 var types_1 = __webpack_require__(42);
 var util_1 = __webpack_require__(33);
 function overrideProvider(override) {
@@ -64272,7 +64537,7 @@ var NgModuleFactory_ = /** @class */ (function (_super) {
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 // clang-format off
-var index_1 = __webpack_require__(201);
+var index_1 = __webpack_require__(202);
 exports.ɵdefineBase = index_1.defineBase;
 exports.ɵdefineComponent = index_1.defineComponent;
 exports.ɵdefineDirective = index_1.defineDirective;
@@ -64376,24 +64641,24 @@ var module_1 = __webpack_require__(211);
 exports.ɵcompileNgModule = module_1.compileNgModule;
 exports.ɵcompileNgModuleDefs = module_1.compileNgModuleDefs;
 exports.ɵpatchComponentDefWithScope = module_1.patchComponentDefWithScope;
-var pipe_1 = __webpack_require__(282);
+var pipe_1 = __webpack_require__(283);
 exports.ɵcompilePipe = pipe_1.compilePipe;
-var sanitization_1 = __webpack_require__(279);
+var sanitization_1 = __webpack_require__(280);
 exports.ɵsanitizeHtml = sanitization_1.sanitizeHtml;
 exports.ɵsanitizeStyle = sanitization_1.sanitizeStyle;
 exports.ɵsanitizeUrl = sanitization_1.sanitizeUrl;
 exports.ɵsanitizeResourceUrl = sanitization_1.sanitizeResourceUrl;
-var bypass_1 = __webpack_require__(280);
+var bypass_1 = __webpack_require__(281);
 exports.ɵbypassSanitizationTrustHtml = bypass_1.bypassSanitizationTrustHtml;
 exports.ɵbypassSanitizationTrustStyle = bypass_1.bypassSanitizationTrustStyle;
 exports.ɵbypassSanitizationTrustScript = bypass_1.bypassSanitizationTrustScript;
 exports.ɵbypassSanitizationTrustUrl = bypass_1.bypassSanitizationTrustUrl;
 exports.ɵbypassSanitizationTrustResourceUrl = bypass_1.bypassSanitizationTrustResourceUrl;
 var context_discovery_1 = __webpack_require__(92);
-exports.ɵgetContext = context_discovery_1.getContext;
-var player_factory_1 = __webpack_require__(204);
+exports.ɵgetLContext = context_discovery_1.getLContext;
+var player_factory_1 = __webpack_require__(205);
 exports.ɵbindPlayerFactory = player_factory_1.bindPlayerFactory;
-var players_1 = __webpack_require__(275);
+var players_1 = __webpack_require__(276);
 exports.ɵaddPlayer = players_1.addPlayer;
 exports.ɵgetPlayers = players_1.getPlayers;
 // we reexport these symbols just so that they are retained during the dead code elimination
@@ -64406,21 +64671,21 @@ var directives_1 = __webpack_require__(265);
 exports.ɵSWITCH_COMPILE_COMPONENT__POST_R3__ = directives_1.SWITCH_COMPILE_COMPONENT__POST_R3__;
 exports.ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__ = directives_1.SWITCH_COMPILE_DIRECTIVE__POST_R3__;
 exports.ɵSWITCH_COMPILE_PIPE__POST_R3__ = directives_1.SWITCH_COMPILE_PIPE__POST_R3__;
-var ng_module_1 = __webpack_require__(283);
+var ng_module_1 = __webpack_require__(284);
 exports.ɵSWITCH_COMPILE_NGMODULE__POST_R3__ = ng_module_1.SWITCH_COMPILE_NGMODULE__POST_R3__;
 var injectable_1 = __webpack_require__(213);
 exports.ɵSWITCH_COMPILE_INJECTABLE__POST_R3__ = injectable_1.SWITCH_COMPILE_INJECTABLE__POST_R3__;
-var ivy_switch_1 = __webpack_require__(298);
+var ivy_switch_1 = __webpack_require__(299);
 exports.ɵSWITCH_IVY_ENABLED__POST_R3__ = ivy_switch_1.SWITCH_IVY_ENABLED__POST_R3__;
 var change_detector_ref_1 = __webpack_require__(220);
 exports.ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__ = change_detector_ref_1.SWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__;
 var element_ref_1 = __webpack_require__(54);
 exports.ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__ = element_ref_1.SWITCH_ELEMENT_REF_FACTORY__POST_R3__;
-var template_ref_1 = __webpack_require__(98);
+var template_ref_1 = __webpack_require__(99);
 exports.ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__ = template_ref_1.SWITCH_TEMPLATE_REF_FACTORY__POST_R3__;
 var view_container_ref_1 = __webpack_require__(219);
 exports.ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__ = view_container_ref_1.SWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__;
-var api_1 = __webpack_require__(96);
+var api_1 = __webpack_require__(97);
 exports.ɵSWITCH_RENDERER2_FACTORY__POST_R3__ = api_1.SWITCH_RENDERER2_FACTORY__POST_R3__;
 var global_utils_1 = __webpack_require__(270);
 exports.ɵpublishGlobalUtil = global_utils_1.publishGlobalUtil;
@@ -64446,9 +64711,9 @@ exports.ɵSWITCH_INJECTOR_FACTORY__POST_R3__ = injector_1.SWITCH_INJECTOR_FACTOR
 Object.defineProperty(exports, "__esModule", { value: true });
 var component_factory_resolver_1 = __webpack_require__(79);
 exports.ɵCodegenComponentFactoryResolver = component_factory_resolver_1.CodegenComponentFactoryResolver;
-var ng_module_factory_loader_1 = __webpack_require__(291);
+var ng_module_factory_loader_1 = __webpack_require__(292);
 exports.ɵregisterModuleFactory = ng_module_factory_loader_1.registerModuleFactory;
-var index_1 = __webpack_require__(299);
+var index_1 = __webpack_require__(300);
 exports.ɵEMPTY_ARRAY = index_1.EMPTY_ARRAY;
 exports.ɵEMPTY_MAP = index_1.EMPTY_MAP;
 exports.ɵand = index_1.anchorDef;
@@ -64531,7 +64796,7 @@ var cookie_1 = __webpack_require__(436);
 exports.ɵparseCookieValue = cookie_1.parseCookieValue;
 var dom_tokens_1 = __webpack_require__(437);
 exports.DOCUMENT = dom_tokens_1.DOCUMENT;
-var index_1 = __webpack_require__(307);
+var index_1 = __webpack_require__(308);
 exports.NgClass = index_1.NgClass;
 exports.NgForOf = index_1.NgForOf;
 exports.NgForOfContext = index_1.NgForOfContext;
@@ -64647,7 +64912,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(7);
-var index_1 = __webpack_require__(307);
+var index_1 = __webpack_require__(308);
 // Note: This does not contain the location providers,
 // as they need some platform specific implementations to work.
 /**
@@ -66113,7 +66378,7 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-var browser_1 = __webpack_require__(309);
+var browser_1 = __webpack_require__(310);
 exports.BrowserModule = browser_1.BrowserModule;
 exports.platformBrowser = browser_1.platformBrowser;
 var meta_1 = __webpack_require__(443);
@@ -66123,7 +66388,7 @@ exports.Title = title_1.Title;
 var tools_1 = __webpack_require__(445);
 exports.disableDebugTools = tools_1.disableDebugTools;
 exports.enableDebugTools = tools_1.enableDebugTools;
-var transfer_state_1 = __webpack_require__(319);
+var transfer_state_1 = __webpack_require__(320);
 exports.BrowserTransferStateModule = transfer_state_1.BrowserTransferStateModule;
 exports.TransferState = transfer_state_1.TransferState;
 exports.makeStateKey = transfer_state_1.makeStateKey;
@@ -66131,7 +66396,7 @@ var by_1 = __webpack_require__(448);
 exports.By = by_1.By;
 var dom_tokens_1 = __webpack_require__(43);
 exports.DOCUMENT = dom_tokens_1.DOCUMENT;
-var event_manager_1 = __webpack_require__(99);
+var event_manager_1 = __webpack_require__(100);
 exports.EVENT_MANAGER_PLUGINS = event_manager_1.EVENT_MANAGER_PLUGINS;
 exports.EventManager = event_manager_1.EventManager;
 var hammer_gestures_1 = __webpack_require__(226);
@@ -66469,7 +66734,7 @@ exports.Title = Title;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var util_1 = __webpack_require__(315);
+var util_1 = __webpack_require__(316);
 var common_tools_1 = __webpack_require__(446);
 var PROFILER_GLOBAL_NAME = 'profiler';
 /**
@@ -66674,37 +66939,37 @@ exports.By = By;
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var browser_1 = __webpack_require__(309);
+var browser_1 = __webpack_require__(310);
 exports.ɵBROWSER_SANITIZATION_PROVIDERS = browser_1.BROWSER_SANITIZATION_PROVIDERS;
 exports.ɵINTERNAL_BROWSER_PLATFORM_PROVIDERS = browser_1.INTERNAL_BROWSER_PLATFORM_PROVIDERS;
 exports.ɵinitDomAdapter = browser_1.initDomAdapter;
-var browser_adapter_1 = __webpack_require__(310);
+var browser_adapter_1 = __webpack_require__(311);
 exports.ɵBrowserDomAdapter = browser_adapter_1.BrowserDomAdapter;
-var browser_platform_location_1 = __webpack_require__(311);
+var browser_platform_location_1 = __webpack_require__(312);
 exports.ɵBrowserPlatformLocation = browser_platform_location_1.BrowserPlatformLocation;
-var server_transition_1 = __webpack_require__(312);
+var server_transition_1 = __webpack_require__(313);
 exports.ɵTRANSITION_ID = server_transition_1.TRANSITION_ID;
-var testability_1 = __webpack_require__(313);
+var testability_1 = __webpack_require__(314);
 exports.ɵBrowserGetTestability = testability_1.BrowserGetTestability;
-var transfer_state_1 = __webpack_require__(319);
+var transfer_state_1 = __webpack_require__(320);
 exports.ɵescapeHtml = transfer_state_1.escapeHtml;
-var ng_probe_1 = __webpack_require__(314);
+var ng_probe_1 = __webpack_require__(315);
 exports.ɵELEMENT_PROBE_PROVIDERS = ng_probe_1.ELEMENT_PROBE_PROVIDERS;
 var dom_adapter_1 = __webpack_require__(34);
 exports.ɵDomAdapter = dom_adapter_1.DomAdapter;
 exports.ɵgetDOM = dom_adapter_1.getDOM;
 exports.ɵsetRootDomAdapter = dom_adapter_1.setRootDomAdapter;
-var dom_renderer_1 = __webpack_require__(316);
+var dom_renderer_1 = __webpack_require__(317);
 exports.ɵDomRendererFactory2 = dom_renderer_1.DomRendererFactory2;
 exports.ɵNAMESPACE_URIS = dom_renderer_1.NAMESPACE_URIS;
 exports.ɵflattenStyles = dom_renderer_1.flattenStyles;
 exports.ɵshimContentAttribute = dom_renderer_1.shimContentAttribute;
 exports.ɵshimHostAttribute = dom_renderer_1.shimHostAttribute;
-var dom_events_1 = __webpack_require__(317);
+var dom_events_1 = __webpack_require__(318);
 exports.ɵDomEventsPlugin = dom_events_1.DomEventsPlugin;
 var hammer_gestures_1 = __webpack_require__(226);
 exports.ɵHammerGesturesPlugin = hammer_gestures_1.HammerGesturesPlugin;
-var key_events_1 = __webpack_require__(318);
+var key_events_1 = __webpack_require__(319);
 exports.ɵKeyEventsPlugin = key_events_1.KeyEventsPlugin;
 var shared_styles_host_1 = __webpack_require__(225);
 exports.ɵDomSharedStylesHost = shared_styles_host_1.DomSharedStylesHost;
@@ -66806,10 +67071,10 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-var compiler_1 = __webpack_require__(72);
+var compiler_1 = __webpack_require__(73);
 var core_1 = __webpack_require__(7);
-var platform_core_dynamic_1 = __webpack_require__(320);
-var platform_providers_1 = __webpack_require__(321);
+var platform_core_dynamic_1 = __webpack_require__(321);
+var platform_providers_1 = __webpack_require__(322);
 var resource_loader_cache_1 = __webpack_require__(455);
 __export(__webpack_require__(456));
 var version_1 = __webpack_require__(457);
@@ -66840,7 +67105,7 @@ exports.platformBrowserDynamic = core_1.createPlatformFactory(platform_core_dyna
  * found in the LICENSE file at https://angular.io/license
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var compiler_1 = __webpack_require__(72);
+var compiler_1 = __webpack_require__(73);
 var core_1 = __webpack_require__(7);
 exports.MODULE_SUFFIX = '';
 var builtinExternalReferences = createBuiltinExternalReferencesMap();
@@ -66960,7 +67225,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var compiler_1 = __webpack_require__(72);
+var compiler_1 = __webpack_require__(73);
 var core_1 = __webpack_require__(7);
 /**
  * An implementation of ResourceLoader that uses a template cache to avoid doing an actual
@@ -67010,11 +67275,11 @@ exports.CachedResourceLoader = CachedResourceLoader;
 Object.defineProperty(exports, "__esModule", { value: true });
 var compiler_factory_1 = __webpack_require__(228);
 exports.ɵCompilerImpl = compiler_factory_1.CompilerImpl;
-var platform_core_dynamic_1 = __webpack_require__(320);
+var platform_core_dynamic_1 = __webpack_require__(321);
 exports.ɵplatformCoreDynamic = platform_core_dynamic_1.platformCoreDynamic;
-var platform_providers_1 = __webpack_require__(321);
+var platform_providers_1 = __webpack_require__(322);
 exports.ɵINTERNAL_BROWSER_DYNAMIC_PLATFORM_PROVIDERS = platform_providers_1.INTERNAL_BROWSER_DYNAMIC_PLATFORM_PROVIDERS;
-var resource_loader_impl_1 = __webpack_require__(322);
+var resource_loader_impl_1 = __webpack_require__(323);
 exports.ɵResourceLoaderImpl = resource_loader_impl_1.ResourceLoaderImpl;
 
 
@@ -67143,7 +67408,7 @@ var audit_AuditSubscriber = /*@__PURE__*/ (function (_super) {
 var scheduler_async = __webpack_require__(12);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/timer.js
-var timer = __webpack_require__(167);
+var timer = __webpack_require__(168);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/auditTime.js
 /** PURE_IMPORTS_START _scheduler_async,_audit,_observable_timer PURE_IMPORTS_END */
@@ -67695,7 +67960,7 @@ var catchError_CatchSubscriber = /*@__PURE__*/ (function (_super) {
 //# sourceMappingURL=catchError.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/combineLatest.js
-var combineLatest = __webpack_require__(104);
+var combineLatest = __webpack_require__(105);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/combineAll.js
 /** PURE_IMPORTS_START _observable_combineLatest PURE_IMPORTS_END */
@@ -67749,7 +68014,7 @@ function concat_concat() {
 //# sourceMappingURL=concat.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/operators/concatAll.js
-var concatAll = __webpack_require__(164);
+var concatAll = __webpack_require__(165);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/operators/mergeMap.js
 var mergeMap = __webpack_require__(49);
@@ -68467,7 +68732,7 @@ var filter_FilterSubscriber = /*@__PURE__*/ (function (_super) {
 //# sourceMappingURL=filter.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/noop.js
-var noop = __webpack_require__(27);
+var noop = __webpack_require__(28);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/isFunction.js
 var isFunction = __webpack_require__(51);
@@ -68653,7 +68918,7 @@ function elementAt(index, defaultValue) {
 var fromArray = __webpack_require__(24);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/scalar.js
-var scalar = __webpack_require__(109);
+var scalar = __webpack_require__(110);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/endWith.js
 /** PURE_IMPORTS_START _observable_fromArray,_observable_scalar,_observable_empty,_observable_concat,_util_isScheduler PURE_IMPORTS_END */
@@ -69097,7 +69362,7 @@ function first(predicate, defaultValue) {
 //# sourceMappingURL=first.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/operators/groupBy.js
-var groupBy = __webpack_require__(151);
+var groupBy = __webpack_require__(152);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/ignoreElements.js
 /** PURE_IMPORTS_START tslib,_Subscriber PURE_IMPORTS_END */
@@ -69418,7 +69683,7 @@ function max_max(comparer) {
 //# sourceMappingURL=max.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/merge.js
-var merge = __webpack_require__(165);
+var merge = __webpack_require__(166);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/merge.js
 /** PURE_IMPORTS_START _observable_merge PURE_IMPORTS_END */
@@ -69433,7 +69698,7 @@ function merge_merge() {
 //# sourceMappingURL=merge.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/operators/mergeAll.js
-var mergeAll = __webpack_require__(105);
+var mergeAll = __webpack_require__(106);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/mergeMapTo.js
 /** PURE_IMPORTS_START _mergeMap PURE_IMPORTS_END */
@@ -69563,7 +69828,7 @@ function min_min(comparer) {
 //# sourceMappingURL=min.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/ConnectableObservable.js
-var ConnectableObservable = __webpack_require__(160);
+var ConnectableObservable = __webpack_require__(161);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/multicast.js
 /** PURE_IMPORTS_START _observable_ConnectableObservable PURE_IMPORTS_END */
@@ -69606,7 +69871,7 @@ var MulticastOperator = /*@__PURE__*/ (function () {
 //# sourceMappingURL=multicast.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/operators/observeOn.js
-var observeOn = __webpack_require__(162);
+var observeOn = __webpack_require__(163);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/onErrorResumeNext.js
 /** PURE_IMPORTS_START tslib,_observable_from,_util_isArray,_OuterSubscriber,_InnerSubscriber,_util_subscribeToResult PURE_IMPORTS_END */
@@ -69793,7 +70058,7 @@ function publish(selector) {
 //# sourceMappingURL=publish.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/BehaviorSubject.js
-var BehaviorSubject = __webpack_require__(161);
+var BehaviorSubject = __webpack_require__(162);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/publishBehavior.js
 /** PURE_IMPORTS_START _BehaviorSubject,_multicast PURE_IMPORTS_END */
@@ -69817,7 +70082,7 @@ function publishLast() {
 //# sourceMappingURL=publishLast.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/ReplaySubject.js
-var ReplaySubject = __webpack_require__(101);
+var ReplaySubject = __webpack_require__(102);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/publishReplay.js
 /** PURE_IMPORTS_START _ReplaySubject,_multicast PURE_IMPORTS_END */
@@ -69834,7 +70099,7 @@ function publishReplay(bufferSize, windowTime, selectorOrScheduler, scheduler) {
 //# sourceMappingURL=publishReplay.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/race.js
-var race = __webpack_require__(166);
+var race = __webpack_require__(167);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/race.js
 /** PURE_IMPORTS_START _util_isArray,_observable_race PURE_IMPORTS_END */
@@ -70113,7 +70378,7 @@ var retryWhen_RetryWhenSubscriber = /*@__PURE__*/ (function (_super) {
 //# sourceMappingURL=retryWhen.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/operators/refCount.js
-var operators_refCount = __webpack_require__(100);
+var operators_refCount = __webpack_require__(101);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/sample.js
 /** PURE_IMPORTS_START tslib,_OuterSubscriber,_util_subscribeToResult PURE_IMPORTS_END */
@@ -70672,7 +70937,7 @@ function startWith() {
 //# sourceMappingURL=startWith.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/scheduler/asap.js + 3 modules
-var asap = __webpack_require__(110);
+var asap = __webpack_require__(111);
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/isNumeric.js
 var isNumeric = __webpack_require__(59);
@@ -71114,7 +71379,7 @@ function throttleTime_dispatchNext(arg) {
 //# sourceMappingURL=throttleTime.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/defer.js
-var defer = __webpack_require__(106);
+var defer = __webpack_require__(107);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/timeInterval.js
 /** PURE_IMPORTS_START _scheduler_async,_scan,_observable_defer,_map PURE_IMPORTS_END */
@@ -71149,7 +71414,7 @@ var TimeInterval = /*@__PURE__*/ (function () {
 //# sourceMappingURL=timeInterval.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/util/TimeoutError.js
-var TimeoutError = __webpack_require__(163);
+var TimeoutError = __webpack_require__(164);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/timeoutWith.js
 /** PURE_IMPORTS_START tslib,_scheduler_async,_util_isDate,_OuterSubscriber,_util_subscribeToResult PURE_IMPORTS_END */
@@ -71222,7 +71487,7 @@ var timeoutWith_TimeoutWithSubscriber = /*@__PURE__*/ (function (_super) {
 //# sourceMappingURL=timeoutWith.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/throwError.js
-var throwError = __webpack_require__(103);
+var throwError = __webpack_require__(104);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/timeout.js
 /** PURE_IMPORTS_START _scheduler_async,_util_TimeoutError,_timeoutWith,_observable_throwError PURE_IMPORTS_END */
@@ -71883,7 +72148,7 @@ var withLatestFrom_WithLatestFromSubscriber = /*@__PURE__*/ (function (_super) {
 //# sourceMappingURL=withLatestFrom.js.map
 
 // EXTERNAL MODULE: ./node_modules/rxjs/_esm5/internal/observable/zip.js
-var zip = __webpack_require__(107);
+var zip = __webpack_require__(108);
 
 // CONCATENATED MODULE: ./node_modules/rxjs/_esm5/internal/operators/zip.js
 /** PURE_IMPORTS_START _observable_zip PURE_IMPORTS_END */
