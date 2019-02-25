@@ -3252,7 +3252,7 @@ input[type="range"]:focus + .rangeslider .rangeslider__handle {
     font-size: 12px;
     letter-spacing: 0.2px; }
 
-[data-step="refreshDynamicEmbeddedViews"] i:after, [data-step="detectChangesInternal-refreshDescendantViews"] i:after {
+[data-step="refreshDynamicEmbeddedViews"] i:after, [data-step="checkView-refreshDescendantViews"] i:after {
   width: 0;
   height: 0;
   border: 6px solid transparent;
@@ -3306,7 +3306,7 @@ input[type="range"]:focus + .rangeslider .rangeslider__handle {
   transform: translateY(-50%);
   left: calc(100% - 12px); }
 
-[data-step="detectChangesInternal-refreshDescendantViews"] i:before {
+[data-step="checkView-refreshDescendantViews"] i:before {
   height: calc(35em + 0px);
   width: calc(3em + 6px);
   margin-left: -1.5px;
@@ -3319,7 +3319,7 @@ input[type="range"]:focus + .rangeslider .rangeslider__handle {
   right: 100%;
   top: -405px; }
 
-[data-step="detectChangesInternal-refreshDescendantViews"] i:after {
+[data-step="checkView-refreshDescendantViews"] i:after {
   top: -411px;
   right: calc(100% - 12px); }
 
